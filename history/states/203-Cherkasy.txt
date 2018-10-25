@@ -1,0 +1,22 @@
+
+state={
+	id=203
+	name="STATE_203"
+
+	history={
+		owner = OST
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = OST
+
+	}
+
+	provinces={
+		409 458 488 3452 3468 11438 11454 
+	}
+	manpower=2405190
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

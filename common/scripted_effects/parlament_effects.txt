@@ -1,0 +1,186 @@
+parlament_convened_scripted_effect = {
+	
+	# par_pop_sum - сумма популярности всех незапещённых партий
+ 
+	# party_popularity - популярность нужной партии
+	
+	# IDEOLOGY_par - кол-во мест партии в парламенте
+	
+	# IDEOLOGY_par = party_popularity * ( 200 / par_pop_sum ) = party_popularity * par_pop_coef
+	
+	set_variable = { leader_party_par = 0 }
+	
+	set_variable = { libertatism_par = 0 }
+	set_variable = { vemosism_par = 0 }
+	set_variable = { sociarchism_par = 0 }
+	set_variable = { eleftherism_par = 0 }
+	set_variable = { passionism_par = 0 }
+	set_variable = { viatirism_par = 0 }
+	set_variable = { gentemism_par = 0 }
+	set_variable = { neo_oligarchism_par = 0 }
+	
+	set_temp_variable = { l_pop = party_popularity@libertatism }
+	set_temp_variable = { v_pop = party_popularity@vemosism }
+	set_temp_variable = { s_pop = party_popularity@sociarchism }
+	set_temp_variable = { e_pop = party_popularity@eleftherism }
+	set_temp_variable = { p_pop = party_popularity@passionism }
+	set_temp_variable = { c_pop = party_popularity@viatirism }
+	set_temp_variable = { g_pop = party_popularity@gentemism }
+	set_temp_variable = { o_pop = party_popularity@neo_oligarchism }
+	
+	set_temp_variable = { par_pop_sum = 0 }
+	
+	set_temp_variable = { par_pop_coef = 200 }
+	
+	if = {
+		limit = {
+			NOT = { has_country_flag = libertatism_banned }
+		}
+		add_to_temp_variable = { par_pop_sum = l_pop }
+	}
+	if = {
+		limit = {
+			NOT = { has_country_flag = vemosism_banned }
+		}
+		add_to_temp_variable = { par_pop_sum = v_pop }
+	}
+	if = {
+		limit = {
+			NOT = { has_country_flag = sociarchism_banned }
+		}
+		add_to_temp_variable = { par_pop_sum = s_pop }
+	}
+	if = {
+		limit = {
+			NOT = { has_country_flag = eleftherism_banned }
+		}
+		add_to_temp_variable = { par_pop_sum = e_pop }
+	}
+	if = {
+		limit = {
+			NOT = { has_country_flag = passionism_banned }
+		}
+		add_to_temp_variable = { par_pop_sum = p_pop }
+	}
+	if = {
+		limit = {
+			NOT = { has_country_flag = viatirism_banned }
+		}
+		add_to_temp_variable = { par_pop_sum = c_pop }
+	}
+	if = {
+		limit = {
+			NOT = { has_country_flag = gentemism_banned }
+		}
+		add_to_temp_variable = { par_pop_sum = g_pop }
+	}
+	if = {
+		limit = {
+			NOT = { has_country_flag = neo_oligarchism_banned }
+		}
+		add_to_temp_variable = { par_pop_sum = o_pop }
+	}
+	
+	divide_temp_variable = { par_pop_coef = par_pop_sum }
+	
+	multiply_temp_variable = { l_pop = par_pop_coef }
+	multiply_temp_variable = { v_pop = par_pop_coef }
+	multiply_temp_variable = { s_pop = par_pop_coef }
+	multiply_temp_variable = { e_pop = par_pop_coef }
+	multiply_temp_variable = { p_pop = par_pop_coef }
+	multiply_temp_variable = { c_pop = par_pop_coef }
+	multiply_temp_variable = { g_pop = par_pop_coef }
+	multiply_temp_variable = { o_pop = par_pop_coef }
+	
+	if = {
+		limit = {
+			NOT = { has_country_flag = libertatism_banned }
+		}
+		set_variable = { libertatism_par = l_pop }
+	}
+	if = {
+		limit = {
+			NOT = { has_country_flag = vemosism_banned }
+		}
+		set_variable = { vemosism_par = v_pop }
+	}
+	if = {
+		limit = {
+			NOT = { has_country_flag = sociarchism_banned }
+		}
+		set_variable = { sociarchism_par = s_pop }
+	}
+	if = {
+		limit = {
+			NOT = { has_country_flag = eleftherism_banned }
+		}
+		set_variable = { eleftherism_par = e_pop }
+	}
+	if = {
+		limit = {
+			NOT = { has_country_flag = passionism_banned }
+		}
+		set_variable = { passionism_par = p_pop }
+	}
+	if = {
+		limit = {
+			NOT = { has_country_flag = viatirism_banned }
+		}
+		set_variable = { viatirism_par = c_pop }
+	}
+	if = {
+		limit = {
+			NOT = { has_country_flag = gentemism_banned }
+		}
+		set_variable = { national_oligarchism_par = g_pop }
+	}
+	if = {
+		limit = {
+			NOT = { has_country_flag = neo_oligarchism_banned }
+		}
+		set_variable = { neo_oligarchism_par = o_pop }
+	}
+	
+	round_variable = libertatism_par
+	round_variable = vemosism_par
+	round_variable = sociarchism_par
+	round_variable = eleftherism_par
+	round_variable = passionism_par
+	round_variable = viatirism_par
+	round_variable = gentemism_par
+	round_variable = neo_oligarchism_par
+	
+	set_variable = { non_aligned_par = 200 }
+	set_variable = { par_seats_sum = 0 }
+	add_to_variable = { par_seats_sum = libertatism_par }
+	add_to_variable = { par_seats_sum = vemosism_par }
+	add_to_variable = { par_seats_sum = sociarchism_par }
+	add_to_variable = { par_seats_sum = eleftherism_par }
+	add_to_variable = { par_seats_sum = passionism_par }
+	add_to_variable = { par_seats_sum = viatirism_par }
+	add_to_variable = { par_seats_sum = gentemism_par }
+	add_to_variable = { par_seats_sum = neo_oligarchism_par }
+	
+	if = {
+		limit = {
+			check_variable = { par_seats_sum < 200 }
+		}
+		subtract_from_variable = { non_aligned_par = par_seats_sum }
+	}
+	else_if = {
+		limit = {
+			check_variable = { par_seats_sum < 200 }
+		}
+		subtract_from_variable = { par_seats_sum = non_aligned_par }
+		set_variable = { non_aligned_par = par_seats_sum }
+	}
+	else_if = {
+		limit = {
+			check_variable = { par_seats_sum = 200 }
+		}
+		set_variable = { non_aligned_par = 0 }
+	}
+	
+	clear_variable = par_seats_sum
+	
+}

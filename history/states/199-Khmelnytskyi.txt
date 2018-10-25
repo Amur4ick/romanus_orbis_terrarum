@@ -1,0 +1,24 @@
+
+state={
+	id=199
+	name="STATE_199"
+
+	history={
+		owner = OST
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = OST
+
+	}
+
+	provinces={
+		462 577 3407 3430 3562 6429 
+	}
+	manpower=1424022
+	buildings_max_level_factor=1.000
+	state_category=town
+}

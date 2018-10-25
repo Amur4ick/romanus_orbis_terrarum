@@ -1,0 +1,13 @@
+state={
+	id=884
+	name="STATE_884"
+	history={
+		owner = MAC
+		add_core_of = MAC
+	}
+	provinces={
+		3833 6857 6886 9818 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

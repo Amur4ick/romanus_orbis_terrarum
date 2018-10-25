@@ -1,0 +1,21 @@
+
+state={
+	id=767
+	name="STATE_767"
+	manpower = 848903
+	
+	state_category = town
+
+	history={
+		owner = IBE
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 6
+		}
+		add_core_of = IBE
+	}
+
+	provinces={
+		9757 9852 6879 11870
+	}
+}

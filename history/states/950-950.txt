@@ -1,0 +1,13 @@
+state={
+	id=950
+	name="STATE_950"
+	history={
+		owner = ARM
+		add_core_of = ARM
+	}
+	provinces={
+		1636 4583 6935 7470 12376 13121 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

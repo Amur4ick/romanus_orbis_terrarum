@@ -1,0 +1,80 @@
+﻿l_russian:
+
+ ### ПАРЛАМЕНТ
+ 
+ parlament_button_text:0 "Парламент"
+ parlament_clear_text:0 ""
+ 
+ ROT_parlament_title:0 "Парламент"
+ PARLAMENT_SEATS_TITLE:0 "Распределение мест в парламенте"
+ PARLAMENT_BANNED_TITLE:0 "Запрещённые партии"
+ 
+ FULL_BANNED:0 "§R[GetLibertatismBanned][GetVemosismBanned][GetSociarchismBanned][GetEleftherismBanned][GetPassionismBanned][GetViatirismBanned][GetGentemismBanned][GetNeoOligarchismBanned]§!"
+ 
+ FULL_PARLAMENT:0 "[GetLibertatismParlament][GetVemosismParlament][GetSociarchismParlament][GetEleftherismParlament][GetPassionismParlament][GetViatirismParlament][GetGentemismParlament][GetNeoOligarchismParlament][GetNonAlignedParlament]"
+ 
+ ruling_party_parlament_info:0 "Правящая партия: §Y[GetRotRulingPartyName]§!\nЛидер партии: §Y[GetRotRulingPartyLeader]§!\nИдеология: §Y[GetRotRulingPartyIdeology]§!\nМест в парламенте: §G[GetRotRulingPartySeats]§!"
+ 
+ libertatism_parlament:0 "§Y[GetLibertatismParty]§!\nМест в парламенте: §G[?libertatism_par]/200§!\n"
+ vemosism_parlament:0 "§Y[GetVemosismParty]§!\nМест в парламенте: §G[?vemosism_par]/200§!\n"
+ sociarchism_parlament:0 "§Y[GetSociarchismParty]§!\nМест в парламенте: §G[?sociarchism_par]/200§!\n"
+ eleftherism_parlament:0 "§Y[GetEleftherismParty]§!\nМест в парламенте: §G[?eleftherism_par]/200§!\n"
+ passionism_parlament:0 "§Y[GetPassionismParty]§!\nМест в парламенте: §G[?passionism_par]/200§!\n"
+ viatirism_parlament:0 "§Y[GetViatirismParty]§!\nМест в парламенте: §G[?viatirism_par]/200§!\n"
+ gentemism_parlament:0 "§Y[GetGentemismParty]§!\nМест в парламенте: §G[?gentemism_par]/200§!\n"
+ neo_oligarchism_parlament:0 "§Y[GetNeoOligarchismParty]§!\nМест в парламенте: §G[?neo_oligarchism_par]/200§!\n"
+ non_aligned_parlament:0 "§YБеспартийные§!\nМест в парламенте: §G[?non_aligned_par]/200§!\n"
+ 
+ libertatism_banned:0 "[GetLibertatismParty]\n"
+ vemosism_banned:0 "[GetVemosismParty]\n"
+ sociarchism_banned:0 "[GetSociarchismParty]\n"
+ eleftherism_banned:0 "[GetEleftherismParty]\n"
+ passionism_banned:0 "[GetPassionismParty]\n"
+ viatirism_banned:0 "[GetViatirismParty]\n"
+ gentemism_banned:0 "[GetGentemismParty]\n"
+ neo_oligarchism_banned:0 "[GetNeoOligarchismParty]\n"
+ 
+ SPQ_parlament_name:0 "Римский сенат"
+ GAL_parlament_name:0 "Верховный парламент Галлии"
+ 
+ libertatism_seats:0 "[?libertatism_par]/200"
+ vemosism_seats:0 "[?vemosism_par]/200"
+ sociarchism_seats:0 "[?sociarchism_par]/200"
+ eleftherism_seats:0 "[?eleftherism_par]/200"
+ passionism_seats:0 "[?passionism_par]/200"
+ viatirism_seats:0 "[?viatirism_par]/200"
+ gentemism_seats:0 "[?gentemism_par]/200"
+ neo_oligarchism_seats:0 "[?neo_oligarchism_par]/200"
+ 
+ libertatism_ruling_party:0 "[GetLibertatismParty]"
+ vemosism_ruling_party:0 "[GetEleftherismParty]"
+ sociarchism_ruling_party:0 "[GetSociarchismParty]"
+ eleftherism_ruling_party:0 "[GetVemosismParty]"
+ passionism_ruling_party:0 "[GetPassionismParty]"
+ viatirism_ruling_party:0 "[GetViatirismParty]"
+ gentemism_ruling_party:0 "[GetGentemismParty]"
+ neo_oligarchism_ruling_party:0 "[GetNeoOligarchismParty]"
+ 
+ encyclopedia_button_text:0 "Информация"
+ 
+ info_lore_button_text:0 "История"
+ info_countries_button_text:0 "Страны"
+ info_ideologies_button_text:0 "Идеологии"
+ 
+ one_party_system:0 "Однопартийная система"
+ multiparty_system:0 "Многопартийная система"
+ party_system:0 "Партийная система"
+ 
+ ### ЗАКОНЫ
+ 
+ laws_button_text:0 "Основные законы"
+ 
+ ### ПОЛИТИЧЕСКОЕ ВЛИЯНИЕ
+ 
+ GCParSeats_zero:0 "§Y0%§!\n"
+ GCParSeats_plus:0 "§G+[?lpp1]%§!\n"
+ GCParSeats_minus:0 "§R-[?lpp2]%§!\n"
+ GCWarTime:0 "Военное положение: §G+10%§!\n"
+ 
+ GOV_CON_TOOLTIP:0 "§YГосударственный контроль§!\nБазовое значение: §Y[?gov_con_base]%§!\nОт мест правящей партии в парламенте: [GCParSeats][GCWarTime]"
+ GOV_CON_TOOLTIP_DELAYED:0 "Уровень гос. контроля отражает то, насколько сильно правительство контролирует те или иные процессы внутри государства."

@@ -1,0 +1,106 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1751.1.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "SPQ"
+		default = yes
+		
+		"SPQ"={
+			history = "SPQ_GATHERING_STORM_DESC"
+			ideology = passionism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"ROM"={
+			history = "ROM_GATHERING_STORM_DESC"
+			ideology = neo_oligarchism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"GAL"={
+			history = "GAL_GATHERING_STORM_DESC"
+			ideology = libertatism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"GLC"={
+			history = "GLC_GATHERING_STORM_DESC"
+			ideology = sociarchism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"VAN"={
+			history = "VAN_GATHERING_STORM_DESC"
+			ideology = gentemism
+			ideas = {
+				
+			}	
+			focuses = {
+				
+			}		
+		}
+		"UNI"={
+			history = "UNI_GATHERING_STORM_DESC"
+			ideology = vemosism
+			ideas = {
+				
+			}	
+			focuses = {
+				
+			}			
+		}
+		"LAN"={
+			history = "LAN_GATHERING_STORM_DESC"
+			ideology = neo_oligarchism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		# minors from DLC ####
+		#"POL"={
+		#	minor = yes
+		#	history = "POL_GATHERING_STORM_DESC"
+		#	ideology = neutrality
+		#	ideas = {
+		#		
+		#	}
+		#	focuses = {
+		#		POL_the_baltic_alliance
+		#		POL_draw_closer_to_britain
+		#		POL_seek_accommodation_with_germany
+		#	}
+		#}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

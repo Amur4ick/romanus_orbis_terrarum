@@ -1,0 +1,205 @@
+ideas = {
+	
+	country = {
+		# 11 - 30
+		parlament_pop_1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = parlament_low_pop
+
+			
+			modifier = {
+				political_power_gain = -0.4
+			}
+		}
+		# 31 - 50
+		parlament_pop_2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = parlament_low_pop
+
+			
+			modifier = {
+				political_power_gain = -0.3
+			}
+		}
+		# 51 - 70
+		parlament_pop_3 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = parlament_low_pop
+
+			
+			modifier = {
+				political_power_gain = -0.2
+			}
+		}
+		# 71 - 90
+		parlament_pop_4 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = parlament_low_pop
+
+			
+			modifier = {
+				political_power_gain = -0.1
+			}
+		}
+		# 91 - 110
+		parlament_pop_5 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = parlament_middle_pop
+
+			
+			modifier = {
+				
+			}
+		}
+		# 111 - 130
+		parlament_pop_6 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = parlament_high_pop
+
+			
+			modifier = {
+				political_power_gain = 0.1
+			}
+		}
+		# 131 - 150
+		parlament_pop_7 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = parlament_high_pop
+
+			
+			modifier = {
+				- political_power_gain = 0.2
+			}
+		}
+		# 151 - 170
+		parlament_pop_8 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = parlament_high_pop
+
+			
+			modifier = {
+				- political_power_gain = 0.3
+			}
+		}
+		# 171 - 190
+		parlament_pop_9 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = parlament_high_pop
+
+			
+			modifier = {
+				- political_power_gain = 0.4
+			}
+		}
+		# 191 - 200
+		parlament_pop_10 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = parlament_high_pop
+
+			
+			modifier = {
+				- political_power_gain = 0.5
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+state={
+	id=991
+	name="STATE_991"
+	history = {
+		owner = DAL
+		add_core_of = DAL
+	}
+	provinces={
+		9332 11317 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

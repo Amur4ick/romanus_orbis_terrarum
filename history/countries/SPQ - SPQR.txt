@@ -1,0 +1,136 @@
+﻿capital = 206 #Minsk
+
+oob = "BLR_1936"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1  # PLACEHOLDER
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
+	mass_assault = 1
+	fleet_in_being = 1
+}
+
+#add_ideas = { 
+#	low_economic_mobilisation 
+#}
+
+create_faction = SPQ_alliance
+add_to_faction = BTC
+add_to_faction = MAU
+add_to_faction = NRB
+add_to_faction = TRC
+add_to_faction = MRT
+add_to_faction = COT
+add_to_faction = ALP
+add_to_faction = CAS
+add_to_faction = SIC
+add_to_faction = DLM
+
+set_autonomy = {
+    target = BTC
+    autonomy_state = roman_province
+}
+set_autonomy = {
+    target = MAU
+    autonomy_state = roman_protectorate
+}
+set_autonomy = {
+    target = NRB
+    autonomy_state = roman_province
+}
+set_autonomy = {
+    target = TRC
+    autonomy_state = roman_province
+}
+set_autonomy = {
+    target = MRT
+    autonomy_state = roman_province
+}
+set_autonomy = {
+    target = COT
+    autonomy_state = roman_province
+}
+set_autonomy = {
+    target = ALP
+    autonomy_state = roman_province
+}
+set_autonomy = {
+    target = CAS
+    autonomy_state = roman_province
+}
+set_autonomy = {
+    target = SIC
+    autonomy_state = roman_province
+}
+set_autonomy = {
+    target = DLM
+    autonomy_state = roman_province
+}
+
+set_country_flag = sociarchism_banned
+set_country_flag = gentemism_banned
+
+set_politics = {
+
+	parties = {
+		
+		libertatism = { popularity = 8 }
+		vemosism = { popularity = 7 }
+		#
+		sociarchism = { popularity = 5 }
+		eleftherism = { popularity = 10 }
+		#
+		passionism = { popularity = 60 }
+		viatirism = { popularity = 0 }
+		#
+		gentemism = { popularity = 10 }
+		neo_oligarchism = { popularity = 0 }
+		
+	}
+	ruling_party = passionism
+	last_election = "1934.5.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+    name = "Vergilius Antonius"
+    desc = ""
+    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+    expire = "1965.1.1"
+    ideology = passionism_ideology
+    traits = {
+        #
+    }
+}
+
+set_variable = { libertatism_par = 10 }
+set_variable = { vemosism_par = 10 }
+set_variable = { passionism_par = 180 }

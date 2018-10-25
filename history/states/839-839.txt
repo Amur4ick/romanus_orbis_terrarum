@@ -1,0 +1,13 @@
+state={
+	id=839
+	name="STATE_839"
+	history = {
+		owner = SUE
+		add_core_of = SUE
+	}
+	provinces={
+		478 6441 9428 11545 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

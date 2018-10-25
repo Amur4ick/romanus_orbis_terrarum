@@ -1,0 +1,13 @@
+state={
+	id=882
+	name="STATE_882"
+	history={
+		owner = KOZ
+		add_core_of = KOZ
+	}
+	provinces={
+		841 966 3980 9837 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

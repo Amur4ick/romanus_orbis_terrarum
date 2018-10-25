@@ -1,0 +1,13 @@
+state={
+	id=915
+	name="STATE_915"
+	history = {
+		owner = PLS
+		add_core_of = PLS
+	}
+	provinces={
+		3759 11285 11313 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

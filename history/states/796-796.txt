@@ -1,0 +1,13 @@
+state={
+	id=796
+	name="STATE_796"
+	history = {
+		owner = NRB
+		add_core_of = NRB
+	}
+	provinces={
+		9728 9898 11711 11849 11877 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

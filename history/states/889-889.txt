@@ -1,0 +1,13 @@
+state={
+	id=889
+	name="STATE_889"
+	history = {
+		owner = VIS
+		add_core_of = VIS
+	}
+	provinces={
+		674 6677 9651 11603 11636 11652 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=818
+	name="STATE_818"
+	history = {
+		owner = SPQ
+		add_core_of = SPQ
+	}
+	provinces={
+		883 6843 9784 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

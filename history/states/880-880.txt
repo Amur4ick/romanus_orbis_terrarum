@@ -1,0 +1,13 @@
+state={
+	id=880
+	name="STATE_880"
+	history={
+		owner = IAN
+		add_core_of = IAN
+	}
+	provinces={
+		914 3914 9805 9916 10203 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

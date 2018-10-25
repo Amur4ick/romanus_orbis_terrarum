@@ -1,0 +1,13 @@
+state={
+	id=876
+	name="STATE_876"
+	history = {
+		owner = ILL
+		add_core_of = ILL
+	}
+	provinces={
+		6913 6940 9849 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

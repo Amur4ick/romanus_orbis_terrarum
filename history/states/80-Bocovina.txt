@@ -1,0 +1,23 @@
+
+state={
+	id=80
+	name="STATE_80"
+
+	history={
+		owner = VIS
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+
+		}
+		add_core_of = VIS
+
+	}
+
+	provinces={
+		3743 6584 6761 9548 11534 11689 
+	}
+	manpower=474600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,13 @@
+state={
+	id=878
+	name="STATE_878"
+	history={
+		owner = PAT
+		add_core_of = PAT
+	}
+	provinces={
+		4193 7211 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

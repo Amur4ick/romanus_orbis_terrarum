@@ -1,0 +1,21 @@
+
+state={
+	id=33
+	name="STATE_33"
+	manpower = 636400
+	
+	state_category = town
+
+	history={
+		owner = GAL
+		
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = GAL
+	}
+
+	provinces={
+		651 6651 3626 3621 620 6618 6648
+	}
+}

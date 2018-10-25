@@ -1,0 +1,28 @@
+
+state={
+	id=168
+	name="STATE_168"
+	manpower = 1007605
+	
+	state_category = town
+
+	history={
+		owner = BTC
+		victory_points = {
+			10024 1 
+		}
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+			air_base = 2
+			10024 = {
+				naval_base = 8
+			}
+		}
+		add_core_of = BTC
+	}
+
+	provinces={
+		4065 7111 1093 10109 10024
+	}
+}

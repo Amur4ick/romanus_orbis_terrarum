@@ -1,0 +1,14 @@
+defined_text = {
+	name = GetParlamentName
+	text = {
+		trigger = {
+			tag = SPQ
+		}
+		localization_key = SPQ_parlament_name
+	}
+		trigger = {
+			tag = GAL
+		}
+		localization_key = GAL_parlament_name
+	}
+}

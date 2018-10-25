@@ -1,0 +1,13 @@
+state={
+	id=800
+	name="STATE_800"
+	history = {
+		owner = BRI
+		add_core_of = GAL
+	}
+	provinces={
+		553 3509 3534 11463 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

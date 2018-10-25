@@ -1,0 +1,13 @@
+state={
+	id=979
+	name="STATE_979"
+	history={
+		owner = GOT
+		add_core_of = GOT
+	}
+	provinces={
+		6028 11114 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

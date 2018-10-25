@@ -1,0 +1,28 @@
+
+state={
+	id=174
+	name="STATE_174"
+	manpower = 1566041
+	
+	state_category = large_town
+
+	history={
+		owner = IBE
+		victory_points = {
+			11707 1 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			11707 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = IBE
+	}
+
+	provinces={
+		9719 3744 11707 3729 9699 6749 9703
+	}
+}

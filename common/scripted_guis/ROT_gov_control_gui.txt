@@ -1,0 +1,23 @@
+scripted_gui = {
+	
+	gov_control_window_gui = {
+	
+		context_type = player_context
+		window_name = "ROT_government_control_window"
+		parent_window_token = top_bar 
+		
+		visible = {
+			
+		}
+		
+		effects = {
+			
+		}
+		
+		triggers = {
+			
+		}
+		
+	}
+	
+}

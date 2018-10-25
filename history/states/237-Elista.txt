@@ -1,0 +1,22 @@
+
+state={
+	id=237
+	name="STATE_237"
+
+	history={
+		owner = ALA
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ALA
+
+	}
+
+	provinces={
+		3439 3461 3597 6463 9426 9440 9594 13214 13215 
+	}
+	manpower=169620
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

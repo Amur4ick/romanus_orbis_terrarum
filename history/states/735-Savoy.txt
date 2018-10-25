@@ -1,0 +1,29 @@
+state={
+	id=735
+	name="STATE_735"
+
+	state_category = town
+
+	history={
+		owner = SPQ
+		add_core_of = SPQ
+		victory_points = {
+			778 1 
+		}
+		victory_points = {
+			9909 5 
+		}
+		buildings = {
+			infrastructure = 4
+			9909 = {
+				naval_base = 2
+			}		
+		}
+	}
+
+	provinces={
+		9736 764 3764 9738 6780 611 9745
+	}
+	manpower=907500
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,48 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_encyclopedia_categories_bg"
+		textureFile = "gfx//interface//encyclopedia_categories_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_parlament_bg_icon"
+		textureFile = "gfx//interface//new_icons//parlament_bg_icon.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_decision_category_parlament"
+		texturefile = "gfx/interface/decisions/decision_category_parlament.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_multiparty_system"
+		texturefile = "gfx/interface/ideas/multiparty_system_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_one_party_system"
+		texturefile = "gfx/interface/ideas/one_party_system_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_parlament_high_pop"
+		texturefile = "gfx/interface/ideas/parlament_high_pop.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_parlament_middle_pop"
+		texturefile = "gfx/interface/ideas/parlament_middle_pop.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_parlament_low_pop"
+		texturefile = "gfx/interface/ideas/parlament_low_pop.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_gov_control_icon"
+		texturefile = "gfx/interface/government_control_icon.dds"
+	}
+	
+}

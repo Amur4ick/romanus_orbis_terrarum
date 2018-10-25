@@ -1,0 +1,13 @@
+state={
+	id=940
+	name="STATE_940"
+	history={
+		owner = ALA
+		add_core_of = ALA
+	}
+	provinces={
+		745 759 3746 3774 6794 11566 11724 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

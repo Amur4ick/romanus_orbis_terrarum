@@ -1,0 +1,13 @@
+state={
+	id=834
+	name="STATE_834"
+	history = {
+		owner = RAE
+		add_core_of = RAE
+	}
+	provinces={
+		561 571 3299 6540 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

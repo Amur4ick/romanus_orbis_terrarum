@@ -1,0 +1,77 @@
+ROT_parlament_decisions = {
+
+	dissolve_parliament = {
+
+		icon = generic_political_discourse
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = parlament_convened_trigger
+				NOT = { has_country_flag = parlament_dissolved }
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+		
+		#days_re_enable = 150
+
+		cost = 150
+
+		complete_effect = {
+			set_country_flag = parlament_dissolved
+			custom_effect_tooltip = parlament_dissolved_effect
+		}
+
+		#ai_will_do = {
+			#base = 0
+			#modifier = {
+			#	add = 1
+			#	has_stability < 0.6
+			#}
+		#}
+	}
+	
+	convene_parliament = {
+
+		icon = generic_political_discourse
+
+		available = {
+		
+		}
+
+		visible = {
+			always = yes
+		}
+
+		remove_trigger = {
+			custom_trigger_tooltip = {
+				tooltip = parlament_dissolved_trigger
+				has_country_flag = parlament_dissolved
+			}
+		}
+
+		days_remove = 720
+		#days_re_enable = 10
+
+		complete_effect = {
+			clr_country_flag = parlament_dissolved
+			custom_effect_tooltip = parlament_convened_effect
+			parlament_convened_scripted_effect = yes
+		}
+		
+		remove_effect = {
+			set_country_flag = parlament_dissolved
+			custom_effect_tooltip = parlament_dissolved_effect
+		}
+
+		#ai_will_do = {
+		#	base = 0
+		#	modifier = {
+		#		add = 1
+		#		has_stability < 0.6
+		#	}
+		#}
+	}
+}

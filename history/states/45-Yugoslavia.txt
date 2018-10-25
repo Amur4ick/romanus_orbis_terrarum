@@ -1,0 +1,22 @@
+
+state={
+	id=45
+	name="STATE_45"
+
+	history={
+		owner = DUN
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = DUN
+
+	}
+
+	provinces={
+		619 3617 3623 6670 9621 
+	}
+	manpower=1026200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,13 @@
+state={
+	id=901
+	name="STATE_901"
+	history = {
+		owner = GLC
+		add_core_of = GLC
+	}
+	provinces={
+		422 536 6546 6580 9452 9558 11441 11479 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=801
+	name="STATE_801"
+	history = {
+		owner = BRI
+		add_core_of = GAL
+	}
+	provinces={
+		485 3549 6569 9434 9578 11563 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

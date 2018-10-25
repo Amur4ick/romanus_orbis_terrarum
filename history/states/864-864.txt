@@ -1,0 +1,13 @@
+state={
+	id=864
+	name="STATE_864"
+	history = {
+		owner = DUN
+		add_core_of = DUN
+	}
+	provinces={
+		665 3670 6672 9646 11627 11630 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

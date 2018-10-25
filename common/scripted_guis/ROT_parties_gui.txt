@@ -1,0 +1,57 @@
+scripted_gui = {
+
+	# Кнопка в политике
+	
+	parties_window_gui = {
+	
+		context_type = player_context
+		window_name = "ROT_political_parties_window"
+		#parent_window_token = politics_tab 
+		
+		visible = {
+			check_variable = { show_parties_window = 1 }
+		}
+		
+		effects = {
+			close_click = {
+				set_variable = { show_parties_window = 0 }
+			}
+		}
+		
+		triggers = {
+			
+		}
+		
+	}
+	
+	parties_button_window_gui = {
+	
+		context_type = player_context
+		window_name = "ROT_political_parties_button_window"
+		parent_window_token = politics_tab 
+		
+		visible = {
+			always = yes
+		}
+		
+		effects = {
+			pol_parties_button_click = {
+				if = {
+					limit = {
+						check_variable = { show_parties_window = 1 }
+					}
+					set_variable = { show_parties_window = 0 }
+				}
+				else = {
+					set_variable = { show_parties_window = 1 }
+				}
+			}
+		}
+		
+		triggers = {
+			
+		}
+		
+	}
+	
+}

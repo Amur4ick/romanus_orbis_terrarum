@@ -1,0 +1,13 @@
+state={
+	id=807
+	name="STATE_807"
+	history = {
+		owner = ALP
+		add_core_of = ALP
+	}
+	provinces={
+		778 3612 6609 9587 9603 9618 11573 11590 13124 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

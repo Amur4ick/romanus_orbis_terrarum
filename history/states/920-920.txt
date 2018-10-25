@@ -1,0 +1,13 @@
+state={
+	id=920
+	name="STATE_920"
+	history = {
+		owner = LIT
+		add_core_of = LIT
+	}
+	provinces={
+		530 9246 9295 9357 9374 9404 9438 11226 11498 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

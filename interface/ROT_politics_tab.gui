@@ -1,0 +1,50 @@
+guiTypes = {
+	
+	containerWindowType = {
+		name = "ROT_political_parties_button_window"
+		position = { x = 375  y = 303 }	
+		size = { width=500 height=500 }
+		
+		buttonType = {
+			name = "pol_parties_button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_button_123x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "pol_parties_button_text"
+		}
+		
+	}
+	
+	containerWindowType = {
+		name = "ROT_parlament_button_window"
+		position = { x = 375  y = 337  }	
+		size = { width=500 height=500 }
+		
+		buttonType = {
+			name = "parlament_button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_button_123x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "parlament_button_text"
+		}
+		
+	}
+	
+	containerWindowType = {
+		name = "ROT_laws_button_window"
+		position = { x = 80  y = 445  }	
+		size = { width=500 height=500 }
+		
+		buttonType = {
+			name = "laws_button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_button_221x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "laws_button_text"
+		}
+		
+	}
+}

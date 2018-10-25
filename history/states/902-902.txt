@@ -1,0 +1,13 @@
+state={
+	id=902
+	name="STATE_902"
+	history = {
+		owner = KIE
+		add_core_of = KIE
+	}
+	provinces={
+		3570 9533 11464 11514 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

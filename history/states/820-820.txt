@@ -1,0 +1,13 @@
+state={
+	id=820
+	name="STATE_820"
+	history = {
+		owner = SIC
+		add_core_of = SIC
+	}
+	provinces={
+		1009 4014 7059 7147 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

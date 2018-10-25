@@ -1,0 +1,27 @@
+
+state={
+	id=30
+	name="STATE_30"
+	manpower = 1388400
+
+	state_category = city
+
+	history={
+		owner = BRI
+		victory_points = {
+			11465 5
+		}
+		
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+		}
+		add_core_of = GAL
+	}
+
+	provinces={
+		11465 503 3495 9478 11613 9867 11616
+	}
+}

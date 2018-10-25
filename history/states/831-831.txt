@@ -1,0 +1,13 @@
+state={
+	id=831
+	name="STATE_831"
+	history = {
+		owner = BUR
+		add_core_of = BUR
+	}
+	provinces={
+		9557 9572 11529 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

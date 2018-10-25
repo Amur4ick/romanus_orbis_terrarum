@@ -1,0 +1,21 @@
+
+state={
+	id=766
+	name="STATE_766"
+	manpower = 848903
+	
+	state_category = town
+
+	history={
+		owner = BTC
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 6
+		}
+		add_core_of = BTC
+	}
+
+	provinces={
+		6896 950 12083 12081 9778 9828 3953
+	}
+}

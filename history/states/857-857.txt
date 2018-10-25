@@ -1,0 +1,13 @@
+state={
+	id=857
+	name="STATE_857"
+	history = {
+		owner = VAN
+		add_core_of = VAN
+	}
+	provinces={
+		3351 6347 6375 9346 9372 9398 11245 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

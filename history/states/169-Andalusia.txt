@@ -1,0 +1,35 @@
+
+state={
+	id=169
+	name="STATE_169"
+	manpower = 3175163
+	
+	state_category = city
+
+	history={
+		owner = BTC
+		victory_points = {
+			1048 1 
+		}
+		victory_points = {
+			875 1 
+		}
+		victory_points = {
+			7183 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 3
+			1048 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = BTC
+	}
+
+	provinces={
+		1048 10094 4182 1178 7183 4080 7098 9891
+	}
+}

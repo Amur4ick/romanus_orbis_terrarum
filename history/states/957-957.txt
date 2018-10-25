@@ -1,0 +1,13 @@
+state={
+	id=957
+	name="STATE_957"
+	history={
+		owner = GLT
+		add_core_of = GLT
+	}
+	provinces={
+		921 3921 6888 6977 9777 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

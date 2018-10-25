@@ -1,0 +1,30 @@
+
+state={
+	id=779
+	name="STATE_779"
+	manpower = 1055731
+	
+	
+	state_category = town
+	
+	resources={
+		steel=15 # was: 24
+	}
+
+	history={
+		owner = TRC
+		victory_points = {
+			3816 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			air_base = 3
+		}
+		add_core_of = TRC
+	}
+
+	provinces={
+		9813 6901 9840 9842 11838
+	}
+}

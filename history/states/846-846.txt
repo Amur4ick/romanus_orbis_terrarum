@@ -1,0 +1,13 @@
+state={
+	id=846
+	name="STATE_846"
+	history={
+		owner = JUT
+		add_core_of = JUT
+	}
+	provinces={
+		316 394 6235 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

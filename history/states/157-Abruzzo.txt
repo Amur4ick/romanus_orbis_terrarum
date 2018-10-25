@@ -1,0 +1,30 @@
+
+state={
+	id=157
+	name="STATE_157"
+	manpower = 2979335
+	
+	state_category = city
+
+	history={
+		owner = SPQ
+		victory_points = {
+			925 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			925 = {
+				naval_base = 4
+			}
+			6831 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SPQ
+	}
+
+	provinces={
+		9924 967 925 9838 3910 11790 6926 11861
+	}
+}

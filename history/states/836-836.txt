@@ -1,0 +1,13 @@
+state={
+	id=836
+	name="STATE_836"
+	history = {
+		owner = LAN
+		add_core_of = LAN
+	}
+	provinces={
+		374 3368 6257 6325 6349 9347 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

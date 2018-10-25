@@ -1,0 +1,13 @@
+state={
+	id=928
+	name="STATE_928"
+	history={
+		owner = SAR
+		add_core_of = SAR
+	}
+	provinces={
+		523 547 3540 3567 6591 11513 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

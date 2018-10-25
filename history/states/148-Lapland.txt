@@ -1,0 +1,26 @@
+
+state={
+	id=148
+	name="STATE_148"
+	resources={
+		steel=7.000
+		chromium=2.000
+	}
+
+	history={
+		owner = FIN
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = FIN
+
+	}
+
+	provinces={
+		124 128 167 203 2992 3055 3107 3158 3193 6076 6087 6107 6142 9128 9189 9191 11115 11125 11130 11167 11169 11204 
+	}
+	manpower=121737
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

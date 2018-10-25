@@ -1,0 +1,27 @@
+
+state={
+	id=176
+	name="STATE_176"
+	manpower = 1343760
+	
+	state_category = large_town
+
+	history={
+		owner = IBE
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+		victory_points = {
+			885 3 
+		}
+		victory_points = {
+			11825 3 
+		}
+		add_core_of = IBE
+	}
+
+	provinces={
+		9827 3820 11809 11806 9870 3859 857 11766
+	}
+}

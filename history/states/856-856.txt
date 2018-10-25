@@ -1,0 +1,13 @@
+state={
+	id=856
+	name="STATE_856"
+	history = {
+		owner = POL
+		add_core_of = POL
+	}
+	provinces={
+		467 3482 9400 9508 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

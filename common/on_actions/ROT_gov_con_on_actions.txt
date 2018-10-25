@@ -1,0 +1,115 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			every_country = {
+				if = {
+					limit = {
+						has_variable = gov_control
+					}
+					clamp_gov_control = yes
+				}
+				else_if = {
+					limit = {
+						 NOT { has_variable = gov_control }
+					}
+					set_base_gov_control = yes
+				}
+				set_variable = { gov_control_parlament_rate = 0 }
+            }
+		}
+	}
+	
+	on_daily = {
+		effect = {
+		
+			### ПАРЛАМЕНТ
+			
+			if = {
+				limit = {
+					has_government = libertatism
+				}
+				set_variable = { leader_party_par = libertatism_par }
+			}
+			if = {
+				limit = {
+					has_government = vemosism
+				}
+				set_variable = { leader_party_par = vemosism_par }
+			}
+			if = {
+				limit = {
+					has_government = sociarchism
+				}
+				set_variable = { leader_party_par = sociarchism_par }
+			}
+			if = {
+				limit = {
+					has_government = eleftherism
+				}
+				set_variable = { leader_party_par = eleftherism_par }
+			}
+			if = {
+				limit = {
+					has_government = passionism
+				}
+				set_variable = { leader_party_par = passionism_par }
+			}
+			if = {
+				limit = {
+					has_government = viatirism
+				}
+				set_variable = { leader_party_par = viatirism_par }
+			}
+			if = {
+				limit = {
+					has_government = gentemism
+				}
+				set_variable = { leader_party_par = gentemism_par }
+			}
+		
+		
+			
+			### ГОСУДАРСТВЕННЫЙ КОНТРОЛЬ
+			
+			set_variable = { lpp1 = 0 }
+			set_variable = { lpp2 = 0 }
+			subtract_from_variable = { gov_control = gov_control_parlament_rate }
+			set_variable = { gov_con_base = gov_control }
+			set_variable = { gov_control_parlament_rate = 0 }
+			
+			if = {
+				limit = {
+					has_idea = multiparty_system
+				}
+				if = {
+					limit = {
+						check_variable = { leader_party_par > 100 }
+					}
+					set_temp_variable = { lpp = leader_party_par }
+					subtract_from_temp_variable = { lpp = 100 }
+					divide_temp_variable = { lpp = 4 }
+					set_variable = { lpp1 = lpp }
+					round_variable = lpp1
+				}
+				else_if = {
+					limit = {
+						check_variable = { leader_party_par < 100 }
+					}
+					set_temp_variable = { lpp = leader_party_par }
+					subtract_from_temp_variable = { lpp = 100 }
+					divide_temp_variable = { lpp = 4 }
+					set_temp_variable = { lpp0 = lpp }
+					multiply_temp_variable = { lpp0 = 2 }
+					subtract_from_temp_variable = { lpp = lpp0 }
+					set_variable = { lpp2 = lpp }
+					round_variable = lpp2
+				}
+				add_to_variable = { gov_control_parlament_rate = lpp }
+			}
+			round_variable = gov_control_parlament_rate
+			add_to_variable = { gov_control = gov_control_parlament_rate }
+		}
+	}
+	
+}

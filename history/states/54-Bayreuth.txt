@@ -1,0 +1,24 @@
+
+state={
+	id=54
+	name="STATE_54"
+	manpower = 2508159
+
+	state_category = city
+
+	history={
+		owner = BUR
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+		}
+		victory_points = {
+			11544 10 
+		}
+		add_core_of = BUR
+	}
+
+	provinces={
+		11544 9416 586 11404 3474
+	}
+}

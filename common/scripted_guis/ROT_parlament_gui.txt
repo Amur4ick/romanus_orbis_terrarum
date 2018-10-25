@@ -1,0 +1,55 @@
+scripted_gui = {
+	
+	parlament_button_window_gui = {
+	
+		context_type = player_context
+		window_name = "ROT_parlament_button_window"
+		parent_window_token = politics_tab 
+		
+		visible = {
+			always = yes
+		}
+		
+		effects = {
+			parlament_button_click = {
+				if = {
+					limit = {
+						check_variable = { show_parlament_window = 1 }
+					}
+					set_variable = { show_parlament_window = 0 }
+				}
+				else = {
+					set_variable = { show_parlament_window = 1 }
+				}
+			}
+		}
+		
+		triggers = {
+			
+		}
+		
+	}
+	
+	parlament_window_gui = {
+	
+		context_type = player_context
+		window_name = "ROT_parlament_window"
+		#parent_window_token = politics_tab 
+		
+		visible = {
+			check_variable = { show_parlament_window = 1 }
+		}
+		
+		effects = {
+			close_click = {
+				set_variable = { show_parlament_window = 0 }
+			}
+		}
+		
+		triggers = {
+			
+		}
+		
+	}
+	
+}

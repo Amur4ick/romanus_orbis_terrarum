@@ -1,0 +1,26 @@
+
+state={
+	id=343
+	name="STATE_343"
+	resources={
+		chromium=25.000
+	}
+
+	history={
+		owner = ROM
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = ROM
+
+	}
+
+	provinces={
+		856 947 3786 3856 3951 3983 11831 11867 
+	}
+	manpower=955763
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

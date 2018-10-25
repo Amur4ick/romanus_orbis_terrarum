@@ -1,0 +1,13 @@
+state={
+	id=911
+	name="STATE_911"
+	history = {
+		owner = VAN
+		add_core_of = VAN
+	}
+	provinces={
+		266 281 3384 9327 11386 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

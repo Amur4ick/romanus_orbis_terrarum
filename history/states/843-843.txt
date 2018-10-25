@@ -1,0 +1,13 @@
+state={
+	id=843
+	name="STATE_843"
+	history = {
+		owner = MAR
+		add_core_of = MAR
+	}
+	provinces={
+		421 445 494 3462 11414 13207 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

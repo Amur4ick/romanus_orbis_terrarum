@@ -1,0 +1,13 @@
+state={
+	id=978
+	name="STATE_978"
+	history={
+		owner = NOR
+		add_core_of = NOR
+	}
+	provinces={
+		69 171 6310 11070 11151 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

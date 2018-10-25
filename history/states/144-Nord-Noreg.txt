@@ -1,0 +1,42 @@
+
+state={
+	id=144
+	name="STATE_144"
+	resources={
+		steel=9.000
+		tungsten=15.000
+	}
+
+	history={
+		owner = FIN
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			192 = {
+				naval_base = 3
+
+			}
+			9116 = {
+				naval_base = 3
+
+			}
+			11050 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			192 1 
+		}
+		add_core_of = FIN
+
+	}
+
+	provinces={
+		38 91 173 192 3034 3048 3132 3145 6071 6214 9126 11090 11157 
+	}
+	manpower=355251
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

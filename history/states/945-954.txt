@@ -1,0 +1,13 @@
+state={
+	id=945
+	name="STATE_945"
+	history={
+		owner = ALB
+		add_core_of = ALB
+	}
+	provinces={
+		1450 6763 11645 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=976
+	name="STATE_976"
+	history={
+		owner = GOT
+		add_core_of = GOT
+	}
+	provinces={
+		156 3005 3148 6093 6123 6147 9117 9173 9182 9193 13099 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

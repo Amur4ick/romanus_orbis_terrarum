@@ -1,0 +1,93 @@
+defined_text = {
+	name = GetLibertatismParty
+	text = {
+		trigger = {
+			tag = SPQ
+		}
+		localization_key = SPQ_libertatism_party
+	}
+}
+
+
+
+defined_text = {
+	name = GetVemosismParty
+	text = {
+		trigger = {
+			tag = SPQ
+		}
+		localization_key = SPQ_vemosism_party
+	}
+}
+
+
+
+defined_text = {
+	name = GetSociarchismParty
+	text = {
+		trigger = {
+			tag = SPQ
+		}
+		localization_key = SPQ_sociarchism_party
+	}
+}
+
+
+
+defined_text = {
+	name = GetEleftherismParty
+	text = {
+		trigger = {
+			tag = SPQ
+		}
+		localization_key = SPQ_eleftherism_party
+	}
+}
+
+
+
+defined_text = {
+	name = GetPassionismParty
+	text = {
+		trigger = {
+			tag = SPQ
+		}
+		localization_key = SPQ_passionism_party
+	}
+}
+
+
+
+defined_text = {
+	name = GetViatirismParty
+	text = {
+		trigger = {
+			tag = SPQ
+		}
+		localization_key = SPQ_viatirism_party
+	}
+}
+
+
+
+defined_text = {
+	name = GetGentemismParty
+	text = {
+		trigger = {
+			tag = SPQ
+		}
+		localization_key = SPQ_gentemism_party
+	}
+}
+
+
+
+defined_text = {
+	name = GetNeoOligarchismParty
+	text = {
+		trigger = {
+			tag = SPQ
+		}
+		localization_key = SPQ_neo_oligarchism_party
+	}
+}

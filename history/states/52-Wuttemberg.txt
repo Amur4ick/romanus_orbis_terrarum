@@ -1,0 +1,29 @@
+
+state={
+	id=52
+	name="STATE_52"
+	manpower = 2679413
+	resources={
+		aluminium=18 # was: 30
+	}
+	
+	state_category = city
+
+	history={
+		owner = RAE
+		victory_points = {
+			692 30
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 6
+		}
+		add_core_of = RAE
+	}
+
+	provinces={
+		3705 11653 692 6693
+	}
+}

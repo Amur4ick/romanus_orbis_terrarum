@@ -1,0 +1,13 @@
+state={
+	id=881
+	name="STATE_881"
+	history={
+		owner = AVA
+		add_core_of = AVA
+	}
+	provinces={
+		3448 3884 6900 11767 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=71
+	name="STATE_71"
+
+	history={
+		owner = DUN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+		add_core_of = DUN
+
+	}
+
+	provinces={
+		3550 3565 3581 6573 6586 
+	}
+	manpower=1197800
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

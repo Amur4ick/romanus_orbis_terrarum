@@ -1,0 +1,13 @@
+state={
+	id=921
+	name="STATE_921"
+	history = {
+		owner = UNI
+		add_core_of = UNI
+	}
+	provinces={
+		222 319 415 592 3298 3310 9485 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=841
+	name="STATE_841"
+	history = {
+		owner = SUE
+		add_core_of = SUE
+	}
+	provinces={
+		514 573 3514 9535 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

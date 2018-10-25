@@ -1,0 +1,81 @@
+﻿l_russian:
+
+ # Категории решений
+ 
+ ROT_parlament_decisions:0 "Парламент"
+ ROT_parties_decisions:0 "Партии"
+ 
+ # Решения
+ 
+ dissolve_parliament:0 "Распустить парламент"
+ convene_parliament:0 "Созвать парламент"
+ 
+ ban_libertatism_party:0 "Запретить Либертатизм"
+ ban_vemosism_party:0 "Запретить Вемосизм"
+ ban_sociarchism_party:0 "Запретить Социархизм"
+ ban_eleftherism_party:0 "Запретить Элефтеризм"
+ ban_passionism_party:0 "Запретить Пассионизм"
+ ban_viatirism_party:0 "Запретить Виатиризм"
+ ban_gentemism_party:0 "Запретить Гентемизм"
+ ban_neo_oligarchism_party:0 "Запретить Нео-Олигархизм"
+ 
+ unban_libertatism_party:0 "Разрешить Либертатизм"
+ unban_vemosism_party:0 "Разрешить Вемосизм"
+ unban_sociarchism_party:0 "Разрешить Социархизм"
+ unban_eleftherism_party:0 "Разрешить Элефтеризм"
+ unban_passionism_party:0 "Разрешить Пассионизм"
+ unban_viatirism_party:0 "Разрешить Виатиризм"
+ unban_gentemism_party:0 "Разрешить Гентемизм"
+ unban_neo_oligarchism_party:0 "Разрешить Нео-Олигархизм"
+ 
+ civilian_economy_project:0 "Внести законопрект: Гражданская экономика"
+ low_economic_mobilisation_project:0 "Внести законопрект: Ранняя мобилизация"
+ 
+ civilian_economy_decision:0 "Подписать закон: Гражданская экономика"
+ low_economic_mobilisation_project:0 "Внести законопрект: Ранняя мобилизация"
+ 
+ # Триггеры решений
+ 
+ parlament_convened_trigger:0 "Парламент созван"
+ parlament_dissolved_trigger:0 "Парламент распущен"
+ 
+ libertatism_not_banned_trigger:0 "Либертатистская партия не запрещена"
+ vemosism_not_banned_trigger:0 "Вемосистская партия не запрещена"
+ sociarchism_not_banned_trigger:0 "Социархическая партия не запрещена"
+ eleftherism_not_banned_trigger:0 "Элефтеристская партия не запрещена"
+ passionism_not_banned_trigger:0 "Пассионистская партия не запрещена"
+ viatirism_not_banned_trigger:0 "Виатиристская партия не запрещена"
+ gentemism_not_banned_trigger:0 "Гентемистская партия не запрещена"
+ neo_oligarchism_not_banned_trigger:0 "Нео-Олигархическая партия не запрещена"
+ 
+ libertatism_banned_trigger:0 "Либертатистская партия запрещена"
+ vemosism_banned_trigger:0 "Вемосистская партия запрещена"
+ sociarchism_banned_trigger:0 "Социархическая партия запрещена"
+ eleftherism_banned_trigger:0 "Элефтеристская партия запрещена"
+ passionism_banned_trigger:0 "Пассионистская партия запрещена"
+ viatirism_banned_trigger:0 "Виатиристская партия запрещена"
+ gentemism_banned_trigger:0 "Гентемистская партия запрещена"
+ neo_oligarchism_banned_trigger:0 "Нео-Олигархическая партия запрещена"
+ 
+ # Эффекты решений
+ 
+ libertatism_unbanned_effect:0 "Либертатистская партия будет разрешена"
+ vemosism_unbanned_effect:0 "Вемосистская партия будет разрешена"
+ sociarchism_unbanned_effect:0 "Социархическая партия будет разрешена"
+ eleftherism_unbanned_effect:0 "Элефтеристская партия будет разрешена"
+ passionism_unbanned_effect:0 "Пассионистская партия будет разрешена"
+ viatirism_unbanned_effect:0 "Виатиристская партия будет разрешена"
+ gentemism_unbanned_effect:0 "Гентемистская партия будет разрешена"
+ neo_oligarchism_unbanned_effect:0 "Нео-Олигархическая партия будет разрешена"
+ 
+ libertatism_banned_effect:0 "Либертатистская партия будет запрещена"
+ vemosism_banned_effect:0 "Вемосистская партия будет запрещена"
+ sociarchism_banned_effect:0 "Социархическая партия будет запрещена"
+ eleftherism_banned_effect:0 "Элефтеристская партия будет запрещена"
+ passionism_banned_effect:0 "Пассионистская партия будет запрещена"
+ viatirism_banned_effect:0 "Виатиристская партия будет запрещена"
+ gentemism_banned_effect:0 "Гентемистская партия будет запрещена"
+ neo_oligarchism_banned_effect:0 "Нео-Олигархическая партия будет запрещена"
+ 
+ parlament_dissolved_effect:0 "Парламент будет распущен"
+ parlament_convened_effect:0 "Парламент будет созван"

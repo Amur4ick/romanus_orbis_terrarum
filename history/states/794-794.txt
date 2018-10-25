@@ -1,0 +1,13 @@
+state={
+	id=794
+	name="STATE_794"
+	history = {
+		owner = NRB
+		add_core_of = NRB
+	}
+	provinces={
+		3946 9824 9853 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=170
+	name="STATE_170"
+	manpower = 1782253
+	
+	state_category = large_town
+	
+	resources={
+		tungsten=4 # was: 6
+	}
+
+	history={
+		owner = IBE
+		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = IBE
+	}
+
+	provinces={
+		6902 9925 6866 9877 11780 9917 9839 3969
+	}
+}

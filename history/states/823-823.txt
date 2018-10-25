@@ -1,0 +1,13 @@
+state={
+	id=823
+	name="STATE_823"
+	history = {
+		owner = FRI
+		add_core_of = FRI
+	}
+	provinces={
+		3512 6622 9281 9309 9363 9403 11346 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

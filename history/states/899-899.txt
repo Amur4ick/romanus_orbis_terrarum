@@ -1,0 +1,13 @@
+state={
+	id=899
+	name="STATE_899"
+	history = {
+		owner = GLC
+		add_core_of = GLC
+	}
+	provinces={
+		466 466 3434 6431 6604 11536 11691 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

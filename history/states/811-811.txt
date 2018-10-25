@@ -1,0 +1,13 @@
+state={
+	id=811
+	name="STATE_811"
+	history = {
+		owner = GAL
+		add_core_of = GAL
+	}
+	provinces={
+		3516 9536 11606 13081 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

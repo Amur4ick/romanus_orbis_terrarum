@@ -1,0 +1,168 @@
+ROT_economic_laws_decisions = {
+
+	civilian_economy_project = {
+
+		icon = generic_decision
+
+		available = {
+			NOT = { has_country_flag = parlament_dissolved }
+		}
+
+		visible = {
+			NOT = { 
+				OR = {
+					has_idea = civilian_economy
+					has_country_flag = civilian_economy_project
+				}
+			}
+		}
+		
+		#cost = 150
+		days_remove = 15
+		days_re_enable = 30
+
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			hidden_effect = {
+				laws_decisions_random = yes
+			}
+		}
+
+		#ai_will_do = {
+		#	base = 0
+		#	modifier = {
+		#		add = 1
+		#		has_stability < 0.6
+		#	}
+		#}
+	}
+	civilian_economy_decision = {
+
+		icon = generic_decision
+
+		available = {
+			NOT = { 
+				has_idea = civilian_economy
+			}
+			has_country_flag = civilian_economy_project
+		}
+
+		visible = {
+			NOT = { 
+				has_idea = civilian_economy
+			}
+			has_country_flag = civilian_economy_project
+		}
+		
+		cost = 150
+		days_remove = 15
+		is_good = no
+		days_mission_timeout = 30
+		#days_re_enable = 30
+
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_idea = civilian_economy
+			hidden_effect = {
+				has_country_flag = civilian_economy_project
+			}
+		}
+
+		#ai_will_do = {
+		#	base = 0
+		#	modifier = {
+		#		add = 1
+		#		has_stability < 0.6
+		#	}
+		#}
+	}
+	
+	low_economic_mobilisation_project = {
+
+		icon = generic_decision
+
+		available = {
+			NOT = { has_country_flag = parlament_dissolved }
+		}
+
+		visible = {
+			NOT = { 
+				OR = {
+					has_idea = low_economic_mobilisation
+					has_country_flag = low_economic_mobilisation_project
+				}
+			}
+		}
+		
+		#cost = 150
+		days_remove = 15
+		days_re_enable = 30
+
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			hidden_effect = {
+				laws_decisions_random = yes
+			}
+		}
+
+		#ai_will_do = {
+		#	base = 0
+		#	modifier = {
+		#		add = 1
+		#		has_stability < 0.6
+		#	}
+		#}
+	}
+	low_economic_mobilisation_decision = {
+
+		icon = generic_decision
+
+		available = {
+			NOT = { 
+				has_idea = low_economic_mobilisation
+			}
+			has_country_flag = low_economic_mobilisation_project
+		}
+
+		visible = {
+			NOT = { 
+				has_idea = low_economic_mobilisation
+			}
+			has_country_flag = low_economic_mobilisation_project
+		}
+		
+		cost = 150
+		days_remove = 15
+		is_good = no
+		days_mission_timeout = 30
+		#days_re_enable = 30
+
+		complete_effect = {
+			
+		}
+		
+		remove_effect = {
+			add_idea = low_economic_mobilisation
+			hidden_effect = {
+				has_country_flag = low_economic_mobilisation_project
+			}
+		}
+
+		#ai_will_do = {
+		#	base = 0
+		#	modifier = {
+		#		add = 1
+		#		has_stability < 0.6
+		#	}
+		#}
+	}
+}

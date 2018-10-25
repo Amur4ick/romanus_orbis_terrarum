@@ -1,0 +1,23 @@
+
+state={
+	id=193
+	name="STATE_193"
+
+	history={
+		owner = KIE
+		buildings = {
+			infrastructure = 5
+			air_base = 8
+
+		}
+		add_core_of = KIE
+
+	}
+
+	provinces={
+		3584 6508 9437 11425 11489 
+	}
+	manpower=1373637
+	buildings_max_level_factor=1.000
+	state_category=city
+}
