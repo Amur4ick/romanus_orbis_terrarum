@@ -1,0 +1,13 @@
+state={
+	id=1380
+	name="STATE_1380"
+	history = {
+		owner = ILN
+		add_core_of = ILN
+	}
+	provinces={
+		954 1604 7626 7831 12305 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

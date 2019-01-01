@@ -1,0 +1,13 @@
+state={
+	id=1127
+	name="STATE_1127"
+	history = {
+		owner = MEK
+		add_core_of = MEK
+	}
+	provinces={
+		1620 4330 4401 7238 7645 10204 10261 12260 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=1472
+	name="STATE_1472"
+	history={
+		owner = SUN
+		add_core_of = SUN
+	}
+	provinces={
+		7308 7368 7440 10194 12138 12209 12415 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

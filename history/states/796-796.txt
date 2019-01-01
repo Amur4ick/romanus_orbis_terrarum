@@ -4,10 +4,12 @@ state={
 	history = {
 		owner = NRB
 		add_core_of = NRB
+		
+		victory_points = { 11877 5 }
 	}
 	provinces={
 		9728 9898 11711 11849 11877 
 	}
-	manpower=0
+	manpower=1000 state_category = town
 	buildings_max_level_factor=1.000
 }

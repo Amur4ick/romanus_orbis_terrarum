@@ -1,0 +1,13 @@
+state={
+	id=1134
+	name="STATE_1134"
+	history = {
+		owner = DAI
+		add_core_of = DAI
+	}
+	provinces={
+		1383 1522 10776 12262 12319 12392 12433 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

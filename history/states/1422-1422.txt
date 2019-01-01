@@ -1,0 +1,13 @@
+state={
+	id=1422
+	name="STATE_1422"
+	history = {
+		owner = DIT
+		add_core_of = DIT
+	}
+	provinces={
+		823 1562 7517 7986 12374 12461 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

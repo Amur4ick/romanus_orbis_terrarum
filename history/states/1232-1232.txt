@@ -1,0 +1,14 @@
+state={
+	id=1232
+	name="STATE_1232"
+	impassable = yes
+	history = {
+		owner = CAR
+		add_core_of = CAR
+	}
+	provinces={
+		1095 1901 7041 8088 12849 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

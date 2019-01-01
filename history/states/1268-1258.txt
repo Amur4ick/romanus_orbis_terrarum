@@ -1,0 +1,13 @@
+state={
+	id=1268
+	name="STATE_1268"
+	history = {
+		owner = ETH
+		add_core_of = ETH
+	}
+	provinces={
+		4995 5010 7980 8036 10775 12714 12757 12812 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

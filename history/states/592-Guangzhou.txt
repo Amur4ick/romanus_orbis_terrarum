@@ -1,0 +1,33 @@
+
+state={
+	id=592
+	name="STATE_592"
+	resources={
+		tungsten=8.000
+		steel=15.000
+		chromium=3.000
+	}
+
+	history={
+		owner = HAI
+		add_core_of = HAI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 3
+
+		}
+		victory_points = {
+			1047 5 
+		}
+
+	}
+
+	provinces={
+		1087 1131 1187 7039 9963 11938 12077 
+	}
+	manpower=17835200
+	buildings_max_level_factor=1.000
+	state_category=city
+}

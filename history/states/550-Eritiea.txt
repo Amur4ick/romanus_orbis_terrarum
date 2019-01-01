@@ -1,0 +1,26 @@
+
+state={
+	id=550
+	name="STATE_550"
+
+	history={
+		owner = HIM
+		add_core_of = HIM
+		victory_points = {
+			12766 1 
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		2072 5017 5047 5091 8043 12723 12766 
+	}
+	manpower=600600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

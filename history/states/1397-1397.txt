@@ -1,0 +1,13 @@
+state={
+	id=1397
+	name="STATE_1397"
+	history = {
+		owner = SHO
+		add_core_of = SHO
+	}
+	provinces={
+		1740 4742 10662 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=747
+	name="STATE_747"
+
+	history={
+		owner = SCH
+		add_core_of = SCH
+		victory_points = {
+			7965 3 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		4559 4937 7294 7965 8023 10726 12898 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

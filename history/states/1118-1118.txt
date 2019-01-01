@@ -1,0 +1,13 @@
+state={
+	id=1118
+	name="STATE_1118"
+	history = {
+		owner = LEM
+		add_core_of = LEM
+	}
+	provinces={
+		1308 4388 4392 7587 12122 12220 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

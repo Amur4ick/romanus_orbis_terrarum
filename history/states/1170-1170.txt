@@ -1,0 +1,13 @@
+state={
+	id=1170
+	name="STATE_1170"
+	history = {
+		owner = KOR
+		add_core_of = KOR
+	}
+	provinces={
+		1104 1200 4205 7105 10018 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

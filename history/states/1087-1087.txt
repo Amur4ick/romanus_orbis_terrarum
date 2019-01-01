@@ -1,0 +1,13 @@
+state={
+	id=1087
+	name="STATE_1087"
+	history = {
+		owner = GDV
+		add_core_of = GDV
+	}
+	provinces={
+		10001 10255 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

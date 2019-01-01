@@ -1,0 +1,22 @@
+
+state={
+	id=610
+	name="STATE_610"
+
+	history={
+		owner = JIN
+		add_core_of = JIN
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		952 972 4495 6937 6988 7575 9768 9873 10331 11801 
+	}
+	manpower=1975377
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

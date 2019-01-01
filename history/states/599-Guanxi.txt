@@ -1,0 +1,33 @@
+
+state={
+	id=599
+	name="STATE_599"
+	resources={
+		tungsten=15.000
+		steel=15.000
+		chromium=3.000
+	}
+
+	history={
+		owner = GND
+		add_core_of = GND
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+
+		}
+		victory_points = {
+			10404 3 
+		}
+
+	}
+
+	provinces={
+		1023 4092 4152 7128 7168 7210 10404 12407 
+	}
+	manpower=8685200
+	buildings_max_level_factor=1.000
+	state_category=town
+}

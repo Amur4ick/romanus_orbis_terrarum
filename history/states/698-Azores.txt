@@ -1,0 +1,22 @@
+state={
+	id=698
+	name="STATE_698"
+	manpower = 212012
+	
+	state_category = small_island
+	
+	history={
+		owner = CAR
+		victory_points = {
+			1751 3 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CAR
+	}
+	
+	provinces={
+		1751 
+	}
+}

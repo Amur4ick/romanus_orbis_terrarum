@@ -1,0 +1,25 @@
+
+state={
+	id=667
+	name="STATE_667"
+	resources={
+		rubber=12.000
+	}
+
+	history={
+		owner = MAJ
+		add_core_of = MAJ
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		4273 7293 10191 12162 
+	}
+	manpower=3460200
+	buildings_max_level_factor=1.000
+	state_category=town
+}

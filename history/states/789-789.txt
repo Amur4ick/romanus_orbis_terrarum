@@ -4,10 +4,12 @@ state={
 	history = {
 		owner = GAL
 		add_core_of = GAL
+		
+		victory_points = { 3671 5 }
 	}
 	provinces={
 		669 3659 3671 9492 11596 
 	}
-	manpower=0
+	manpower=1000 state_category = town
 	buildings_max_level_factor=1.000
 }

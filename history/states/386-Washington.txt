@@ -1,0 +1,32 @@
+
+state={
+	id=386
+	name="STATE_386"
+
+	history={
+		owner = BRO
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 5
+
+		}
+		add_core_of = BRO
+		victory_points = {
+			1690 1 
+		}
+		victory_points = {
+			7315 10 
+		}
+
+	}
+
+	provinces={
+		1408 4413 4428 7315 10157 
+	}
+	manpower=1563395
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

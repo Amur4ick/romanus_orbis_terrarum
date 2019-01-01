@@ -1,0 +1,26 @@
+
+state={
+	id=450
+	name="STATE_450"
+
+	history={
+		owner = ROM
+		victory_points = {
+			11954 3 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+
+		}
+		add_core_of = ROM
+
+	}
+
+	provinces={
+		1127 1198 4057 10117 12088 
+	}
+	manpower=82535
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

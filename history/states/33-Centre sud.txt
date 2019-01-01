@@ -9,6 +9,8 @@ state={
 	history={
 		owner = GAL
 		
+		victory_points = { 620 5 }
+		
 		buildings = {
 			infrastructure = 6
 		}

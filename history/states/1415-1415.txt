@@ -1,0 +1,13 @@
+state={
+	id=1415
+	name="STATE_1415"
+	history = {
+		owner = DNB
+		add_core_of = DNB
+	}
+	provinces={
+		1862 4736 7721 7827 10305 10422 10625 12134 12607 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

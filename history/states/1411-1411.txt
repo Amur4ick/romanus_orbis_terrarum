@@ -1,0 +1,13 @@
+state={
+	id=1411
+	name="STATE_1411"
+	history = {
+		owner = CRI
+		add_core_of = CRI
+	}
+	provinces={
+		4857 4860 7880 10706 12572 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

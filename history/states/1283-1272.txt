@@ -1,0 +1,13 @@
+state={
+	id=1283
+	name="STATE_1283"
+	history = {
+		owner = ZAI
+		add_core_of = ZAI
+	}
+	provinces={
+		2080 5054 8078 11012 12830 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

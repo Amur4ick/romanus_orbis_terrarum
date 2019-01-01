@@ -1,0 +1,13 @@
+state={
+	id=1287
+	name="STATE_1287"
+	history = {
+		owner = KZM
+		add_core_of = KZM
+	}
+	provinces={
+		1846 2176 2281 10988 12907 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=1154
+	name="STATE_1154"
+	history = {
+		owner = WEN
+		add_core_of = WEN
+	}
+	provinces={
+		1055 1168 4013 4099 7086 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

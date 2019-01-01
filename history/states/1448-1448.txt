@@ -1,0 +1,13 @@
+state={
+	id=1448
+	name="STATE_1448"
+	history={
+		owner = PAR
+		add_core_of = PAR
+	}
+	provinces={
+		1613 1626 10502 13274 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

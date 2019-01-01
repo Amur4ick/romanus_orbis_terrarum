@@ -1,0 +1,13 @@
+state={
+	id=1289
+	name="STATE_1289"
+	history = {
+		owner = BRG
+		add_core_of = BRG
+	}
+	provinces={
+		2193 5177 5212 8245 12935 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

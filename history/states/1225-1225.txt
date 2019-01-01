@@ -1,0 +1,13 @@
+state={
+	id=1225
+	name="STATE_1225"
+	history = {
+		owner = ITO
+		add_core_of = ITO
+	}
+	provinces={
+		1020 4198 7178 10092 12032 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=1501
+	name="STATE_1501"
+	history={
+		owner = CHI
+		add_core_of = CHI
+	}
+	provinces={
+		1602 4593 7269 7627 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=1023
+	name="STATE_1023"
+	history={
+		owner = ASA
+		add_core_of = ASA
+	}
+	provinces={
+		2027 5027 5099 7970 8004 10748 10892 12455 12758 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

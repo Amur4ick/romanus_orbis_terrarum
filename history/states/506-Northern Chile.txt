@@ -1,0 +1,28 @@
+
+state={
+	id=506
+	name="STATE_506"
+
+	history={
+		owner = ALE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+
+		}
+		add_core_of = ALE
+		add_core_of = ANT
+		victory_points = {
+			12994 1 
+		}
+
+	}
+
+	provinces={
+		5146 5171 5192 5228 11000 12914 13275 
+	}
+	manpower=283605
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

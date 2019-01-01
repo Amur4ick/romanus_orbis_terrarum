@@ -1,0 +1,22 @@
+
+state={
+	id=585
+	name="STATE_585"
+
+	history={
+		owner = KHO
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = KHO
+
+	}
+
+	provinces={
+		1479 1532 1576 1614 4488 4499 4618 7486 10395 10435 12324 12465 12471 
+	}
+	manpower=1033721
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

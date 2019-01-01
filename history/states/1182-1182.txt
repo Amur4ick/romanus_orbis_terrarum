@@ -1,0 +1,13 @@
+state={
+	id=1182
+	name="STATE_1182"
+	history = {
+		owner = MAN
+		add_core_of = MAN
+	}
+	provinces={
+		1508 1558 1627 3978 7578 7812 10429 11903 12337 12469 12478 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

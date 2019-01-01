@@ -1,0 +1,34 @@
+
+state={
+	id=468
+	name="STATE_468"
+	resources={
+		aluminium=3.000
+	}
+
+	history={
+		owner = WLD
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = WLD
+		victory_points = {
+			4345 20 
+		}
+		victory_points = {
+			12149 3 
+		}
+
+	}
+
+	provinces={
+		1341 4345 4417 7289 7345 7435 9601 
+	}
+	manpower=2432754
+	buildings_max_level_factor=1.000
+	state_category=city
+}

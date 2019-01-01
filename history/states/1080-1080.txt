@@ -1,0 +1,13 @@
+state={
+	id=1080
+	name="STATE_1080"
+	history = {
+		owner = VIJ
+		add_core_of = VIJ
+	}
+	provinces={
+		1321 4327 7288 7402 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

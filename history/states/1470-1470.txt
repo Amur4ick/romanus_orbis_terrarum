@@ -1,0 +1,13 @@
+state={
+	id=1470
+	name="STATE_1470"
+	history={
+		owner = MAL
+		add_core_of = MAL
+	}
+	provinces={
+		1460 4446 10354 10382 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=721
+	name="STATE_721"
+
+	history={
+		owner = ROM
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1326 10219 12178 12190 13001 
+	}
+	manpower=455604
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

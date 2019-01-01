@@ -6,8 +6,8 @@ state={
 		add_core_of = VIS
 	}
 	provinces={
-		614 3649 11592 
+		614 662 3649 11592 
 	}
-	manpower=0
+	manpower=1000 state_category = town
 	buildings_max_level_factor=1.000
 }

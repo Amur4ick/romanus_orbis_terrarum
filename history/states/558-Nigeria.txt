@@ -1,0 +1,29 @@
+
+state={
+	id=558
+	name="STATE_558"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = BNN
+		add_core_of = BNN
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		victory_points = {
+			2050 1 
+		}
+
+	}
+
+	provinces={
+		1903 1992 4889 7978 8034 10831 
+	}
+	manpower=19757000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=429
+	name="STATE_429"
+	resources={
+		tungsten=19.000
+	}
+
+	history={
+		owner = MAH
+		add_core_of = MAH
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		victory_points = {
+			1349 10 
+		}
+
+	}
+
+	provinces={
+		1349 7013 7119 10270 12269 
+	}
+	manpower=17355600
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,13 @@
+state={
+	id=1063
+	name="STATE_1063"
+	history = {
+		owner = SIN
+		add_core_of = SIN
+	}
+	provinces={
+		8007 10139 10898 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

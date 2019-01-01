@@ -1,0 +1,13 @@
+state={
+	id=1323
+	name="STATE_1323"
+	history = {
+		owner = IRO
+		add_core_of = IRO
+	}
+	provinces={
+		702 847 880 3880 6872 6899 9662 9804 9836 11648 12405 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

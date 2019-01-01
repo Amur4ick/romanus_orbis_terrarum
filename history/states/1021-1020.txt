@@ -1,0 +1,13 @@
+state={
+	id=1021
+	name="STATE_1021"
+	history = {
+		owner = MEC
+		add_core_of = MEC
+	}
+	provinces={
+		2033 2095 4981 7934 8092 10835 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

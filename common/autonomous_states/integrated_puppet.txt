@@ -37,6 +37,7 @@ autonomy_state = {
 	allowed = {
 		NOT = {
 			is_puppet_of = SPQ
+			is_puppet_of = LAN
 			has_country_flag = colony_state
 		}
 	}

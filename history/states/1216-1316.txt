@@ -1,0 +1,13 @@
+state={
+	id=1216
+	name="STATE_1216"
+	history = {
+		owner = EDO
+		add_core_of = EDO
+	}
+	provinces={
+		993 1113 4000 4100 7016 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

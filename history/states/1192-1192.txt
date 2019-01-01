@@ -1,0 +1,13 @@
+state={
+	id=1192
+	name="STATE_1192"
+	history = {
+		owner = BAL
+		add_core_of = BAL
+	}
+	provinces={
+		783 973 3791 6811 6964 9766 11893 11906 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

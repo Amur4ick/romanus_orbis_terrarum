@@ -1,0 +1,13 @@
+state={
+	id=1274
+	name="STATE_1274"
+	history = {
+		owner = ZAN
+		add_core_of = ZAN
+	}
+	provinces={
+		2255 8182 8201 10845 10972 12944 12967 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

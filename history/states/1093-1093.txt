@@ -1,0 +1,13 @@
+state={
+	id=1093
+	name="STATE_1093"
+	history = {
+		owner = ORI
+		add_core_of = ORI
+	}
+	provinces={
+		1579 7574 9946 11924 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

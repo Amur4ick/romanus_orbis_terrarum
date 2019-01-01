@@ -1,0 +1,13 @@
+state={
+	id=1260
+	name="STATE_1260"
+	history = {
+		owner = BNN
+		add_core_of = BNN
+	}
+	provinces={
+		2050 4952 12731 12817 12900 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

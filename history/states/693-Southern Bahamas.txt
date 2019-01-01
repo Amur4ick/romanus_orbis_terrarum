@@ -1,0 +1,18 @@
+state={
+	id=693
+	name="STATE_693"
+	manpower = 15000
+	
+	state_category = tiny_island
+
+	history={
+		owner = NAR
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	
+	provinces={
+		1513 10440 
+	}
+}

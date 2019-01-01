@@ -1,0 +1,13 @@
+state={
+	id=1293
+	name="STATE_1293"
+	history = {
+		owner = HEG
+		add_core_of = HEG
+	}
+	provinces={
+		8136 10957 10978 12391 12519 12921 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

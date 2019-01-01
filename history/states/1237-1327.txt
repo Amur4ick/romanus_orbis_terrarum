@@ -1,0 +1,14 @@
+state={
+	id=1237
+	name="STATE_1237"
+	impassable = yes
+	history = {
+		owner = FUL
+		add_core_of = FUL
+	}
+	provinces={
+		1962 10814 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

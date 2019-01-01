@@ -9,10 +9,6 @@ state={
 		add_core_of = SPQ
 		buildings = {
 			infrastructure = 2
-			11735 = {
-				naval_base = 5
-
-			}
 
 		}
 

@@ -1,0 +1,13 @@
+state={
+	id=1378
+	name="STATE_1378"
+	history = {
+		owner = COI
+		add_core_of = COI
+	}
+	provinces={
+		1873 4426 4875 11667 12588 12597 12693 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

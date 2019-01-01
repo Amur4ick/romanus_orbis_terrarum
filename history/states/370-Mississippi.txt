@@ -1,0 +1,27 @@
+
+state={
+	id=370
+	name="STATE_370"
+
+	history={
+		owner = FLU
+		victory_points = {
+			4464 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = FLU
+
+	}
+
+	provinces={
+		1615 4464 4650 4756 7480 7524 7668 10449 
+	}
+	manpower=2009820
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -306,7 +306,7 @@ ideologies = {
 	
 		types = {
 		
-			viatrism_ideology = {
+			viatirism_ideology = {
 			}
 		}
 		

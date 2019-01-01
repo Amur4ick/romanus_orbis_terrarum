@@ -1,4 +1,11 @@
 ﻿l_russian:
+ union_of_workers:0 "Союз Рабочей Солидарности"
+ SPQ_alliance:0 "Римский Мир"
+ GER_alliance:0 "Имперский Пакт"
+ rhine_congress:0 "Рейнский Конгресс"
+ ellada:0 "Эллинская Конфедерация"
+ medina_union:0 "Организация Мединского Договора"
+
  SPQ_libertatism:0 "Римская Республика"
  SPQ_vemosism:0 "Римская Республика"
  SPQ_eleftherism:0 "Римская Республика"
@@ -296,14 +303,14 @@
  VIS_passionism:0 "Государство Вестготов"
  VIS_viatirism:0 "Государство Вестготов"
  
- OST_libertatism:0 "Государство Остготов"
- OST_vemosism:0 "Государство Остготов"
- OST_eleftherism:0 "Государство Остготов"
- OST_sociarchism:0 "Государство Остготов"
- OST_gentemism:0 "Государство Остготов"
- OST_neo_oligarchism:0 "Государство Остготов"
- OST_passionism:0 "Государство Остготов"
- OST_viatirism:0 "Государство Остготов"
+ OST_libertatism:0 "Остготская Рабочая Республика"
+ OST_vemosism:0 "Остготская Рабочая Республика"
+ OST_eleftherism:0 "Остготская Рабочая Республика"
+ OST_sociarchism:0 "Остготская Рабочая Республика"
+ OST_gentemism:0 "Остготская Рабочая Республика"
+ OST_neo_oligarchism:0 "Остготская Рабочая Республика"
+ OST_passionism:0 "Остготская Рабочая Республика"
+ OST_viatirism:0 "Остготская Рабочая Республика"
  
  ROM_libertatism:0 "Ромейская Империя"
  ROM_vemosism:0 "Ромейская Империя"
@@ -332,14 +339,14 @@
  PLS_passionism:0 "Полесье"
  PLS_viatirism:0 "Полесье"
  
- KIE_libertatism:0 "Княжество Киевское"
- KIE_vemosism:0 "Княжество Киевское"
- KIE_eleftherism:0 "Княжество Киевское"
- KIE_sociarchism:0 "Княжество Киевское"
- KIE_gentemism:0 "Княжество Киевское"
- KIE_neo_oligarchism:0 "Княжество Киевское"
- KIE_passionism:0 "Княжество Киевское"
- KIE_viatirism:0 "Княжество Киевское"
+ KIE_libertatism:0 "Киевская Ассоциация"
+ KIE_vemosism:0 "Киевская Ассоциация"
+ KIE_eleftherism:0 "Киевская Ассоциация"
+ KIE_sociarchism:0 "Киевская Ассоциация"
+ KIE_gentemism:0 "Киевская Ассоциация"
+ KIE_neo_oligarchism:0 "Киевская Ассоциация"
+ KIE_passionism:0 "Киевская Ассоциация"
+ KIE_viatirism:0 "Киевская Ассоциация"
  
  SAR_libertatism:0 "Сарматия"
  SAR_vemosism:0 "Сарматия"
@@ -556,6 +563,365 @@
  ALA_neo_oligarchism:0 "Алания"
  ALA_passionism:0 "Алания"
  ALA_viatirism:0 "Алания"
+ 
+ 
+ 
+ ### Северная Африка, Ближний Восток и Средняя Азия
+ 
+ CAR_neo_oligarchism:0 " Республика Карфаген"
+ 
+ EGY_neo_oligarchism:0 "Египет"
+ 
+ MEC_neo_oligarchism:0 "Мекка"
+ 
+ HIM_neo_oligarchism:0 "Химьяр"
+ 
+ ASA_neo_oligarchism:0 "Асахрийский Эмират"
+ 
+ OMA_neo_oligarchism:0 "Оман"
+ 
+ JUD_neo_oligarchism:0 "Иудея"
+ 
+ KUR_neo_oligarchism:0 "Курдистан"
+ 
+ SYR_neo_oligarchism:0 "Сирия"
+ 
+ BAG_neo_oligarchism:0 "Багурми"
+ 
+ BAS_neo_oligarchism:0 "Басра"
+ 
+ PER_neo_oligarchism:0 "Государство Персов"
+ 
+ KHO_neo_oligarchism:0 "Хорезмский Каганат"
+ 
+ KIP_neo_oligarchism:0 "Кипчакское Ханство"
+ 
+ DUL_neo_oligarchism:0 "Руспублика Дулу"
+ 
+ TAJ_neo_oligarchism:0 "Таджикистан"
+ 
+ 
+ 
+ ### Индия и Индокитай
+ 
+ SIN_neo_oligarchism:0 "Синд"
+ 
+ KSH_neo_oligarchism:0 "Кашмир"
+ 
+ RAJ_neo_oligarchism:0 "Раджастхан"
+ 
+ DEL_neo_oligarchism:0 "Дели"
+ 
+ BER_neo_oligarchism:0 "Берар"
+ 
+ MAH_neo_oligarchism:0 "Махараштра"
+ 
+ VIJ_neo_oligarchism:0 "Виджаянагар"
+ 
+ ORI_neo_oligarchism:0 "Орисса"
+ 
+ BEN_neo_oligarchism:0 "Бенгалия"
+ 
+ NEP_neo_oligarchism:0 "Непал"
+ 
+ BHU_neo_oligarchism:0 "Бутан"
+ 
+ MIA_neo_oligarchism:0 "Ава"
+ 
+ CHM_neo_oligarchism:0 "Чампа"
+ 
+ DAI_neo_oligarchism:0 "Дай Вьет"
+ 
+ SIA_neo_oligarchism:0 "Сиамская Империя"
+ 
+ 
+ 
+ ### Китай
+ 
+ GND_neo_oligarchism:0 "Республика Гуандун"
+ 
+ SON_neo_oligarchism:0 "Империя Сун"
+ 
+ CHA_neo_oligarchism:0 "Клика Чанши"
+ 
+ CHO_neo_oligarchism:0 "Клика Чунцин"
+ 
+ SCH_neo_oligarchism:0 "Княжество Сычуань"
+ 
+ TIB_neo_oligarchism:0 "Тибет"
+ 
+ UIG_neo_oligarchism:0 "Уйгурское Ханство"
+ 
+ GAN_neo_oligarchism:0 "Протекторат Ганьсу"
+ 
+ JIN_neo_oligarchism:0 "Империя Цзинь"
+ 
+ MON_neo_oligarchism:0 "Монголия"
+ 
+ MAN_neo_oligarchism:0 "Манчжурия"
+ 
+ KOR_neo_oligarchism:0 "Империя Чосон"
+ 
+ HUN_neo_oligarchism:0 "Республика Хунну"
+ 
+ BAL_neo_oligarchism:0 "Бохай"
+ 
+ AIN_neo_oligarchism:0 "Айны"
+ 
+ SIB_neo_oligarchism:0 "Сибирская Республика"
+ 
+ FER_neo_oligarchism:0 "Дальневосточная Республика"
+ 
+ 
+ 
+ ### Япония
+ 
+ NAN_neo_oligarchism:0 "Нанбу"
+ 
+ AND_neo_oligarchism:0 "Андо"
+ 
+ UES_neo_oligarchism:0 "Уэсуги"
+ 
+ EDO_neo_oligarchism:0 "Эдо"
+ 
+ TOK_neo_oligarchism:0 "Токугава"
+ 
+ HOS_neo_oligarchism:0 "Хосокава"
+ 
+ YAM_neo_oligarchism:0 "Ямана"
+ 
+ MOR_neo_oligarchism:0 "Мори"
+ 
+ ITO_neo_oligarchism:0 "Ито"
+ 
+ 
+ 
+ ### Африка
+ 
+ MLI_vemosism:0 "Народная Республика Мали"
+ 
+ FUL_vemosism:0 "Фуло"
+ 
+ MOS_vemosism:0 "Моси"
+ 
+ SNG_vemosism:0 "Сонгай"
+ 
+ BOR_vemosism:0 "Канем-Борну"
+ 
+ DAR_vemosism:0 "Дарфур"
+ 
+ SEN_vemosism:0 "Республика Сеннар"
+ 
+ ETH_vemosism:0 "Эфиопия"
+ 
+ CNG_vemosism:0 "Конго"
+ 
+ LND_vemosism:0 "Лунда"
+ 
+ LUB_vemosism:0 "Луба"
+ 
+ BUG_vemosism:0 "Буганда"
+ 
+ RWA_vemosism:0 "Руанда"
+ 
+ KRG_vemosism:0 "Карагве"
+ 
+ KZM_vemosism:0 "Казембе"
+ 
+ MLW_vemosism:0 "Малави"
+ 
+ ROZ_vemosism:0 "Розви"
+ 
+ MAD_vemosism:0 "Имерина"
+ 
+ 
+ 
+ ### Америка
+ 
+ FRL_vemosism:0 "Фрелсисланд"
+ 
+ MOH_vemosism:0 "Могикане"
+ 
+ IRO_vemosism:0 "Федерация Ирокезов"
+ 
+ DLW_vemosism:0 "Делавары"
+ 
+ PTW_vemosism:0 "Потаватоми"
+ 
+ MIM_vemosism:0 "Майами"
+ 
+ MEN_vemosism:0 "Меномини"
+ 
+ ILN_vemosism:0 "Иллинойс"
+ 
+ SHA_vemosism:0 "Шауни"
+ 
+ DAK_vemosism:0 "Дакота"
+ 
+ ARA_vemosism:0 "Арапахо"
+ 
+ KIO_vemosism:0 "Кайова"
+ 
+ APA_vemosism:0 "Апачи"
+ 
+ SHO_vemosism:0 "Шошоны"
+ 
+ CRI_vemosism:0 "Федерация Кри"
+ 
+ FLU_vemosism:0 "Федерация Флюминия"
+ 
+ PEL_vemosism:0 "Пелагийская Республика"
+ 
+ AZT_vemosism:0 "Ацтекская Империя"
+ 
+ NEL_vemosism:0 "Новая Эллада"
+ 
+ 
+ 
+ ### Колонии
+ 
+ AMA_vemosism:0 "Иберийск. Амахагия"
+ 
+ LIV_vemosism:0 "Иберийск. Ливор"
+ 
+ AUR_vemosism:0 "Аурумская Африка"
+ 
+ BNN_vemosism:0 "Галльск. Бенин"
+ 
+ ZAI_vemosism:0 "Силва Заир"
+ 
+ HEG_vemosism:0 "Хего Эускал"
+ 
+ SUD_vemosism:0 "Ланд Дес Суденс"
+ 
+ MER_vemosism:0 "Меридианская Африка"
+ 
+ BRG_vemosism:0 "Новая Бригантия"
+ 
+ ZAN_vemosism:0 "Персидск. Занзибар"
+ 
+ GUJ_vemosism:0 "Римск. Гуджарат"
+ 
+ SAH_vemosism:0 "Британск. Сахьярди"
+ 
+ GDV_vemosism:0 "Германск. Годавари"
+ 
+ IRA_vemosism:0 "Иберийск. Иравади"
+ 
+ LEM_vemosism:0 "Лем Малай"
+ 
+ MEK_vemosism:0 "Ромейск. Вьетнам"
+ 
+ HAI_vemosism:0 "Римск. Хайнянь"
+ 
+ WEN_vemosism:0 "Британск. Вэньчжоу"
+ 
+ 
+ 
+ ### Американские Колонии
+ 
+ NCA_vemosism:0 "Новая Каледония"
+ 
+ WLD_vemosism:0 "Вальдланд"
+ 
+ COI_vemosism:0 "Талам Куилле"
+ 
+ AUG_vemosism:0 "Терра Августиана"
+ 
+ SER_vemosism:0 "Сервиана"
+ 
+ NAR_vemosism:0 "Новая Арморика"
+ 
+ NIB_vemosism:0 "Новая Иберия"
+ 
+ OCC_vemosism:0 "Оциденская Испания"
+ 
+ INM_vemosism:0 "Интермарум"
+ 
+ DIT_vemosism:0 "Дитикия"
+ 
+ OCD_vemosism:0 "Окидения"
+ 
+ DNB_vemosism:0 "Доньбу Туди"
+ 
+ KSN_vemosism:0 "Кесу Наму"
+ 
+ UNA_vemosism:0 "Унанганская Земля"
+ 
+ BRO_vemosism:0 "Разбитый Берег"
+ 
+ INU_vemosism:0 "Инуитская Земля"
+ 
+ 
+ 
+ ### Южная Америка
+ 
+ NAQ_vemosism:0 "Новая Аквитания"
+ 
+ MAS_vemosism:0 "Сильвийская Мавретания"
+ 
+ TSA_vemosism:0 "Терра Сальтус"
+ 
+ INC_vemosism:0 "Империя Инков"
+ 
+ LUR_vemosism:0 "Лур Беррия"
+ 
+ MRC_vemosism:0 "Марциана"
+ 
+ TXC_vemosism:0 "Тиксимийское Содружество"
+ 
+ DEM_vemosism:0 "Деметрос"
+ 
+ GLO_vemosism:0 "Оциденская Галисия"
+ 
+ NOT_vemosism:0 "Нотиос"
+ 
+ OSC_vemosism:0 "Республика Осткостских Провинций"
+ 
+ PAR_vemosism:0 "Республика Парана"
+ 
+ LFN_vemosism:0 "Лига Вольных Народов"
+ 
+ MAP_vemosism:0 "Государство Мапучи"
+ 
+ RMN_vemosism:0 "Королевство Романика"
+ 
+ ALE_vemosism:0 "Алексийская Респулика"
+ 
+ ANT_vemosism:0 "Антеос"
+ 
+ 
+ 
+ ### Океания
+ 
+ MAL_vemosism:0 "Карфагенск. Малакка"
+ 
+ SUN_vemosism:0 "Протекторат Сунда"
+ 
+ MAJ_vemosism:0 "Империя Маджапахит"
+ 
+ BRN_vemosism:0 "Бруней"
+ 
+ BRU_vemosism:0 "Берау"
+ 
+ MCS_vemosism:0 "Макассар"
+ 
+ MAG_vemosism:0 "Магинданао"
+ 
+ RYU_vemosism:0 "Королевство Рюкю"
+ 
+ GIM_vemosism:0 "Гимбу"
+ 
+ CHI_vemosism:0 "Чимбу"
+ 
+ ENA_vemosism:0 "Энга"
+ 
+ FOZ_vemosism:0 "Федерация Оз"
+ 
+ MAO_vemosism:0 "Объединение Маори"
+ 
+ 
+ 
  
  FACTION_NAME_DEMOCRATIC_1:0 "$CONTINENT_ADJ$ ассоциация"
  FACTION_NAME_DEMOCRATIC_2:0 "$CONTINENT_ADJ$ Антанта"

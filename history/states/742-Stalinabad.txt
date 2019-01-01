@@ -1,0 +1,22 @@
+
+state={
+	id=742
+	name="STATE_742"
+
+	history={
+		owner = TAJ
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TAJ
+
+	}
+
+	provinces={
+		7224 7519 8027 10417 12805 
+	}
+	manpower=230000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

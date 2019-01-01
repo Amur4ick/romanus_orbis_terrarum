@@ -1,0 +1,25 @@
+
+state={
+	id=296
+	name="STATE_296"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = LIV
+		add_core_of = LIV
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		12747 12858 12891 
+	}
+	manpower=364900
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

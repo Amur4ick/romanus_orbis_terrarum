@@ -1,0 +1,13 @@
+state={
+	id=1468
+	name="STATE_1468"
+	history={
+		owner = MAL
+		add_core_of = MAL
+	}
+	provinces={
+		1277 7327 7463 12168 12181 12302 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

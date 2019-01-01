@@ -1,0 +1,13 @@
+state={
+	id=1451
+	name="STATE_1451"
+	history={
+		owner = LFN
+		add_core_of = LFN
+	}
+	provinces={
+		12364 12379 13270 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

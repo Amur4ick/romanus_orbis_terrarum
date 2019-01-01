@@ -1,0 +1,33 @@
+
+state={
+	id=539
+	name="STATE_539"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = CNG
+		add_core_of = CNG
+		victory_points = {
+			8193 2 
+		}
+		victory_points = {
+			5139 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		2115 10968 12975 13254 
+	}
+	manpower=2564000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

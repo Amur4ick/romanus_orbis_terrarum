@@ -1,0 +1,25 @@
+
+state={
+	id=477
+	name="STATE_477"
+
+	history={
+		owner = AZT
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = AZT
+		victory_points = {
+			12810 1 
+		}
+
+	}
+
+	provinces={
+		8089 10732 12810 8079
+	}
+	manpower=1951460
+	buildings_max_level_factor=1.000
+	state_category=town
+}

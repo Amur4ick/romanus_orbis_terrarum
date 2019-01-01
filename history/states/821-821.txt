@@ -4,10 +4,12 @@ state={
 	history = {
 		owner = FRA
 		add_core_of = FRA
+		
+		victory_points = { 11456 5 }
 	}
 	provinces={
 		3444 11456 
 	}
-	manpower=0
+	manpower=1000 state_category = town
 	buildings_max_level_factor=1.000
 }

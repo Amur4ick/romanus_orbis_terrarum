@@ -1,0 +1,26 @@
+
+state={
+	id=496
+	name="STATE_496"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = GLO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		add_core_of = GLO
+
+	}
+
+	provinces={
+		4570 8196 10419 10999 11002 12903 12909 
+	}
+	manpower=4603600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

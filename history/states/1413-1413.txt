@@ -1,0 +1,13 @@
+state={
+	id=1413
+	name="STATE_1413"
+	history = {
+		owner = KSN
+		add_core_of = KSN
+	}
+	provinces={
+		1414 3471 4274 4347 7398 10151 12183 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

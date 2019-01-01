@@ -1,0 +1,28 @@
+
+state={
+	id=596
+	name="STATE_596"
+
+	history={
+		owner = SON
+		add_core_of = SON
+		victory_points = {
+			9974 1 
+		}
+		victory_points = {
+			7191 1 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		7191 10014 10086 10101 11991 12059 
+	}
+	manpower=21230700
+	buildings_max_level_factor=1.000
+	state_category=city
+}

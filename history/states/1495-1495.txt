@@ -1,0 +1,13 @@
+state={
+	id=1495
+	name="STATE_1495"
+	history={
+		owner = MCS
+		add_core_of = MCS
+	}
+	provinces={
+		1484 1505 1518 1561 4308 4493 12358 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

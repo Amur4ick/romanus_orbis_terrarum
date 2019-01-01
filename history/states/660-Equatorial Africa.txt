@@ -1,0 +1,26 @@
+
+state={
+	id=660
+	name="STATE_660"
+	resources={
+		rubber=3.000
+	}
+	impassable = yes
+
+	history={
+		owner = BOR
+		add_core_of = BOR
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1956 5136 8128 10893 13256 
+	}
+	manpower=2572456
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

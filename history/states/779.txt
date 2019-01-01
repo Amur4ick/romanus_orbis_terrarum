@@ -13,9 +13,6 @@ state={
 
 	history={
 		owner = TRC
-		victory_points = {
-			3816 1 
-		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1

@@ -1,0 +1,22 @@
+
+state={
+	id=280
+	name="STATE_280"
+
+	history={
+		owner = TSA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TSA
+
+	}
+
+	provinces={
+		2147 5232 10982 11010 12939 12965 13279 
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

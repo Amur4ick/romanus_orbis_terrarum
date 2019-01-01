@@ -1,0 +1,27 @@
+
+state={
+	id=597
+	name="STATE_597"
+
+	history={
+		owner = JIN
+		add_core_of = JIN
+		victory_points = {
+			1069 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		1069 1124 1154 4037 4071 4181 7055 9971 10043 10072 10102 12015 12045 
+	}
+	manpower=38373200
+	buildings_max_level_factor=1.000
+	state_category=town
+}

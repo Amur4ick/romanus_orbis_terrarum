@@ -1,0 +1,30 @@
+
+state={
+	id=497
+	name="STATE_497"
+	resources={
+		rubber=23.000
+	}
+
+	history={
+		owner = LUR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = LUR
+		victory_points = {
+			12853 1 
+		}
+
+	}
+
+	provinces={
+		2150 2228 5153 5220 12853 12913 12933 12999 
+	}
+	manpower=2950100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,13 @@
+state={
+	id=1167
+	name="STATE_1167"
+	history = {
+		owner = JIN
+		add_core_of = JIN
+	}
+	provinces={
+		1121 1161 9995 10040 11916 11973 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

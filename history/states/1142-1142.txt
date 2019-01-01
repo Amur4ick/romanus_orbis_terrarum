@@ -1,0 +1,13 @@
+state={
+	id=1142
+	name="STATE_1142"
+	history = {
+		owner = GND
+		add_core_of = GND
+	}
+	provinces={
+		4125 7159 11918 12378 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

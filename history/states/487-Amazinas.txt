@@ -1,0 +1,23 @@
+
+state={
+	id=487
+	name="STATE_487"
+
+	history={
+		owner = INC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = INC
+
+	}
+
+	provinces={
+		8211 8240 10924 10938 10996 
+	}
+	manpower=334500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

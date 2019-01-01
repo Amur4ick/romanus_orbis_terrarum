@@ -8,16 +8,13 @@ state={
 
 	history={
 		owner = IBE
-		victory_points = {
-			9817 10 
-		}
+		
+		victory_points = { 9817 5 }
+		
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 			dockyard = 2
-			9817 = {
-				naval_base = 3
-			}
 		}
 		add_core_of = IBE
 	}

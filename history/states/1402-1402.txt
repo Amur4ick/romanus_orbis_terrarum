@@ -1,0 +1,13 @@
+state={
+	id=1402
+	name="STATE_1402"
+	history = {
+		owner = BRO
+		add_core_of = BRO
+	}
+	provinces={
+		1393 1858 4385 10228 10258 10273 10548 12231 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

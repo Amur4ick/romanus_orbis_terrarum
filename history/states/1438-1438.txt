@@ -1,0 +1,13 @@
+state={
+	id=1438
+	name="STATE_1438"
+	history={
+		owner = DEM
+		add_core_of = DEM
+	}
+	provinces={
+		8197 10946 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

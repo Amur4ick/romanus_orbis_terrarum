@@ -1,0 +1,23 @@
+
+state={
+	id=760
+	name="STATE_760"
+
+	history={
+		owner = UIG
+		add_core_of = UIG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		1774 1855 4714 4849 7737 7808 7870 13244 
+	}
+	manpower=700000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

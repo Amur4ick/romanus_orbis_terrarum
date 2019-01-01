@@ -1,0 +1,13 @@
+state={
+	id=1195
+	name="STATE_1195"
+	history = {
+		owner = AIN
+		add_core_of = AIN
+	}
+	provinces={
+		4404 7309 9604 11575 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

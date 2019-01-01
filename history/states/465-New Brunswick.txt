@@ -1,0 +1,23 @@
+
+state={
+	id=465
+	name="STATE_465"
+
+	history={
+		owner = WLD
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+
+		}
+		add_core_of = WLD
+
+	}
+
+	provinces={
+		1282 1338 1619 4287 4342 
+	}
+	manpower=475020
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

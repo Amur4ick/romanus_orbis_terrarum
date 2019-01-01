@@ -1,0 +1,13 @@
+state={
+	id=1346
+	name="STATE_1346"
+	history = {
+		owner = NAR
+		add_core_of = NAR
+	}
+	provinces={
+		1433 1480 11975 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

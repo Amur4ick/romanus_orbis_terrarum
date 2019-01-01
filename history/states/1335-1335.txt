@@ -1,0 +1,13 @@
+state={
+	id=1335
+	name="STATE_1335"
+	history = {
+		owner = SER
+		add_core_of = SER
+	}
+	provinces={
+		801 3802 6850 9789 9923 11789 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

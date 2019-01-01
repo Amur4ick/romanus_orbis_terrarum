@@ -1,0 +1,13 @@
+state={
+	id=1406
+	name="STATE_1406"
+	history = {
+		owner = INU
+		add_core_of = INU
+	}
+	provinces={
+		736 1671 3498 3800 4695 6779 12682 13168 13183 13185 13187 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

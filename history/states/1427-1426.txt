@@ -1,0 +1,13 @@
+state={
+	id=1427
+	name="STATE_1427"
+	history={
+		owner = INM
+		add_core_of = INM
+	}
+	provinces={
+		2023 10790 12703 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

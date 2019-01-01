@@ -1,0 +1,30 @@
+
+state={
+	id=427
+	name="STATE_427"
+	resources={
+		chromium=6.000
+	}
+
+	history={
+		owner = VIJ
+		add_core_of = VIJ
+		victory_points = {
+			8087 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		1317 1359 5104 8087 10324 
+	}
+	manpower=14013400
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -132,7 +132,7 @@ parlament_convened_scripted_effect = {
 		limit = {
 			NOT = { has_country_flag = gentemism_banned }
 		}
-		set_variable = { national_oligarchism_par = g_pop }
+		set_variable = { gentemism_par = g_pop }
 	}
 	if = {
 		limit = {

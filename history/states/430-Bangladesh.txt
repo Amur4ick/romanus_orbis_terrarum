@@ -1,0 +1,26 @@
+
+state={
+	id=430
+	name="STATE_430"
+
+	history={
+		owner = BEN
+		victory_points = {
+			11929 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+
+		}
+		add_core_of = BEN
+
+	}
+
+	provinces={
+		1609 4162 4616 7124 7662 10443 
+	}
+	manpower=31973300
+	buildings_max_level_factor=1.000
+	state_category=town
+}

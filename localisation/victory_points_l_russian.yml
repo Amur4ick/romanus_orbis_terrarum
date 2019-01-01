@@ -1,0 +1,78 @@
+﻿l_russian:
+ VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! победных очков = §Y$POINTS$§!"
+ 
+ # Бетика
+ VICTORY_POINTS_4135:0 "Гибралтар"
+ VICTORY_POINTS_1048:0 "Кадис"
+ VICTORY_POINTS_7183:0 "Севилья"
+ VICTORY_POINTS_875:0 "Кордова"
+ VICTORY_POINTS_9979:0 "Малага"
+ VICTORY_POINTS_10024:0 "Новый Карфаген"
+ VICTORY_POINTS_9828:0 "Мариана"
+ 
+ # Тарраконская Испания
+ 
+ VICTORY_POINTS_6906:0 "Валенсия"
+ VICTORY_POINTS_6812:0 "Тарракон"
+ VICTORY_POINTS_9764:0 "Барсино"
+ VICTORY_POINTS_3816:0 "Цезаравгуста"
+ 
+ # Иберия
+ 
+ VICTORY_POINTS_6933:0 "Пакс Юлия"
+ VICTORY_POINTS_6902:0 "Эмерита Августа"
+ VICTORY_POINTS_11805:0 "Юлия Фелицитас"
+ VICTORY_POINTS_6867:0 "Саламантика"
+ VICTORY_POINTS_9817:0 "Порт Кале"
+ VICTORY_POINTS_758:0 "Бригантиум"
+ 
+ # Страна Басков
+ 
+ VICTORY_POINTS_6756:0 "Гуре Хирия"
+ VICTORY_POINTS_9737:0 "Бурдигала"
+ VICTORY_POINTS_9597:0 "Сантон"
+ 
+ # Нарбоннская Галлия
+ 
+ VICTORY_POINTS_3946:0 "Нарбонн"
+ VICTORY_POINTS_6766:0 "Тулуза"
+ VICTORY_POINTS_11877:0 "Ним"
+ 
+ # Приморские Альпы
+ 
+ VICTORY_POINTS_11834:0 "Марсель"
+ 
+ # Альпы
+ 
+ VICTORY_POINTS_9590:0 "Лугдон"
+ 
+ # Галлия
+ 
+ VICTORY_POINTS_629:0 "Лемонум"
+ VICTORY_POINTS_620:0 "Августорит"
+ VICTORY_POINTS_3655:0 "Аварик"
+ VICTORY_POINTS_3671:0 "Цезарадун"
+ VICTORY_POINTS_11628:0 "Августодун"
+ VICTORY_POINTS_9523:0 "Лютеция"
+ VICTORY_POINTS_9642:0 "Везонтио"
+ VICTORY_POINTS_13011:0 "Дурокорторум"
+ VICTORY_POINTS_11606:0 "Багакум"
+ 
+ # Британия
+ 
+ VICTORY_POINTS_11465:0 "Кондевик"
+ VICTORY_POINTS_3552:0 "Гезокрибат"
+ VICTORY_POINTS_11563:0 "Ротомагус"
+ 
+ # Франкия
+ 
+ VICTORY_POINTS_9559:0 "Диводур"
+ VICTORY_POINTS_9575:0 "Августа Треверорум"
+ VICTORY_POINTS_11494:0 "Бонна"
+ VICTORY_POINTS_587:0 "Кёльн"
+ VICTORY_POINTS_11560:0 "Майнц"
+ VICTORY_POINTS_9503:0 "Страсбург"
+ 
+ # Фризия
+ 
+ VICTORY_POINTS_11456:0 "Новиомагус"

@@ -1,0 +1,34 @@
+
+state={
+	id=533
+	name="STATE_533"
+	resources={
+		steel=27.000
+	}
+
+	history={
+		owner = NAN
+		add_core_of = NAN
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2
+			infrastructure = 3
+			air_base = 6
+
+		}
+		victory_points = {
+			6994 5 
+		}
+		victory_points = {
+			7169 15 
+		}
+
+	}
+
+	provinces={
+		1024 4118 7169 12056 
+	}
+	manpower=6575000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

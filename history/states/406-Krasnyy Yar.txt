@@ -1,0 +1,22 @@
+
+state={
+	id=406
+	name="STATE_406"
+
+	history={
+		owner = KIP
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = KIP
+
+	}
+
+	provinces={
+		464 468 477 615 618 3435 3459 3515 3622 6498 6514 6523 9469 9592 11482 11524 11578 
+	}
+	manpower=146494
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

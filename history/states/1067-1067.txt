@@ -1,0 +1,13 @@
+state={
+	id=1067
+	name="STATE_1067"
+	history={
+		owner = GUJ
+		add_core_of = GUJ
+	}
+	provinces={
+		7150 9975 11952 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

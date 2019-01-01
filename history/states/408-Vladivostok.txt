@@ -1,0 +1,30 @@
+
+state={
+	id=408
+	name="STATE_408"
+	resources={
+		chromium=20.000
+	}
+
+	history={
+		owner = BAL
+		victory_points = {
+			957 15 
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			air_base = 5
+
+		}
+		add_core_of = BAL
+
+	}
+
+	provinces={
+		957 3811 6961 6989 9762 9895 9926 11745 11750 11904 
+	}
+	manpower=841465
+	buildings_max_level_factor=1.000
+	state_category=town
+}

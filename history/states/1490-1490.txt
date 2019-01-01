@@ -1,0 +1,13 @@
+state={
+	id=1490
+	name="STATE_1490"
+	history={
+		owner = BRN
+		add_core_of = BRN
+	}
+	provinces={
+		1306 4282 7358 10143 10199 10212 10240 12186 12228 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

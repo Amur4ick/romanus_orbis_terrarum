@@ -1,0 +1,13 @@
+state={
+	id=1425
+	name="STATE_1425"
+	history = {
+		owner = AZT
+		add_core_of = AZT
+	}
+	provinces={
+		2008 5052 12873
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

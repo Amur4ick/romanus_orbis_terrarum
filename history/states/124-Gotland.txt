@@ -12,9 +12,6 @@ state=
 		add_core_of = GOT
 		buildings = {
 			infrastructure = 6
-			408 = {
-				naval_base = 1
-			}
 		}
 	}
 	provinces={

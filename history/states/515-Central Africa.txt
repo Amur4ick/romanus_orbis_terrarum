@@ -1,0 +1,23 @@
+
+state={
+	id=515
+	name="STATE_515"
+	impassable = yes
+
+	history={
+		owner = SNG
+		add_core_of = SNG
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2068 4913 5095 7939 10868 10917 13257 
+	}
+	manpower=1482744
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

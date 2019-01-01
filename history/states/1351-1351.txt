@@ -1,0 +1,13 @@
+state={
+	id=1351
+	name="STATE_1351"
+	history = {
+		owner = FLU
+		add_core_of = FLU
+	}
+	provinces={
+		4510 10410 12328 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

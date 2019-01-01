@@ -1,0 +1,25 @@
+
+state={
+	id=432
+	name="STATE_432"
+	resources={
+		oil=5.000
+	}
+
+	history={
+		owner = BEN
+		add_core_of = BEN
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1497 10416 12366 12395 12423 
+	}
+	manpower=8977100
+	buildings_max_level_factor=1.000
+	state_category=town
+}

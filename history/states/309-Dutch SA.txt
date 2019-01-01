@@ -1,0 +1,26 @@
+
+state={
+	id=309
+	name="STATE_309"
+	resources={
+		aluminium=55.000
+	}
+
+	history={
+		owner = TSA
+		add_core_of = TSA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1928 4934 4980 5008 8107 
+	}
+	manpower=152000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

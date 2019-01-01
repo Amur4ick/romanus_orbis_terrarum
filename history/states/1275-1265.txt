@@ -1,0 +1,13 @@
+state={
+	id=1275
+	name="STATE_1275"
+	history = {
+		owner = RWA
+		add_core_of = RWA
+	}
+	provinces={
+		2220 4201 4941 9962 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

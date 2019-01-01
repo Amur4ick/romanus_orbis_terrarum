@@ -1,0 +1,27 @@
+
+state={
+	id=363
+	name="STATE_363"
+
+	history={
+		owner = PEL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			air_base = 3
+
+		}
+		add_core_of = PEL
+		victory_points = {
+			7138 3 
+		}
+
+	}
+
+	provinces={
+		1077 1132 1163 4168 11783 12054 
+	}
+	manpower=3170274
+	buildings_max_level_factor=1.000
+	state_category=city
+}

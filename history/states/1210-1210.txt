@@ -1,0 +1,13 @@
+state={
+	id=1210
+	name="STATE_1210"
+	history = {
+		owner = MON
+		add_core_of = MON
+	}
+	provinces={
+		1728 1798 1859 4697 4732 4801 4862 7752 7881 10554 10623 10704 12605 12675 12686 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

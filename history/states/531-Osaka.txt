@@ -1,0 +1,31 @@
+
+state={
+	id=531
+	name="STATE_531"
+	resources={
+		aluminium=3.000
+	}
+
+	history={
+		owner = HOS
+		add_core_of = HOS
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+
+		}
+		victory_points = {
+			7072 40 
+		}
+
+	}
+
+	provinces={
+		1136 4142 7072 11960 
+	}
+	manpower=11015000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=627
+	name="STATE_627"
+
+	history={
+		owner = MAG
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			4241 3 
+		}
+		add_core_of = MAG
+
+	}
+
+	provinces={
+		1234 4266 4427 10214 10243 10300 12116 12158 12217 12273 
+	}
+	manpower=1496508
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

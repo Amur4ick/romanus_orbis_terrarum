@@ -1,0 +1,13 @@
+state={
+	id=1340
+	name="STATE_1340"
+	history = {
+		owner = PEL
+		add_core_of = PEL
+	}
+	provinces={
+		4491 7138 10096 10495 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

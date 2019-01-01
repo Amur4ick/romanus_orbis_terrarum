@@ -1,0 +1,28 @@
+
+state={
+	id=388
+	name="STATE_388"
+	resources={
+		tungsten=11.000
+	}
+
+	history={
+		owner = CRI
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = CRI
+		victory_points = {
+			4860 1 
+		}
+
+	}
+
+	provinces={
+		1854 3781 4838 6742 7779 12676 
+	}
+	manpower=537605
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

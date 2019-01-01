@@ -1,0 +1,13 @@
+state={
+	id=1373
+	name="STATE_1373"
+	history = {
+		owner = PTW
+		add_core_of = PTW
+	}
+	provinces={
+		6769 9746 11669 13199 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

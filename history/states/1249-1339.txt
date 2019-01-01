@@ -1,0 +1,13 @@
+state={
+	id=1249
+	name="STATE_1249"
+	history = {
+		owner = SNG
+		add_core_of = SNG
+	}
+	provinces={
+		1975 2056 12707 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

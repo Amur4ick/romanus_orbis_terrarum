@@ -1,0 +1,13 @@
+state={
+	id=1396
+	name="STATE_1396"
+	history = {
+		owner = SHO
+		add_core_of = SHO
+	}
+	provinces={
+		1736 1851 4741 10672 12585 12651 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

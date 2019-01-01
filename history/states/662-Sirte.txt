@@ -1,0 +1,22 @@
+
+state={
+	id=662
+	name="STATE_662"
+
+	history={
+		owner = ROM
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ROM
+
+	}
+
+	provinces={
+		4200 7076 8069 13073 13260
+	}
+	manpower=13213
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

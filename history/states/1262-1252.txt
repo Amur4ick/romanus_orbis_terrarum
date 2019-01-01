@@ -1,0 +1,14 @@
+state={
+	id=1262
+	name="STATE_1262"
+	impassable = yes
+	history = {
+		owner = SEN
+		add_core_of = SEN
+	}
+	provinces={
+		4138 4961 10900 12836 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

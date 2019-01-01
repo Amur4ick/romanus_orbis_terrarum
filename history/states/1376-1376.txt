@@ -1,0 +1,13 @@
+state={
+	id=1376
+	name="STATE_1376"
+	history = {
+		owner = COI
+		add_core_of = COI
+	}
+	provinces={
+		602 777 1299 1782 4784 4869 7366 9480 9740 10621 10718 12278 12582 12701 13159 13269 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

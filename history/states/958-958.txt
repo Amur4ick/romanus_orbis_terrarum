@@ -1,13 +1,17 @@
+
 state={
 	id=958
 	name="STATE_958"
+
 	history={
 		owner = GLT
 		add_core_of = GLT
+
 	}
+
 	provinces={
 		6813 7620 9893 9912 
 	}
-	manpower=0
+	manpower=1000 state_category = town
 	buildings_max_level_factor=1.000
 }

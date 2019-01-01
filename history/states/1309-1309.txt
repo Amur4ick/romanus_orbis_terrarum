@@ -1,0 +1,13 @@
+state={
+	id=1309
+	name="STATE_1309"
+	history = {
+		owner = NEL
+		add_core_of = NEL
+	}
+	provinces={
+		13261 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

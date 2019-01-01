@@ -7,10 +7,6 @@ state={
 		owner = DLM
 		buildings = {
 			infrastructure = 5
-			3943 = {
-				naval_base = 1
-
-			}
 
 		}
 		add_core_of = DLM

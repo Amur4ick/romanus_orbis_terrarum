@@ -1,0 +1,26 @@
+
+state={
+	id=657
+	name="STATE_657"
+	resources={
+		steel=18.000
+	}
+
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+
+		}
+		add_core_of = HUN
+
+	}
+
+	provinces={
+		675 4246 4290 4701 4805 7616 7672 7748 10722 12192 12261 12263 12638 12678 
+	}
+	manpower=308380
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

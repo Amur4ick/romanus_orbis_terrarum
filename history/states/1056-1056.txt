@@ -1,0 +1,13 @@
+state={
+	id=1056
+	name="STATE_1056"
+	history = {
+		owner = DUL
+		add_core_of = DUL
+	}
+	provinces={
+		1825 4316 7706 10408 10530 12583 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

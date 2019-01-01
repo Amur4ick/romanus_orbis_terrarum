@@ -1,0 +1,13 @@
+state={
+	id=1303
+	name="STATE_1303"
+	history = {
+		owner = WLD
+		add_core_of = WLD
+	}
+	provinces={
+		1284 7433 10174 10230 10247 10320 12221 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

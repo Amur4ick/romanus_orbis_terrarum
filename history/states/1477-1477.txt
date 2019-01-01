@@ -1,0 +1,13 @@
+state={
+	id=1477
+	name="STATE_1477"
+	history={
+		owner = MAJ
+		add_core_of = MAJ
+	}
+	provinces={
+		1209 7654 10479 12472 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

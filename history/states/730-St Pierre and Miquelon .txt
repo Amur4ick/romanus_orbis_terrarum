@@ -1,0 +1,16 @@
+state={
+	id=730
+	name="STATE_730"
+	manpower=3426
+	state_category = tiny_island
+
+	history={
+		owner = NCA
+		add_core_of = NCA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	
+	provinces={ 373 }
+}

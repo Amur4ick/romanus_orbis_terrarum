@@ -1,0 +1,22 @@
+
+state={
+	id=269
+	name="STATE_269"
+
+	history={
+		owner = HIM
+		add_core_of = HIM
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1905 1966 4909 5068 8094 10777 10818 10833 10891 10921 12759 12814 
+	}
+	manpower=344700
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

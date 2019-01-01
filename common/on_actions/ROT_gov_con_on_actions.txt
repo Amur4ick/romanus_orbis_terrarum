@@ -91,6 +91,7 @@ on_actions = {
 					divide_temp_variable = { lpp = 4 }
 					set_variable = { lpp1 = lpp }
 					round_variable = lpp1
+					add_to_variable = { gov_control_parlament_rate = lpp }
 				}
 				else_if = {
 					limit = {
@@ -104,8 +105,9 @@ on_actions = {
 					subtract_from_temp_variable = { lpp = lpp0 }
 					set_variable = { lpp2 = lpp }
 					round_variable = lpp2
+					subtract_from_variable = { gov_control_parlament_rate = lpp }
 				}
-				add_to_variable = { gov_control_parlament_rate = lpp }
+				#add_to_variable = { gov_control_parlament_rate = lpp }
 			}
 			round_variable = gov_control_parlament_rate
 			add_to_variable = { gov_control = gov_control_parlament_rate }

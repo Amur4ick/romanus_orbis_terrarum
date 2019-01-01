@@ -1,0 +1,29 @@
+
+state={
+	id=334
+	name="STATE_334"
+	resources={
+		rubber=75.000
+		oil=5.000
+	}
+
+	history={
+		owner = MAJ
+		add_core_of = MAJ
+		victory_points = {
+			10237 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		4409 7227 10282 12955 
+	}
+	manpower=2168600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,13 @@
+state={
+	id=1445
+	name="STATE_1445"
+	history={
+		owner = OSC
+		add_core_of = OSC
+	}
+	provinces={
+		1529 4533 4548 5156 10405 12466 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=1321
+	name="STATE_1321"
+	history = {
+		owner = IRO
+		add_core_of = IRO
+	}
+	provinces={
+		3702 3733 3747 6717 11650 11680 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

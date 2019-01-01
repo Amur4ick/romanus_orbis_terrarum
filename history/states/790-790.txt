@@ -4,10 +4,12 @@ state={
 	history = {
 		owner = BRI
 		add_core_of = BRI
+		
+		victory_points = { 3552 5 }
 	}
 	provinces={
 		542 3552 3758 6572 
 	}
-	manpower=0
+	manpower=1000 state_category = town
 	buildings_max_level_factor=1.000
 }

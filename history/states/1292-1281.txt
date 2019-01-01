@@ -1,0 +1,13 @@
+state={
+	id=1292
+	name="STATE_1292"
+	history = {
+		owner = ROZ
+		add_core_of = ROZ
+	}
+	provinces={
+		1874 2151 4851 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=1058
+	name="STATE_1058"
+	history = {
+		owner = KHO
+		add_core_of = KHO
+	}
+	provinces={
+		1554 4578 4636 7501 7507 7777 10366 10420 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

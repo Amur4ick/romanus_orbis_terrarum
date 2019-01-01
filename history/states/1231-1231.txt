@@ -1,0 +1,13 @@
+state={
+	id=1231
+	name="STATE_1231"
+	history = {
+		owner = AMA
+		add_core_of = AMA
+	}
+	provinces={
+		5012 7992 10875 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

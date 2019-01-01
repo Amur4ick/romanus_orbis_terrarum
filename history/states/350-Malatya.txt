@@ -1,0 +1,23 @@
+
+state={
+	id=350
+	name="STATE_350"
+
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+
+		}
+		add_core_of = SYR
+
+	}
+
+	provinces={
+		1549 1578 1634 10882 11871 12416 13240 
+	}
+	manpower=1047156
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -4,10 +4,12 @@ state={
 	history = {
 		owner = ALP
 		add_core_of = ALP
+		
+		victory_points = { 9590 5 }
 	}
 	provinces={
 		641 3646 3650 6639 6666 6668 9590 
 	}
-	manpower=0
+	manpower=1000 state_category = town
 	buildings_max_level_factor=1.000
 }

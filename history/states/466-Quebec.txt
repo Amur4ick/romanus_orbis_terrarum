@@ -1,0 +1,26 @@
+
+state={
+	id=466
+	name="STATE_466"
+	impassable = yes
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = WLD
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = WLD
+
+	}
+
+	provinces={
+		1426 1712 3208 3691 7364 7813 12147 13166 13184 13186 
+	}
+	manpower=318860
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,13 @@
+state={
+	id=1006
+	name="STATE_1006"
+	history = {
+		owner = CAR
+		add_core_of = CAR
+	}
+	provinces={
+		1058 1128 1141 7033 7065 7149 9960 9976 10059 11935 11953 12034 13077 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

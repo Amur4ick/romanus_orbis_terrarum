@@ -1,0 +1,13 @@
+state={
+	id=1313
+	name="STATE_1313"
+	history = {
+		owner = AUG
+		add_core_of = AUG
+	}
+	provinces={
+		6909 9832 9847 11830 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

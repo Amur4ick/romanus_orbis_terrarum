@@ -1,0 +1,22 @@
+
+state={
+	id=675
+	name="STATE_675"
+
+	history={
+		owner = BAG
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = BAG
+
+	}
+
+	provinces={
+		1074 1544 1631 4440 4486 4574 4951 7001 7184 10383 12316 
+	}
+	manpower=122093
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,13 @@
+state={
+	id=1031
+	name="STATE_1031"
+	history={
+		owner = BAS
+		add_core_of = BAS
+	}
+	provinces={
+		2004 2089 7977 8001 12726 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

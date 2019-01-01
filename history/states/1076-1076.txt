@@ -1,0 +1,13 @@
+state={
+	id=1076
+	name="STATE_1076"
+	history={
+		owner = MAH
+		add_core_of = MAH
+	}
+	provinces={
+		1405 4353 5063 12142 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

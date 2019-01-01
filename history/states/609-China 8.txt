@@ -1,0 +1,24 @@
+
+state={
+	id=609
+	name="STATE_609"
+
+	history={
+		owner = JIN
+		add_core_of = JIN
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		814 3814 3830 3881 3900 6837 6898 9905 11886 
+	}
+	manpower=6400000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

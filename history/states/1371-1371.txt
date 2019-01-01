@@ -1,0 +1,13 @@
+state={
+	id=1371
+	name="STATE_1371"
+	history = {
+		owner = MIM
+		add_core_of = MIM
+	}
+	provinces={
+		695 870 11637 11791 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=759
+	name="STATE_759"
+
+	history={
+		owner = UIG
+		add_core_of = UIG
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1838 4704 4843 4947 7732 10839 12524 12596 12598 12671 12820 
+	}
+	manpower=70000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

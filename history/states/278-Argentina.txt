@@ -1,0 +1,32 @@
+
+state={
+	id=278
+	name="STATE_278"
+
+	history={
+		owner = MAP
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 5
+			dockyard = 1
+			air_base = 4
+
+		}
+		add_core_of = MAP
+		victory_points = {
+			12364 10 
+		}
+		victory_points = {
+			7621 1 
+		}
+
+	}
+
+	provinces={
+		1555 1568 1596 1624 1639 4573 4602 4643 7621 12409 
+	}
+	manpower=5596366
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

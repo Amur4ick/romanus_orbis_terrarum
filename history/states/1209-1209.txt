@@ -1,0 +1,13 @@
+state={
+	id=1209
+	name="STATE_1209"
+	history = {
+		owner = MON
+		add_core_of = MON
+	}
+	provinces={
+		1689 4777 7773 7799 10539 10563 10669 10695 12520 12544 12695 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=1020
+	name="STATE_1020"
+	history={
+		owner = ASA
+		add_core_of = ASA
+	}
+	provinces={
+		2090 5006 8030 8060 10786 10870 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

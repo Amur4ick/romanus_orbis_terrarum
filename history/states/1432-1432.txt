@@ -1,0 +1,13 @@
+state={
+	id=1432
+	name="STATE_1432"
+	history={
+		owner = TSA
+		add_core_of = TSA
+	}
+	provinces={
+		2111 2142 2204 5148 8175 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=1392
+	name="STATE_1392"
+	history = {
+		owner = APA
+		add_core_of = APA
+	}
+	provinces={
+		3867 3883 4975 8070 12791 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

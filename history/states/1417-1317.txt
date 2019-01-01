@@ -1,0 +1,13 @@
+state={
+	id=1417
+	name="STATE_1417"
+	history = {
+		owner = OCD
+		add_core_of = OCD
+	}
+	provinces={
+		986 3784 3840 6861 6881 11876 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

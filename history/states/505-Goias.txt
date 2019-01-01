@@ -1,0 +1,22 @@
+
+state={
+	id=505
+	name="STATE_505"
+
+	history={
+		owner = TXC
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = TXC
+
+	}
+
+	provinces={
+		2168 5151 5208 12959 
+	}
+	manpower=1662200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

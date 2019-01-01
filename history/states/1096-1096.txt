@@ -1,0 +1,13 @@
+state={
+	id=1096
+	name="STATE_1096"
+	history={
+		owner = DEL
+		add_core_of = DEL
+	}
+	provinces={
+		1510 7497 8120 10332 12375 12480 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

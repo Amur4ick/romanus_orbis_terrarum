@@ -1,0 +1,25 @@
+
+state={
+	id=729
+	name="STATE_729"
+
+	history={
+		owner = GND
+		add_core_of = GND
+		victory_points = {
+			4189 1 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		1047 4189 7152 
+	}
+	manpower=157805
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

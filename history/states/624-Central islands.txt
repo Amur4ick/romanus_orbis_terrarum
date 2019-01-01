@@ -1,0 +1,25 @@
+
+state={
+	id=624
+	name="STATE_624"
+
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			4288 1 
+		}
+
+	}
+
+	provinces={
+		1368 4288 7423 10272 10302 
+	}
+	manpower=1290672
+	buildings_max_level_factor=1.000
+	state_category=town
+}

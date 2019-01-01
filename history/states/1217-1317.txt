@@ -1,0 +1,13 @@
+state={
+	id=1217
+	name="STATE_1217"
+	history = {
+		owner = TOK
+		add_core_of = TOK
+	}
+	provinces={
+		7087 7157 10100 12072 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

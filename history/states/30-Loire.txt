@@ -8,9 +8,8 @@ state={
 
 	history={
 		owner = BRI
-		victory_points = {
-			11465 5
-		}
+		
+		victory_points = { 11465 5 }
 		
 		buildings = {
 			infrastructure = 7

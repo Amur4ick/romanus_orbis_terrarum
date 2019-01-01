@@ -1,0 +1,22 @@
+
+state={
+	id=616
+	name="STATE_616"
+
+	history={
+		owner = GAN
+		add_core_of = GAN
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		517 556 1647 1933 1985 5025 6638 10733 12156 
+	}
+	manpower=2077600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

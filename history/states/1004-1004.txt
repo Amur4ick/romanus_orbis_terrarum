@@ -1,0 +1,13 @@
+state={
+	id=1004
+	name="STATE_1004"
+	history = {
+		owner = MAU
+		add_core_of = MAU
+	}
+	provinces={
+		1145 4046 4131 7166 11939 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

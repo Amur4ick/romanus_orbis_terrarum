@@ -1,0 +1,32 @@
+
+state={
+	id=540
+	name="STATE_540"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = HEG
+		add_core_of = HEG
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			8248 1 
+		}
+		victory_points = {
+			10966 1 
+		}
+		#add_core_of = BSQ
+
+	}
+
+	provinces={
+		5158 8138 8202 10966 12958 12985 
+	}
+	manpower=3225000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

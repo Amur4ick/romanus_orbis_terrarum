@@ -1,0 +1,22 @@
+
+state={
+	id=587
+	name="STATE_587"
+
+	history={
+		owner = KIP
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = KIP
+
+	}
+
+	provinces={
+		475 642 1721 10131 10262 12163 12233 12474 13008 
+	}
+	manpower=245133
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,13 @@
+state={
+	id=1034
+	name="STATE_1034"
+	history = {
+		owner = ALB
+		add_core_of = ALB
+	}
+	provinces={
+		4473 4901 10454 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

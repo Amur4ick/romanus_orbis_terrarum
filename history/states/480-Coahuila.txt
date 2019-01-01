@@ -1,0 +1,29 @@
+
+state={
+	id=480
+	name="STATE_480"
+	resources={
+		oil=37.000
+	}
+
+	history={
+		owner = NIB
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = NIB
+		victory_points = {
+			12835 1 
+		}
+
+	}
+
+	provinces={
+		2104 8003 10746 10800 10830 10916 12850 12897 
+	}
+	manpower=827826
+	buildings_max_level_factor=1.000
+	state_category=town
+}

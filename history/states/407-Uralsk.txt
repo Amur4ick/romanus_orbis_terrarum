@@ -1,0 +1,22 @@
+
+state={
+	id=407
+	name="STATE_407"
+
+	history={
+		owner = KIP
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = KIP
+
+	}
+
+	provinces={
+		470 545 3404 3406 3467 3538 6486 6491 6516 6525 6541 6551 6564 6588 9455 9487 9513 9538 9549 11457 11472 11473 11537 11538 
+	}
+	manpower=268572
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

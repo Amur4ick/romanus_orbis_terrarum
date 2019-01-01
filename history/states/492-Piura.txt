@@ -1,0 +1,31 @@
+
+state={
+	id=492
+	name="STATE_492"
+	resources={
+		tungsten=2.000
+	}
+
+	history={
+		owner = ANT
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = ANT
+		add_core_of = ALE
+		victory_points = {
+			2210 1 
+		}
+
+	}
+
+	provinces={
+		2210 5131 5202 8217 8231 12994 13086 
+	}
+	manpower=1601278
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

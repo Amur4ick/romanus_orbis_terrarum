@@ -1,0 +1,26 @@
+
+state={
+	id=470
+	name="STATE_470"
+
+	history={
+		owner = CRI
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			3010 3 
+		}
+		add_core_of = CRI
+
+	}
+
+	provinces={
+		515 4739 6726 7787 9669 10684 11440 
+	}
+	manpower=690800
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

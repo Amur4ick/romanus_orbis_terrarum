@@ -1,0 +1,13 @@
+state={
+	id=1253
+	name="STATE_1253"
+	history = {
+		owner = AUR
+		add_core_of = AUR
+	}
+	provinces={
+		5013 8122 10803 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=1049
+	name="STATE_1049"
+	history = {
+		owner = KIP
+		add_core_of = KIP
+	}
+	provinces={
+		4674 4867 7784 10584 10680 12564 12635 12662 13149 13151 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

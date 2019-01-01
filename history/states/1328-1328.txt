@@ -1,0 +1,13 @@
+state={
+	id=1328
+	name="STATE_1328"
+	history = {
+		owner = DLW
+		add_core_of = DLW
+	}
+	provinces={
+		3824 6869 9820 11785 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

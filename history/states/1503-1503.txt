@@ -1,0 +1,13 @@
+state={
+	id=1503
+	name="STATE_1503"
+	history={
+		owner = ENA
+		add_core_of = ENA
+	}
+	provinces={
+		1222 1242 5135 10954 11018 12428 12931 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

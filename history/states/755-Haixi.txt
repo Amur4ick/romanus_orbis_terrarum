@@ -1,0 +1,23 @@
+
+state={
+	id=755
+	name="STATE_755"
+
+	history={
+		owner = GAN
+		add_core_of = GAN
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1630 2053 2099 3742 5057 5100 7511 8127 12327 12732 12776 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

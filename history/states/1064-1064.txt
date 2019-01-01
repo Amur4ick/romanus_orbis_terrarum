@@ -1,0 +1,13 @@
+state={
+	id=1064
+	name="STATE_1064"
+	history={
+		owner = KSH
+		add_core_of = KSH
+	}
+	provinces={
+		7106 9084 10887 12754 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

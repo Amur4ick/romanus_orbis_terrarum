@@ -1,0 +1,22 @@
+
+state={
+	id=483
+	name="STATE_483"
+
+	history={
+		owner = NIB
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = NIB
+
+	}
+
+	provinces={
+		1945 4898 4977 7935 8033 
+	}
+	manpower=303987
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=481
+	name="STATE_481"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = NIB
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = NIB
+
+	}
+
+	provinces={
+		4946 7921 8057 10871 10895 
+	}
+	manpower=1255094
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

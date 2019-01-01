@@ -1,0 +1,31 @@
+
+state={
+	id=276
+	name="STATE_276"
+
+	history={
+		owner = IRO
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 5
+
+		}
+		add_core_of = IRO
+		victory_points = {
+			3778 20 
+		}
+		victory_points = {
+			3775 10 
+		}
+
+	}
+
+	provinces={
+		722 6610 9667 9711 9743 11725 13154 
+	}
+	manpower=3117017
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

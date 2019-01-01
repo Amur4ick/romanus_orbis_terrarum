@@ -1,5 +1,7 @@
 ﻿capital = 206 #Minsk
 
+set_cosmetic_tag = SPQ_central_province
+
 oob = "BLR_1936"
 
 set_research_slots = 3
@@ -7,7 +9,7 @@ set_research_slots = 3
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantry_weapons_2 = 1
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
@@ -53,13 +55,50 @@ add_to_faction = CAS
 add_to_faction = SIC
 add_to_faction = DLM
 
+add_to_faction = AUR
+add_to_faction = MER
+add_to_faction = GUJ
+add_to_faction = HAI
+add_to_faction = AUG
+add_to_faction = OCC
+add_to_faction = MAS
+
+set_autonomy = {
+    target = AUR
+    autonomy_state = autonomy_colony
+}
+set_autonomy = {
+    target = MER
+    autonomy_state = autonomy_colony
+}
+set_autonomy = {
+    target = GUJ
+    autonomy_state = autonomy_colony
+}
+set_autonomy = {
+    target = HAI
+    autonomy_state = autonomy_colony
+}
+set_autonomy = {
+    target = AUG
+    autonomy_state = autonomy_colony
+}
+set_autonomy = {
+    target = OCC
+    autonomy_state = autonomy_colony
+}
+set_autonomy = {
+    target = MAS
+    autonomy_state = autonomy_colony
+}
+
 set_autonomy = {
     target = BTC
     autonomy_state = roman_province
 }
 set_autonomy = {
     target = MAU
-    autonomy_state = roman_protectorate
+    autonomy_state = roman_province
 }
 set_autonomy = {
     target = NRB
@@ -123,7 +162,7 @@ set_politics = {
 create_country_leader = {
     name = "Vergilius Antonius"
     desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+    picture = "gfx/leaders/SPQ/SPQ_Vergilius.dds"
     expire = "1965.1.1"
     ideology = passionism_ideology
     traits = {

@@ -1,0 +1,23 @@
+
+state={
+	id=514
+	name="STATE_514"
+	impassable = yes
+
+	history={
+		owner = CAR
+		add_core_of = CAR
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		10731 12711 13229 13235 
+	}
+	manpower=207733
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

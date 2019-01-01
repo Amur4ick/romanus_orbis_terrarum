@@ -1,0 +1,13 @@
+state={
+	id=1276
+	name="STATE_1276"
+	history = {
+		owner = LUB
+		add_core_of = LUB
+	}
+	provinces={
+		1950 7161 8048 10766 10858 13255 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

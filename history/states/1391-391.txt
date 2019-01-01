@@ -1,0 +1,13 @@
+state={
+	id=1391
+	name="STATE_1391"
+	history = {
+		owner = KIO
+		add_core_of = KIO
+	}
+	provinces={
+		2055 4586 7762 9908 10340 12624 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

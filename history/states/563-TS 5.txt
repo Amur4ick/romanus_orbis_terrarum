@@ -1,0 +1,27 @@
+
+state={
+	id=563
+	name="STATE_563"
+	resources={
+		steel=9.000
+		chromium=8.000
+	}
+
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+
+		}
+		add_core_of = HUN
+
+	}
+
+	provinces={
+		1826 4832 10574 10643 12556 12641 
+	}
+	manpower=1044310
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

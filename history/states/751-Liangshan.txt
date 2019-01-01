@@ -1,0 +1,30 @@
+
+state={
+	id=751
+	name="STATE_751"
+
+	history={
+		owner = SCH
+		add_core_of = SCH
+		buildings = {
+			infrastructure = 1
+
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+				infrastructure = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1918 2067 4999 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

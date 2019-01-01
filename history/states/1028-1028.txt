@@ -1,0 +1,13 @@
+state={
+	id=1028
+	name="STATE_1028"
+	history={
+		owner = BAG
+		add_core_of = BAG
+	}
+	provinces={
+		12413 12839 13239
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

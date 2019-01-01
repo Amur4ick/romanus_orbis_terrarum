@@ -1,0 +1,13 @@
+state={
+	id=1456
+	name="STATE_1456"
+	history={
+		owner = MAP
+		add_core_of = MAP
+	}
+	provinces={
+		2199 8161 8192 10981 11005 12306 12349 12982 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

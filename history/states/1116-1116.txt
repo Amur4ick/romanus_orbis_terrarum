@@ -1,0 +1,13 @@
+state={
+	id=1116
+	name="STATE_1116"
+	history={
+		owner = MIA
+		add_core_of = MIA
+	}
+	provinces={
+		1607 4585 4626 4654 7441 7603 12256 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

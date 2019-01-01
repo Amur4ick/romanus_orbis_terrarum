@@ -1,0 +1,22 @@
+
+state={
+	id=441
+	name="STATE_441"
+
+	history={
+		owner = KSH
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = KSH
+
+	}
+
+	provinces={
+		1910 2041 2084 4558 10905 12763 
+	}
+	manpower=3539500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

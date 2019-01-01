@@ -1,0 +1,13 @@
+state={
+	id=1281
+	name="STATE_1281"
+	history = {
+		owner = CNG
+		add_core_of = CNG
+	}
+	provinces={
+		8219 8248 12925 12981 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

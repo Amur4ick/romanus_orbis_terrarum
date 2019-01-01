@@ -1,0 +1,26 @@
+
+state={
+	id=392
+	name="STATE_392"
+
+	history={
+		owner = DAK
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+
+		}
+		add_core_of = DAK
+		victory_points = {
+			1770 3 
+		}
+
+	}
+
+	provinces={
+		1678 9892 10333 10391 10516 
+	}
+	manpower=2470938
+	buildings_max_level_factor=1.000
+	state_category=city
+}

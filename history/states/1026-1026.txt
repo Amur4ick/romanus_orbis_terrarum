@@ -1,0 +1,13 @@
+state={
+	id=1026
+	name="STATE_1026"
+	history={
+		owner = SYR
+		add_core_of = SYR
+	}
+	provinces={
+		1606 6883 9823 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=1435
+	name="STATE_1435"
+	history={
+		owner = TXC
+		add_core_of = TXC
+	}
+	provinces={
+		2190 2218 5174 8129 8233 10931 13277 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=1069
+	name="STATE_1069"
+	history={
+		owner = BER
+		add_core_of = BER
+	}
+	provinces={
+		1949 2092 2105 4106 7080 10816 11995 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

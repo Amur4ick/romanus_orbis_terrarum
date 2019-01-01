@@ -1,0 +1,13 @@
+state={
+	id=1386
+	name="STATE_1386"
+	history = {
+		owner = DAK
+		add_core_of = DAK
+	}
+	provinces={
+		1719 1866 6752 6827 9880 10618 10719 12550 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}
