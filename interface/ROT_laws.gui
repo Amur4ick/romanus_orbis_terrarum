@@ -1,0 +1,67 @@
+guiTypes = {
+	
+	containerWindowType = {
+		name = "ROT_laws_window"
+		position = { x = 0 y = 450 }
+		size = { width=100%% height=100%% }
+		verticalScrollbar = "right_vertical_slider"
+		margin = { top = 13 bottom = 13 left = 13 right = 24 }
+		#clipping = yes
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window2_1b_border"
+		}
+		
+		
+		iconType = {
+			name = "parlament_bg_picture"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_par_bg_picture"
+		}
+		
+		buttonType = {
+			name = "laws_gov_form_button"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_focus_can_start"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "gov_form_button_text"
+			
+			#pdx_tooltip = "PAR_DISSOLVE_TOOLTIP"
+            #pdx_tooltip_delayed = "PAR_DISSOLVE_TOOLTIP_DELAYED"
+		}
+		
+		buttonType = {
+			name = "laws_adm_form_button"
+			position = { x = 10 y = 70 }
+			quadTextureSprite = "GFX_focus_can_start"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "gov_adm_button_text"
+			
+			#pdx_tooltip = "PAR_DISSOLVE_TOOLTIP"
+            #pdx_tooltip_delayed = "PAR_DISSOLVE_TOOLTIP_DELAYED"
+		}
+		
+		buttonType = {
+			name = "laws_regime_button"
+			position = { x = 10 y = 130 }
+			quadTextureSprite = "GFX_focus_can_start"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "regime_button_text"
+			
+			#pdx_tooltip = "PAR_DISSOLVE_TOOLTIP"
+            #pdx_tooltip_delayed = "PAR_DISSOLVE_TOOLTIP_DELAYED"
+		}
+		
+		#background = {
+		#	name = "par_empty_bg"
+		#	quadTextureSprite ="GFX_par_empty_bg"
+		#}
+		
+		
+		
+	}
+}

@@ -1,0 +1,23 @@
+scripted_gui = {
+	
+	laws_window_gui = {
+	
+		context_type = player_context
+		window_name = "ROT_laws_window"
+		parent_window_token = politics_tab 
+		
+		visible = {
+			check_variable = { show_parlament_window = 2 }
+		}
+		
+		effects = {
+			
+		}
+		
+		triggers = {
+			
+		}
+		
+	}
+	
+}

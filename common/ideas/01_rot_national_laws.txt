@@ -1,0 +1,114 @@
+ideas = {
+
+	national_laws = { 
+		law = yes
+		
+		internationalism = {
+		
+			available = {
+				always = no	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.15
+				stability_factor = 0.15
+				research_time_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		multiculturalism = {
+		
+			available = {
+				always = no	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+			
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		nationalism = {
+		
+			available = {
+				always = no	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		altiorism = {
+		
+			available = {
+				always = no	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+	}
+}
