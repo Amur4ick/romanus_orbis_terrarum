@@ -8,12 +8,9 @@ state={
 
 	history={
 		owner = DUN
-		victory_points = {
-			11666 30.0 
-		}
-		victory_points = {
-			9648 5 
-		}
+		
+		victory_points = { 11666 5 }
+		
 		buildings = {
 			infrastructure = 7
 			arms_factory = 3

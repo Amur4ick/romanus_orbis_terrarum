@@ -2,13 +2,16 @@ state={
 	id=1234
 	name="STATE_1234"
 	impassable = yes
-	history = {
+
+	history={
 		owner = ROM
-		#add_core_of = ROM
+
 	}
+
 	provinces={
-		1994 4191 7987 12022 
+		1994 12022 
 	}
-	manpower=1000 state_category = town
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=town
 }

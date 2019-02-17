@@ -1,5 +1,10 @@
 spriteTypes = {
 
+	spriteType = {
+		name = "GFX_chart_explanation_bg"
+		textureFile = "gfx//interface//chart_explanation_bg.dds"
+	}
+
 	#Autonomy Stuff
 
 	spriteType = {

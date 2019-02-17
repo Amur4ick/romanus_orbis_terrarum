@@ -1,4 +1,4 @@
-﻿capital = 206 #Minsk
+﻿random_owned_state = { ROOT = { set_capital = PREV } } #Minsk
 
 oob = "BLR_1936"
 
@@ -63,6 +63,14 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+create_faction = medina_alliance
+add_to_faction = HIM
+add_to_faction = OMA
+add_to_faction = ASA
+add_to_faction = BAS
+add_to_faction = BAG
+add_to_faction = JUD
 
 create_country_leader = {
     name = "No Name"

@@ -6,9 +6,9 @@ state={
 	history={
 		owner = CAS
 		add_core_of = CAS
-		victory_points = {
-			11773 3 
-		}
+		
+		victory_points = { 11773 5 }
+		
 		buildings = {
 			infrastructure = 5
 			arms_factory = 0

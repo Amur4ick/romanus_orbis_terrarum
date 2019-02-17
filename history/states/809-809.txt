@@ -4,6 +4,8 @@ state={
 	history = {
 		owner = SPQ
 		add_core_of = SPQ
+		
+		victory_points = { 9584 5 }
 	}
 	provinces={
 		607 3641 3780 9584 9600 

@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = TOK
-		add_core_of = TOK
+		owner = ETG
+		add_core_of = ETG
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 2
@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		998 7187 7217 10015 10032 
+		998 7217 10015 10032 
 	}
 	manpower=3871000
 	buildings_max_level_factor=1.000

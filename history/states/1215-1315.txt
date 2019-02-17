@@ -2,11 +2,11 @@ state={
 	id=1215
 	name="STATE_1215"
 	history = {
-		owner = AND
-		add_core_of = AND
+		owner = ETG
+		add_core_of = ETG
 	}
 	provinces={
-		1063 4067 4153 11930 
+		4067 4153 11930 
 	}
 	manpower=1000 state_category = town
 	buildings_max_level_factor=1.000

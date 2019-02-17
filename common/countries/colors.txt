@@ -444,23 +444,22 @@ FER = {
 	color = rgb { 85 110 125 }
 	color_ui = rgb { 85 110 125 }
 }
-AIN = {
+
+
+
+EDZ = {
 	color = rgb { 175 155 130 }
 	color_ui = rgb { 175 155 130 }
 }
-NAN = {
+MUT = {
 	color = rgb { 95 165 185 }
 	color_ui = rgb { 95 165 185 }
 }
-AND = {
+ETG = {
 	color = rgb { 200 85 85 }
 	color_ui = rgb { 200 85 85 }
 }
-UES = {
-	color = rgb { 160 150 180 }
-	color_ui = rgb { 160 150 180 }
-}
-EDO = {
+AIZ = {
 	color = rgb { 160 30 65 }
 	color_ui = rgb { 160 30 65 }
 }
@@ -468,19 +467,15 @@ TOK = {
 	color = rgb { 25 110 155 }
 	color_ui = rgb { 25 110 155 }
 }
-HOS = {
+TOS = {
 	color = rgb { 75 150 100 }
 	color_ui = rgb { 75 150 100 }
 }
-YAM = {
-	color = rgb { 130 75 130 }
-	color_ui = rgb { 130 75 130 }
-}
-MOR = {
+TES = {
 	color = rgb { 130 185 60 }
 	color_ui = rgb { 130 185 60 }
 }
-ITO = {
+OTO = {
 	color = rgb { 140 145 150 }
 	color_ui = rgb { 140 145 150 }
 }

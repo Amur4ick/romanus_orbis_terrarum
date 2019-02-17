@@ -8,12 +8,6 @@ state=
 	history=
 	{
 		owner = JIN
-		buildings = {
-			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 3
-			air_base = 6
-		}
 		victory_points = {
 			10265 15 
 		}

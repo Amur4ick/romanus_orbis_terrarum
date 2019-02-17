@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = ITO
-		add_core_of = ITO
+		owner = OTO
+		add_core_of = OTO
 		buildings = {
 			infrastructure = 7
 			air_base = 3

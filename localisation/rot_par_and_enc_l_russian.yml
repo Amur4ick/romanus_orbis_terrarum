@@ -1,38 +1,36 @@
 ﻿l_russian:
 
  ### ПАРЛАМЕНТ
- 
+ laws_button_text:0 "Парламент"
  parlament_button_text:0 "Парламент"
- parlament_clear_text:0 ""
+ 
+ PARLAMENT_TEXT:0 "Парламент\nЗаполнено мест: §Y[?aligned_par]/200§!"
+ PAR_CONVENE_DAYS_TEXT:0 "\nСледующие выборы:\nчерез §Y[?par_convene_days]§! дней"
  
  ROT_parlament_title:0 "Парламент"
- PARLAMENT_SEATS_TITLE:0 "Распределение мест в парламенте"
- PARLAMENT_BANNED_TITLE:0 "Запрещённые партии"
  
- FULL_BANNED:0 "§R[GetLibertatismBanned][GetVemosismBanned][GetSociarchismBanned][GetEleftherismBanned][GetPassionismBanned][GetViatirismBanned][GetGentemismBanned][GetNeoOligarchismBanned]§!"
+ RULING_PARTY_TEXT:0 "Правящая партия: §Y[GetRotRulingPartyName]§!\nЛидер партии: §Y[GetRotRulingPartyLeader]§!\nИдеология: §Y[GetRotRulingPartyIdeology]§!\nМест в парламенте: §G[GetRotRulingPartySeats]§!"
  
- FULL_PARLAMENT:0 "[GetLibertatismParlament][GetVemosismParlament][GetSociarchismParlament][GetEleftherismParlament][GetPassionismParlament][GetViatirismParlament][GetGentemismParlament][GetNeoOligarchismParlament][GetNonAlignedParlament]"
+ L_PAR_TEXT:0 "[GetLibertatismParty] : [GetLPartyBanned]"
+ V_PAR_TEXT:0 "[GetVemosismParty] : [GetVPartyBanned]"
+ S_PAR_TEXT:0 "[GetSociarchismParty] : [GetSPartyBanned]"
+ E_PAR_TEXT:0 "[GetEleftherismParty] : [GetEPartyBanned]"
+ G_PAR_TEXT:0 "[GetGentemismParty] : [GetGPartyBanned]"
+ O_PAR_TEXT:0 "[GetNeoOligarchismParty] : [GetOPartyBanned]"
+ P_PAR_TEXT:0 "[GetPassionismParty] : [GetPPartyBanned]"
+ C_PAR_TEXT:0 "[GetViatirismParty] : [GetCPartyBanned]"
+ NA_PAR_TEXT:0 "Беспартийные : §Y[?aligned_par]/200§!"
  
- ruling_party_parlament_info:0 "Правящая партия: §Y[GetRotRulingPartyName]§!\nЛидер партии: §Y[GetRotRulingPartyLeader]§!\nИдеология: §Y[GetRotRulingPartyIdeology]§!\nМест в парламенте: §G[GetRotRulingPartySeats]§!"
+ par_party_banned:0 "§RПартия под запретом§!"
  
- libertatism_parlament:0 "§Y[GetLibertatismParty]§!\nМест в парламенте: §G[?libertatism_par]/200§!\n"
- vemosism_parlament:0 "§Y[GetVemosismParty]§!\nМест в парламенте: §G[?vemosism_par]/200§!\n"
- sociarchism_parlament:0 "§Y[GetSociarchismParty]§!\nМест в парламенте: §G[?sociarchism_par]/200§!\n"
- eleftherism_parlament:0 "§Y[GetEleftherismParty]§!\nМест в парламенте: §G[?eleftherism_par]/200§!\n"
- passionism_parlament:0 "§Y[GetPassionismParty]§!\nМест в парламенте: §G[?passionism_par]/200§!\n"
- viatirism_parlament:0 "§Y[GetViatirismParty]§!\nМест в парламенте: §G[?viatirism_par]/200§!\n"
- gentemism_parlament:0 "§Y[GetGentemismParty]§!\nМест в парламенте: §G[?gentemism_par]/200§!\n"
- neo_oligarchism_parlament:0 "§Y[GetNeoOligarchismParty]§!\nМест в парламенте: §G[?neo_oligarchism_par]/200§!\n"
- non_aligned_parlament:0 "§YБеспартийные§!\nМест в парламенте: §G[?non_aligned_par]/200§!\n"
- 
- libertatism_banned:0 "[GetLibertatismParty]\n"
- vemosism_banned:0 "[GetVemosismParty]\n"
- sociarchism_banned:0 "[GetSociarchismParty]\n"
- eleftherism_banned:0 "[GetEleftherismParty]\n"
- passionism_banned:0 "[GetPassionismParty]\n"
- viatirism_banned:0 "[GetViatirismParty]\n"
- gentemism_banned:0 "[GetGentemismParty]\n"
- neo_oligarchism_banned:0 "[GetNeoOligarchismParty]\n"
+ libertatism_not_banned:0 "§Y[?libertatism_par]/200§!"
+ vemosism_not_banned:0 "§Y[?vemosism_par]/200§!"
+ sociarchism_not_banned:0 "§Y[?sociarchism_par]/200§!"
+ eleftherism_not_banned:0 "§Y[?eleftherism_par]/200§!"
+ passionism_not_banned:0 "§Y[?passionism_par]/200§!"
+ viatirism_not_banned:0 "§Y[?viatirism_par]/200§!"
+ gentemism_not_banned:0 "§Y[?gentemism_par]/200§!"
+ neo_oligarchism_not_banned:0 "§Y[?neo_oligarchism_par]/200§!"
  
  SPQ_parlament_name:0 "Римский сенат"
  GAL_parlament_name:0 "Верховный парламент Галлии"
@@ -55,15 +53,43 @@
  gentemism_ruling_party:0 "[GetGentemismParty]"
  neo_oligarchism_ruling_party:0 "[GetNeoOligarchismParty]"
  
+ par_convene_button_text:0 "Созвать парламент"
+ par_dissolve_button_text:0 "Распустить парламент"
+ PAR_DISSOLVE_TOOLTIP:0 "§YРаспустить парламент§!\nТребуется:\n  £pol_power §Y150§! , если §Yзаполненных мест§! больше или равно §Y150§!.\n  £pol_power §Y100§! , если §Yзаполненных мест§! меньше §Y150§!.\n  Парламент созван."
+ PAR_CONVENE_TOOLTIP:0 "§YСозвать парламент§!\nТребуется:\n  Парламен распущен или заполненных мест §Y0§!."
+ PAR_DISSOLVE_TOOLTIP_DELAYED:0 "После нажатия парламент будет распущен, а количество заполненных мест в парламенте будет равно нулю."
+ PAR_CONVENE_TOOLTIP_DELAYED:0 "После нажатия парламент будет вновь созван, разрешенные партии получат места в парламенте прямо пропорционально их популярности."
+ 
+ PARTY_UNBAN_TOOLTIP:0 "§YСнять запрет с партии§!\nТребуется:\n  Партия запрещена.\n  £pol_power §Y50§! очков политической власти."
+ PARTY_UNBAN_TOOLTIP_DELAYED:0 "После нажатия будет снят запрет с выбранной партии и она получит право участвовать в выборах и заседать в парламенте."
+ PARTY_BAN_TOOLTIP:0 "§YЗапретить партию§!\nТребуется:\n  Партия не запрещена.\n  Партия не является правящей.\n  £pol_power §Y100§! очков политической власти."
+ PARTY_BAN_TOOLTIP_DELAYED:0 "После нажатия партия будет запрещена. Она не сможет участвовать в выборах и заседать в парламенте. Если партия имела места в парламенте, то они станут незаполненными."
+ 
  encyclopedia_button_text:0 "Информация"
  
  info_lore_button_text:0 "История"
  info_countries_button_text:0 "Страны"
  info_ideologies_button_text:0 "Идеологии"
  
- one_party_system:0 "Однопартийная система"
- multiparty_system:0 "Многопартийная система"
- party_system:0 "Партийная система"
+ 
+ 
+ par.1.t:0 "Выборы через месяц"
+ par.1.d:0 "Вся страна в ожидании грядущих выборов в парламент. По заверению правительства, они должны пройти через месяц."
+ par.1.a:0 "Нужно начинать подготовку."
+ 
+ par.2.t:0 "Выборы через неделю"
+ par.2.d:0 "Осталасть всего лишь неделя до предстоящих выборов. В течение этой недели партии будут проводить активную агитацию."
+ par.2.a:0 "Уже скоро..."
+ 
+ par.3.t:0 "Выборы в парламент"
+ par.3.d:0 "Настал день голосования. Выборщики готовы сделать свой вывбор, а партии с нетерпением ждут результатов."
+ par.3.a:0 "Начнем выборы!"
+ par.3.b:0 "Отложим их на неделю."
+ par.3.c:0 "Отложим их на месяц."
+ 
+ par_elections_tooltip:0 "Пройдут выборы в парламент"
+ par_elections_week_tooltip:0 "Выборы будут отложены на неделю"
+ par_elections_mounth_tooltip:0 "Выборы будут отложены на месяц"
  
  ### ЗАКОНЫ
  

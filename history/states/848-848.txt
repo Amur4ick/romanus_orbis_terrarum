@@ -4,6 +4,8 @@ state={
 	history = {
 		owner = DUN
 		add_core_of = DUN
+		
+		victory_points = { 688 5 }
 	}
 	provinces={
 		668 688 707 3675 3688 11634 

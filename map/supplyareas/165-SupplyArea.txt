@@ -1,0 +1,9 @@
+
+supply_area={
+	id=165
+	name="SUPPLYAREA_165"
+	value=11
+	states={
+		1335 368 1336 1352 1366 1369 1368 362 369 1367 
+	}
+}

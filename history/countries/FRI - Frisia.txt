@@ -1,4 +1,4 @@
-﻿capital = 206 #Minsk
+﻿random_owned_state = { ROOT = { set_capital = PREV } } #Minsk
 
 set_cosmetic_tag = GER_duchy
 set_country_flag = german_duchy_state

@@ -2,13 +2,17 @@ state={
 	id=1256
 	name="STATE_1256"
 	impassable = yes
-	history = {
+
+	history={
 		owner = DAR
 		add_core_of = DAR
+
 	}
+
 	provinces={
-		4902 8103 
+		4191 4902 7987 8103 
 	}
-	manpower=1000 state_category = town
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=town
 }

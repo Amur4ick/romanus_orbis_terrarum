@@ -1,0 +1,94 @@
+﻿l_russian:
+
+ state_form:0 "Состояние государства"
+ government_form:0 "Форма правления"
+ territory_form:0 "Форма устройства"
+ regime:0 "Политический режим"
+ country_level:0 "Мировой статус"
+ country_development:0 "Степень развития"
+ political_crisis:0 "Политическая обстановка"
+ 
+ main_laws:0 "Основные законы"
+ mobilization_laws:0 "Законы о призыве"
+ border_laws:0 "Законы о миграции"
+ censoure_laws:0 "Законы о прессе"
+ party_system:0 "Партийная система"
+ religion_laws:0 "Религиозная политика"
+ national_laws:0 "Национальная политика"
+ 
+ cabinet_of_ministers:0 "Кабинет министров"
+ head_of_government:0 "Глава правительства"
+ minister_security:0 "Министр внутренних дел"
+ minister_social:0 "Министр общественных дел"
+ minister_economy:0 "Министр экономики"
+ minister_diplomacy:0 "Министр внешней политики"
+ minister_army:0 "Министр обороны"
+ 
+ 
+ 
+ ##### Состояние государства
+ 
+ imperial_monarchy:0 "Имперская монархия"
+ limited_monarchy:0 "Ограниченная монархия"
+ classic_republic:0 "Классическая республика"
+ parlament_republic:0 "Парламентская республика"
+ tribe_republic:0 "Племенная республика"
+ tribe_monarchy:0 "Племенная монархия"
+ 
+ confederation:0 "Конфедерация"
+ federation:0 "Федерация"
+ unitary:0 "Унитарное государство"
+ polys:0 "Полис"
+ tribal_federation:0 "Племенная федерация"
+ tribe:0 "Племя"
+ 
+ totalitarian:0 "Тоталитаризм"
+ authoritarian:0 "Авторитаризм"
+ classic_democracy:0 "Классическая демократия"
+ worker_democracy:0 "Рабочая демократия"
+ 
+ super_empire_state:0 "Сверхдержава"
+ empire_state:0 "Великая держава"
+ powerful_state:0 "Сильное государство"
+ normal_state:0 "Обычное государство"
+ week_state:0 "Слабое государство"
+ dependent_state:0 "Зависимое государство"
+ 
+ modern_state:0 "Развитое государство"
+ developing_state:0 "Развивающееся государство"
+ undeveloped_state:0 "Неразвитое государство"
+ 
+ stability:0 "Стабильность"
+ low_stability:0 "Низкая стабильность"
+ political_crisis:0 "Политический кризис"
+ revolution:0 "Революция"
+ civil_war:0 "Гражданская война"
+ 
+ 
+ 
+ ##### Основыне законы
+ 
+ closed_borders:0 "Закрытые границы"
+ limited_borders:0 "Огранченное перемещение"
+ normal_borders:0 "Обычные границы"
+ open_borders:0 "Открытые границы"
+ 
+ smi_state:0 "Государственная пресса"
+ smi_ideological:0 "Про-идеологическая пресса"
+ smi_limited:0 "Ограниченная пресса"
+ smi_free:0 "Свободная пресса"
+ 
+ one_party_system:0 "Однопартийная система"
+ multiparty_system:0 "Многопартийная система"
+ 
+ clerkalistion:0 "Клеркализация"
+ state_religion:0 "Государственная религия"
+ religion_pluralism:0 "Религиозный плюрализм"
+ atheism:0 "Атеизм"
+ 
+ internationalism:0 "Интернационализм"
+ multiculturalism:0 "Мультикультурализм"
+ nationalism:0 "Национализм"
+ altiorism:0 "Альтиоризм"
+ 
+ 

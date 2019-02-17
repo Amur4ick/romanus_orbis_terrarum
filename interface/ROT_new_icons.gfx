@@ -45,4 +45,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/government_control_icon.dds"
 	}
 	
+	
+	
+	spriteType = {
+		name = "GFX_par_parties_lines_bg"
+		texturefile = "gfx/interface/new_icons/par_parties_lines_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_accept_button_31x31"
+		texturefile = "gfx/interface/new_icons/accept_button_31x31.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decline_button_31x31"
+		texturefile = "gfx/interface/new_icons/decline_button_31x31.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_par_bg_picture"
+		textureFile = "gfx/interface/new_icons/par_bg_picture.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_par_empty_bg"
+		textureFile = "gfx/interface/new_icons/par_empty_bg.dds"
+	}
+	
 }

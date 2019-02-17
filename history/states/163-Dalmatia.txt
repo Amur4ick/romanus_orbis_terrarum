@@ -5,6 +5,11 @@ state={
 
 	history={
 		owner = DLM
+		
+		victory_points = { 3924 10 }
+		
+		victory_points = { 11816 5 }
+		
 		buildings = {
 			infrastructure = 5
 

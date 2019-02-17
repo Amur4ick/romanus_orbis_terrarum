@@ -12,9 +12,11 @@ state={
 
 	history={
 		owner = SPQ
-		victory_points = {
-			6606 3 
-		}
+		
+		victory_points = { 782 5 }
+		
+		victory_points = { 6606 5 }
+		
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 1

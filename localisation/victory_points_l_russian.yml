@@ -38,14 +38,6 @@
  VICTORY_POINTS_6766:0 "Тулуза"
  VICTORY_POINTS_11877:0 "Ним"
  
- # Приморские Альпы
- 
- VICTORY_POINTS_11834:0 "Марсель"
- 
- # Альпы
- 
- VICTORY_POINTS_9590:0 "Лугдон"
- 
  # Галлия
  
  VICTORY_POINTS_629:0 "Лемонум"
@@ -76,3 +68,75 @@
  # Фризия
  
  VICTORY_POINTS_11456:0 "Новиомагус"
+ 
+ # Приморские Альпы
+ 
+ VICTORY_POINTS_11834:0 "Марсель"
+ 
+ # Коттские Альпы
+ 
+ VICTORY_POINTS_3768:0 "Грацианополь"
+ 
+ # Пеннинские Альпы
+ 
+ VICTORY_POINTS_9590:0 "Лугдон"
+ VICTORY_POINTS_9622:0 "Авентик"
+ 
+ # Римская Республика
+ 
+ VICTORY_POINTS_9909:0 "Никея"
+ VICTORY_POINTS_6788:0 "Генуя"
+ VICTORY_POINTS_6790:0 "Пласентия"
+ VICTORY_POINTS_9584:0 "Милан"
+ VICTORY_POINTS_603:0 "Верона"
+ VICTORY_POINTS_11584:0 "Патавий"
+ VICTORY_POINTS_628:0 "Аквелий"
+ VICTORY_POINTS_782:0 "Равенна"
+ VICTORY_POINTS_6606:0 "Болонья"
+ VICTORY_POINTS_6946:0 "Пиза"
+ VICTORY_POINTS_9907:0 "Флоренсия"
+ VICTORY_POINTS_925:0 "Аскулий"
+ VICTORY_POINTS_6926:0 "Сполето"
+ VICTORY_POINTS_9904:0 "Рим"
+ VICTORY_POINTS_9826:0 "Капуя"
+ VICTORY_POINTS_819:0 "Неаполь"
+ VICTORY_POINTS_11837:0 "Таранто"
+ VICTORY_POINTS_9990:0 "Реджио"
+ 
+ # Сицилия
+ 
+ VICTORY_POINTS_4014:0 "Сиракузы"
+ VICTORY_POINTS_7147:0 "Агридженто"
+ VICTORY_POINTS_10074:0 "Панорм"
+ 
+ # Корсика и Сардиния
+ 
+ VICTORY_POINTS_11773:0 "Каралис"
+ VICTORY_POINTS_9772:0 "Торрес"
+ VICTORY_POINTS_9851:0 "Алерья"
+ 
+ # Далмация
+ 
+ VICTORY_POINTS_11564:0 "Тарсатика"
+ VICTORY_POINTS_3924:0 "Салона"
+ VICTORY_POINTS_11816:0 "Нарона"
+ 
+ # Иллирия
+ 
+ VICTORY_POINTS_3596:0 "Сисция"
+ VICTORY_POINTS_11741:0 "Аргентария"
+ VICTORY_POINTS_6634:0 "Виминаций"
+ VICTORY_POINTS_11887:0 "Найсос"
+ VICTORY_POINTS_9914:0 "Диррахий"
+ 
+ # Дунайская Федерация
+ 
+ VICTORY_POINTS_9596:0 "Эмона"
+ VICTORY_POINTS_665:0 "Питуй"
+ VICTORY_POINTS_3673:0 "Вирун"
+ VICTORY_POINTS_688:0 "Ювавум"
+ VICTORY_POINTS_9665:0 "Овилав"
+ VICTORY_POINTS_11666:0 "Виндобона"
+ VICTORY_POINTS_11663:0 "Аквинк"
+ VICTORY_POINTS_11577:0 "Сирмий"
+ VICTORY_POINTS_11580:0 "Сингидун"

@@ -7,17 +7,17 @@ state={
 	}
 
 	history={
-		owner = AIN
+		owner = HUN
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = AIN
+		add_core_of = HUN
 
 	}
 
 	provinces={
-		3664 4841 4844 7868 10571 12559 
+		3664 4844 7868 10571 12559 
 	}
 	manpower=97663
 	buildings_max_level_factor=1.000

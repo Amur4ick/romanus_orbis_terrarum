@@ -14,7 +14,10 @@ scripted_gui = {
 			parlament_button_click = {
 				if = {
 					limit = {
-						check_variable = { show_parlament_window = 1 }
+						#OR = {
+							check_variable = { show_parlament_window = 1 }
+							#check_variable = { show_parlament_window = 2 }
+						#}
 					}
 					set_variable = { show_parlament_window = 0 }
 				}
@@ -22,6 +25,41 @@ scripted_gui = {
 					set_variable = { show_parlament_window = 1 }
 				}
 			}
+				
+		}
+		
+		triggers = {
+			
+		}
+		
+	}
+	
+	laws_button_window_gui = {
+	
+		context_type = player_context
+		window_name = "ROT_laws_button_window"
+		parent_window_token = politics_tab 
+		
+		visible = {
+			always = yes
+		}
+		
+		effects = {
+			laws_button_click = {
+				if = {
+					limit = {
+						#OR = {
+							#check_variable = { show_parlament_window = 1 }
+							check_variable = { show_parlament_window = 2 }
+						#}
+					}
+					set_variable = { show_parlament_window = 0 }
+				}
+				else = {
+					set_variable = { show_parlament_window = 2 }
+				}
+			}
+				
 		}
 		
 		triggers = {
@@ -34,19 +72,252 @@ scripted_gui = {
 	
 		context_type = player_context
 		window_name = "ROT_parlament_window"
-		#parent_window_token = politics_tab 
+		parent_window_token = politics_tab 
 		
 		visible = {
 			check_variable = { show_parlament_window = 1 }
 		}
 		
 		effects = {
-			close_click = {
-				set_variable = { show_parlament_window = 0 }
+			par_dissolve_button_click = {
+				parlament_dissolve_scripted_effect = yes
+				if = {
+					limit = {
+						check_variable = { aligned_par > 149 }
+					}
+					add_political_power = -150
+				}
+				if = {
+					limit = {
+						check_variable = { aligned_par < 150 }
+					}
+					add_political_power = -100
+				}
+			}
+			par_convene_button_click = {
+				parlament_convened_scripted_effect = yes
+			}
+			
+			
+			
+			#close_click = {
+			#	set_variable = { show_parlament_window = 0 }
+			#}
+			
+			l_unban_button_click = {
+				add_political_power = -50
+				clr_country_flag = libertatism_banned
+				#custom_effect_tooltip = libertatism_banned_effect
+			}
+			v_unban_button_click = {
+				add_political_power = -50
+				clr_country_flag = vemosism_banned
+				#custom_effect_tooltip = vemosism_banned_effect
+			}
+			s_unban_button_click = {
+				add_political_power = -50
+				clr_country_flag = sociarchism_banned
+				#custom_effect_tooltip = sociarchism_banned_effect
+			}
+			e_unban_button_click = {
+				add_political_power = -50
+				clr_country_flag = eleftherism_banned
+				#custom_effect_tooltip = eleftherism_banned_effect
+			}
+			g_unban_button_click = {
+				add_political_power = -50
+				clr_country_flag = gentemism_banned
+				#custom_effect_tooltip = gentemism_banned_effect
+			}
+			o_unban_button_click = {
+				add_political_power = -50
+				clr_country_flag = neo_oligarchism_banned
+				#custom_effect_tooltip = neo_oligarchism_banned_effect
+			}
+			p_unban_button_click = {
+				add_political_power = -50
+				clr_country_flag = passionism_banned
+				#custom_effect_tooltip = passionism_banned_effect
+			}
+			c_unban_button_click = {
+				add_political_power = -50
+				clr_country_flag = viatirism_banned
+				#custom_effect_tooltip = viatirism_banned_effect
+			}
+			
+			
+			
+			l_ban_button_click = {
+				add_political_power = -100
+				set_country_flag = libertatism_banned
+				libertatism_banned_effect = yes
+				custom_effect_tooltip = libertatism_banned_effect
+			}
+			v_ban_button_click = {
+				add_political_power = -100
+				set_country_flag = vemosism_banned
+				vemosism_banned_effect = yes
+				custom_effect_tooltip = vemosism_banned_effect
+			}
+			s_ban_button_click = {
+				add_political_power = -100
+				set_country_flag = sociarchism_banned
+				sociarchism_banned_effect = yes
+				custom_effect_tooltip = sociarchism_banned_effect
+			}
+			e_ban_button_click = {
+				add_political_power = -100
+				set_country_flag = eleftherism_banned
+				eleftherism_banned_effect = yes
+				custom_effect_tooltip = eleftherism_banned_effect
+			}
+			g_ban_button_click = {
+				add_political_power = -100
+				set_country_flag = gentemism_banned
+				gentemism_banned_effect = yes
+				custom_effect_tooltip = gentemism_banned_effect
+			}
+			o_ban_button_click = {
+				add_political_power = -100
+				set_country_flag = neo_oligarchism_banned
+				neo_oligarchism_banned_effect = yes
+				custom_effect_tooltip = neo_oligarchism_banned_effect
+			}
+			p_ban_button_click = {
+				add_political_power = -100
+				set_country_flag = passionism_banned
+				passionism_banned_effect = yes
+				custom_effect_tooltip = passionism_banned_effect
+			}
+			c_ban_button_click = {
+				add_political_power = -100
+				set_country_flag = viatirism_banned
+				viatirism_banned_effect = yes
+				custom_effect_tooltip = viatirism_banned_effect
 			}
 		}
 		
 		triggers = {
+			
+			par_dissolve_button_click_enabled = {
+				if = {
+					limit = {
+						check_variable = { aligned_par > 149 }
+					}
+					has_political_power > 149
+				}
+				if = {
+					limit = {
+						check_variable = { aligned_par < 150 }
+					}
+					has_political_power > 99
+				}
+				OR = {
+					check_variable = { par_convened = 1 }
+					check_variable = { aligned_par > 0 }
+				}
+			}
+			par_convene_button_click_enabled = {
+				OR = {
+					check_variable = { par_convened = 0 }
+					check_variable = { aligned_par = 0 }
+				}
+					
+			}
+			
+			
+			
+			l_ban_button_click_enabled = { 
+				NOT = { 
+					has_government = libertatism 
+					has_country_flag = libertatism_banned 
+				}
+				has_political_power > 99
+			}
+			v_ban_button_click_enabled = { 
+				NOT = { 
+					has_government = vemosism 
+					has_country_flag = vemosism_banned 
+				}
+				has_political_power > 99
+			}
+			s_ban_button_click_enabled = { 
+				NOT = { 
+					has_government = sociarchism 
+					has_country_flag = sociarchism_banned 
+				}
+				has_political_power > 99
+			}
+			e_ban_button_click_enabled = { 
+				NOT = { 
+					has_government = eleftherism 
+					has_country_flag = eleftherism_banned 
+				}
+				has_political_power > 99
+			}
+			g_ban_button_click_enabled = { 
+				NOT = { 
+					has_government = gentemism 
+					has_country_flag = gentemism_banned 
+				}
+				has_political_power > 99
+			}
+			o_ban_button_click_enabled = { 
+				NOT = { 
+					has_government = neo_oligarchism 
+					has_country_flag = neo_oligarchism_banned 
+				}
+				has_political_power > 99
+			}
+			p_ban_button_click_enabled = { 
+				NOT = { 
+					has_government = passionism 
+					has_country_flag = passionism_banned
+				}
+				has_political_power > 99
+			}
+			c_ban_button_click_enabled = { 
+				NOT = { 
+					has_government = viatirism 
+					has_country_flag = viatirism_banned 
+				}
+				has_political_power > 99
+			}
+			
+			
+			
+			l_unban_button_click_enabled = { 
+				has_country_flag = libertatism_banned 
+				has_political_power > 49
+			}
+			v_unban_button_click_enabled = { 
+				has_country_flag = vemosism_banned 
+				has_political_power > 49
+			}
+			s_unban_button_click_enabled = { 
+				has_country_flag = sociarchism_banned 
+				has_political_power > 49
+			}
+			e_unban_button_click_enabled = { 
+				has_country_flag = eleftherism_banned 
+				has_political_power > 49
+			}
+			g_unban_button_click_enabled = { 
+				has_country_flag = gentemism_banned 
+				has_political_power > 49
+			}
+			o_unban_button_click_enabled = { 
+				has_country_flag = neo_oligarchism_banned
+				has_political_power > 49 
+			}
+			p_unban_button_click_enabled = { 
+				has_country_flag = passionism_banned 
+				has_political_power > 49
+			}
+			c_unban_button_click_enabled = { 
+				has_country_flag = viatirism_banned 
+				has_political_power > 49
+			}
 			
 		}
 		

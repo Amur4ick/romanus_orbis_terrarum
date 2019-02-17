@@ -1,3 +1,148 @@
+#################
+### Парламент ###
+#################
+
+defined_text = {
+	name = GetLPartyBanned
+	text = {
+		trigger = {
+			has_country_flag = libertatism_banned
+		}
+		localization_key = par_party_banned
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = libertatism_banned
+			}	
+		}
+		localization_key = libertatism_not_banned
+	}
+}
+defined_text = {
+	name = GetVPartyBanned
+	text = {
+		trigger = {
+			has_country_flag = vemosism_banned
+		}
+		localization_key = par_party_banned
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = vemosism_banned
+			}	
+		}
+		localization_key = vemosism_not_banned
+	}
+}
+defined_text = {
+	name = GetSPartyBanned
+	text = {
+		trigger = {
+			has_country_flag = sociarchism_banned
+		}
+		localization_key = par_party_banned
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = sociarchism_banned
+			}	
+		}
+		localization_key = sociarchism_not_banned
+	}
+}
+defined_text = {
+	name = GetEPartyBanned
+	text = {
+		trigger = {
+			has_country_flag = eleftherism_banned
+		}
+		localization_key = par_party_banned
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = eleftherism_banned
+			}	
+		}
+		localization_key = eleftherism_not_banned
+	}
+}
+defined_text = {
+	name = GetGPartyBanned
+	text = {
+		trigger = {
+			has_country_flag = gentemism_banned
+		}
+		localization_key = par_party_banned
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = gentemism_banned
+			}	
+		}
+		localization_key = gentemism_not_banned
+	}
+}
+defined_text = {
+	name = GetOPartyBanned
+	text = {
+		trigger = {
+			has_country_flag = neo_oligarchism_banned
+		}
+		localization_key = par_party_banned
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = neo_oligarchism_banned
+			}	
+		}
+		localization_key = neo_oligarchism_not_banned
+	}
+}
+defined_text = {
+	name = GetPPartyBanned
+	text = {
+		trigger = {
+			has_country_flag = passionism_banned
+		}
+		localization_key = par_party_banned
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = passionism_banned
+			}	
+		}
+		localization_key = passionism_not_banned
+	}
+}
+defined_text = {
+	name = GetCPartyBanned
+	text = {
+		trigger = {
+			has_country_flag = viatirism_banned
+		}
+		localization_key = par_party_banned
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = viatirism_banned
+			}	
+		}
+		localization_key = viatirism_not_banned
+	}
+}
+
+########################
+### Старый парламент ###
+########################
+
 defined_text = {
 	name = GetLibertatismParlament
 	text = {

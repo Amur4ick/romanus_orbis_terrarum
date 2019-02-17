@@ -2,11 +2,11 @@ state={
 	id=1221
 	name="STATE_1221"
 	history = {
-		owner = HOS
-		add_core_of = HOS
+		owner = TOS
+		add_core_of = TOS
 	}
 	provinces={
-		9965 
+		9965 4094 12028
 	}
 	manpower=1000 state_category = town
 	buildings_max_level_factor=1.000

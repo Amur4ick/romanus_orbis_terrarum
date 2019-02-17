@@ -1,0 +1,29 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			every_country = {
+				set_variable = { par_convened = 1 }
+				set_variable = { aligned_par = 200 }
+				clamp_variable = {
+					var = par_convene_days
+					min = 0
+					max = 720
+				}
+				set_variable = { par_convene_days = 35 }
+			}
+		}
+	}
+	
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = { par_convened = 1 }
+				}
+				subtract_from_variable = { par_convene_days = 1 }
+			}
+		}
+	}
+	
+}

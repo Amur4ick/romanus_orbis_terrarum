@@ -6,6 +6,8 @@ defined_text = {
 		}
 		localization_key = SPQ_parlament_name
 	}
+	
+	text = {
 		trigger = {
 			tag = GAL
 		}

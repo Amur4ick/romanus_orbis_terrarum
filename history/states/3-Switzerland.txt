@@ -13,7 +13,9 @@ state={
 	history={
 		owner = ALP
 		add_core_of = ALP
-		victory_points = { 9620 15 }
+		
+		victory_points = { 9622 5 }
+		
 		buildings = {
 			infrastructure = 6
 			arms_factory = 4

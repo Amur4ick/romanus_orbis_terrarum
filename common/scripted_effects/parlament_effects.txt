@@ -1,4 +1,15 @@
+
+##### Созыв парламента
+
 parlament_convened_scripted_effect = {
+
+	set_variable = { par_convened = 1 }
+	clamp_variable = {
+		var = par_convene_days
+		min = 0
+		max = 720
+	}
+	set_variable = { par_convene_days = 720 }
 	
 	# par_pop_sum - сумма популярности всех незапещённых партий
  
@@ -150,37 +161,93 @@ parlament_convened_scripted_effect = {
 	round_variable = gentemism_par
 	round_variable = neo_oligarchism_par
 	
-	set_variable = { non_aligned_par = 200 }
-	set_variable = { par_seats_sum = 0 }
-	add_to_variable = { par_seats_sum = libertatism_par }
-	add_to_variable = { par_seats_sum = vemosism_par }
-	add_to_variable = { par_seats_sum = sociarchism_par }
-	add_to_variable = { par_seats_sum = eleftherism_par }
-	add_to_variable = { par_seats_sum = passionism_par }
-	add_to_variable = { par_seats_sum = viatirism_par }
-	add_to_variable = { par_seats_sum = gentemism_par }
-	add_to_variable = { par_seats_sum = neo_oligarchism_par }
-	
-	if = {
-		limit = {
-			check_variable = { par_seats_sum < 200 }
-		}
-		subtract_from_variable = { non_aligned_par = par_seats_sum }
+	set_variable = { aligned_par = 0 }
+	clamp_variable = {
+		var = aligned_par
+		min = 0
+		max = 200
 	}
-	else_if = {
-		limit = {
-			check_variable = { par_seats_sum < 200 }
-		}
-		subtract_from_variable = { par_seats_sum = non_aligned_par }
-		set_variable = { non_aligned_par = par_seats_sum }
-	}
-	else_if = {
-		limit = {
-			check_variable = { par_seats_sum = 200 }
-		}
-		set_variable = { non_aligned_par = 0 }
-	}
+	add_to_variable = { aligned_par = libertatism_par }
+	add_to_variable = { aligned_par = vemosism_par }
+	add_to_variable = { aligned_par = sociarchism_par }
+	add_to_variable = { aligned_par = eleftherism_par }
+	add_to_variable = { aligned_par = passionism_par }
+	add_to_variable = { aligned_par = viatirism_par }
+	add_to_variable = { aligned_par = gentemism_par }
+	add_to_variable = { aligned_par = neo_oligarchism_par }
 	
-	clear_variable = par_seats_sum
+}
+
+##### Роспуск парламента
+
+parlament_dissolve_scripted_effect = {
+
+	set_variable = { libertatism_par = 0 }
+	set_variable = { vemosism_par = 0 }
+	set_variable = { sociarchism_par = 0 }
+	set_variable = { eleftherism_par = 0 }
+	set_variable = { passionism_par = 0 }
+	set_variable = { viatirism_par = 0 }
+	set_variable = { gentemism_par = 0 }
+	set_variable = { neo_oligarchism_par = 0 }
 	
+	set_variable = { aligned_par = 0 }
+	set_variable = { par_convened = 0 }
+	
+}
+
+##### Запрет либертатизма
+
+libertatism_banned_effect = {
+	subtract_from_variable = { aligned_par = libertatism_par }
+	set_variable = { libertatism_par = 0 }
+}
+
+##### Запрет вемосизма
+
+vemosism_banned_effect = {
+	subtract_from_variable = { aligned_par = vemosism_par }
+	set_variable = { vemosism_par = 0 }
+}
+
+##### Запрет социархизма
+
+sociarchism_banned_effect = {
+	subtract_from_variable = { aligned_par = sociarchism_par }
+	set_variable = { sociarchism_par = 0 }
+}
+
+##### Запрет элефтеризма
+
+eleftherism_banned_effect = {
+	subtract_from_variable = { aligned_par = eleftherism_par }
+	set_variable = { eleftherism_par = 0 }
+}
+
+##### Запрет гентемизма
+
+gentemism_banned_effect = {
+	subtract_from_variable = { aligned_par = gentemism_par }
+	set_variable = { gentemism_par = 0 }
+}
+
+##### Запрет нео-олигархизма
+
+neo_oligarchism_banned_effect = {
+	subtract_from_variable = { aligned_par = neo_oligarchism_par }
+	set_variable = { neo_oligarchism_par = 0 }
+}
+
+##### Запрет пассионизма
+
+passionism_banned_effect = {
+	subtract_from_variable = { aligned_par = passionism_par }
+	set_variable = { passionism_par = 0 }
+}
+
+##### Запрет виатиризма
+
+viatirism_banned_effect = {
+	subtract_from_variable = { aligned_par = viatirism_par }
+	set_variable = { viatirism_par = 0 }
 }
