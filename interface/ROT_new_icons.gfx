@@ -1,8 +1,8 @@
 spriteTypes = {
-
+	
 	spriteType = {
-		name = "GFX_encyclopedia_categories_bg"
-		textureFile = "gfx//interface//encyclopedia_categories_bg.dds"
+		name = "GFX_parties_opinion_icon"
+		textureFile = "gfx//interface//new_icons//parties_opinion_icon.dds"
 	}
 	
 	spriteType = {
@@ -23,21 +23,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_one_party_system"
 		texturefile = "gfx/interface/ideas/one_party_system_icon.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_parlament_high_pop"
-		texturefile = "gfx/interface/ideas/parlament_high_pop.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_parlament_middle_pop"
-		texturefile = "gfx/interface/ideas/parlament_middle_pop.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_parlament_low_pop"
-		texturefile = "gfx/interface/ideas/parlament_low_pop.dds"
 	}
 	
 	spriteType = {

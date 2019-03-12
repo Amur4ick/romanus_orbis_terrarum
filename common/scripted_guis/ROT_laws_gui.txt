@@ -11,7 +11,37 @@ scripted_gui = {
 		}
 		
 		effects = {
+			party_opinion_button_click = {
+				if = {
+					limit = {
+						check_variable = { party_opinion_window = 1 }
+					}
+					set_variable = { party_opinion_window = 0 }
+				}
+				else = {
+					set_variable = { party_opinion_window = 1 }
+				}
+			}
+		}
+		
+		triggers = {
 			
+		}
+		
+	}
+	
+	party_opinion_window_gui = {
+	
+		context_type = player_context
+		window_name = "ROT_party_opinion_window"
+		#parent_window_token = politics_tab 
+		
+		visible = {
+			check_variable = { party_opinion_window = 1 }
+		}
+		
+		effects = {
+			close_button_click = { set_variable = { party_opinion_window = 0 } }
 		}
 		
 		triggers = {

@@ -1,0 +1,73 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_berserks_tech_medium"
+		textureFile = "gfx//interface//technologies//infantry//berserks_tech.dds"
+	}
+	spriteType = {
+		name = "GFX_knight_tech_medium"
+		textureFile = "gfx//interface//technologies//infantry//knight_tech.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_guard_1_tech_medium"
+		textureFile = "gfx//interface//technologies//infantry//guard_1_tech.dds"
+	}
+	spriteType = {
+		name = "GFX_guard_2_tech_medium"
+		textureFile = "gfx//interface//technologies//infantry//guard_2_tech.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_comando_1_tech_medium"
+		textureFile = "gfx//interface//technologies//infantry//comando_1_tech.dds"
+	}
+	spriteType = {
+		name = "GFX_comando_2_tech_medium"
+		textureFile = "gfx//interface//technologies//infantry//comando_2_tech.dds"
+	}
+	spriteType = {
+		name = "GFX_comando_3_tech_medium"
+		textureFile = "gfx//interface//technologies//infantry//comando_3_tech.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_mountaineers_1_tech_medium"
+		textureFile = "gfx//interface//technologies//infantry//mountaineers_1_tech.dds"
+	}
+	spriteType = {
+		name = "GFX_mountaineers_2_tech_medium"
+		textureFile = "gfx//interface//technologies//infantry//mountaineers_2_tech.dds"
+	}
+	spriteType = {
+		name = "GFX_mountaineers_3_tech_medium"
+		textureFile = "gfx//interface//technologies//infantry//mountaineers_3_tech.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_marine_1_tech_medium"
+		textureFile = "gfx//interface//technologies//infantry//marine_1_tech.dds"
+	}
+	spriteType = {
+		name = "GFX_marine_2_tech_medium"
+		textureFile = "gfx//interface//technologies//infantry//marine_2_tech.dds"
+	}
+	spriteType = {
+		name = "GFX_marine_3_tech_medium"
+		textureFile = "gfx//interface//technologies//infantry//marine_3_tech.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_improved_equipment_1_medium"
+		textureFile = "gfx//interface//technologies//infantry//improved_equipment_1.dds"
+	}
+	spriteType = {
+		name = "GFX_improved_equipment_2_medium"
+		textureFile = "gfx//interface//technologies//infantry//improved_equipment_2.dds"
+	}
+	spriteType = {
+		name = "GFX_improved_equipment_3_medium"
+		textureFile = "gfx//interface//technologies//infantry//improved_equipment_3.dds"
+	}
+	
+}
