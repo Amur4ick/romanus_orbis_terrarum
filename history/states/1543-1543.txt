@@ -1,0 +1,16 @@
+state={
+	id=1543
+	name="STATE_1543"
+	history={
+		owner = UNI
+		add_core_of = UNI
+		victory_points = { 6380 5 }
+		set_state_flag = UNI_damage_infrastructure_state 
+		set_state_flag = UNI_damage_factory_state
+	}
+	provinces={
+		344 3259 6283 6380 9278 9378 11236 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

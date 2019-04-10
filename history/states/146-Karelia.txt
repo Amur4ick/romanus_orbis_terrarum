@@ -12,13 +12,15 @@ state={
 
 		}
 		victory_points = {
-			9206 3 
+			9206 5
 		}
+		set_state_flag = UNI_damage_infrastructure_state 
+		set_state_flag = UNI_damage_factory_state
 
 	}
 
 	provinces={
-		52 3060 3061 6082 6186 9100 9105 9150 9206 11056 11162 
+		52 3061 6082 6186 9100 9105 9206 11056 11162 
 	}
 	manpower=418635
 	buildings_max_level_factor=1.000

@@ -1,0 +1,118 @@
+ideas = {
+	
+	country = {
+		# Римский кризис
+		UNI_roman_crisis_1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = usa_great_depression_3
+
+			
+			modifier = {
+				local_resources_factor = -0.2
+				consumer_goods_factor = 0.5
+				production_speed_industrial_complex_factor = -0.5
+				production_speed_arms_factory_factor = -0.5
+				production_speed_dockyard_factor = -0.5
+				conversion_cost_civ_to_mil_factor = 0.5
+				conversion_cost_mil_to_civ_factor = 0.5
+				generate_wargoal_tension = 1.0
+				max_fuel_factor = -0.5
+				fuel_gain_factor = -0.5
+			}
+		}
+		UNI_roman_crisis_2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = usa_great_depression_2
+
+			
+			modifier = {
+				local_resources_factor = -0.15
+				consumer_goods_factor = 0.35
+				production_speed_industrial_complex_factor = -0.35
+				production_speed_arms_factory_factor = -0.35
+				production_speed_dockyard_factor = -0.35
+				conversion_cost_civ_to_mil_factor = 0.35
+				conversion_cost_mil_to_civ_factor = 0.35
+				generate_wargoal_tension = 1
+				max_fuel_factor = -0.35
+				fuel_gain_factor = -0.35
+			}
+		}
+		UNI_roman_crisis_3 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = usa_great_depression_2
+
+			
+			modifier = {
+				local_resources_factor = -0.1
+				consumer_goods_factor = 0.25
+				production_speed_industrial_complex_factor = -0.25
+				production_speed_arms_factory_factor = -0.25
+				production_speed_dockyard_factor = -0.25
+				conversion_cost_civ_to_mil_factor = 0.25
+				conversion_cost_mil_to_civ_factor = 0.25
+				generate_wargoal_tension = 1
+				max_fuel_factor = -0.25
+				fuel_gain_factor = -0.25
+			}
+		}
+		UNI_roman_crisis_4 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = usa_great_depression_1
+
+			
+			modifier = {
+				local_resources_factor = -0.05
+				consumer_goods_factor = 0.05
+				production_speed_industrial_complex_factor = -0.15
+				production_speed_arms_factory_factor = -0.15
+				production_speed_dockyard_factor = -0.15
+				conversion_cost_civ_to_mil_factor = 0.15
+				conversion_cost_mil_to_civ_factor = 0.15
+				generate_wargoal_tension = 1
+				max_fuel_factor = -0.15
+				fuel_gain_factor = -0.15
+			}
+		}
+	}
+}

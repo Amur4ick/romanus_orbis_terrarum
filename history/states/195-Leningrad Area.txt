@@ -2,14 +2,11 @@
 state={
 	id=195
 	name="STATE_195"
-	manpower = 3750158
-	
-	state_category = metropolis
 
 	history={
 		owner = UNI
 		victory_points = {
-			3151 30.0
+			3151 5
 		}
 		buildings = {
 			infrastructure = 7
@@ -17,11 +14,18 @@ state={
 			industrial_complex = 1
 			dockyard = 3
 			air_base = 10
+
 		}
 		add_core_of = UNI
+		set_state_flag = UNI_damage_infrastructure_state 
+		set_state_flag = UNI_damage_factory_state
+
 	}
 
 	provinces={
-		79 149 3151 6174 11068 
+		79 149 3060 3151 6174 9097 9150 11068 11080 
 	}
+	manpower=3750158
+	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

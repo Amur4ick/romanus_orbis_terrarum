@@ -1,0 +1,13 @@
+state={
+	id=1530
+	name="STATE_1530"
+	history={
+		owner = UNI
+		add_core_of = UNI
+	}
+	provinces={
+		31 146 370 381 3363 4356 6288 7359 9293 11124 12203 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

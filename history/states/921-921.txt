@@ -1,13 +1,21 @@
+
 state={
 	id=921
 	name="STATE_921"
-	history = {
+
+	history={
 		owner = UNI
 		add_core_of = UNI
+		victory_points = { 415 5 }
+		set_state_flag = UNI_damage_infrastructure_state 
+		set_state_flag = UNI_damage_factory_state
+
 	}
+
 	provinces={
-		222 319 415 592 3298 3310 9485 
+		222 319 415 592 3298 3310 3333 9485 
 	}
-	manpower=1000 state_category = town
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=town
 }

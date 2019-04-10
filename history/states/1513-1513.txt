@@ -1,0 +1,15 @@
+state={
+	id=1513
+	name="STATE_1513"
+	history={
+		owner = UNI
+		add_core_of = UNI
+		set_state_flag = UNI_damage_infrastructure_state 
+		set_state_flag = UNI_damage_factory_state
+	}
+	provinces={
+		110 187 226 2999 3101 3321 9111 9265 9333 9343 11224 11315 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

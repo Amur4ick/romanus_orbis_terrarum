@@ -2,19 +2,22 @@
 state={
 	id=258
 	name="STATE_258"
-	manpower = 1282096
-	
-	state_category = town
 
 	history={
 		owner = UNI
 		buildings = {
 			infrastructure = 5
+
 		}
 		add_core_of = UNI
+		victory_points = { 3199 5 }
+
 	}
 
 	provinces={
-		356 3199 3291 3318 3346 6230 6317 6341 6369 6398 9339 9394 
+		212 356 3199 3250 3291 3318 3346 3376 
 	}
+	manpower=1282096
+	buildings_max_level_factor=1.000
+	state_category=town
 }

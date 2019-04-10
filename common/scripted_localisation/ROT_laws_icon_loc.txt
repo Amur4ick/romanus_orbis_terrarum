@@ -1,0 +1,69 @@
+defined_text = {
+	name = get_law_button_icon
+	text = {
+		trigger = {
+			check_variable = { var:laws_grid_array^i = 11 }
+		}
+		localization_key = GFX_idea_disarmed_nation
+	}
+	text = {
+		trigger = {
+			check_variable = { var:laws_grid_array^i = 12 }
+		}
+		localization_key = GFX_idea_volunteer_only
+	}
+	text = {
+		trigger = {
+			check_variable = { var:laws_grid_array^i = 13 }
+		}
+		localization_key = GFX_idea_limited_conscription
+	}
+	text = {
+		trigger = {
+			check_variable = { var:laws_grid_array^i = 14 }
+		}
+		localization_key = GFX_idea_extensive_conscription
+	}
+	text = {
+		trigger = {
+			check_variable = { var:laws_grid_array^i = 15 }
+		}
+		localization_key = GFX_idea_service_by_requirement
+	}
+	text = {
+		trigger = {
+			check_variable = { var:laws_grid_array^i = 16 }
+		}
+		localization_key = GFX_idea_all_adults_serve
+	}
+	text = {
+		trigger = {
+			check_variable = { var:laws_grid_array^i = 17 }
+		}
+		localization_key = GFX_idea_scraping_the_barrel
+	}
+	
+	
+	
+	text = {
+		trigger = {
+			check_variable = { var:laws_grid_array^i = 41 }
+		}
+		localization_key = GFX_idea_multiparty_system
+	}
+	text = {
+		trigger = {
+			check_variable = { var:laws_grid_array^i = 42 }
+		}
+		localization_key = GFX_idea_one_party_system
+	}
+	
+	
+	
+	text = {
+		trigger = {
+			
+		}
+		localization_key = GFX_idea_unknown
+	}
+}

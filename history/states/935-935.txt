@@ -1,13 +1,18 @@
+
 state={
 	id=935
 	name="STATE_935"
+
 	history={
 		owner = KIP
 		add_core_of = KIP
+
 	}
+
 	provinces={
-		520 3503 6575 9530 11474 11484 
+		520 3503 3517 6516 6541 6575 9530 11474 11484 
 	}
-	manpower=1000 state_category = town
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=town
 }

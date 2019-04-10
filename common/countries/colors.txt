@@ -219,6 +219,10 @@ UNI = {
 	color = rgb { 60 95 45 }
 	color_ui = rgb { 60 95 45 }
 }
+ECP = {
+	color = rgb { 145 155 170 }
+	color_ui = rgb { 145 155 170 }
+}
 FIN = {
 	color = rgb { 170 185 190 }
 	color_ui = rgb { 170 185 190 }
@@ -247,6 +251,50 @@ MAR = {
 	color = rgb { 55 165 155 }
 	color_ui = rgb { 55 165 155 }
 }
+
+
+#NRC = {
+#	color = rgb { 155 65 65 }
+#	color_ui = rgb { 155 65 65 }
+#}
+#PAN = {
+#	color = rgb { 170 125 45 }
+#	color_ui = rgb { 170 125 45 }
+#}
+#QUA = {
+#	color = rgb { 100 120 150 }
+#	color_ui = rgb { 100 120 150 }
+#}
+#IYA = {
+#	color = rgb { 190 170 100 }
+#	color_ui = rgb { 190 170 100 }
+#}
+#DAC = {
+#	color = rgb { 85 105 85 }
+#	color_ui = rgb { 85 105 85 }
+#}
+
+#MOE = {
+#	color = rgb { 115 160 80 }
+#	color_ui = rgb { 115 160 80 }
+#}
+#THR = {
+#	color = rgb { 130 40 60 }
+#	color_ui = rgb { 130 40 60 }
+#}
+#BRE = {
+#	color = rgb { 145 135 70 }
+#	color_ui = rgb { 145 135 70 }
+#}
+#BEL = {
+#	color = rgb { 200 190 100 }
+#	color_ui = rgb { 200 190 100 }
+#}
+#SCY = {
+#	color = rgb { 200 180 120 }
+#	color_ui = rgb { 200 180 120 }
+#}
+
 
 
 

@@ -50,6 +50,12 @@ generic = {
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
+	commando = {
+		prefix = ""
+		generic = { "Elite Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
 	marine = {
 		prefix = ""
 		generic = { "Marine Division" }

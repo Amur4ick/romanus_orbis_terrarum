@@ -1,0 +1,14 @@
+state={
+	id=1559
+	name="STATE_1559"
+	history={
+		owner = ECP
+		add_core_of = ECP
+		victory_points = { 10301 5 }
+	}
+	provinces={
+		227 298 403 3328 3348 4324 6308 6352 6368 9385 10301 11281 11389 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

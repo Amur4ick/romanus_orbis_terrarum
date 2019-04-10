@@ -6,6 +6,13 @@
  decline_seats_tooltip:0 "§YПоддержка в парламенте§!\nПоказывает совокупное количество §Yмест§! партий в парламенте, которые не поддерживают правительство.\nНа данный момент нстроены оппозиционно §R[?accept_seats]§! §Yпредседателей§!)."
  party_opinion_button_text:0 "§YЛояльность партий§!\nПри нажатии открывает информацию о лояльности партий, состоящих в парламенте."
 
+ manpower_laws_button_text:0 "Законы призыва"
+ border_laws_button_text:0 "Законы границ"
+ censoure_laws_button_text:0 "Законы прессы"
+ party_system_button_text:0 "Партийная система"
+ religion_laws_button_text:0 "Законы религии"
+ national_laws_button_text:0 "Нац. политика"
+ 
  l_party_opinion_text:0 "Либертатисты: [l_loyality_color][?l_party_loyality]§!"
  v_party_opinion_text:0 "Вемосисты: [v_loyality_color][?v_party_loyality]§!"
  s_party_opinion_text:0 "Социархисты: [s_loyality_color][?s_party_loyality]§!"

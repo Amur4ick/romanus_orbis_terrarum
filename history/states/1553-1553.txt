@@ -1,0 +1,13 @@
+state={
+	id=1553
+	name="STATE_1553"
+	history={
+		owner = UNI
+		add_core_of = UNI
+	}
+	provinces={
+		437 544 3431 3504 3566 6528 6587 9464 9502 9529 11451 11512 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

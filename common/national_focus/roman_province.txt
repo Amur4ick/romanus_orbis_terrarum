@@ -1,0 +1,733 @@
+focus_tree = {
+	id = roman_province
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ROM
+		}
+	}
+	default = no
+	focus = {
+		id = ROM_senate
+		text = ROM_senate
+		icon = GFX_focus_generic_self_management
+		cost = 10,00
+		x = 15
+		y = 0
+
+	}
+	focus = {
+		id = ROM_razvitiye_econimiki
+		text = ROM_razvitiye_econimiki
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10,00
+		x = 5
+		y = 0
+
+	}
+	focus = {
+		id = ROM_podderzhka_predprinimateley
+		text = ROM_podderzhka_predprinimateley
+		icon = GFX_goal_generic_improve_relations
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_razvitiye_econimiki
+		}
+		mutually_exclusive = {
+			focus = ROM_noviye_socialniye_garantyi
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = ROM_noviye_socialniye_garantyi
+		text = ROM_noviye_socialniye_garantyi
+		icon = GFX_goal_generic_national_unity
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_razvitiye_econimiki
+		}
+		mutually_exclusive = {
+			focus = ROM_podderzhka_predprinimateley
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = ROM_privatizatsiya
+		text = ROM_privatizatsiya
+		icon = GFX_goal_generic_defence
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_podderzhka_predprinimateley
+			focus = ROM_noviye_socialniye_garantyi
+		}
+		mutually_exclusive = {
+			focus = ROM_nationalizatsia
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = ROM_nationalizatsia
+		icon = GFX_goal_generic_soviet_construction
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_podderzhka_predprinimateley
+			focus = ROM_noviye_socialniye_garantyi
+		}
+		mutually_exclusive = {
+			focus = ROM_privatizatsiya
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = ROM_svobodnaya_concurentsiya
+		text = ROM_svobodnaya_concurentsiya
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_nationalizatsia
+			focus = ROM_privatizatsiya
+		}
+		mutually_exclusive = {
+			focus = ROM_rabota_na_gosudarstvo
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = ROM_real_capitalism
+		text = ROM_real_capitalism
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_svobodnaya_concurentsiya
+		}
+		mutually_exclusive = {
+			focus = ROM_rinochniy_socialism
+			focus = ROM_goscapitalism
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = ROM_rabota_na_gosudarstvo
+		text = ROM_rabota_na_gosudarstvo
+		icon = GFX_focus_cze_german_puppet
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_privatizatsiya
+			focus = ROM_nationalizatsia
+		}
+		mutually_exclusive = {
+			focus = ROM_svobodnaya_concurentsiya
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = ROM_otkritiye_novih_predpriyatiy
+		text = ROM_otkritiye_novih_predpriyatiy
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_razvitiye_econimiki
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = ROM_noviye_voenniye_zavody
+		text = ROM_noviye_voenniye_zavody
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_otkritiye_novih_predpriyatiy
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = ROM_prava_rbochikh
+		text = ROM_prava_rbochikh
+		icon = GFX_goal_generic_demand_territory
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_podderzhka_predprinimateley
+			focus = ROM_noviye_socialniye_garantyi
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = ROM_unichtozhit_bezrabotitsu
+		text = ROM_unichtozhit_bezrabotitsu
+		icon = GFX_goal_generic_production
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_prava_rbochikh
+		}
+		prerequisite = {
+			focus = ROM_otkritiye_novih_predpriyatiy
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = ROM_goscapitalism
+		text = ROM_goscapitalism
+		icon = GFX_goal_generic_political_pressure
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_rabota_na_gosudarstvo
+		}
+		prerequisite = {
+			focus = ROM_unichtozhit_bezrabotitsu
+		}
+		mutually_exclusive = {
+			focus = ROM_real_capitalism
+			focus = ROM_rinochniy_socialism
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = ROM_politicheskiye_prava
+		text = ROM_politicheskiye_prava
+		icon = GFX_focus_generic_military_academy
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_podderzhka_predprinimateley
+			focus = ROM_noviye_socialniye_garantyi
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = ROM_socialnaya_revolutsia
+		text = ROM_socialnaya_revolutsia
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_prava_rbochikh
+		}
+		prerequisite = {
+			focus = ROM_politicheskiye_prava
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = ROM_rinochniy_socialism
+		text = ROM_rinochniy_socialism
+		icon = GFX_goal_generic_national_unity
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_socialnaya_revolutsia
+		}
+		mutually_exclusive = {
+			focus = ROM_real_capitalism
+			focus = ROM_goscapitalism
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = ROM_otnosheniya_s_provintsiyamy
+		text = ROM_otnosheniya_s_provintsiyamy
+		icon = GFX_goal_generic_improve_relations
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_senate
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = ROM_vliyanie_v_senate
+		text = ROM_vliyanie_v_senate
+		icon = GFX_focus_generic_military_academy
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_otnosheniya_s_provintsiyamy
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = ROM_noviye_voprosy
+		text = ROM_noviye_voprosy
+		icon = GFX_focus_generic_treaty
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_vliyanie_v_senate
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = ROM_otnosheniya_s_rimom
+		text = ROM_otnosheniya_s_rimom
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_senate
+		}
+		x = 17
+		y = 1
+
+	}
+	focus = {
+		id = ROM_vliyanie_na_rim
+		text = ROM_vliyanie_na_rim
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_otnosheniya_s_rimom
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = ROM_nashi_trebovaniya
+		text = ROM_nashi_trebovaniya
+		icon = GFX_goal_generic_position_armies
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_vliyanie_na_rim
+		}
+		prerequisite = {
+			focus = ROM_vliyanie_v_senate
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = ROM_podderzhka_is_rima
+		text = ROM_podderzhka_is_rima
+		icon = GFX_focus_generic_concessions
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_vliyanie_na_rim
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = ROM_resheniye_problem_provintsiy
+		text = ROM_resheniye_problem_provintsiy
+		icon = GFX_goal_generic_national_unity
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_noviye_voprosy
+		}
+		prerequisite = {
+			focus = ROM_podderzhka_is_rima
+		}
+		mutually_exclusive = {
+			focus = ROM_resheniye_nashih_problem
+			focus = ROM_resheniye_glavnih_problem
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = ROM_resheniye_glavnih_problem
+		text = ROM_resheniye_glavnih_problem
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_podderzhka_is_rima
+		}
+		prerequisite = {
+			focus = ROM_noviye_voprosy
+		}
+		mutually_exclusive = {
+			focus = ROM_resheniye_problem_provintsiy
+			focus = ROM_resheniye_nashih_problem
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = ROM_podderzhat_rim
+		text = ROM_podderzhat_rim
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_resheniye_glavnih_problem
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = ROM_podderzhat_provintsiy
+		text = ROM_podderzhat_provintsiy
+		icon = GFX_goal_generic_improve_relations
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_resheniye_problem_provintsiy
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = ROM_resheniye_nashih_problem
+		text = ROM_resheniye_nashih_problem
+		icon = GFX_goal_generic_political_pressure
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_nashi_trebovaniya
+		}
+		prerequisite = {
+			focus = ROM_podderzhka_is_rima
+		}
+		prerequisite = {
+			focus = ROM_noviye_voprosy
+		}
+		mutually_exclusive = {
+			focus = ROM_resheniye_problem_provintsiy
+			focus = ROM_resheniye_glavnih_problem
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = ROM_noviye_privelegiy
+		text = ROM_noviye_privelegiy
+		icon = GFX_goal_generic_demand_territory
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_resheniye_nashih_problem
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = ROM_problema_federalisatsii
+		text = ROM_problema_federalisatsii
+		icon = GFX_goal_anschluss
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_podderzhat_provintsiy
+			focus = ROM_noviye_privelegiy
+			focus = ROM_podderzhat_rim
+		}
+		mutually_exclusive = {
+			focus = ROM_problema_avtonomiy
+			focus = ROM_problema_centralisatsii
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = ROM_problema_centralisatsii
+		text = ROM_problema_centralisatsii
+		icon = GFX_goal_generic_territory_or_war
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_podderzhat_rim
+			focus = ROM_noviye_privelegiy
+			focus = ROM_podderzhat_provintsiy
+		}
+		mutually_exclusive = {
+			focus = ROM_problema_federalisatsii
+			focus = ROM_problema_avtonomiy
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = ROM_problema_avtonomiy
+		text = ROM_problema_avtonomiy
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_noviye_privelegiy
+		}
+		mutually_exclusive = {
+			focus = ROM_problema_federalisatsii
+			focus = ROM_problema_centralisatsii
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = ROM_decentralisation
+		text = ROM_decentralisation
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_problema_federalisatsii
+		}
+		x = 12
+		y = 7
+
+	}
+	focus = {
+		id = ROM_stolitsa_respubliki
+		text = ROM_stolitsa_respubliki
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_problema_centralisatsii
+		}
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = ROM_inostrannaya_podderzhka
+		text = ROM_inostrannaya_podderzhka
+		icon = GFX_goal_tripartite_pact
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_problema_avtonomiy
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = ROM_vnutrenniy_soyuz
+		text = ROM_vnutrenniy_soyuz
+		icon = GFX_goal_anschluss
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_problema_avtonomiy
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = ROM_roman_protectorate
+		text = ROM_roman_protectorate
+		icon = GFX_goal_generic_territory_or_war
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_inostrannaya_podderzhka
+		}
+		mutually_exclusive = {
+			focus = ROM_unichtozheniye_rimskoy_hehemoniy
+		}
+		x = 14
+		y = 9
+
+	}
+	focus = {
+		id = ROM_nationalnaya_revolutsia
+		text = ROM_nationalnaya_revolutsia
+		icon = GFX_goal_generic_demand_territory
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_inostrannaya_podderzhka
+		}
+		prerequisite = {
+			focus = ROM_vnutrenniy_soyuz
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = ROM_unichtozheniye_rimskoy_hehemoniy
+		text = ROM_unichtozheniye_rimskoy_hehemoniy
+		icon = GFX_goal_generic_major_war
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_vnutrenniy_soyuz
+		}
+		mutually_exclusive = {
+			focus = ROM_roman_protectorate
+		}
+		x = 16
+		y = 9
+
+	}
+	focus = {
+		id = ROM_verniy_souznik
+		text = ROM_verniy_souznik
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_roman_protectorate
+		}
+		mutually_exclusive = {
+			focus = ROM_nezavisimoye_gosudarstvo
+		}
+		x = 13
+		y = 10
+
+	}
+	focus = {
+		id = ROM_nezavisimoye_gosudarstvo
+		text = ROM_nezavisimoye_gosudarstvo
+		icon = GFX_goal_generic_political_pressure
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_roman_protectorate
+			focus = ROM_unichtozheniye_rimskoy_hehemoniy
+		}
+		prerequisite = {
+			focus = ROM_nationalnaya_revolutsia
+		}
+		mutually_exclusive = {
+			focus = ROM_centr_novoy_imperiy
+			focus = ROM_verniy_souznik
+		}
+		x = 15
+		y = 10
+
+	}
+	focus = {
+		id = ROM_centr_novoy_imperiy
+		text = ROM_centr_novoy_imperiy
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_unichtozheniye_rimskoy_hehemoniy
+		}
+		mutually_exclusive = {
+			focus = ROM_nezavisimoye_gosudarstvo
+		}
+		x = 17
+		y = 10
+
+	}
+	focus = {
+		id = ROM_bolshe_polnomochiy_provintsiyam
+		text = ROM_bolshe_polnomochiy_provintsiyam
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_decentralisation
+		}
+		x = 13
+		y = 8
+
+	}
+	focus = {
+		id = ROM_obshiy_dom
+		text = ROM_obshiy_dom
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_decentralisation
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = ROM_federalisation
+		text = ROM_federalisation
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_bolshe_polnomochiy_provintsiyam
+		}
+		prerequisite = {
+			focus = ROM_obshiy_dom
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = ROM_novaya_confederatsiya
+		text = ROM_novaya_confederatsiya
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_federalisation
+		}
+		x = 11
+		y = 10
+
+	}
+	focus = {
+		id = ROM_obsheye_delo
+		text = ROM_obsheye_delo
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_stolitsa_respubliki
+		}
+		x = 17
+		y = 8
+
+	}
+	focus = {
+		id = ROM_reformirovaniye_senata
+		text = ROM_reformirovaniye_senata
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_stolitsa_respubliki
+		}
+		x = 19
+		y = 8
+
+	}
+	focus = {
+		id = ROM_noviy_rim
+		text = ROM_noviy_rim
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_reformirovaniye_senata
+		}
+		prerequisite = {
+			focus = ROM_obsheye_delo
+		}
+		x = 19
+		y = 9
+
+	}
+	focus = {
+		id = ROM_edinaya_res_publica
+		text = ROM_edinaya_res_publica
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = ROM_noviy_rim
+		}
+		x = 19
+		y = 10
+
+	}
+}

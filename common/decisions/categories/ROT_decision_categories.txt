@@ -1,0 +1,13 @@
+UNI_national_crisis = {
+
+	icon = power_struggle
+	
+	priority = 100
+
+	allowed = {
+		original_tag = UNI
+	}
+	visible = {
+		has_country_flag = UNI_national_crisis
+	}
+}

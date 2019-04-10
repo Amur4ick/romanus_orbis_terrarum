@@ -2,8 +2,6 @@
 state={
 	id=397
 	name="STATE_397"
-	manpower = 137203
-	state_category = wasteland
 
 	history={
 		owner = UNI
@@ -12,9 +10,13 @@ state={
 
 		}
 		add_core_of = UNI
+
 	}
 
 	provinces={
-		6 99 108 186 1295 1307 3000 3155 4298 6121 6202 7318 7330 7712 7898 9145 9225 10579 11179 11200 11203 12558 
+		105 198 6040 6538 7712 9121 9205 10579 10723 11047 11098 11119 11182 12502 13076 
 	}
+	manpower=137203
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

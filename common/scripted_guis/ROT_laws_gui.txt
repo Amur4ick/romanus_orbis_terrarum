@@ -10,6 +10,21 @@ scripted_gui = {
 			check_variable = { show_parlament_window = 2 }
 		}
 		
+		dynamic_lists = {
+			laws_grid = {
+				array = laws_grid_array
+				entry_container = laws_gird_element
+				
+				index = i
+			}
+		}
+		
+		properties = {
+			law_button = {
+				image = "[get_law_button_icon]"
+			}
+		}
+		
 		effects = {
 			party_opinion_button_click = {
 				if = {
@@ -21,6 +36,30 @@ scripted_gui = {
 				else = {
 					set_variable = { party_opinion_window = 1 }
 				}
+			}
+			
+			manpower_laws_button_click = { 
+				manpower_laws_category_choosed = yes
+			}
+			border_laws_button_click = { 
+				border_laws_category_choosed = yes
+			}
+			censoure_laws_button_click = { 
+				censoure_laws_category_choosed = yes
+			}
+			party_system_button_click = { 
+				party_system_category_choosed = yes
+			}
+			religion_laws_button_click = { 
+				religion_laws_category_choosed = yes
+			}
+			national_laws_button_click = { 
+				national_laws_category_choosed = yes
+			}
+			
+			
+			law_button_click = {
+				set_variable = { choosed_law_id = laws_grid_array^i }
 			}
 		}
 		

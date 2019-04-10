@@ -38,6 +38,7 @@ PLS = "countries/Polesie.txt" #
 KIE = "countries/Kiev.txt" #
 SAR = "countries/Sarmatia.txt" #
 UNI = "countries/Finno-Slavic Union.txt" #
+ECP = "countries/East Colonial Protectorat.txt" 
 FIN = "countries/Suomi.txt" #
 GOT = "countries/Gotland.txt" #
 NOR = "countries/Norway.txt" #
@@ -60,6 +61,21 @@ ARM = "countries/Armenia.txt" #
 KAR = "countries/Kartalinia.txt" #
 ALB = "countries/Albania.txt" #
 ALA = "countries/Alania.txt"
+
+#NRC = "countries/Norcium.txt"
+#PAN = "countries/Pannonia.txt"
+#QUA = "countries/Quadia.txt"
+#IYA = "countries/Iyazigia.txt"
+#DAC = "countries/Dacia.txt"
+#MOE = "countries/Moesia.txt"
+#THR = "countries/Thracia.txt"
+#BRE = "countries/Armorica.txt"
+#BEL = "countries/Belgica.txt"
+#SCY = "countries/Scythia.txt"
+#SLA = "countries/Slavic.txt"
+#UGR = "countries/Ugric.txt"
+
+
 
 CAR = "countries/Carthage.txt"
 EGY = "countries/Egypt.txt"
@@ -120,6 +136,8 @@ ETG = "countries/Etigo.txt"
 AIZ = "countries/Aizu.txt"
 MUT = "countries/Mutsu.txt"
 EDZ = "countries/Edzo.txt"
+
+
 
 FUL = "countries/Fulo.txt"
 MLI = "countries/Mali.txt"

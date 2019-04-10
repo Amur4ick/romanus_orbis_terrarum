@@ -1,0 +1,24 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_UNI_green_front"
+		textureFile = "gfx/interface/goals/UNI_green_front.dds"
+	}
+	spriteType = {
+		name = "GFX_UNI_yellow_front"
+		textureFile = "gfx/interface/goals/UNI_yellow_front.dds"
+	}
+	spriteType = {
+		name = "GFX_UNI_yellow_protests"
+		textureFile = "gfx/interface/goals/UNI_yellow_protests.dds"
+	}
+	spriteType = {
+		name = "GFX_UNI_old_center"
+		textureFile = "gfx/interface/goals/UNI_old_center.dds"
+	}
+	spriteType = {
+		name = "GFX_UNI_new_center"
+		textureFile = "gfx/interface/goals/UNI_new_center.dds"
+	}
+	
+}

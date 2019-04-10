@@ -7,7 +7,7 @@ state=
 	
 	history=
 	{
-		owner = FER
+		owner = SIB
 		victory_points = {
 			13067 1 
 		}

@@ -1,13 +1,18 @@
+
 state={
 	id=1047
 	name="STATE_1047"
-	history = {
+
+	history={
 		owner = KIP
 		add_core_of = KIP
+
 	}
+
 	provinces={
-		4250 4333 7335 7407 7425 10179 12111 12152 
+		1223 4232 4250 4281 4333 7335 7407 7425 10179 10239 12111 12152 
 	}
-	manpower=1000 state_category = town
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=town
 }

@@ -202,7 +202,7 @@ technologies = {
 		}
 	}
 	
-	# Пищали
+	# Бомбы
 	
 	support_equipment_new_time_1 = {
 		
@@ -1222,6 +1222,10 @@ technologies = {
 			leads_to_tech = knight_tech
 			research_cost_coeff = 1
 		}
+		
+		enable_subunits = {
+			commando
+		}
 
 		research_cost = 1
 		start_year = 1700
@@ -1306,7 +1310,7 @@ technologies = {
 	guard_2_tech = {
 		
 		path = {
-			leads_to_tech = comando_1_tech
+			leads_to_tech = commando_1_tech
 			research_cost_coeff = 1
 		}
 		
@@ -1342,10 +1346,10 @@ technologies = {
 	
 	# Коммандо 1
 	
-	comando_1_tech = {
+	commando_1_tech = {
 		
 		path = {
-			leads_to_tech = comando_2_tech
+			leads_to_tech = commando_2_tech
 			research_cost_coeff = 1
 		}
 
@@ -1371,10 +1375,10 @@ technologies = {
 	
 	# Коммандо 2
 	
-	comando_2_tech = {
+	commando_2_tech = {
 		
 		path = {
-			leads_to_tech = comando_3_tech
+			leads_to_tech = commando_3_tech
 			research_cost_coeff = 1
 		}
 
@@ -1400,7 +1404,7 @@ technologies = {
 	
 	# Коммандо 3
 	
-	comando_3_tech = {
+	commando_3_tech = {
 
 		research_cost = 1
 		start_year = 1759
@@ -1429,6 +1433,10 @@ technologies = {
 		path = {
 			leads_to_tech = mountaineers_2_tech
 			research_cost_coeff = 1
+		}
+		
+		enable_subunits = {
+			mountaineers
 		}
 
 		research_cost = 1
@@ -1511,6 +1519,10 @@ technologies = {
 		path = {
 			leads_to_tech = marine_2_tech
 			research_cost_coeff = 1
+		}
+		
+		enable_subunits = {
+			marine
 		}
 
 		research_cost = 1

@@ -5,11 +5,11 @@ state={
 	impassable = yes
 
 	history={
-		owner = FER
+		owner = SIB
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = FER
+		add_core_of = SIB
 
 	}
 

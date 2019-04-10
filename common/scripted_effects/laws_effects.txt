@@ -1,0 +1,135 @@
+
+##### Созыв парламента
+
+manpower_laws_category_choosed = {
+	if = { 
+		limit = {
+			check_variable = { 
+				var = laws_category_choosed
+				value = 1
+				compare = not_equals 
+			}
+		}
+		clear_array = laws_grid_array
+		set_variable = { laws_category_choosed = 1 }
+		add_to_array = { laws_grid_array = 11 } 
+		add_to_array = { laws_grid_array = 12 } 
+		add_to_array = { laws_grid_array = 13 } 
+		add_to_array = { laws_grid_array = 14 } 
+		add_to_array = { laws_grid_array = 15 } 
+		add_to_array = { laws_grid_array = 16 } 
+		add_to_array = { laws_grid_array = 17 } 
+	}
+	else = {
+		set_variable = { laws_category_choosed = 0 }
+		clear_array = laws_grid_array
+	}
+}
+
+border_laws_category_choosed = {
+	if = { 
+		limit = {
+			check_variable = { 
+				var = laws_category_choosed
+				value = 2
+				compare = not_equals 
+			}
+		}
+		clear_array = laws_grid_array
+		set_variable = { laws_category_choosed = 2 }
+		add_to_array = { laws_grid_array = 21 } 
+		add_to_array = { laws_grid_array = 22 } 
+		add_to_array = { laws_grid_array = 23 } 
+		add_to_array = { laws_grid_array = 24 } 
+	}
+	else = {
+		set_variable = { laws_category_choosed = 0 }
+		clear_array = laws_grid_array
+	}
+}
+
+censoure_laws_category_choosed = {
+	if = { 
+		limit = {
+			check_variable = { 
+				var = laws_category_choosed
+				value = 3
+				compare = not_equals 
+			}
+		}
+		clear_array = laws_grid_array
+		set_variable = { laws_category_choosed = 3 }
+		add_to_array = { laws_grid_array = 31 } 
+		add_to_array = { laws_grid_array = 32 } 
+		add_to_array = { laws_grid_array = 33 } 
+		add_to_array = { laws_grid_array = 34 } 
+	}
+	else = {
+		set_variable = { laws_category_choosed = 0 }
+		clear_array = laws_grid_array
+	}
+}
+
+party_system_category_choosed = {
+	if = { 
+		limit = {
+			check_variable = { 
+				var = laws_category_choosed
+				value = 4
+				compare = not_equals 
+			}
+		}
+		clear_array = laws_grid_array
+		set_variable = { laws_category_choosed = 4 }
+		add_to_array = { laws_grid_array = 41 } 
+		add_to_array = { laws_grid_array = 42 } 
+	}
+	else = {
+		set_variable = { laws_category_choosed = 0 }
+		clear_array = laws_grid_array
+	}
+}
+
+religion_laws_category_choosed = {
+	if = { 
+		limit = {
+			check_variable = { 
+				var = laws_category_choosed
+				value = 5
+				compare = not_equals 
+			}
+		}
+		clear_array = laws_grid_array
+		set_variable = { laws_category_choosed = 5 }
+		add_to_array = { laws_grid_array = 51 } 
+		add_to_array = { laws_grid_array = 52 } 
+		add_to_array = { laws_grid_array = 53 } 
+		add_to_array = { laws_grid_array = 54 } 
+	}
+	else = {
+		set_variable = { laws_category_choosed = 0 }
+		clear_array = laws_grid_array
+	}
+}
+
+national_laws_category_choosed = {
+	if = { 
+		limit = {
+			check_variable = { 
+				var = laws_category_choosed
+				value = 6
+				compare = not_equals 
+			}
+		}
+		clear_array = laws_grid_array
+		set_variable = { laws_category_choosed = 6 }
+		add_to_array = { laws_grid_array = 61 } 
+		add_to_array = { laws_grid_array = 62 } 
+		add_to_array = { laws_grid_array = 63 } 
+		add_to_array = { laws_grid_array = 64 } 
+	}
+	else = {
+		set_variable = { laws_category_choosed = 0 }
+		clear_array = laws_grid_array
+	}
+}

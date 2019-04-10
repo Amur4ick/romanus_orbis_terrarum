@@ -5,6 +5,7 @@ on_actions = {
 			every_country = {
 				set_variable = { par_convened = 1 }
 				set_variable = { aligned_par = 200 }
+				set_variable = { par_convene_days = 0 }
 				clamp_variable = {
 					var = par_convene_days
 					min = 0

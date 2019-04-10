@@ -1,0 +1,13 @@
+state={
+	id=1557
+	name="STATE_1557"
+	history={
+		owner = ECP
+		add_core_of = ECP
+	}
+	provinces={
+		338 393 497 566 3330 3357 3486 6424 9445 
+	}
+	manpower=1000 state_category = town
+	buildings_max_level_factor=1.000
+}

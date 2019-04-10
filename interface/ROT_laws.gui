@@ -22,7 +22,8 @@ guiTypes = {
 		
 		buttonType = {
 			name = "laws_gov_form_button"
-			position = { x = 10 y = 10 }
+			#position = { x = 10 y = 10 }
+			position = { x = 6 y = 7 }
 			quadTextureSprite = "GFX_focus_can_start"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -34,7 +35,8 @@ guiTypes = {
 		
 		buttonType = {
 			name = "laws_adm_form_button"
-			position = { x = 10 y = 70 }
+			#position = { x = 10 y = 72 }
+			position = { x = 175 y = 7 }
 			quadTextureSprite = "GFX_focus_can_start"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -46,7 +48,8 @@ guiTypes = {
 		
 		buttonType = {
 			name = "laws_regime_button"
-			position = { x = 10 y = 130 }
+			#position = { x = 10 y = 132 }
+			position = { x = 344 y = 7 }
 			quadTextureSprite = "GFX_focus_can_start"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -58,29 +61,29 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "accept_seats_text"
-			position = { x = 185 y = 12 }
+			position = { x = 70 y = 70 }
 			font = "hoi_20b"
 			text = "LAWS_ACCEPT_SEATS"
 			pdx_tooltip = "accept_seats_tooltip"
-			maxWidth = 400
+			maxWidth = 250
 			maxHeight = 18
 			
 		}
 		
 		instantTextboxType = {
 			name = "decline_seats_text"
-			position = { x = 185 y = 37 }
+			position = { x = 70 y = 95 }
 			font = "hoi_20b"
 			text = "LAWS_DECLINE_SEATS"
 			pdx_tooltip = "decline_seats_tooltip"
-			maxWidth = 400
+			maxWidth = 250
 			maxHeight = 18
 			
 		}
 		
 		buttonType = {
 			name = "party_opinion_button"
-			position = { x = 455 y = 15 }
+			position = { x = 15 y = 73 }
 			quadTextureSprite = "GFX_parties_opinion_icon"
 			Orientation = "UPPER_LEFT"
 			
@@ -88,12 +91,174 @@ guiTypes = {
             #pdx_tooltip_delayed = "party_opinion_button_text_delayed"
 		}
 		
+		
+		
+		
+		buttonType = {
+			name = "manpower_laws_button"
+			position = { x = 10 y = 130 }
+			quadTextureSprite = "GFX_government_button"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
+		instantTextboxType = {
+			name = "manpower_laws_button_text"
+			position = { x = 50 y = 138 }
+			font = "hoi_16mbs"
+			text = "manpower_laws_button_text"
+			alwaystransparent = yes
+			maxWidth = 120
+			maxHeight = 15
+		}
+		
+		
+		buttonType = {
+			name = "border_laws_button"
+			position = { x = 10 y = 170 }
+			quadTextureSprite = "GFX_government_button"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
+		instantTextboxType = {
+			name = "border_laws_button_text"
+			position = { x = 50 y = 178 }
+			font = "hoi_16mbs"
+			text = "border_laws_button_text"
+			alwaystransparent = yes
+			maxWidth = 120
+			maxHeight = 15
+		}
+		
+		
+		buttonType = {
+			name = "censoure_laws_button"
+			position = { x = 10 y = 210 }
+			quadTextureSprite = "GFX_government_button"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
+		instantTextboxType = {
+			name = "censoure_laws_button_text"
+			position = { x = 50 y = 218 }
+			font = "hoi_16mbs"
+			text = "censoure_laws_button_text"
+			alwaystransparent = yes
+			maxWidth = 120
+			maxHeight = 15
+		}
+		
+		
+		buttonType = {
+			name = "party_system_button"
+			position = { x = 190 y = 130 }
+			quadTextureSprite = "GFX_government_button"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
+		instantTextboxType = {
+			name = "party_system_button_text"
+			position = { x = 230 y = 138 }
+			font = "hoi_16mbs"
+			text = "party_system_button_text"
+			alwaystransparent = yes
+			maxWidth = 120
+			maxHeight = 15
+		}
+		
+		
+		buttonType = {
+			name = "religion_laws_button"
+			position = { x = 190 y = 170 }
+			quadTextureSprite = "GFX_government_button"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
+		instantTextboxType = {
+			name = "religion_laws_button_text"
+			position = { x = 230 y = 178 }
+			font = "hoi_16mbs"
+			text = "religion_laws_button_text"
+			alwaystransparent = yes
+			maxWidth = 120
+			maxHeight = 15
+		}
+		
+		
+		buttonType = {
+			name = "national_laws_button"
+			position = { x = 190 y = 210 }
+			quadTextureSprite = "GFX_government_button"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			format = right
+		}
+		instantTextboxType = {
+			name = "national_laws_button_text"
+			position = { x = 230 y = 218 }
+			font = "hoi_16mbs"
+			text = "national_laws_button_text"
+			alwaystransparent = yes
+			maxWidth = 120
+			maxHeight = 15
+		}
+		
+		
+		
+		iconType = {
+			name = "choosed_law_icon"
+			position = { x = 440 y = 70 }
+			spriteType = "GFX_idea_unknown"
+		}
+		
+		instantTextboxType = {
+			name = "choosed_law_text"
+			position = { x = 505 y = 140 }
+			font = "hoi_16mbs"
+			text = "choosed_law_text"
+			alwaystransparent = yes
+			maxWidth = 120
+			maxHeight = 15
+			format = right
+			Orientation = "UPPER_LEFT"
+		}
+		
+		
+		
+		gridboxtype = {
+			name = "laws_grid"
+			position = { x = 10 y = 250 }
+			size = { width = 100%% height = 70 }
+			slotsize = { width = 70 height = 70 }
+			max_slots = { x = 7 y = 1 }
+			format = "UPPER_LEFT"
+		}
+		
+		
 		#background = {
 		#	name = "par_empty_bg"
 		#	quadTextureSprite ="GFX_par_empty_bg"
 		#}
 		
 		
+		
+	}
+	
+	containerWindowType = {
+		name = "laws_gird_element"
+		position = { x = 0 y = 0 }
+		size = { width=70 height=70 }
+		
+		buttonType = {
+			name = "law_button"
+			quadTextureSprite = "GFX_idea_unknown"
+			position = { x = 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
 		
 	}
 	
