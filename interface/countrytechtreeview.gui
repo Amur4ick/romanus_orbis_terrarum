@@ -212,7 +212,7 @@ guiTypes = {
 			}	
 			
 			gridboxtype = {
-				name = "support_equipment_tribe_tree"
+				name = "support_weapons_tech_1_tree"
 				position = { x = 140 y = 200 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -233,15 +233,8 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "cavalary_tribe_tree"
-				position = { x = 140 y = 400 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			
-			gridboxtype = {
 				name = "berserks_tech_tree"
-				position = { x = 140 y = 820 }
+				position = { x = 140 y = 400 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
@@ -804,14 +797,20 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}		
 			}	
-
 				
 			gridboxtype = {
-				name = "gwtank_tree"
-				position = { x = 10% y = 172 }
+				name = "internal_combustion_engine_tree"
+				position = { x = 225 y = 170 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
-				format = "UP"
+				format = "UPPER_LEFT"
+			}
+			gridboxtype = {
+				name = "tachanka_tech_tree"
+				position = { x = 225 y = 170 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UPPER_LEFT"
 			}
 		}
 

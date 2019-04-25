@@ -1,38 +1,4 @@
 ﻿l_russian:
-
- # Категории решений
- 
- ROT_parlament_decisions:0 "Парламент"
- ROT_parties_decisions:0 "Партии"
- 
- # Решения
- 
- dissolve_parliament:0 "Распустить парламент"
- convene_parliament:0 "Созвать парламент"
- 
- ban_libertatism_party:0 "Запретить Либертатизм"
- ban_vemosism_party:0 "Запретить Вемосизм"
- ban_sociarchism_party:0 "Запретить Социархизм"
- ban_eleftherism_party:0 "Запретить Элефтеризм"
- ban_passionism_party:0 "Запретить Пассионизм"
- ban_viatirism_party:0 "Запретить Виатиризм"
- ban_gentemism_party:0 "Запретить Гентемизм"
- ban_neo_oligarchism_party:0 "Запретить Нео-Олигархизм"
- 
- unban_libertatism_party:0 "Разрешить Либертатизм"
- unban_vemosism_party:0 "Разрешить Вемосизм"
- unban_sociarchism_party:0 "Разрешить Социархизм"
- unban_eleftherism_party:0 "Разрешить Элефтеризм"
- unban_passionism_party:0 "Разрешить Пассионизм"
- unban_viatirism_party:0 "Разрешить Виатиризм"
- unban_gentemism_party:0 "Разрешить Гентемизм"
- unban_neo_oligarchism_party:0 "Разрешить Нео-Олигархизм"
- 
- civilian_economy_project:0 "Внести законопрект: Гражданская экономика"
- low_economic_mobilisation_project:0 "Внести законопрект: Ранняя мобилизация"
- 
- civilian_economy_decision:0 "Подписать закон: Гражданская экономика"
- low_economic_mobilisation_project:0 "Внести законопрект: Ранняя мобилизация"
  
  # Триггеры решений
  

@@ -96,7 +96,7 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		special_forces = yes
-		marines = yes
+		marines = no
 		
 		priority = 601
 		ai_priority = 200
@@ -150,7 +150,7 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		special_forces = yes
-		mountaineers = yes
+		mountaineers = no
 
 		priority = 601
 		ai_priority = 200
@@ -205,7 +205,7 @@ sub_units = {
 	paratrooper = {
 		sprite = infantry
 		map_icon_category = infantry
-		special_forces = yes
+		special_forces = no
 
 		priority = 2
 		ai_priority = 2
@@ -321,7 +321,7 @@ sub_units = {
 
 		priority = 610
 		ai_priority = 200
-		active = yes
+		active = no
 
 		type = {
 			mechanized

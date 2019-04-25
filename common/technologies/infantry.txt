@@ -136,149 +136,15 @@ technologies = {
 	##### Оружие поддержки #####
 	############################
 	
-	# Луки и стрелы
-	
-	support_equipment_tribe = {
+	support_weapons_tech_1 = {
 		
 		path = {
-			leads_to_tech = support_equipment_medieval
+			leads_to_tech = support_weapons_tech_2
 			research_cost_coeff = 1
 		}
 		
 		enable_equipments = {
-			support_equipment_1
-		}
-
-		research_cost = 1
-		start_year = 1700
-		folder = {
-			name = infantry_folder
-			position = { x = 1 y = @tribe }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1752.1.1"
-			}
-		}
-	}
-	
-	# Арбалеты
-	
-	support_equipment_medieval = {
-		
-		path = {
-			leads_to_tech = support_equipment_new_time_1
-			research_cost_coeff = 1
-		}
-		
-		enable_equipments = {
-			support_equipment_2
-		}
-
-		research_cost = 1
-		start_year = 1700
-		folder = {
-			name = infantry_folder
-			position = { x = 1 y = @medieval }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1752.1.1"
-			}
-		}
-	}
-	
-	# Бомбы
-	
-	support_equipment_new_time_1 = {
-		
-		path = {
-			leads_to_tech = support_equipment_new_time_2
-			research_cost_coeff = 1
-		}
-		
-		enable_equipments = {
-			support_equipment_3
-		}
-
-		research_cost = 1
-		start_year = 1700
-		folder = {
-			name = infantry_folder
-			position = { x = 1 y = @new_time }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1752.1.1"
-			}
-		}
-	}
-	
-	# Гранаты
-	
-	support_equipment_new_time_2 = {
-		
-		path = {
-			leads_to_tech = support_equipment_modern_1
-			research_cost_coeff = 1
-		}
-		
-		enable_equipments = {
-			support_equipment_4
-		}
-
-		research_cost = 1
-		start_year = 1700
-		folder = {
-			name = infantry_folder
-			position = { x = 1 y = @1675 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1752.1.1"
-			}
-		}
-	}
-	
-	# Ранние пулеметы
-	
-	support_equipment_modern_1 = {
-		
-		path = {
-			leads_to_tech = support_equipment_modern_2
-			research_cost_coeff = 1
-		}
-		
-		enable_equipments = {
-			support_equipment_5
+			support_weapons_1
 		}
 
 		research_cost = 1
@@ -303,15 +169,15 @@ technologies = {
 	
 	# Пулеметы 1
 	
-	support_equipment_modern_2 = {
+	support_weapons_tech_2 = {
 		
 		path = {
-			leads_to_tech = support_equipment_modern_3
+			leads_to_tech = support_weapons_tech_3
 			research_cost_coeff = 1
 		}
 		
 		enable_equipments = {
-			support_equipment_6
+			support_weapons_2
 		}
 
 		research_cost = 1
@@ -336,15 +202,15 @@ technologies = {
 	
 	# Пулеметы 2
 	
-	support_equipment_modern_3 = {
+	support_weapons_tech_3 = {
 		
 		path = {
-			leads_to_tech = support_equipment_modern_4
+			leads_to_tech = support_weapons_tech_4
 			research_cost_coeff = 1
 		}
 		
 		enable_equipments = {
-			support_equipment_7
+			support_weapons_3
 		}
 
 		research_cost = 1
@@ -369,10 +235,10 @@ technologies = {
 	
 	# Пулеметы 3
 	
-	support_equipment_modern_4 = {
+	support_weapons_tech_4 = {
 		
 		enable_equipments = {
-			support_equipment_8
+			support_weapons_4
 		}
 
 		research_cost = 1
@@ -1008,208 +874,6 @@ technologies = {
 		}
 	}
 	
-	#####################       
-	##### Кавалерия #####
-	#####################
-
-	# Ранняя кавалерия
-	
-	cavalary_tribe = {
-		
-		path = {
-			leads_to_tech = cavalary_medieval
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		start_year = 1700
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = @tribe }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1752.1.1"
-			}
-		}
-	}
-	
-	# Средневековая кавалерия
-	
-	cavalary_medieval = {
-		
-		path = {
-			leads_to_tech = cavalary_new_time_1
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		start_year = 1700
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = @medieval }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1752.1.1"
-			}
-		}
-	}
-	
-	# Кавалерия нового времени 1
-	
-	cavalary_new_time_1 = {
-		
-		path = {
-			leads_to_tech = cavalary_new_time_2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		start_year = 1700
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = @new_time }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1752.1.1"
-			}
-		}
-	}
-	
-	# Кавалерия нового времени 2
-	
-	cavalary_new_time_2 = {
-		
-		path = {
-			leads_to_tech = cavalary_modern_1
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		start_year = 1700
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = @1675 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1752.1.1"
-			}
-		}
-	}
-	
-	# Современная кавалерия 1
-	
-	cavalary_modern_1 = {
-		
-		path = {
-			leads_to_tech = cavalary_modern_2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		start_year = 1700
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = @1723 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1752.1.1"
-			}
-		}
-	}
-	
-	# Современная кавалерия 2
-	
-	cavalary_modern_2 = {
-		
-		path = {
-			leads_to_tech = cavalary_modern_3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		start_year = 1753
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = @1753 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1752.1.1"
-			}
-		}
-	}
-	
-	# Современная кавалерия 3
-	
-	cavalary_modern_3 = {
-
-		research_cost = 1
-		start_year = 1759
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = @1759 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1752.1.1"
-			}
-		}
-	}
-	
 	###################      
 	##### Спецназ #####
 	###################
@@ -1231,7 +895,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @tribe }
+			position = { x = 4 y = @tribe }
 		}
 		
 		categories = {
@@ -1260,7 +924,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @medieval }
+			position = { x = 4 y = @medieval }
 		}
 		
 		categories = {
@@ -1289,7 +953,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @new_time }
+			position = { x = 4 y = @new_time }
 		}
 		
 		categories = {
@@ -1328,7 +992,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1675 }
+			position = { x = 4 y = @1675 }
 		}
 		
 		categories = {
@@ -1357,7 +1021,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1723 }
+			position = { x = 4 y = @1723 }
 		}
 		
 		categories = {
@@ -1386,7 +1050,7 @@ technologies = {
 		start_year = 1753
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1753 }
+			position = { x = 4 y = @1753 }
 		}
 		
 		categories = {
@@ -1410,7 +1074,7 @@ technologies = {
 		start_year = 1759
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1759 }
+			position = { x = 4 y = @1759 }
 		}
 		
 		categories = {
@@ -1443,7 +1107,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1723 }
+			position = { x = 6 y = @1723 }
 		}
 		
 		categories = {
@@ -1472,7 +1136,7 @@ technologies = {
 		start_year = 1753
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1753 }
+			position = { x = 6 y = @1753 }
 		}
 		
 		categories = {
@@ -1496,7 +1160,7 @@ technologies = {
 		start_year = 1723
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1759 }
+			position = { x = 6 y = @1759 }
 		}
 		
 		categories = {
@@ -1529,7 +1193,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1723 }
+			position = { x = 8 y = @1723 }
 		}
 		
 		categories = {
@@ -1558,7 +1222,7 @@ technologies = {
 		start_year = 1753
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1753 }
+			position = { x = 8 y = @1753 }
 		}
 		
 		categories = {
@@ -1582,7 +1246,7 @@ technologies = {
 		start_year = 1723
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1759 }
+			position = { x = 8 y = @1759 }
 		}
 		
 		categories = {

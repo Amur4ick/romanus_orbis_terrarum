@@ -1,0 +1,185 @@
+# All equipment based on light tank chassis
+
+equipments = {
+
+	bronevik_equipment = {
+		year = 1723
+
+		is_archetype = yes
+		is_convertable = yes
+		is_buildable = no
+		type = armor
+		group_by = archetype
+
+		interface_category = interface_category_armor
+
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+
+		#Misc Abilities
+		maximum_speed = 15
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 6
+		breakthrough = 26
+		hardness = 0.5
+		armor_value = 14
+
+		#Offensive Abilities
+		soft_attack = 15
+		hard_attack = 1
+		ap_attack = 1
+		air_attack = 2
+
+		#Space taken in convoy
+		lend_lease_cost = 3
+
+		build_cost_ic = 5
+		resources = {
+			steel = 2
+			rubber = 1
+		}
+		fuel_consumption = 1.5
+	}
+
+	bronevik_equipment_1 = {
+		year = 1723
+
+		archetype = bronevik_equipment
+		priority = 10
+		visual_level = 0
+
+		#Misc Abilities
+		maximum_speed = 10
+		reliability = 0.7
+
+		#Defensive Abilities
+		defense = 3
+		breakthrough = 15
+		hardness = 0.2
+		armor_value = 5
+
+		#Offensive Abilities
+		soft_attack = 7
+		hard_attack = 1
+		ap_attack = 1
+		air_attack = 1
+
+		#Space taken in convoy
+		lend_lease_cost = 3
+
+		build_cost_ic = 5
+		is_convertable = yes
+		resources = {
+			steel = 2
+			rubber = 1
+		}
+		is_convertable = yes
+	}
+
+	bronevik_equipment_2 = {
+		year = 1753
+
+		archetype = bronevik_equipment
+		parent = bronevik_equipment_1
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+
+		can_convert_from = {
+			bronevik_equipment_1
+		}
+	}
+
+	bronevik_equipment_3 = {
+		year = 1756
+
+		archetype = bronevik_equipment
+		parent = bronevik_equipment_2
+		priority = 10
+		visual_level = 1
+		is_convertable = yes
+
+		can_convert_from = {
+			bronevik_equipment_1
+			bronevik_equipment_2
+		}
+
+		#Misc Abilities
+		maximum_speed = 15
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 26
+		hardness = 0.5
+		armor_value = 14
+
+		#Offensive Abilities
+		soft_attack = 18
+		hard_attack = 1
+		ap_attack = 1
+		air_attack = 2
+
+		#Space taken in convoy
+		lend_lease_cost = 3
+
+		build_cost_ic = 5
+		is_convertable = yes
+		can_convert_from = {
+			armored_car_equipment_1
+		}
+		resources = {
+
+			steel = 2
+			rubber = 1
+		}
+	}
+
+	bronevik_equipment_4 = {
+		year = 1758
+
+		archetype = bronevik_equipment
+		parent = bronevik_equipment_3
+		priority = 10
+		visual_level = 2
+		is_convertable = yes
+
+		can_convert_from = {
+			bronevik_equipment_1
+			bronevik_equipment_2
+			bronevik_equipment_3
+		}
+
+		#Misc Abilities
+		maximum_speed = 18
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 26
+		hardness = 0.6
+		armor_value = 14
+
+		#Offensive Abilities
+		soft_attack = 20
+		hard_attack = 1
+		ap_attack = 1
+		air_attack = 2
+
+		#Space taken in convoy
+		lend_lease_cost = 3
+
+		build_cost_ic = 5
+		resources = {
+
+			steel = 3
+			rubber = 1
+		}
+	}
+}

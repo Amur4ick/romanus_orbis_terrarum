@@ -1,0 +1,12 @@
+﻿division_template = {
+	name = "Armored-Auto-Division"
+
+	regiments = {
+		bronevik = { x = 0 y = 0 }
+		bronevik = { x = 0 y = 1 }
+        bronevik = { x = 0 y = 2 }
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}

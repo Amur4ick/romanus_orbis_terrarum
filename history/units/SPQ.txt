@@ -1,0 +1,151 @@
+﻿####### Division Templates #######
+division_template = { 
+	name = "Legio Peditum" 
+	division_names_group = SPQ_INF_01 
+	
+	regiments = { 
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 } 
+		infantry = { x = 0 y = 2 } 
+		infantry = { x = 1 y = 0 } 
+		infantry = { x = 1 y = 1 } 
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 } 
+		infantry = { x = 2 y = 1 }  
+		infantry = { x = 2 y = 2 }   
+	} 
+	support = { 
+		support_brigade = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 } 
+	} 
+} 
+
+division_template = { 
+	name = "Legio Mons" 
+	division_names_group = SPQ_MNT_01 
+
+	regiments = { 
+		mountaineers = { x = 0 y = 0 } 												
+		mountaineers = { x = 0 y = 1 } 
+		mountaineers = { x = 0 y = 2 } 
+		mountaineers = { x = 0 y = 3 } 
+		mountaineers = { x = 0 y = 4 } 
+		mountaineers = { x = 1 y = 0 } 
+		mountaineers = { x = 1 y = 1 } 
+		mountaineers = { x = 1 y = 2 } 
+		mountaineers = { x = 1 y = 3 }
+		mountaineers = { x = 1 y = 4 }
+	} 
+	support = { 
+		support_brigade = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 } 
+		engineer = { x = 0 y = 2 } 
+	} 
+
+	priority = 2 
+} 
+
+division_template = { 
+	name = "Legio Coloniae" 
+	division_names_group = ITA_INF_01 
+	
+	regiments = { 
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 } 
+		infantry = { x = 0 y = 2 } 
+		infantry = { x = 1 y = 0 } 
+		infantry = { x = 1 y = 1 } 
+		infantry = { x = 1 y = 2 } 
+	} 
+	support = { 
+		support_brigade = { x = 0 y = 0 }
+	}
+	priority = 0 
+}
+
+division_template = { 
+	name = "Legio Provincialis" 
+	division_names_group = SPQ_INF_01 
+
+	regiments = { 
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 } 
+		infantry = { x = 0 y = 2 } 
+		infantry = { x = 1 y = 0 } 
+		infantry = { x = 1 y = 1 } 
+		infantry = { x = 1 y = 2 } 
+	} 
+
+	priority = 0 
+} 
+
+division_template = { 
+	name = "Legio Equites" 
+	division_names_group = SPQ_CAV_01 
+
+	regiments = { 
+		cavalry = { x = 0 y = 0 } 
+		cavalry = { x = 0 y = 1 } 
+		cavalry = { x = 1 y = 0 } 
+		cavalry = { x = 1 y = 1 } 
+	} 
+} 
+
+division_template = { 
+	name = "Legio Plaustrum" 
+	division_names_group = SPQ_CAV_01 
+
+	regiments = { 
+		cavalry = { x = 0 y = 0 } 
+		cavalry = { x = 0 y = 1 } 
+		cavalry = { x = 0 y = 2 } 
+		tachanka = { x = 1 y = 0 } 
+		tachanka = { x = 1 y = 1 } 
+		tachanka = { x = 1 y = 2 } 
+	} 
+	priority = 2
+} 
+
+division_template = { 
+	name = "Legio Motricium" 
+	division_names_group = SPQ_MOT_01 
+
+	regiments = { 
+		motorized = { x = 0 y = 0 } 
+		motorized = { x = 0 y = 1 } 
+		motorized = { x = 0 y = 2 } 
+		motorized = { x = 1 y = 0 } 
+		motorized = { x = 1 y = 1 } 
+		motorized = { x = 1 y = 2 } 
+	} 
+}
+
+division_template = { 
+	name = "Legio Loricamotorum" 
+	division_names_group = SPQ_MOT_01 
+
+	regiments = { 
+		motorized = { x = 0 y = 0 } 
+		motorized = { x = 0 y = 1 } 
+		motorized = { x = 0 y = 2 } 
+		bronevik = { x = 1 y = 0 } 
+		bronevik = { x = 1 y = 1 } 
+		bronevik = { x = 1 y = 2 } 
+	}  
+}  
+
+
+####### OOB #######
+units = { 
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		} 
+		location = 11721 
+		division_template = "Legio Peditum"	# 'Semi-Mountain' (less trained & equipped than Alpina)
+		start_experience_factor = 0.3 
+	} 
+	
+}

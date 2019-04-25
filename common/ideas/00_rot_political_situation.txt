@@ -111,7 +111,7 @@ ideas = {
    			#}
 		}
 		
-		civil_war = {
+		civil_war_law = {
 		
 			available = {
 				always = no	

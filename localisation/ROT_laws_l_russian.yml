@@ -39,7 +39,7 @@
  regime:0 "Политический режим"
  country_level:0 "Мировой статус"
  country_development:0 "Степень развития"
- political_crisis:0 "Политическая обстановка"
+ political_situation:0 "Политическая обстановка"
  
  main_laws:0 "Основные законы"
  mobilization_laws:0 "Законы о призыве"
@@ -95,7 +95,7 @@
  low_stability:0 "Низкая стабильность"
  political_crisis:0 "Политический кризис"
  revolution:0 "Революция"
- civil_war:0 "Гражданская война"
+ civil_war_law:0 "Гражданская война"
  
  
  

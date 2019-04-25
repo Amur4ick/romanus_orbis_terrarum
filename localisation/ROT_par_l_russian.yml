@@ -1,7 +1,6 @@
 ﻿l_russian:
 
  ### ПАРЛАМЕНТ
- laws_button_text:0 "Парламент"
  parlament_button_text:0 "Парламент"
  
  PARLAMENT_TEXT:0 "Парламент\nЗаполнено мест: §Y[?aligned_par]/200§!"
