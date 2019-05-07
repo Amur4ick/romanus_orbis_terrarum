@@ -467,13 +467,17 @@ focus_tree = {
 
 	}
 	focus = {
-		id = UNI_protesty_zheltyh
-		text = UNI_protesty_zheltyh
+		id = UNI_taynaya_podderzhka
+		text = UNI_taynaya_podderzhka
 		icon = GFX_UNI_yellow_protests
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = UNI_noviy_centr
 			focus = UNI_stariy_centr
+		}
+		completion_reward = {
+		#	country_event = { id = uni.8 days = 3 }
+		#	add_political_power = 50
 		}
 		x = 19
 		y = 3
@@ -485,8 +489,8 @@ focus_tree = {
 		icon = GFX_goal_generic_war_with_comintern
 		cost = 10
 		prerequisite = {
-			focus = UNI_stariy_centr
 			focus = UNI_noviy_centr
+			focus = UNI_stariy_centr
 		}
 		x = 21
 		y = 3

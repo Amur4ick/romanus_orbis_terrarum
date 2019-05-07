@@ -1,0 +1,36 @@
+leader_traits = {
+	slav_s_leader = { 
+
+		type = all
+		trait_type = personality_trait
+
+		modifier = {
+			plains = {
+				attack = 0.05
+				movement = 0.1
+			}
+			urban = {
+				attack = 0.05
+				movement = 0.1
+			}
+		}
+		
+	}
+	finn_s_leader = { 
+
+		type = all
+		trait_type = personality_trait
+
+		modifier = {
+			forest = {
+				attack = 0.05
+				movement = 0.1
+			}
+			marsh = {
+				attack = 0.05
+				movement = 0.1
+			}
+		}
+		
+	}
+}

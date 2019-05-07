@@ -116,7 +116,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1723 }
+			position = { x = 0 y = @1675 }
 		}
 		
 		categories = {
@@ -151,7 +151,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1723 }
+			position = { x = 0 y = @1723 }
 		}
 		
 		categories = {
@@ -184,7 +184,7 @@ technologies = {
 		start_year = 1753
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1753 }
+			position = { x = 0 y = @1753 }
 		}
 		
 		categories = {
@@ -217,7 +217,7 @@ technologies = {
 		start_year = 1756
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1756 }
+			position = { x = 0 y = @1756 }
 		}
 		
 		categories = {
@@ -245,7 +245,7 @@ technologies = {
 		start_year = 1759
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1759 }
+			position = { x = 0 y = @1759 }
 		}
 		
 		categories = {
@@ -282,7 +282,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @tribe }
+			position = { x = 1 y = @tribe }
 		}
 		
 		categories = {
@@ -315,7 +315,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @medieval }
+			position = { x = 1 y = @medieval }
 		}
 		
 		categories = {
@@ -348,7 +348,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @new_time }
+			position = { x = 1 y = @new_time }
 		}
 		
 		categories = {
@@ -381,7 +381,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1675 }
+			position = { x = 1 y = @1675 }
 		}
 		
 		categories = {
@@ -414,7 +414,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1723 }
+			position = { x = 1 y = @1723 }
 		}
 		
 		categories = {
@@ -447,7 +447,7 @@ technologies = {
 		start_year = 1752
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1752 }
+			position = { x = 1 y = @1752 }
 		}
 		
 		categories = {
@@ -476,7 +476,7 @@ technologies = {
 		start_year = 1753
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1753 }
+			position = { x = 1 y = @1753 }
 		}
 		
 		categories = {
@@ -509,7 +509,7 @@ technologies = {
 		start_year = 1755
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1755 }
+			position = { x = 1 y = @1755 }
 		}
 		
 		categories = {
@@ -538,7 +538,7 @@ technologies = {
 		start_year = 1756
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1756 }
+			position = { x = 1 y = @1756 }
 		}
 		
 		categories = {
@@ -571,7 +571,7 @@ technologies = {
 		start_year = 1758
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1758 }
+			position = { x = 1 y = @1758 }
 		}
 		
 		categories = {
@@ -595,7 +595,7 @@ technologies = {
 		start_year = 1759
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1759 }
+			position = { x = 1 y = @1759 }
 		}
 		
 		categories = {
@@ -632,7 +632,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @tribe }
+			position = { x = 2 y = @tribe }
 		}
 		
 		categories = {
@@ -665,7 +665,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @medieval }
+			position = { x = 2 y = @medieval }
 		}
 		
 		categories = {
@@ -698,7 +698,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @new_time }
+			position = { x = 2 y = @new_time }
 		}
 		
 		categories = {
@@ -731,7 +731,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1675 }
+			position = { x = 2 y = @1675 }
 		}
 		
 		categories = {
@@ -764,7 +764,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1723 }
+			position = { x = 2 y = @1723 }
 		}
 		
 		categories = {
@@ -797,7 +797,7 @@ technologies = {
 		start_year = 1753
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1753 }
+			position = { x = 2 y = @1753 }
 		}
 		
 		categories = {
@@ -830,7 +830,7 @@ technologies = {
 		start_year = 1756
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1756 }
+			position = { x = 2 y = @1756 }
 		}
 		
 		categories = {
@@ -858,7 +858,7 @@ technologies = {
 		start_year = 1759
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1759 }
+			position = { x = 2 y = @1759 }
 		}
 		
 		categories = {
@@ -895,7 +895,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @tribe }
+			position = { x = 3 y = @tribe }
 		}
 		
 		categories = {
@@ -924,7 +924,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @medieval }
+			position = { x = 3 y = @medieval }
 		}
 		
 		categories = {
@@ -953,7 +953,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @new_time }
+			position = { x = 3 y = @new_time }
 		}
 		
 		categories = {
@@ -992,7 +992,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1675 }
+			position = { x = 3 y = @1675 }
 		}
 		
 		categories = {
@@ -1021,7 +1021,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1723 }
+			position = { x = 3 y = @1723 }
 		}
 		
 		categories = {
@@ -1050,7 +1050,7 @@ technologies = {
 		start_year = 1753
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1753 }
+			position = { x = 3 y = @1753 }
 		}
 		
 		categories = {
@@ -1074,7 +1074,7 @@ technologies = {
 		start_year = 1759
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1759 }
+			position = { x = 3 y = @1759 }
 		}
 		
 		categories = {
@@ -1107,7 +1107,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = @1723 }
+			position = { x = 5 y = @1723 }
 		}
 		
 		categories = {
@@ -1136,7 +1136,7 @@ technologies = {
 		start_year = 1753
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = @1753 }
+			position = { x = 5 y = @1753 }
 		}
 		
 		categories = {
@@ -1160,7 +1160,7 @@ technologies = {
 		start_year = 1723
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = @1759 }
+			position = { x = 5 y = @1759 }
 		}
 		
 		categories = {
@@ -1193,7 +1193,7 @@ technologies = {
 		start_year = 1700
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = @1723 }
+			position = { x = 7 y = @1723 }
 		}
 		
 		categories = {
@@ -1222,7 +1222,7 @@ technologies = {
 		start_year = 1753
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = @1753 }
+			position = { x = 7 y = @1753 }
 		}
 		
 		categories = {
@@ -1246,7 +1246,7 @@ technologies = {
 		start_year = 1723
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = @1759 }
+			position = { x = 7 y = @1759 }
 		}
 		
 		categories = {

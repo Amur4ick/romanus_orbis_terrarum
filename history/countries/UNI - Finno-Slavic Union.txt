@@ -1,6 +1,6 @@
 ﻿set_capital = 243
 
-oob = "BLR_1936"
+oob = "SPQ"
 
 set_research_slots = 3
 
@@ -126,3 +126,29 @@ create_country_leader = {
 }
 
 set_variable = { vemosism_par = 200 }
+
+
+create_corps_commander = {
+	name = "Vasiliy Sotnikov"
+	id = 1001
+	picture = "UNI_vasiliy_sotnikov.dds"
+	traits = { old_guard war_hero }
+	skill = 4
+
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Kettu Voittonen"
+	id = 1002
+	picture = "UNI_kettu_voittonen.dds"
+	traits = { winter_specialist media_personality }
+	skill = 3
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}

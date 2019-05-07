@@ -57,4 +57,14 @@ spriteTypes = {
 		textureFile = "gfx/interface/new_icons/par_empty_bg.dds"
 	}
 	
+	
+	
+	spriteType = {
+		name = "GFX_trait_slav_s_leader"
+		textureFile = "gfx//interface//traits//trait_slav_s.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_finn_s_leader"
+		textureFile = "gfx//interface//traits//trait_finn_s.dds"
+	}
 }
