@@ -1,0 +1,202 @@
+ideas = {
+
+	unemployment_level = { 
+		law = yes
+		
+		uneployment_1 = {
+		
+			available = {
+				always = yes	
+			}
+			
+			default = yes
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		uneployment_2 = {
+		
+			available = {
+				always = yes	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				production_speed_buildings_factor = -0.1
+				local_resources_factor = -0.1
+				production_oil_factor = -0.1
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		uneployment_2_1 = {
+		
+			available = {
+				always = no	
+			}
+			visible = {
+				always = no	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+				production_speed_buildings_factor = -0.15
+				local_resources_factor = -0.15
+				production_oil_factor = -0.15
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		uneployment_2_2 = {
+		
+			available = {
+				always = no	
+			}
+			visible = {
+				always = no	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				consumer_goods_factor = 0.2
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
+				production_speed_buildings_factor = -0.2
+				local_resources_factor = -0.2
+				production_oil_factor = -0.2
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		uneployment_3 = {
+		
+			available = {
+				always = yes	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.25
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
+				production_speed_buildings_factor = -0.25
+				local_resources_factor = -0.25
+				production_oil_factor = -0.25
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		uneployment_4 = {
+		
+			available = {
+				always = yes	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.4
+				consumer_goods_factor = 0.4
+				industrial_capacity_factory = -0.4
+				industrial_capacity_dockyard = -0.4
+				production_speed_buildings_factor = -0.4
+				local_resources_factor = -0.4
+				production_oil_factor = -0.4
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		
+	}
+}

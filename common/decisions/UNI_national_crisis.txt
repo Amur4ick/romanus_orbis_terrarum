@@ -1,0 +1,1801 @@
+UNI_national_crisis = {
+
+	UNI_referendum_mission = {
+
+		icon = eng_trade_unions_support
+		
+		available = {
+			always = no             
+        }
+		#visible = {
+        #   has_country_flag = UNI_national_crisis  
+		#}
+        activation = {
+            has_country_flag = UNI_national_crisis
+        }
+        timeout_effect = {
+            hidden_effect = {
+				clr_country_flag = UNI_national_crisis
+			}
+        }
+		
+        days_mission_timeout = 300
+		
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	UNI_stop_slav_s_1 = {
+		
+		icon = oppression
+
+		available = {
+		
+		}
+
+		visible = {
+			has_country_flag = UNI_yellow_front_support
+		}
+
+		#fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		#modifier = {
+		#
+		#}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			subtract_from_variable = { slav_s = 10 }
+			add_to_variable = { finn_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_s_remove_10_effect
+			}
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_finn_s_add_5_effect
+			}	
+		}
+	}
+	
+	UNI_stop_finn_s_1 = {
+		
+		icon = oppression
+
+		available = {
+			
+		}
+
+		visible = {
+			has_country_flag = UNI_yellow_front_support
+		}
+
+		#fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		#modifier = {
+		#
+		#}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			subtract_from_variable = { finn_s = 10 }
+			add_to_variable = { slav_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_finn_s_remove_10_effect
+			}
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_s_add_5_effect
+			}	
+		}
+	}
+	
+	UNI_stop_slav_s_2 = {
+		
+		icon = oppression
+
+		available = {
+			
+		}
+
+		visible = {
+			has_country_flag = UNI_yellow_front_support
+		}
+
+		#fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		#modifier = {
+		#
+		#}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			subtract_from_variable = { slav_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_s_remove_5_effect
+			}	
+		}
+	}
+	
+	UNI_stop_finn_s_2 = {
+		
+		icon = oppression
+
+		available = {
+			
+		}
+
+		visible = {
+			has_country_flag = UNI_yellow_front_support
+		}
+
+		#fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		#modifier = {
+		#
+		#}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			subtract_from_variable = { finn_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_finn_s_remove_5_effect
+			}	
+		}
+	}
+	
+	
+	
+	##### ТАЙНАЯ ПОДДЕРЖКА
+	
+	UNI_slav_weapon_support = {
+		
+		icon = generic_industry
+
+		available = {
+			OR = {
+				has_equipment = {
+					infantry_equipment > 1000
+				}
+				has_equipment = {
+					armor_weapons > 1000
+				}
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_old_center
+			has_country_flag = UNI_secret_support
+		}
+
+		#fire_only_once = yes
+
+		cost = 25
+		days_remove = 20
+
+		#modifier = {
+		#
+		#}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = {
+			if = {
+				limit = {
+					has_equipment = {
+						infantry_equipment > 1000
+					}
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -1000
+				}
+			}
+			else = { add_stability = -0.02 }
+			if = {
+				limit = {
+					has_equipment = {
+						armor_weapons > 1000
+					}
+				}
+				add_equipment_to_stockpile = {
+					type = armor_weapons
+					amount = -1000
+				}
+			}
+			else = { add_stability = -0.02 }
+			
+			hidden_effect = {
+				add_to_variable = { slav_weapon = 1000 }
+				add_to_variable = { slav_armor = 1000 }
+			}
+		}
+		#remove_effect = { 
+		#
+		#}
+	}
+	UNI_finn_weapon_support = {
+		
+		icon = generic_industry
+
+		available = {
+			OR = {
+				has_equipment = {
+					infantry_equipment > 1000
+				}
+				has_equipment = {
+					armor_weapons > 1000
+				}
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_new_center
+			has_country_flag = UNI_secret_support
+		}
+
+		#fire_only_once = yes
+
+		cost = 25
+		days_remove = 20
+
+		#modifier = {
+		#
+		#}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = {
+			if = {
+				limit = {
+					has_equipment = {
+						infantry_equipment > 1000
+					}
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -1000
+				}
+			}
+			else = { add_stability = -0.02 }
+			if = {
+				limit = {
+					has_equipment = {
+						armor_weapons > 1000
+					}
+				}
+				add_equipment_to_stockpile = {
+					type = armor_weapons
+					amount = -1000
+				}
+			}
+			else = { add_stability = -0.02 }
+			
+			hidden_effect = {
+				add_to_variable = { finn_weapon = 1000 }
+				add_to_variable = { finn_armor = 1000 }
+			}
+		}
+		#remove_effect = { 
+		#
+		#}
+	}
+	
+	UNI_slav_army_support = {
+		
+		icon = generic_civil_support
+
+		available = {
+			check_variable = { slav_in_army > 30000 }
+			custom_trigger_tooltip = {
+				tooltip = UNI_slav_army_support_trigger
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_old_center
+			has_country_flag = UNI_secret_support
+		}
+
+		#fire_only_once = yes
+
+		cost = 15
+		days_remove = 20
+
+		#modifier = {
+		#
+		#}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = {
+		
+		}
+		remove_effect = { 
+			add_to_variable = { slav_manpower = 30000 }
+			subtract_from_variable = { slav_in_army = 30000 }
+			custom_effect_tooltip = UNI_slav_army_support_effect
+		}
+	}
+	
+	UNI_finn_army_support = {
+		
+		icon = generic_civil_support
+
+		available = {
+			check_variable = { finn_in_army > 30000 }
+			custom_trigger_tooltip = {
+				tooltip = UNI_finn_army_support_trigger
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_new_center
+			has_country_flag = UNI_secret_support
+		}
+
+		#fire_only_once = yes
+
+		cost = 15
+		days_remove = 20
+
+		#modifier = {
+		#
+		#}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = {
+		
+		}
+		remove_effect = { 
+			add_to_variable = { finn_manpower = 30000 }
+			subtract_from_variable = { finn_in_army = 30000 }
+			custom_effect_tooltip = UNI_finn_army_support_effect
+		}
+	}
+	
+	UNI_slav_partisans_support = {
+		
+		icon = eng_blackshirt_march
+
+		available = {
+			manpower > 10000
+			check_variable = { slav_in_army > 10000 }
+			custom_trigger_tooltip = {
+				tooltip = UNI_slav_partisans_support_trigger
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_old_center
+			has_country_flag = UNI_secret_support
+		}
+
+		#fire_only_once = yes
+
+		cost = 20
+		days_remove = 20
+
+		#modifier = {
+		#
+		#}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = {
+		
+		}
+		remove_effect = { 
+			add_manpower = -10000
+			add_to_variable = { slav_partisans = 10000 }
+			add_to_variable = { slav_partisans_division = 1 }
+			subtract_from_variable = { slav_in_army = 10000 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_partisans_support_effect
+			}
+		}
+	}
+	
+	UNI_finn_partisans_support = {
+		
+		icon = eng_blackshirt_march
+
+		available = {
+			manpower > 10000
+			check_variable = { finn_in_army > 10000 }
+			custom_trigger_tooltip = {
+				tooltip = UNI_finn_partisans_support_trigger
+			}
+			
+		}
+
+		visible = {
+			has_country_flag = UNI_new_center
+			has_country_flag = UNI_secret_support
+		}
+
+		#fire_only_once = yes
+
+		cost = 20
+		days_remove = 20
+
+		#modifier = {
+		#
+		#}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = {
+		
+		}
+		remove_effect = { 
+			add_manpower = -10000
+			add_to_variable = { finn_partisans = 10000 }
+			add_to_variable = { finn_partisans_division = 1 }
+			subtract_from_variable = { finn_in_army = 10000 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_finn_partisans_support_effect
+			}
+		
+		}
+	}
+	
+	
+	
+	##### ЦЕНТРАЛИЗАЦИЯ
+	
+	UNI_slav_replace_civil_factory = {
+		
+		icon = generic_construction
+
+		available = {
+			any_owned_state = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = UNI_slav_replace_civil_factory_trigger
+						OR = {
+							has_state_flag = VCH_state
+							has_state_flag = VEP_state
+							has_state_flag = TVE_state
+							has_state_flag = CNT_state
+							has_state_flag = MRD_state
+							has_state_flag = UDM_state
+							has_state_flag = FIN_state
+							has_state_flag = KIP_state
+							has_state_flag = ECP_state
+							check_variable = { UNI_support = 2 }
+						}
+					}
+				}
+				industrial_complex > 0
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_old_center
+			has_country_flag = UNI_centralisation
+		}
+
+		#fire_only_once = yes
+
+		cost = 25
+		days_remove = 20
+
+		#modifier = {
+		#
+		#}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = {
+			random_owned_state = {
+				limit = {
+					OR = {
+						has_state_flag = VCH_state
+						has_state_flag = VEP_state
+						has_state_flag = TVE_state
+						has_state_flag = CNT_state
+						has_state_flag = MRD_state
+						has_state_flag = UDM_state
+						has_state_flag = FIN_state
+						has_state_flag = KIP_state
+						has_state_flag = ECP_state
+						check_variable = { UNI_support = 2 }
+					}
+					industrial_complex > 0
+				}
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			add_to_variable = { finn_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_finn_s_add_5_effect
+			}	
+		}
+		remove_effect = { 
+			random_owned_state = {
+				limit = {
+					NOT = {
+						has_state_flag = VCH_state
+						has_state_flag = VEP_state
+						has_state_flag = TVE_state
+						has_state_flag = CNT_state
+						has_state_flag = MRD_state
+						has_state_flag = UDM_state
+						has_state_flag = FIN_state
+						has_state_flag = KIP_state
+						has_state_flag = ECP_state
+					}
+					check_variable = { UNI_support = 1 }
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		
+		}
+	}
+	UNI_finn_replace_civil_factory = {
+		
+		icon = generic_construction
+
+		available = {
+			any_owned_state = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = UNI_finn_replace_civil_factory_trigger
+						NOT = {
+							has_state_flag = VCH_state
+							has_state_flag = VEP_state
+							has_state_flag = TVE_state
+							has_state_flag = CNT_state
+							has_state_flag = MRD_state
+							has_state_flag = UDM_state
+							has_state_flag = FIN_state
+							has_state_flag = KIP_state
+							has_state_flag = ECP_state
+						}
+					}
+				}
+				industrial_complex > 0
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_new_center
+			has_country_flag = UNI_centralisation
+		}
+
+		#fire_only_once = yes
+
+		cost = 25
+		days_remove = 20
+
+		#modifier = {
+		#
+		#}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = {
+			random_owned_state = {
+				limit = {
+					NOT = {
+						has_state_flag = VCH_state
+						has_state_flag = VEP_state
+						has_state_flag = TVE_state
+						has_state_flag = CNT_state
+						has_state_flag = MRD_state
+						has_state_flag = UDM_state
+						has_state_flag = FIN_state
+						has_state_flag = KIP_state
+						has_state_flag = ECP_state
+					}
+					industrial_complex > 0
+				}
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			add_to_variable = { slav_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_s_add_5_effect
+			}	
+		}
+		remove_effect = { 
+			random_owned_state = {
+				limit = {
+					OR = {
+						has_state_flag = VCH_state
+						has_state_flag = VEP_state
+						has_state_flag = TVE_state
+						has_state_flag = CNT_state
+						has_state_flag = MRD_state
+						has_state_flag = UDM_state
+						has_state_flag = FIN_state
+						has_state_flag = KIP_state
+						has_state_flag = ECP_state
+					}
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		
+		}
+	}
+	UNI_slav_replace_arms_factory = {
+		
+		icon = generic_construction
+
+		available = {
+			any_owned_state = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = UNI_slav_replace_arms_factory_trigger
+						OR = {
+							has_state_flag = VCH_state
+							has_state_flag = VEP_state
+							has_state_flag = TVE_state
+							has_state_flag = CNT_state
+							has_state_flag = MRD_state
+							has_state_flag = UDM_state
+							has_state_flag = FIN_state
+							has_state_flag = KIP_state
+							has_state_flag = ECP_state
+							check_variable = { UNI_support = 2 }
+						}
+					}
+				}
+				arms_factory > 0
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_old_center
+			has_country_flag = UNI_centralisation
+		}
+
+		#fire_only_once = yes
+
+		cost = 25
+		days_remove = 20
+
+		#modifier = {
+		#
+		#}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = {
+			random_owned_state = {
+				limit = {
+					OR = {
+						has_state_flag = VCH_state
+						has_state_flag = VEP_state
+						has_state_flag = TVE_state
+						has_state_flag = CNT_state
+						has_state_flag = MRD_state
+						has_state_flag = UDM_state
+						has_state_flag = FIN_state
+						has_state_flag = KIP_state
+						has_state_flag = ECP_state
+						check_variable = { UNI_support = 2 }
+					}
+					arms_factory > 0
+				}
+				remove_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			add_to_variable = { finn_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_finn_s_add_5_effect
+			}	
+		}
+		remove_effect = { 
+			random_owned_state = {
+				limit = {
+					NOT = {
+						has_state_flag = VCH_state
+						has_state_flag = VEP_state
+						has_state_flag = TVE_state
+						has_state_flag = CNT_state
+						has_state_flag = MRD_state
+						has_state_flag = UDM_state
+						has_state_flag = FIN_state
+						has_state_flag = KIP_state
+						has_state_flag = ECP_state
+					}
+					check_variable = { UNI_support = 1 }
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		
+		}
+	}
+	UNI_finn_replace_arms_factory = {
+		
+		icon = generic_construction
+
+		available = {
+			any_owned_state = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = UNI_finn_replace_arms_factory_trigger
+						NOT = {
+							has_state_flag = VCH_state
+							has_state_flag = VEP_state
+							has_state_flag = TVE_state
+							has_state_flag = CNT_state
+							has_state_flag = MRD_state
+							has_state_flag = UDM_state
+							has_state_flag = FIN_state
+							has_state_flag = KIP_state
+							has_state_flag = ECP_state
+						}
+					}
+				}
+				arms_factory > 0
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_new_center
+			has_country_flag = UNI_centralisation
+		}
+
+		#fire_only_once = yes
+
+		cost = 25
+		days_remove = 20
+
+		#modifier = {
+		#
+		#}
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = {
+			random_owned_state = {
+				limit = {
+					NOT = {
+						has_state_flag = VCH_state
+						has_state_flag = VEP_state
+						has_state_flag = TVE_state
+						has_state_flag = CNT_state
+						has_state_flag = MRD_state
+						has_state_flag = UDM_state
+						has_state_flag = FIN_state
+						has_state_flag = KIP_state
+						has_state_flag = ECP_state
+					}
+					arms_factory > 0
+				}
+				remove_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			add_to_variable = { slav_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_s_add_5_effect
+			}	
+		}
+		remove_effect = { 
+			random_owned_state = {
+				limit = {
+					OR = {
+						has_state_flag = VCH_state
+						has_state_flag = VEP_state
+						has_state_flag = TVE_state
+						has_state_flag = CNT_state
+						has_state_flag = MRD_state
+						has_state_flag = UDM_state
+						has_state_flag = FIN_state
+						has_state_flag = KIP_state
+						has_state_flag = ECP_state
+					}
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		
+		}
+	}
+	
+	
+	
+	##### РЕГИОНЫ ДЛЯ ПОДДЕРЖКИ (славяне)
+	
+	UNI_slav_support_sarmatian_regions = { # 256 1552 1553 1555 
+		
+		icon = generic_nationalism
+		
+		highlight_provinces = { 437 544 3431 3504 3566 6528 6587 9464 9502 9529 11451 11512   473 510 3469 6494 9424 11412 11475   579 3555 3582 6602 9436   487 518 3518 3539 6506 6539 6563 9475 11423 11485 }
+
+		available = {
+			owns_state = 256
+			controls_state = 256
+			owns_state = 1552
+			controls_state = 1552
+			owns_state = 1553
+			controls_state = 1553
+			owns_state = 1555
+			controls_state = 1555
+		}
+
+		visible = {
+			has_country_flag = UNI_old_center
+		}
+
+		fire_only_once = yes
+
+		cost = 30
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			265 = { set_variable = { UNI_support = 1 } }
+			1552 = { set_variable = { UNI_support = 1 } }
+			1553 = { set_variable = { UNI_support = 1 } }
+			1555 = { set_variable = { UNI_support = 1 } }
+			set_country_flag = support_SAR
+			custom_effect_tooltip = UNI_slav_support_sarmatian_regions_effect
+		}
+	}
+	
+	UNI_slav_support_1_regions = { # 1554 255 257
+		
+		icon = generic_nationalism
+		
+		highlight_provinces = { 232 313 340 367 396 471 3332 3389 9422 11296 11351   376 3221 3266 3360 6291 6329 6353 6382 6409 9324   433 3304 3465 6328 6492 9352 9460 9564 11408 11551 }
+
+		available = {
+			owns_state = 1554
+			controls_state = 1554
+			owns_state = 255
+			controls_state = 255
+			owns_state = 257
+			controls_state = 257
+			custom_trigger_tooltip = {
+				tooltip = UNI_slav_support_1_regions_trigger
+				OR = {
+					has_country_flag = support_SAR
+					has_country_flag = support_RUS_2
+				}
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_old_center
+		}
+
+		fire_only_once = yes
+
+		cost = 30
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			1554 = { set_variable = { UNI_support = 1 } }
+			255 = { set_variable = { UNI_support = 1 } }
+			257 = { set_variable = { UNI_support = 1 } }
+			hidden_effect = {
+				set_country_flag = support_RUS_1
+			}
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_support_1_regions_effect
+			}
+				add_to_variable = { finn_s = 10 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_finn_s_add_10_effect
+			}
+				
+		}
+	}
+	
+	UNI_slav_support_2_regions = { # 1548 1549
+		
+		icon = generic_nationalism
+		
+		highlight_provinces = { 275 3257 3302 9245 9367 9376 11227 11258 11323 11363 11381   269 314 3356 6230 6279 9273 9394 11248 11294 }
+
+		available = {
+			owns_state = 1548
+			controls_state = 1548
+			owns_state = 1549
+			controls_state = 1549
+		}
+
+		visible = {
+			has_country_flag = UNI_old_center
+		}
+
+		fire_only_once = yes
+
+		cost = 30
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			1548 = { set_variable = { UNI_support = 1 } }
+			1549 = { set_variable = { UNI_support = 1 } }
+			hidden_effect = {
+				set_country_flag = support_RUS_2
+			}
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_support_2_regions_effect
+			}
+				add_to_variable = { finn_s = 10 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_finn_s_add_10_effect
+			}
+		}
+	}
+	
+	UNI_slav_support_3_regions = { # 219 1542 1547
+		
+		icon = generic_nationalism
+		
+		highlight_provinces = { 6333 6396 9266 9313 9330 9395 11268 11379   301 350 3290 6316 9235 9356 11217 11330 11362   3391 6290 6348 6414 9282 9348 }
+
+		available = {
+			owns_state = 219
+			controls_state = 219
+			owns_state = 1542
+			controls_state = 1542
+			owns_state = 1547
+			controls_state = 1547
+		}
+
+		visible = {
+			has_country_flag = UNI_old_center
+		}
+
+		fire_only_once = yes
+
+		cost = 30
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			219 = { set_variable = { UNI_support = 1 } }
+			1542 = { set_variable = { UNI_support = 1 } }
+			1547 = { set_variable = { UNI_support = 1 } }
+			hidden_effect = {
+				set_country_flag = support_RUS_3
+			}
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_support_3_regions_effect
+			}
+				add_to_variable = { finn_s = 10 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_finn_s_add_10_effect
+			}
+		}
+	}
+	
+	UNI_slav_support_4_regions = { # 247 1543 1544
+		
+		icon = generic_nationalism
+		
+		highlight_provinces = { 366 3358 9302 11250 11282 11326   85 333 3176 3215 3323 6022 6122 6245 9046 9256   344 3259 6283 6380 9278 9378 11236 }
+
+		available = {
+			owns_state = 247
+			controls_state = 247
+			owns_state = 1543
+			controls_state = 1543
+			owns_state = 1544
+			controls_state = 1544
+			custom_trigger_tooltip = {
+				tooltip = UNI_slav_support_4_regions_trigger
+				OR = {
+					has_country_flag = support_RUS_5
+					has_country_flag = support_RUS_3
+				}
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_old_center
+		}
+
+		fire_only_once = yes
+
+		cost = 30
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			247 = { set_variable = { UNI_support = 1 } }
+			1543 = { set_variable = { UNI_support = 1 } }
+			1544 = { set_variable = { UNI_support = 1 } }
+			hidden_effect = {
+				set_country_flag = support_RUS_4
+			}
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_support_4_regions_effect
+			}
+				add_to_variable = { finn_s = 10 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_finn_s_add_10_effect
+			}
+		}
+	}
+	
+	UNI_slav_support_5_regions = { # 246 1511 1512 1513
+		
+		icon = generic_nationalism
+		
+		highlight_provinces = { 110 187 226 2999 3101 3321 9111 9265 9333 9343 11224 11315   8 248 3235 3344 6225 9242   354 6293 9287 11234 11272   287 6264 6303 6367 6400 11349 }
+
+		available = {
+			owns_state = 246
+			controls_state = 246
+			owns_state = 1511
+			controls_state = 1511
+			owns_state = 1512
+			controls_state = 1512
+			owns_state = 1513
+			controls_state = 1513
+		}
+
+		visible = {
+			has_country_flag = UNI_old_center
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			246 = { set_variable = { UNI_support = 1 } }
+			1511 = { set_variable = { UNI_support = 1 } }
+			1512 = { set_variable = { UNI_support = 1 } }
+			1513 = { set_variable = { UNI_support = 1 } }
+			hidden_effect = {
+				set_country_flag = support_RUS_5
+			}
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_support_5_regions_effect
+			}
+				add_to_variable = { finn_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_finn_s_add_5_effect
+			}
+		}
+	}
+	
+	UNI_slav_support_6_regions = { # 210 921 207
+		
+		icon = generic_nationalism
+		
+		highlight_provinces = { 222 319 415 592 3298 3310 3333 9485   323 387 6249 6326 6371 9241 9323 9353 9386 11241 11259   207 320 6242 6324 9254 9319 9331 11304 11392 }
+
+		available = {
+			owns_state = 210
+			controls_state = 210
+			owns_state = 921
+			controls_state = 921
+			owns_state = 207
+			controls_state = 207
+			custom_trigger_tooltip = {
+				tooltip = UNI_slav_support_6_regions_trigger
+				has_country_flag = support_RUS_5
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_old_center
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			210 = { set_variable = { UNI_support = 1 } }
+			921 = { set_variable = { UNI_support = 1 } }
+			207 = { set_variable = { UNI_support = 1 } }
+			hidden_effect = {
+				set_country_flag = support_RUS_6
+			}
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_support_6_regions_effect
+			}
+				add_to_variable = { finn_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_finn_s_add_5_effect
+			}
+		}
+	}
+	
+	UNI_slav_support_7_regions = { # 209 208 263
+		
+		icon = generic_nationalism
+		
+		highlight_provinces = { 104 126 181 3053 3120 6139 9120 9408 11097 11186 11202 13127   95 117 3072 3089 6197 9098 9234 11032 11072 11109 11139   71 3110 6035 6086 6154 9212 11191 }
+
+		available = {
+			owns_state = 209
+			controls_state = 209
+			owns_state = 208
+			controls_state = 208
+			owns_state = 263
+			controls_state = 263
+			custom_trigger_tooltip = {
+				tooltip = UNI_slav_support_7_regions_trigger
+				AND = {
+					has_country_flag = support_RUS_5
+					has_country_flag = support_RUS_6
+				}
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_old_center
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			208 = { set_variable = { UNI_support = 1 } }
+			209 = { set_variable = { UNI_support = 1 } }
+			263 = { set_variable = { UNI_support = 1 } }
+			hidden_effect = {
+				set_country_flag = support_RUS_7
+			}
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_support_7_regions_effect
+			}
+				add_to_variable = { finn_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_finn_s_add_5_effect
+			}
+		}
+	}
+	
+	UNI_slav_support_8_regions = { # 244 195 146
+		
+		icon = generic_nationalism
+		
+		highlight_provinces = { 70 6095 9164 9197 11174   79 149 3060 3151 6174 9097 9150 11068 11080 52 3061 6082 6186 9100 9105 9206 11056 11162   52 3061 6082 6186 9100 9105 9206 11056 11162 }
+
+		available = {
+			owns_state = 244
+			controls_state = 244
+			owns_state = 146
+			controls_state = 146
+			owns_state = 195
+			controls_state = 195
+			custom_trigger_tooltip = {
+				tooltip = UNI_slav_support_8_regions_trigger
+				has_country_flag = support_RUS_7
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_old_center
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			244 = { set_variable = { UNI_support = 1 } }
+			195 = { set_variable = { UNI_support = 1 } }
+			146 = { set_variable = { UNI_support = 1 } }
+			hidden_effect = {
+				set_country_flag = support_RUS_8
+			}
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_support_8_regions_effect
+			}
+				add_to_variable = { finn_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_finn_s_add_5_effect
+			}
+		}
+	}
+	
+	
+	
+	##### ПОДДЕРЖКА В РЕГИОНАХ (финно-угры)
+	
+	UNI_finn_support_VEP = {
+		
+		icon = generic_nationalism
+		
+		# highlight_provinces = { 70 6095 9164 9197 11174   79 149 3060 3151 6174 9097 9150 11068 11080 52 3061 6082 6186 9100 9105 9206 11056 11162   52 3061 6082 6186 9100 9105 9206 11056 11162 }
+
+		available = {
+			custom_trigger_tooltip = {
+				owns_state = 351
+				owns_state = 1520
+				owns_state = 1521
+				owns_state = 1522
+				owns_state = 1523
+				owns_state = 1524
+				owns_state = 1525
+				owns_state = 1531
+				owns_state = 1532
+				controls_state = 351
+				controls_state = 1520
+				controls_state = 1521
+				controls_state = 1522
+				controls_state = 1523
+				controls_state = 1524
+				controls_state = 1525
+				controls_state = 1531
+				controls_state = 1532
+				tooltip = UNI_finn_support_VEP_trigger
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_new_center
+		}
+
+		fire_only_once = yes
+
+		cost = 45
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			effect_tooltip = {
+				set_country_flag = support_VEP
+				custom_effect_tooltip = UNI_finn_support_VEP_effect
+			}
+				add_to_variable = { slav_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_s_add_5_effect
+			}
+		}
+	}
+	
+	UNI_finn_support_TVE = {
+		
+		icon = generic_nationalism
+		
+		# highlight_provinces = { 70 6095 9164 9197 11174   79 149 3060 3151 6174 9097 9150 11068 11080 52 3061 6082 6186 9100 9105 9206 11056 11162   52 3061 6082 6186 9100 9105 9206 11056 11162 }
+
+		available = {
+			custom_trigger_tooltip = {
+				owns_state = 264
+				owns_state = 247
+				owns_state = 1514
+				owns_state = 1515
+				owns_state = 1516
+				controls_state = 264
+				controls_state = 247
+				controls_state = 1514
+				controls_state = 1515
+				controls_state = 1516
+				tooltip = UNI_finn_support_TVE_trigger_1
+			}
+			custom_trigger_tooltip = {
+				has_country_flag = support_VEP
+				tooltip = UNI_finn_support_TVE_trigger_2
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_new_center
+		}
+
+		fire_only_once = yes
+
+		cost = 45
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			effect_tooltip = {
+				set_country_flag = support_TVE
+				custom_effect_tooltip = UNI_finn_support_TVE_effect
+			}
+				add_to_variable = { slav_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_s_add_5_effect
+			}
+		}
+	}
+	
+	UNI_finn_support_CNT = {
+		
+		icon = generic_nationalism
+		
+		# highlight_provinces = { 70 6095 9164 9197 11174   79 149 3060 3151 6174 9097 9150 11068 11080 52 3061 6082 6186 9100 9105 9206 11056 11162   52 3061 6082 6186 9100 9105 9206 11056 11162 }
+
+		available = {
+			custom_trigger_tooltip = {
+				owns_state = 214
+				owns_state = 262
+				owns_state = 397
+				owns_state = 581
+				owns_state = 1526
+				owns_state = 1527
+				owns_state = 1528
+				controls_state = 214
+				controls_state = 262
+				controls_state = 397
+				controls_state = 581
+				controls_state = 1526
+				controls_state = 1527
+				controls_state = 1528
+				tooltip = UNI_finn_support_CNT_trigger_1
+			}
+			custom_trigger_tooltip = {
+				has_country_flag = support_VEP
+				tooltip = UNI_finn_support_CNT_trigger_2
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_new_center
+		}
+
+		fire_only_once = yes
+
+		cost = 35
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			effect_tooltip = {
+				set_country_flag = support_CNT
+				custom_effect_tooltip = UNI_finn_support_CNT_effect
+			}
+				add_to_variable = { slav_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_s_add_5_effect
+			}
+		}
+	}
+	
+	UNI_finn_support_ING = {
+		
+		icon = generic_nationalism
+		
+		# highlight_provinces = { 70 6095 9164 9197 11174   79 149 3060 3151 6174 9097 9150 11068 11080 52 3061 6082 6186 9100 9105 9206 11056 11162   52 3061 6082 6186 9100 9105 9206 11056 11162 }
+
+		available = {
+			custom_trigger_tooltip = {
+				owns_state = 146
+				owns_state = 195
+				owns_state = 244
+				controls_state = 146
+				controls_state = 195
+				controls_state = 244
+				tooltip = UNI_finn_support_ING_trigger_1
+			}
+			custom_trigger_tooltip = {
+				has_country_flag = support_TVE
+				tooltip = UNI_finn_support_ING_trigger_2
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_new_center
+		}
+
+		fire_only_once = yes
+
+		cost = 35
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			effect_tooltip = {
+				set_country_flag = support_ING
+				custom_effect_tooltip = UNI_finn_support_ING_effect
+			}
+				add_to_variable = { slav_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_s_add_5_effect
+			}
+		}
+	}
+	
+	UNI_finn_support_MRD = {
+		
+		icon = generic_nationalism
+		
+		# highlight_provinces = { 70 6095 9164 9197 11174   79 149 3060 3151 6174 9097 9150 11068 11080 52 3061 6082 6186 9100 9105 9206 11056 11162   52 3061 6082 6186 9100 9105 9206 11056 11162 }
+
+		available = {
+			custom_trigger_tooltip = {
+				owns_state = 239
+				owns_state = 250
+				owns_state = 249
+				owns_state = 1534
+				owns_state = 1535
+				owns_state = 1536
+				owns_state = 1537
+				owns_state = 1538
+				controls_state = 239
+				controls_state = 250
+				controls_state = 249
+				controls_state = 1534
+				controls_state = 1535
+				controls_state = 1536
+				controls_state = 1537
+				controls_state = 1538
+				tooltip = UNI_finn_support_MRD_trigger
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_new_center
+		}
+
+		fire_only_once = yes
+
+		cost = 60
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			effect_tooltip = {
+				set_country_flag = support_MRD
+				custom_effect_tooltip = UNI_finn_support_MRD_effect
+			}
+				add_to_variable = { slav_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_s_add_5_effect
+			}
+		}
+	}
+	
+	UNI_finn_support_UDM = {
+		
+		icon = generic_nationalism
+		
+		# highlight_provinces = { 70 6095 9164 9197 11174   79 149 3060 3151 6174 9097 9150 11068 11080 52 3061 6082 6186 9100 9105 9206 11056 11162   52 3061 6082 6186 9100 9105 9206 11056 11162 }
+
+		available = {
+			custom_trigger_tooltip = {
+				owns_state = 398
+				owns_state = 399
+				owns_state = 400
+				owns_state = 573
+				owns_state = 256
+				owns_state = 1529
+				owns_state = 1530
+				owns_state = 1533
+				owns_state = 1561
+				controls_state = 398
+				controls_state = 399
+				controls_state = 400
+				controls_state = 573
+				controls_state = 256
+				controls_state = 1529
+				controls_state = 1530
+				controls_state = 1533
+				controls_state = 1561
+				tooltip = UNI_finn_support_UDM_trigger_1
+			}
+			custom_trigger_tooltip = {
+				OR = {
+					has_country_flag = support_VEP
+					has_country_flag = support_MRD
+				}
+				tooltip = UNI_finn_support_UDM_trigger_2
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_new_center
+		}
+
+		fire_only_once = yes
+
+		cost = 60
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			effect_tooltip = {
+				set_country_flag = support_UDM
+				custom_effect_tooltip = UNI_finn_support_UDM_effect
+			}
+				add_to_variable = { slav_s = 5 }
+			effect_tooltip = {
+				custom_effect_tooltip = UNI_slav_s_add_5_effect
+			}
+		}
+	}
+	
+	UNI_finn_support_ECP = {
+		
+		icon = generic_nationalism
+		
+		# highlight_provinces = { 70 6095 9164 9197 11174   79 149 3060 3151 6174 9097 9150 11068 11080 52 3061 6082 6186 9100 9105 9206 11056 11162   52 3061 6082 6186 9100 9105 9206 11056 11162 }
+
+		available = {
+			owns_state = 251
+			owns_state = 1556
+			controls_state = 251
+			controls_state = 1556
+			custom_trigger_tooltip = {
+				has_country_flag = support_MRD
+				tooltip = UNI_finn_support_ECP_trigger
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_new_center
+		}
+
+		fire_only_once = yes
+
+		cost = 20
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			effect_tooltip = {
+				set_country_flag = support_ECP
+				custom_effect_tooltip = UNI_finn_support_ECP_effect
+			}
+		}
+	}
+	
+	UNI_finn_support_KIP = {
+		
+		icon = generic_nationalism
+		
+		# highlight_provinces = { 70 6095 9164 9197 11174   79 149 3060 3151 6174 9097 9150 11068 11080 52 3061 6082 6186 9100 9105 9206 11056 11162   52 3061 6082 6186 9100 9105 9206 11056 11162 }
+
+		available = {
+			owns_state = 1505
+			owns_state = 401
+			controls_state = 1505
+			controls_state = 401
+			custom_trigger_tooltip = {
+				has_country_flag = support_MRD
+				tooltip = UNI_finn_support_KIP_trigger
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_new_center
+		}
+
+		fire_only_once = yes
+
+		cost = 20
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			effect_tooltip = {
+				set_country_flag = support_KIP
+				custom_effect_tooltip = UNI_finn_support_KIP_effect
+			}
+		}
+	}
+	
+	UNI_finn_support_FIN = {
+		
+		icon = generic_nationalism
+		
+		# highlight_provinces = { 70 6095 9164 9197 11174   79 149 3060 3151 6174 9097 9150 11068 11080 52 3061 6082 6186 9100 9105 9206 11056 11162   52 3061 6082 6186 9100 9105 9206 11056 11162 }
+
+		available = {
+			owns_state = 1505
+			owns_state = 401
+			controls_state = 1505
+			controls_state = 401
+			custom_trigger_tooltip = {
+				has_country_flag = support_VEP
+				tooltip = UNI_finn_support_FIN_trigger
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_new_center
+		}
+
+		fire_only_once = yes
+
+		cost = 20
+		days_remove = 30
+
+		modifier = {
+		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = { 
+			effect_tooltip = {
+				set_country_flag = support_FIN
+				custom_effect_tooltip = UNI_finn_support_FIN_effect
+			}
+		}
+	}
+}

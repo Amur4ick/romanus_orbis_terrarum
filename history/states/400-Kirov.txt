@@ -9,11 +9,13 @@ state={
 	history={
 		owner = UNI
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 
 		}
 		add_core_of = UNI
 		victory_points = { 6124 5 }
+		
+		set_state_flag = UDM_state
 
 	}
 

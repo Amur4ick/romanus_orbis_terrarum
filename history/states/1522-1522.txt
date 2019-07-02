@@ -5,6 +5,11 @@ state={
 		owner = UNI
 		add_core_of = UNI
 		victory_points = { 11107 5 }
+		
+		set_state_flag = VEP_state
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	provinces={
 		106 2996 3124 6143 9131 9207 11107 11189 11213 

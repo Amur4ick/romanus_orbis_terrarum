@@ -5,6 +5,13 @@ state={
 		owner = UNI
 		add_core_of = UNI
 		victory_points = { 11225 5 }
+	
+		set_demilitarized_zone = yes
+		
+		set_state_flag = ECP_state
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	provinces={
 		365 9243 9365 9391 11225 11348 

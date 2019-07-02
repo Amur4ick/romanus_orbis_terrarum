@@ -10,10 +10,12 @@ state={
 	history={
 		owner = UNI
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 
 		}
 		add_core_of = UNI
+		
+		set_state_flag = CNT_state
 
 	}
 

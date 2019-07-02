@@ -1,0 +1,259 @@
+ideas = {
+
+	poverty_level = { 
+		law = yes
+		
+		poverty_1 = {
+		
+			available = {
+				always = yes	
+			}
+			
+			default = yes
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.1
+				MONTHLY_POPULATION = -0.1
+				production_speed_buildings_factor = 0.1
+				consumer_goods_factor = 0.1
+				research_speed_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		poverty_2 = {
+		
+			available = {
+				always = yes	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		poverty_3 = {
+		
+			available = {
+				always = yes	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				MONTHLY_POPULATION = 0.1
+				production_speed_buildings_factor = -0.1
+				consumer_goods_factor = -0.1
+				research_speed_factor = -0.1
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		poverty_4 = {
+		
+			available = {
+				always = yes	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				MONTHLY_POPULATION = 0.2
+				production_speed_buildings_factor = -0.2
+				consumer_goods_factor = -0.2
+				research_speed_factor = -0.2
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		poverty_4_1 = {
+		
+			available = {
+				always = no	
+			}
+			visible = {
+				always = no	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.25
+				MONTHLY_POPULATION = 0.25
+				production_speed_buildings_factor = -0.25
+				consumer_goods_factor = -0.25
+				research_speed_factor = -0.25
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		poverty_4_2 = {
+		
+			available = {
+				always = no	
+			}
+			visible = {
+				always = no	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.3
+				MONTHLY_POPULATION = 0.3
+				production_speed_buildings_factor = -0.3
+				consumer_goods_factor = -0.3
+				research_speed_factor = -0.3
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		poverty_4_3 = {
+		
+			available = {
+				always = no	
+			}
+			visible = {
+				always = no	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.35
+				MONTHLY_POPULATION = 0.35
+				production_speed_buildings_factor = -0.35
+				consumer_goods_factor = -0.35
+				research_speed_factor = -0.35
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		poverty_5 = {
+		
+			available = {
+				always = yes	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.4
+				MONTHLY_POPULATION = 0.4
+				production_speed_buildings_factor = -0.4
+				consumer_goods_factor = -0.4
+				research_speed_factor = -0.4
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+	}
+}

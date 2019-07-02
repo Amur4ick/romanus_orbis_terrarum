@@ -1,13 +1,17 @@
 state={
 	id=856
 	name="STATE_856"
-	history = {
-		owner = POL
-		add_core_of = POL
+
+	history={
+		owner = VAN
+		add_core_of = VAN
+
 	}
+
 	provinces={
-		467 3482 9400 9508 
+		467 493 3482 9400 9508 11428 
 	}
-	manpower=1000 state_category = town
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=town
 }

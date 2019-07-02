@@ -1,13 +1,25 @@
 state={
 	id=1552
 	name="STATE_1552"
+
 	history={
 		owner = UNI
 		add_core_of = UNI
+		set_variable = {
+			UNI_support = 3
+
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+
 	}
+
 	provinces={
 		473 510 3469 6494 9424 11412 11475 
 	}
-	manpower=1000 state_category = town
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=town
 }

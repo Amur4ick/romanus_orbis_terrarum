@@ -18,6 +18,9 @@ state={
 		add_core_of = UNI
 		set_state_flag = UNI_damage_infrastructure_state 
 		set_state_flag = UNI_damage_factory_state
+		set_state_flag = UNI_transportniye_sety_focus
+		
+		set_variable = { UNI_support = 3 }
 
 	}
 

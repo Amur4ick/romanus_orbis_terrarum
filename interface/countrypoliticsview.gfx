@@ -1,6 +1,44 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_ideology_eleftherism_group"
+		texturefile = "gfx/interface/ideologies/eleftherism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_sociarchism_group"
+		texturefile = "gfx/interface/ideologies/sociarchism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_libertatism_group"
+		texturefile = "gfx/interface/ideologies/libertatism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_vemosism_group"
+		texturefile = "gfx/interface/ideologies/vemosism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_passionism_group"
+		texturefile = "gfx/interface/ideologies/passionism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_viatirism_group"
+		texturefile = "gfx/interface/ideologies/viatirism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_neo_oligarchism_group"
+		texturefile = "gfx/interface/ideologies/neo_oligarchism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_gentemism_group"
+		texturefile = "gfx/interface/ideologies/gentemism.dds"
+	}
+	
+	
+	
+	
+	
+
+	spriteType = {
 		name = "GFX_chart_explanation_bg"
 		textureFile = "gfx//interface//chart_explanation_bg.dds"
 	}

@@ -9,14 +9,17 @@ state={
 	history={
 		owner = UNI
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
+			infrastructure = 4
 
 		}
 		victory_points = {
 			6338 5
 		}
-		add_core_of = UNI
+		add_core_of = MRD
+	
+		set_demilitarized_zone = yes
+		
+		set_state_flag = MRD_state
 
 	}
 

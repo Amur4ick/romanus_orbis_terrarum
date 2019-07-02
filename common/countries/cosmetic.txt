@@ -1,3 +1,26 @@
+UGR_united = {
+    color = rgb { 15 90 125 }
+    color_ui = rgb { 15 90 125 }
+}
+UGR_army = {
+    color = rgb { 15 90 125 }
+    color_ui = rgb { 15 90 125 }
+}
+RUS_united = {
+    color = rgb { 160 105 35 }
+    color_ui = rgb { 160 105 35 }
+}
+RUS_army = {
+    color = rgb { 160 105 35 }
+    color_ui = rgb { 160 105 35 }
+}
+UNI_civil_war = {
+    color = rgb { 60 95 45 }
+    color_ui = rgb { 60 95 45 }
+}
+
+
+
 GER_emperor = {
     color = rgb { 130 130 130 }
     color_ui = rgb { 130 130 130 }

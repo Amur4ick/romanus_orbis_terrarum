@@ -6,13 +6,15 @@ state={
 	history={
 		owner = UNI
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			air_base = 4
 
 		}
 		add_core_of = UNI
 		set_state_flag = UNI_damage_infrastructure_state 
 		set_state_flag = UNI_damage_factory_state
+		
+		set_variable = { UNI_support = 4 }
 
 	}
 

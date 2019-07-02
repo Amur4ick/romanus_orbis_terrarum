@@ -1,4 +1,3 @@
-
 state={
 	id=67
 	name="STATE_67"
@@ -8,17 +7,17 @@ state={
 	}
 
 	history={
-		owner = POL
+		owner = SIL
 		buildings = {
 			infrastructure = 6
 
 		}
-		add_core_of = POL
+		add_core_of = SIL
 
 	}
 
 	provinces={
-		479 9511 
+		9511 11467 
 	}
 	manpower=1402591
 	buildings_max_level_factor=1.000

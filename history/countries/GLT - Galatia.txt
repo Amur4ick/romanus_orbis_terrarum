@@ -41,23 +41,22 @@ set_technology = {
 #	low_economic_mobilisation 
 #}
 
+set_popularities = {
+	
+	libertatism = 0 
+	vemosism = 13 
+		#
+	sociarchism = 2 
+	eleftherism = 3 
+		#
+	passionism = 78 
+	viatirism = 0 
+		#
+	gentemism = 0 
+	neo_oligarchism = 0 
+	
+}
 set_politics = {
-
-	parties = {
-		
-		libertatism = { popularity = 0 }
-		vemosism = { popularity = 13 }
-		#
-		sociarchism = { popularity = 2 }
-		eleftherism = { popularity = 3 }
-		#
-		passionism = { popularity = 78 }
-		viatirism = { popularity = 0 }
-		#
-		gentemism = { popularity = 0 }
-		neo_oligarchism = { popularity = 0 }
-		
-	}
 	ruling_party = passionism
 	last_election = "1934.5.1"
 	election_frequency = 48

@@ -5,6 +5,11 @@ state={
 		owner = UNI
 		add_core_of = UNI
 		set_state_flag = UNI_damage_infrastructure_state set_state_flag = UNI_damage_factory_state
+		
+		set_variable = { UNI_support = 2 }
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	provinces={
 		275 3257 3302 9245 9367 9376 11227 11258 11323 11363 11381 

@@ -1,0 +1,111 @@
+leader_traits = {
+
+	libertatist_advisor = {
+		sprite = 10
+		random = no
+		libertatism_drift = 0.02
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	vemosist_advisor = {
+		sprite = 10
+		random = no
+		vemosism_drift = 0.02
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sociarchist_advisor = {
+		sprite = 10
+		random = no
+		sociarchism_drift = 0.02
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	eleftherist_advisor = {
+		sprite = 10
+		random = no
+		eleftherism_drift = 0.02
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	neo_oligarchist_advisor = {
+		sprite = 10
+		random = no
+		neo_oligarchism_drift = 0.02
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	gentemist_advisor = {
+		sprite = 10
+		random = no
+		gentemism_drift = 0.02
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	passionist_advisor = {
+		sprite = 10
+		random = no
+		passionism_drift = 0.02
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	viatirist_advisor = {
+		sprite = 10
+		random = no
+		viatirism_drift = 0.02
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	civil_factory_builder = {
+		sprite = 10
+		random = no
+		production_speed_industrial_complex_factor = 0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infrastructure_builder = {
+		sprite = 10
+		random = no
+		production_speed_infrastructure_factor = 0.2
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	UNI_financial_expert = {
+		sprite = 10
+		random = no
+		consumer_goods_factor = -0.1
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	UNI_economist = {
+		sprite = 10
+		random = no
+		production_factory_max_efficiency_factor = 0.1
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}

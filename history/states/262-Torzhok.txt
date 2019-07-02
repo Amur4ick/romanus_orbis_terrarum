@@ -5,14 +5,17 @@ state={
 	resources={
 		oil=7.000
 	}
+	impassable = yes
 
 	history={
 		owner = UNI
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 
 		}
 		add_core_of = UNI
+		
+		set_state_flag = CNT_state
 
 	}
 

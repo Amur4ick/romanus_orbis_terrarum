@@ -8,560 +8,609 @@ focus_tree = {
 		}
 	}
 	default = no
-	focus = {
-		id = UNI_noviy_kabinet_ministrov
-		text = UNI_noviy_kabinet_ministrov
-		icon = GFX_focus_generic_military_academy
-		cost = 10,00
-		x = 4
-		y = 0
 
-	}
-	focus = {
-		id = UNI_rimskaya_volna
-		text = UNI_rimskaya_volna
-		icon = GFX_focus_renounce_the_treaty_of_triannon
-		cost = 10,00
-		
-		available = {
-			always = no
-		}
+	continuous_focus_position = { x = 50 y = 2000 }
 	
-		x = 11
+	focus = {
+		id = UNI_plan_NEP
+		text = UNI_plan_NEP
+		icon = GFX_focus_generic_treaty
+		cost = 1
+		x = 6
 		y = 0
-
-	}
-	focus = {
-		id = UNI_nationalniy_vopros
-		text = UNI_nationalniy_vopros
-		icon = GFX_goal_anti_comintern_pact
-		cost = 5
 		
-		available = {
-			always = no
+		completion_reward = {
+			country_event = { id = uni.1 days = 1 }
 		}
-		
-		x = 18
-		y = 0
 
 	}
 	focus = {
-		id = UNI_referendum
-		text = UNI_referendum
-		icon = GFX_goal_generic_forceful_treaty
-		cost = 10,00
-		
-		available = {
-			always = no
-		}
-		
-		x = 18
-		y = 4
-
-	}
-	focus = {
-		id = UNI_novaya_ekonomika
-		text = UNI_novaya_ekonomika
-		icon = GFX_goal_generic_consumer_goods
-		cost = 10,00
+		id = UNI_vopros_gramotnosty
+		text = UNI_vopros_gramotnosty
+		icon = GFX_goal_unknown
+		cost = 1
 		prerequisite = {
-			focus = UNI_noviy_kabinet_ministrov
+			focus = UNI_plan_NEP
 		}
-		x = 4
+		x = 3
 		y = 1
-
-	}
-	focus = {
-		id = UNI_plan_novikh_dorog
-		text = UNI_plan_novikh_dorog
-		icon = GFX_goal_generic_construct_infrastructure
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_novaya_ekonomika
+		
+		completion_reward = {
+			country_event = { id = uni.2 days = 1 }
 		}
-		x = 2
-		y = 2
 
 	}
 	focus = {
-		id = UNI_plan_yug
-		text = UNI_plan_yug
+		id = UNI_vopros_krestyanstva
+		text = UNI_vopros_krestyanstva
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 1
 		prerequisite = {
-			focus = UNI_plan_novikh_dorog
-		}
-		x = 2
-		y = 3
-
-	}
-	focus = {
-		id = UNI_chastichnaya_privatisatsiya
-		text = UNI_chastichnaya_privatisatsiya
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_plan_yug
-		}
-		mutually_exclusive = {
-			focus = UNI_chastichaya_nationalisatsiya
-		}
-		x = 1
-		y = 4
-
-	}
-	focus = {
-		id = UNI_chastichaya_nationalisatsiya
-		text = UNI_chastichaya_nationalisatsiya
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_plan_yug
-		}
-		mutually_exclusive = {
-			focus = UNI_chastichnaya_privatisatsiya
-		}
-		x = 3
-		y = 4
-
-	}
-	focus = {
-		id = UNI_razvedka_resursov
-		text = UNI_razvedka_resursov
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_novaya_ekonomika
-		}
-		x = 4
-		y = 2
-
-	}
-	focus = {
-		id = UNI_noviye_centry_promishlennosty
-		text = UNI_noviye_centry_promishlennosty
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_razvedka_resursov
-		}
-		x = 4
-		y = 3
-
-	}
-	focus = {
-		id = UNI_conversiya_zavodov_i_fabrik
-		text = UNI_conversiya_zavodov_i_fabrik
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_chastichaya_nationalisatsiya
-		}
-		prerequisite = {
-			focus = UNI_noviye_centry_promishlennosty
-		}
-		x = 3
-		y = 5
-
-	}
-	focus = {
-		id = UNI_plan_electroficatsiy
-		text = UNI_plan_electroficatsiy
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_novaya_ekonomika
-		}
-		x = 6
-		y = 2
-
-	}
-	focus = {
-		id = UNI_plan_sever
-		text = UNI_plan_sever
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_plan_electroficatsiy
-		}
-		x = 6
-		y = 3
-
-	}
-	focus = {
-		id = UNI_mestnoye_proizvodstvo
-		text = UNI_mestnoye_proizvodstvo
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_plan_sever
-		}
-		mutually_exclusive = {
-			focus = UNI_dorogi_na_yug
+			focus = UNI_plan_NEP
 		}
 		x = 5
-		y = 4
-
-	}
-	focus = {
-		id = UNI_dorogi_na_yug
-		text = UNI_dorogi_na_yug
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_plan_sever
-		}
-		mutually_exclusive = {
-			focus = UNI_mestnoye_proizvodstvo
-		}
-		x = 7
-		y = 4
-
-	}
-	focus = {
-		id = UNI_yvelicheniye_dobichy_resursov
-		text = UNI_yvelicheniye_dobichy_resursov
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_dorogi_na_yug
-		}
-		x = 7
-		y = 5
-
-	}
-	focus = {
-		id = UNI_stabilisatsiya
-		text = UNI_stabilisatsiya
-		icon = GFX_goal_generic_consumer_goods
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_rimskaya_volna
-		}
-		x = 11
 		y = 1
+		
+		completion_reward = {
+			country_event = { id = uni.3 days = 1 }
+		}
 
 	}
 	focus = {
-		id = UNI_podderzhka_rabochikh
-		text = UNI_podderzhka_rabochikh
-		icon = GFX_goal_generic_national_unity
-		cost = 10,00
+		id = UNI_vopros_kazachestva
+		text = UNI_vopros_kazachestva
+		icon = GFX_goal_unknown
+		cost = 1
 		prerequisite = {
-			focus = UNI_stabilisatsiya
+			focus = UNI_vopros_krestyanstva
+		}
+		x = 5
+		y = 2
+		
+		completion_reward = {
+			country_event = { id = uni.4 days = 1 }
+		}
+
+	}
+	focus = {
+		id = UNI_vopros_bezrabotitsy
+		text = UNI_vopros_bezrabotitsy
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = UNI_plan_NEP
 		}
 		x = 9
-		y = 2
-
-	}
-	focus = {
-		id = UNI_otkaz_ot_zolotogo_standarta
-		text = UNI_otkaz_ot_zolotogo_standarta
-		icon = GFX_focus_hol_abandon_the_gold_standard
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_stabilisatsiya
-		}
-		x = 11
-		y = 2
-
-	}
-	focus = {
-		id = UNI_dogovory_s_profsoyuzamy
-		text = UNI_dogovory_s_profsoyuzamy
-		icon = GFX_goal_triparite_pact
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_otkaz_ot_zolotogo_standarta
-		}
-		prerequisite = {
-			focus = UNI_podderzhka_rabochikh
-		}
-		mutually_exclusive = {
-			focus = UNI_dogovory_s_capitalovladeltsamy
-		}
-		x = 10
-		y = 3
-
-	}
-	focus = {
-		id = UNI_spaseniye_promyshlennosty
-		text = UNI_spaseniye_promyshlennosty
-		icon = GFX_goal_generic_construct_civilian
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_stabilisatsiya
-		}
-		x = 13
-		y = 2
-
-	}
-	focus = {
-		id = UNI_dogovory_s_capitalovladeltsamy
-		text = UNI_dogovory_s_capitalovladeltsamy
-		icon = GFX_goal_triparite_pact
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_spaseniye_promyshlennosty
-		}
-		prerequisite = {
-			focus = UNI_otkaz_ot_zolotogo_standarta
-		}
-		mutually_exclusive = {
-			focus = UNI_dogovory_s_profsoyuzamy
-		}
-		x = 12
-		y = 3
-
-	}
-	focus = {
-		id = UNI_postepennoye_vosstanovleniye
-		text = UNI_postepennoye_vosstanovleniye
-		icon = GFX_goal_generic_consumer_goods
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_dogovory_s_capitalovladeltsamy
-		}
-		prerequisite = {
-			focus = UNI_dogovory_s_profsoyuzamy
-		}
-		x = 11
-		y = 4
-
-	}
-	focus = {
-		id = UNI_podderzhat_zeleniy_front
-		text = UNI_podderzhat_zeleniy_front
-		icon = GFX_UNI_green_front
-		cost = 5
-		prerequisite = {
-			focus = UNI_nationalniy_vopros
-		}
-		mutually_exclusive = {
-			focus = UNI_podderzhat_zheltiy_front
-		}
-		completion_reward = {
-			country_event = uni.5
-		}
-		x = 16
 		y = 1
+		
+		completion_reward = {
+			country_event = { id = uni.5 days = 1 }
+		}
 
 	}
 	focus = {
-		id = UNI_vopros_promishlennosty
-		text = UNI_vopros_promishlennosty
+		id = UNI_vopros_subsidiy
+		text = UNI_vopros_subsidiy
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = UNI_plan_NEP
+		}
+		x = 7
+		y = 1
+		
+		completion_reward = {
+			country_event = { id = uni.6 days = 1 }
+		}
+
+	}
+	focus = {
+		id = UNI_vopros_nalogooblazheniya
+		text = UNI_vopros_nalogooblazheniya
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = UNI_vopros_subsidiy
+		}
+		x = 7
+		y = 2
+		
+		completion_reward = {
+			country_event = { id = uni.7 days = 1 }
+		}
+
+	}
+	focus = {
+		id = UNI_utverzhdeniye_plana
+		text = UNI_utverzhdeniye_plana
+		icon = GFX_goal_generic_improve_relations
+		cost = 1
+		prerequisite = {
+			focus = UNI_vopros_nalogooblazheniya
+		}
+		prerequisite = {
+			focus = UNI_vopros_kazachestva
+		}
+		prerequisite = {
+			focus = UNI_vopros_gramotnosty
+		}
+		prerequisite = {
+			focus = UNI_vopros_bezrabotitsy
+		}
+		x = 6
+		y = 3
+		
+		completion_reward = {
+			country_event = { id = uni.8 days = 1 }
+		}
+
+	}
+	focus = {
+		id = UNI_rashireniye_vnytrennyh_rinkov
+		text = UNI_rashireniye_vnytrennyh_rinkov
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 5
 		prerequisite = {
-			focus = UNI_podderzhat_zeleniy_front
+			focus = UNI_utverzhdeniye_plana
 		}
-		x = 15
-		y = 2
+		x = 3
+		y = 4
+		
+		completion_reward = {
+			add_political_power = 150
+		}
 
 	}
 	focus = {
-		id = UNI_centr_respubliki
-		text = UNI_centr_respubliki
-		icon = GFX_focus_generic_self_management
+		id = UNI_razvitiye_zemel_mordoviy
+		text = UNI_razvitiye_zemel_mordoviy
+		icon = GFX_goal_generic_position_armies
 		cost = 5
 		prerequisite = {
-			focus = UNI_vopros_promishlennosty
+			focus = UNI_rashireniye_vnytrennyh_rinkov
 		}
-		x = 15
-		y = 3
+		x = 2
+		y = 5
+		available = {
+			NOT = {
+				custom_trigger_tooltip = {
+					has_country_flag = UNI_cossacs_infrastructure
+					tooltip = UNI_razvitiye_zemel_mordoviy_trigger
+				}
+			}
+		}
+		
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					is_core_of = MRD
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
 
 	}
 	focus = {
-		id = UNI_rashireniye_prav
-		text = UNI_rashireniye_prav
-		icon = GFX_focus_generic_treaty
+		id = UNI_promyshlennye_koncerny_povolzhya
+		text = UNI_promyshlennye_koncerny_povolzhya
+		icon = GFX_goal_generic_production
 		cost = 5
 		prerequisite = {
-			focus = UNI_podderzhat_zeleniy_front
+			focus = UNI_razvitiye_zemel_mordoviy
 		}
-		x = 17
-		y = 2
+		x = 1
+		y = 6
+		
+		available = {
+			NOT = {
+				custom_trigger_tooltip = {
+					has_country_flag = UNI_cossacs_industrial_complex
+					tooltip = UNI_razvitiye_zemel_mordoviy_trigger
+				}
+			}
+		}
+		
+		completion_reward = {
+			239 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			249 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
-		id = UNI_armeyskaya_reforma
-		text = UNI_armeyskaya_reforma
-		icon = GFX_focus_generic_military_mission
+		id = UNI_transportnye_sety
+		text = UNI_transportnye_sety
+		icon = GFX_goal_generic_construct_infrastructure
 		cost = 5
 		prerequisite = {
-			focus = UNI_rashireniye_prav
+			focus = UNI_rashireniye_vnytrennyh_rinkov
 		}
-		x = 17
-		y = 3
+		x = 4
+		y = 5
+		
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					has_state_flag = UNI_transportniye_sety_focus
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = UNI_inostranniye_experty
+		text = UNI_inostranniye_experty
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 5
+		prerequisite = {
+			focus = UNI_transportnye_sety
+		}
+		mutually_exclusive = {
+			focus = UNI_nashy_experty
+		}
+		x = 5
+		y = 6
+		
+		completion_reward = {
+			country_event = { id = uni.13 days = 3 }
+		}
 
 	}
 	focus = {
-		id = UNI_razvitiye_regionov
-		text = UNI_razvitiye_regionov
+		id = UNI_novaya_torgovaya_politika
+		text = UNI_novaya_torgovaya_politika
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = UNI_utverzhdeniye_plana
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = UNI_plan_miroslavskogo
+		text = UNI_plan_miroslavskogo
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = UNI_novaya_torgovaya_politika
+		}
+		mutually_exclusive = {
+			focus = UNI_plan_jalskogo
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = UNI_stroitelstvo_v_polesye
+		text = UNI_stroitelstvo_v_polesye
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = UNI_plan_miroslavskogo
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = UNI_dogovor_s_litvoy
+		text = UNI_dogovor_s_litvoy
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = UNI_stroitelstvo_v_polesye
+		}
+		x = 7
+		y = 7
+
+	}
+	focus = {
+		id = UNI_otpravka_tovarina_v_kiyev
+		text = UNI_otpravka_tovarina_v_kiyev
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = UNI_dogovor_s_litvoy
+		}
+		x = 7
+		y = 8
+
+	}
+	focus = {
+		id = UNI_plan_jalskogo
+		text = UNI_plan_jalskogo
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = UNI_novaya_torgovaya_politika
+		}
+		mutually_exclusive = {
+			focus = UNI_plan_miroslavskogo
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = UNI_modernizatsiye_SZD
+		text = UNI_modernizatsiye_SZD
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = UNI_plan_jalskogo
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = UNI_uralskiye_zavody
+		text = UNI_uralskiye_zavody
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = UNI_stroitelstvo_v_polesye
+			focus = UNI_modernizatsiye_SZD
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = UNI_resheniye_problem_sarmatov
+		text = UNI_resheniye_problem_sarmatov
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = UNI_uralskiye_zavody
+		}
+		x = 9
+		y = 8
+
+	}
+	focus = {
+		id = UNI_podderzhka_ostgotov
+		text = UNI_podderzhka_ostgotov
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = UNI_otpravka_tovarina_v_kiyev
+		}
+		prerequisite = {
+			focus = UNI_resheniye_problem_sarmatov
+		}
+		x = 8
+		y = 9
+
+	}
+	focus = {
+		id = UNI_nashy_experty
+		text = UNI_nashy_experty
+		icon = GFX_goal_generic_national_unity
+		cost = 5
+		prerequisite = {
+			focus = UNI_transportnye_sety
+		}
+		prerequisite = {
+			focus = UNI_razvitiye_zemel_mordoviy
+		}
+		mutually_exclusive = {
+			focus = UNI_inostranniye_experty
+		}
+		x = 3
+		y = 6
+		
+		completion_reward = {
+			country_event = { id = uni.16 days = 2 }
+		}
+	}
+	focus = {
+		id = UNI_resursy_urala
+		text = UNI_resursy_urala
+		icon = GFX_focus_generic_steel
+		cost = 5
+		prerequisite = {
+			focus = UNI_nashy_experty
+		}
+		prerequisite = {
+			focus = UNI_promyshlennye_koncerny_povolzhya
+		}
+		x = 2
+		y = 7
+		
+		completion_reward = {
+			398 = {
+				add_resource = {
+					type = aluminium
+					amount = 8
+				}
+				add_resource = {
+					type = steel
+					amount = 4
+				}
+			}
+			1561 = {
+				add_resource = {
+					type = aluminium
+					amount = 4
+				}
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = UNI_obyedineniye_dorog
+		text = UNI_obyedineniye_dorog
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5
+		prerequisite = {
+			focus = UNI_dogovory_economicheskogo_sotrudnichestva
+		}
+		x = 3
+		y = 8
+
+	}
+	focus = {
+		id = UNI_rashireniye_smolenskogo_koncerna
+		text = UNI_rashireniye_smolenskogo_koncerna
+		icon = GFX_goal_generic_production2
+		cost = 5
+		prerequisite = {
+			focus = UNI_resursy_urala
+		}
+		x = 1
+		y = 8
+		
+		completion_reward = {
+			243 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = UNI_privlecheniye_inostrannyh_investiciy
+		text = UNI_privlecheniye_inostrannyh_investiciy
+		icon = GFX_focus_mex_privatisation
+		cost = 5
+		prerequisite = {
+			focus = UNI_dogovory_economicheskogo_sotrudnichestva
+		}
+		prerequisite = {
+			focus = UNI_inostranniye_experty
+		}
+		x = 5
+		y = 8
+		
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 4 }
+		}
+
+	}
+	focus = {
+		id = UNI_dogovory_economicheskogo_sotrudnichestva
+		text = UNI_dogovory_economicheskogo_sotrudnichestva
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 5
+		prerequisite = {
+			focus = UNI_inostranniye_experty
+			focus = UNI_nashy_experty
+		}
+		x = 4
+		y = 7
+		
+		completion_reward = {
+			hidden_effect = {
+				set_country_flag = UNI_trate_treaty_available
+			}
+			custom_effect_tooltip = UNI_dogovory_economicheskogo_sotrudnichestva_effect
+		}
+
+	}
+	focus = {
+		id = UNI_dogovor_s_kypchakamy
+		text = UNI_dogovor_s_kypchakamy
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = UNI_modernizatsiye_SZD
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = UNI_povolzhskiye_rechniye_puty
+		text = UNI_povolzhskiye_rechniye_puty
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = UNI_dogovor_s_kypchakamy
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = UNI_sovetniky_v_alaniy
+		text = UNI_sovetniky_v_alaniy
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = UNI_povolzhskiye_rechniye_puty
+		}
+		prerequisite = {
+			focus = UNI_resheniye_problem_sarmatov
+		}
+		x = 10
+		y = 9
+
+	}
+	focus = {
+		id = UNI_noviye_voprosy_vneshney_politiky
+		text = UNI_noviye_voprosy_vneshney_politiky
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = UNI_sovetniky_v_alaniy
+			focus = UNI_podderzhka_ostgotov
+		}
+		x = 9
+		y = 10
+
+	}
+	focus = {
+		id = UNI_noviye_voprosy_v_ekonomike
+		text = UNI_noviye_voprosy_v_ekonomike
 		icon = GFX_goal_generic_consumer_goods
 		cost = 5
 		prerequisite = {
-			focus = UNI_centr_respubliki
+			focus = UNI_rashireniye_smolenskogo_koncerna
+			focus = UNI_privlecheniye_inostrannyh_investiciy
 		}
 		prerequisite = {
-			focus = UNI_armeyskaya_reforma
+			focus = UNI_obyedineniye_dorog
 		}
-		x = 16
-		y = 4
-
-	}
-	focus = {
-		id = UNI_podderzhat_zheltiy_front
-		text = UNI_podderzhat_zheltiy_front
-		icon = GFX_UNI_yellow_front
-		cost = 5
-		prerequisite = {
-			focus = UNI_nationalniy_vopros
-		}
-		mutually_exclusive = {
-			focus = UNI_podderzhat_zeleniy_front
-		}
-		completion_reward = {
-			country_event = uni.6
-		}
-		x = 20
-		y = 1
-
-	}
-	focus = {
-		id = UNI_stariy_centr
-		text = UNI_stariy_centr
-		icon = GFX_UNI_old_center
-		cost = 5
-		prerequisite = {
-			focus = UNI_podderzhat_zheltiy_front
-		}
-		mutually_exclusive = {
-			focus = UNI_noviy_centr
-		}
-		completion_reward = {
-			country_event = { id = uni.7 days = 3 }
-			add_political_power = 50
-		}
-		x = 19
-		y = 2
-
-	}
-	focus = {
-		id = UNI_noviy_centr
-		text = UNI_noviy_centr
-		icon = GFX_UNI_new_center
-		cost = 5
-		prerequisite = {
-			focus = UNI_podderzhat_zheltiy_front
-		}
-		mutually_exclusive = {
-			focus = UNI_stariy_centr
-		}
-		completion_reward = {
-			country_event = { id = uni.8 days = 3 }
-			add_political_power = 50
-		}
-		x = 21
-		y = 2
-
-	}
-	focus = {
-		id = UNI_taynaya_podderzhka
-		text = UNI_taynaya_podderzhka
-		icon = GFX_UNI_yellow_protests
-		cost = 5
-		prerequisite = {
-			focus = UNI_noviy_centr
-			focus = UNI_stariy_centr
-		}
-		completion_reward = {
-		#	country_event = { id = uni.8 days = 3 }
-		#	add_political_power = 50
-		}
-		x = 19
-		y = 3
-
-	}
-	focus = {
-		id = UNI_centralisatsiya
-		text = UNI_centralisatsiya
-		icon = GFX_goal_generic_war_with_comintern
-		cost = 10
-		prerequisite = {
-			focus = UNI_noviy_centr
-			focus = UNI_stariy_centr
-		}
-		x = 21
-		y = 3
-
-	}
-	focus = {
-		id = UNI_nationalnoye_gosudarstvo
-		text = UNI_nationalnoye_gosudarstvo
-		icon = GFX_goal_anschluss
-		cost = 10
-		prerequisite = {
-			focus = UNI_protesty_zheltyh
-		}
-		prerequisite = {
-			focus = UNI_centralisatsiya
-		}
-		x = 20
-		y = 4
-
-	}
-	focus = {
-		id = UNI_podderzhka_ot_predprinimateley
-		text = UNI_podderzhka_ot_predprinimateley
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_chastichnaya_privatisatsiya
-		}
-		x = 1
-		y = 5
-
-	}
-	focus = {
-		id = UNI_noviy_yug
-		text = UNI_noviy_yug
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_podderzhka_ot_predprinimateley
-			focus = UNI_conversiya_zavodov_i_fabrik
-		}
-		x = 2
-		y = 6
-
-	}
-	focus = {
-		id = UNI_centry_pererabotky
-		text = UNI_centry_pererabotky
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_mestnoye_proizvodstvo
-		}
-		prerequisite = {
-			focus = UNI_noviye_centry_promishlennosty
-		}
-		x = 5
-		y = 5
-
-	}
-	focus = {
-		id = UNI_noviy_sever
-		text = UNI_noviy_sever
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = UNI_centry_pererabotky
-			focus = UNI_yvelicheniye_dobichy_resursov
-		}
-		x = 6
-		y = 6
+		x = 3
+		y = 9
 
 	}
 }

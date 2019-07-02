@@ -5,6 +5,9 @@ state={
 		owner = UNI
 		add_core_of = UNI
 		victory_points = { 413 5 }
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	provinces={
 		413 3527 6428 6553 9448 11540 

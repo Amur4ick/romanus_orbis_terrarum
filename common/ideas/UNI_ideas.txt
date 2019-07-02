@@ -1,118 +1,380 @@
 ideas = {
 	
 	country = {
-		# Римский кризис
-		UNI_roman_crisis_1 = {
+		UNI_divided_republic = {
 			
 			allowed = {
-				always = no
+				original_tag = UNI	
 			}
-
 			allowed_civil_war = {
 				
 			}
 
 			removal_cost = -1
 
-			picture = usa_great_depression_3
+			picture = generic_manpower_bonus
 
-			
 			modifier = {
-				local_resources_factor = -0.2
-				consumer_goods_factor = 0.5
-				production_speed_industrial_complex_factor = -0.5
-				production_speed_arms_factory_factor = -0.5
-				production_speed_dockyard_factor = -0.5
-				conversion_cost_civ_to_mil_factor = 0.5
-				conversion_cost_mil_to_civ_factor = 0.5
-				generate_wargoal_tension = 1.0
-				max_fuel_factor = -0.5
-				fuel_gain_factor = -0.5
+				stability_factor = -0.1
 			}
 		}
-		UNI_roman_crisis_2 = {
+		UNI_afterwar_reparations = {
 			
 			allowed = {
-				always = no
+				original_tag = UNI	
 			}
-
 			allowed_civil_war = {
 				
 			}
 
 			removal_cost = -1
 
-			picture = usa_great_depression_2
+			picture = generic_manpower_bonus
 
-			
 			modifier = {
-				local_resources_factor = -0.15
-				consumer_goods_factor = 0.35
-				production_speed_industrial_complex_factor = -0.35
-				production_speed_arms_factory_factor = -0.35
-				production_speed_dockyard_factor = -0.35
-				conversion_cost_civ_to_mil_factor = 0.35
-				conversion_cost_mil_to_civ_factor = 0.35
-				generate_wargoal_tension = 1
-				max_fuel_factor = -0.35
-				fuel_gain_factor = -0.35
+				political_power_gain = 0.1
 			}
 		}
-		UNI_roman_crisis_3 = {
+		UNI_east_front_shock = {
 			
 			allowed = {
-				always = no
+				original_tag = UNI	
 			}
-
 			allowed_civil_war = {
 				
 			}
 
 			removal_cost = -1
 
-			picture = usa_great_depression_2
+			picture = generic_manpower_bonus
 
-			
 			modifier = {
-				local_resources_factor = -0.1
-				consumer_goods_factor = 0.25
-				production_speed_industrial_complex_factor = -0.25
-				production_speed_arms_factory_factor = -0.25
-				production_speed_dockyard_factor = -0.25
-				conversion_cost_civ_to_mil_factor = 0.25
-				conversion_cost_mil_to_civ_factor = 0.25
-				generate_wargoal_tension = 1
-				max_fuel_factor = -0.25
-				fuel_gain_factor = -0.25
+				war_support_factor = -0.4
+				conscription_factor = -0.4
 			}
 		}
-		UNI_roman_crisis_4 = {
+	}
+	hidden_ideas = {
+		UNI_trade_treaty_SPQ = {
+		
+			allowed = { always = no }
 			
-			allowed = {
-				always = no
+			available = {
+				NOT = {
+					has_war_with = SPQ
+					is_puppet_of = SPQ
+					UNI = {
+						is_puppet_of = FROM
+					}
+				}
 			}
-
-			allowed_civil_war = {
-				
-			}
+			#picture =  generic_communism_drift_bonus
 
 			removal_cost = -1
 
-			picture = usa_great_depression_1
-
-			
-			modifier = {
-				local_resources_factor = -0.05
-				consumer_goods_factor = 0.05
-				production_speed_industrial_complex_factor = -0.15
-				production_speed_arms_factory_factor = -0.15
-				production_speed_dockyard_factor = -0.15
-				conversion_cost_civ_to_mil_factor = 0.15
-				conversion_cost_mil_to_civ_factor = 0.15
-				generate_wargoal_tension = 1
-				max_fuel_factor = -0.15
-				fuel_gain_factor = -0.15
+			targeted_modifier = {
+				tag = SPQ
+				trade_cost_for_target_factor = -0.25
 			}
 		}
+		UNI_trade_treaty_GLC = {
+		
+			allowed = { always = no }
+
+			available = {
+				NOT = {
+					has_war_with = GLC
+					is_puppet_of = GLC
+					UNI = {
+						is_puppet_of = FROM
+					}
+				}
+			}
+			#picture =  generic_communism_drift_bonus
+
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = GLC
+				trade_cost_for_target_factor = -0.25
+			}
+		}
+		UNI_trade_treaty_LAN = {
+		
+			allowed = { always = no }
+
+			available = {
+				NOT = {
+					has_war_with = LAN
+					is_puppet_of = LAN
+					UNI = {
+						is_puppet_of = FROM
+					}
+				}
+			}	
+			#picture =  generic_communism_drift_bonus
+
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = LAN
+				trade_cost_for_target_factor = -0.25
+			}
+		}
+		UNI_trade_treaty_ROM = {
+		
+			allowed = { always = no }
+
+			available = {
+				NOT = {
+					has_war_with = ROM
+					is_puppet_of = ROM
+					UNI = {
+						is_puppet_of = FROM
+					}
+				}
+			}
+			#picture =  generic_communism_drift_bonus
+
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = ROM
+				trade_cost_for_target_factor = -0.25
+			}
+		}
+		UNI_trade_treaty_GAL = {
+		
+			allowed = { always = no }
+
+			available = {
+				NOT = {
+					has_war_with = GAL
+					is_puppet_of = GAL
+					UNI = {
+						is_puppet_of = FROM
+					}
+				}
+			}
+			#picture =  generic_communism_drift_bonus
+
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = GAL
+				trade_cost_for_target_factor = -0.25
+			}
+		}
+		UNI_trade_treaty_BRI = {
+		
+			allowed = { always = no }
+
+			available = {
+				NOT = {
+					has_war_with = BRI
+					is_puppet_of = BRI
+					UNI = {
+						is_puppet_of = FROM
+					}
+				}
+			}
+			#picture =  generic_communism_drift_bonus
+
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = BRI
+				trade_cost_for_target_factor = -0.25
+			}
+		}
+		UNI_trade_treaty_DUN = {
+		
+			allowed = { always = no }
+
+			available = {
+				NOT = {
+					has_war_with = DUN
+					is_puppet_of = DUN
+					UNI = {
+						is_puppet_of = FROM
+					}
+				}
+			}
+			#picture =  generic_communism_drift_bonus
+
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = DUN
+				trade_cost_for_target_factor = -0.25
+			}
+		}
+		UNI_trade_treaty_FIN = {
+		
+			allowed = { always = no }
+
+			available = {
+				NOT = {
+					has_war_with = FIN
+					is_puppet_of = FIN
+					UNI = {
+						is_puppet_of = FROM
+					}
+				}
+			}
+			#picture =  generic_communism_drift_bonus
+
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = FIN
+				trade_cost_for_target_factor = -0.25
+			}
+		}
+		UNI_trade_treaty_UNI = {
+		
+			allowed = { always = no }
+
+			available = {
+				NOT = {
+					has_war_with = UNI
+					is_puppet_of = UNI
+					UNI = {
+						is_puppet_of = FROM
+					}
+				}
+			}
+			#picture =  generic_communism_drift_bonus
+
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = UNI
+				trade_cost_for_target_factor = -0.25
+			}
+		}
+	}
+	political_advisor = {
+		
+		UNI_valerian_melishevich = {
+			
+			allowed = {
+				original_tag = UNI	
+			}
+			visible = {
+				has_country_flag = UNI_in_exp_GLC
+			}
+			
+			traits = { civil_factory_builder }
+			cost = 50
+			
+			removal_cost = -1
+
+			picture = UNI_valerian_melishevich
+		}
+		UNI_alexius_felicius = {
+			
+			allowed = {
+				original_tag = UNI	
+			}
+			visible = {
+				has_country_flag = UNI_in_exp_SPQ
+			}
+			
+			traits = { infrastructure_builder libertatist_advisor }
+			cost = 50
+			
+			removal_cost = -1
+
+			picture = UNI_alexius_felicius
+			
+		}
+		UNI_meinhard_fraunberg = {
+		
+			allowed = {
+				original_tag = UNI	
+			}
+			visible = {
+				has_country_flag = UNI_in_exp_GER
+			}
+			
+			traits = { UNI_financial_expert }
+			cost = 50
+			
+			removal_cost = -1
+
+			picture = UNI_meinhard_fraunberg
+			
+		}
+		UNI_justina_kalavros = {
+		
+			allowed = {
+				original_tag = UNI	
+			}
+			visible = {
+				has_country_flag = UNI_in_exp_ROM
+			}
+			
+			traits = { UNI_economist eleftherist_advisor }
+			cost = 50
+			
+			removal_cost = -1
+
+			picture = UNI_justina_kalavros
+			
+		}
+		
+		UNI_yury_samurov = {
+			
+			allowed = {
+				original_tag = UNI	
+			}
+			visible = {
+				has_country_flag = UNI_best_expert
+			}
+			
+			traits = { civil_factory_builder }
+			cost = 50
+			
+			removal_cost = -1
+
+			picture = UNI_yury_samurov
+			
+		}
+		UNI_kauro_laine = {
+			
+			allowed = {
+				original_tag = UNI	
+			}
+			visible = {
+				has_country_flag = UNI_good_expert
+			}
+			
+			traits = { civil_factory_builder }
+			cost = 50
+			
+			removal_cost = -1
+
+			picture = UNI_kauro_laine
+			
+		}
+		UNI_ramunas_lyakavichus = {
+			
+			allowed = {
+				original_tag = UNI	
+			}
+			visible = {
+				has_country_flag = UNI_normal_expert
+			}
+			
+			traits = { civil_factory_builder }
+			cost = 50
+			
+			removal_cost = -1
+
+			picture = UNI_ramunas_lyakavichus
+			
+		}
+		
 	}
 }

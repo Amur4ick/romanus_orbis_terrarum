@@ -1,0 +1,54 @@
+on_actions = {
+	
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					tag = UNI
+					has_country_flag = UNI_yellow_front_support
+				}
+				
+				set_variable = { slav_in_army = 0 }
+				add_to_variable = { slav_in_army = manpower }
+				multiply_variable = { slav_in_army = 0.6 }
+				subtract_from_variable = { slav_in_army = slav_manpower }
+				
+				set_variable = { finn_in_army = 0 }
+				add_to_variable = { finn_in_army = manpower }
+				multiply_variable = { finn_in_army = 0.4 }
+				subtract_from_variable = { finn_in_army = finn_manpower }
+				
+				clamp_variable = {
+					var = slav_in_army
+					min = 0
+					max = 100000000
+				}
+				clamp_variable = {
+					var = finn_in_army
+					min = 0
+					max = 100000000
+				}
+				circle_variable = slav_in_army
+				circle_variablefinn_in_army
+				
+				if = {
+					limit = {
+						check_variable = { slav_in_army = 0 }
+					}
+					set_variable = { slav_manpower = 0 }
+					add_to_variable = { slav_manpower = manpower }
+					multiply_variable = { slav_manpower = 0.6 }
+				}
+				if = {
+					limit = {
+						check_variable = { finn_in_army = 0 }
+					}
+					set_variable = { finn_manpower = 0 }
+					add_to_variable = { finn_manpower = manpower }
+					multiply_variable = { finn_manpower = 0.4 }
+				}
+			}
+		}
+	}
+	
+}

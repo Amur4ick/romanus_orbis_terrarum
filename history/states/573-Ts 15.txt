@@ -9,10 +9,12 @@ state={
 	history={
 		owner = UNI
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 
 		}
 		add_core_of = UNI
+		
+		set_state_flag = UDM_state
 
 	}
 

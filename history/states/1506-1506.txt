@@ -4,6 +4,9 @@ state={
 	history={
 		owner = UNI
 		add_core_of = UNI
+		buildings = {
+			infrastructure = 5
+		}
 	}
 	provinces={
 		304 331 360 386 3350 

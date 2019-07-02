@@ -1,0 +1,299 @@
+ROT_foreign_policy = {
+
+	UNI_trade_treaty_with_SPQ = {
+		
+		icon = oppression
+
+		available = {
+			NOT = {
+				has_idea = UNI_trade_treaty_SPQ
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_trate_treaty_available
+			NOT = {
+				has_idea = UNI_trade_treaty_SPQ
+			}
+		}
+
+		#fire_only_once = yes
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = { 
+			add_timed_idea = {
+				idea = UNI_trade_treaty_SPQ
+				days = 360
+			}
+			SPQ = {
+				add_timed_idea = {
+					idea = UNI_trade_treaty_UNI
+					days = 360
+				}
+			}
+		}
+	}
+	UNI_trade_treaty_with_LAN = {
+		
+		icon = oppression
+
+		available = {
+			NOT = {
+				has_idea = UNI_trade_treaty_LAN
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_trate_treaty_available
+			NOT = {
+				has_idea = UNI_trade_treaty_LAN
+			}
+		}
+
+		#fire_only_once = yes
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = { 
+			add_timed_idea = {
+				idea = UNI_trade_treaty_LAN
+				days = 360
+			}
+			LAN = {
+				add_timed_idea = {
+					idea = UNI_trade_treaty_UNI
+					days = 360
+				}
+			}
+		}
+	}
+	UNI_trade_treaty_with_ROM = {
+		
+		icon = oppression
+
+		available = {
+			NOT = {
+				has_idea = UNI_trade_treaty_ROM
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_trate_treaty_available
+			NOT = {
+				has_idea = UNI_trade_treaty_ROM
+			}
+		}
+
+		#fire_only_once = yes
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = { 
+			add_timed_idea = {
+				idea = UNI_trade_treaty_ROM
+				days = 360
+			}
+			ROM = {
+				add_timed_idea = {
+					idea = UNI_trade_treaty_UNI
+					days = 360
+				}
+			}
+		}
+	}
+	UNI_trade_treaty_with_GLC = {
+		
+		icon = oppression
+
+		available = {
+			NOT = {
+				has_idea = UNI_trade_treaty_GLC
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_trate_treaty_available
+			NOT = {
+				has_idea = UNI_trade_treaty_GLC
+			}
+		}
+
+		#fire_only_once = yes
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = { 
+			add_timed_idea = {
+				idea = UNI_trade_treaty_GLC
+				days = 360
+			}
+			GLC = {
+				add_timed_idea = {
+					idea = UNI_trade_treaty_UNI
+					days = 360
+				}
+			}
+		}
+	}
+	UNI_trade_treaty_with_GAL = {
+		
+		icon = oppression
+
+		available = {
+			NOT = {
+				has_idea = UNI_trade_treaty_GAL
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_trate_treaty_available
+			NOT = {
+				has_idea = UNI_trade_treaty_GAL
+			}
+		}
+
+		#fire_only_once = yes
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = { 
+			add_timed_idea = {
+				idea = UNI_trade_treaty_GAL
+				days = 360
+			}
+			GAL = {
+				add_timed_idea = {
+					idea = UNI_trade_treaty_UNI
+					days = 360
+				}
+			}
+		}
+	}
+	UNI_trade_treaty_with_BRI = {
+		
+		icon = oppression
+
+		available = {
+			NOT = {
+				has_idea = UNI_trade_treaty_BRI
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_trate_treaty_available
+			NOT = {
+				has_idea = UNI_trade_treaty_BRI
+			}
+		}
+
+		#fire_only_once = yes
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = { 
+			add_timed_idea = {
+				idea = UNI_trade_treaty_BRI
+				days = 360
+			}
+			BRI = {
+				add_timed_idea = {
+					idea = UNI_trade_treaty_UNI
+					days = 360
+				}
+			}
+		}
+	}
+	UNI_trade_treaty_with_DAN = {
+		
+		icon = oppression
+
+		available = {
+			NOT = {
+				has_idea = UNI_trade_treaty_DAN
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_trate_treaty_available
+			NOT = {
+				has_idea = UNI_trade_treaty_DAN
+			}
+		}
+
+		#fire_only_once = yes
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = { 
+			add_timed_idea = {
+				idea = UNI_trade_treaty_DAN
+				days = 360
+			}
+			DAN = {
+				add_timed_idea = {
+					idea = UNI_trade_treaty_UNI
+					days = 360
+				}
+			}
+		}
+	}
+	UNI_trade_treaty_with_FIN = {
+		
+		icon = oppression
+
+		available = {
+			NOT = {
+				has_idea = UNI_trade_treaty_FIN
+			}
+		}
+
+		visible = {
+			has_country_flag = UNI_trate_treaty_available
+			NOT = {
+				has_idea = UNI_trade_treaty_FIN
+			}
+		}
+
+		#fire_only_once = yes
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = { 
+			add_timed_idea = {
+				idea = UNI_trade_treaty_FIN
+				days = 360
+			}
+			FIN = {
+				add_timed_idea = {
+					idea = UNI_trade_treaty_UNI
+					days = 360
+				}
+			}
+		}
+	}
+}

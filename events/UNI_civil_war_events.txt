@@ -1,0 +1,1845 @@
+﻿
+add_namespace = uni_cw
+
+##### ВОССТАНИЯ
+
+# Старый центр - восстание славян
+country_event = {
+	id = uni_cw.1
+	title = uni_cw.1.t
+	desc = uni_cw.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.1.a
+		
+		set_country_flag = RUS_state
+		
+		end_puppet = ECP
+		
+		every_owned_state = {
+			limit = {
+				OR = {
+					has_state_flag = VCH_state
+					has_state_flag = VEP_state
+					has_state_flag = TVE_state
+					has_state_flag = CNT_state
+					has_state_flag = MRD_state
+					has_state_flag = UDM_state
+					has_state_flag = FIN_state
+					has_state_flag = KIP_state
+					has_state_flag = ECP_state
+					check_variable = { UNI_support = 2 }
+				}
+				NOT = {
+					check_variable = { UNI_support = 1 }
+				}
+			}
+			remove_core_of = ROOT
+			add_core_of = VCH
+		}
+		
+		release = VCH
+		
+		set_cosmetic_tag = RUS_army
+		
+		delete_unit_template_and_units = {
+			division_template = "Pekhotnaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Kolonialnaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Kavalariyskaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Konno-Strelkovaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Motostrelkovaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Bronestrelkovaya Divisiya"
+		}
+		load_oob = "UNI_RUS_civl_war"
+		
+		country_event = { id = uni_cw.21 days = 7 }
+		
+		set_politics = {
+
+			parties = {
+				
+				libertatism = { popularity = 34 }
+				vemosism = { popularity = 13 }
+				#
+				sociarchism = { popularity = 12 }
+				eleftherism = { popularity = 26 }
+				#
+				passionism = { popularity = 0 }
+				viatirism = { popularity = 0 }
+				#
+				gentemism = { popularity = 7 }
+				neo_oligarchism = { popularity = 8 }
+				
+			}
+			ruling_party = libertatism
+			last_election = "1934.5.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		
+		VCH = {
+			set_cosmetic_tag = UNI_civil_war
+			
+			set_country_flag = UGR_state
+		
+			set_politics = {
+				ruling_party = vemosism
+				last_election = "1934.5.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			
+			load_oob = "UGR_civl_war"
+			
+			country_event = { id = uni_cw.22 days = 7 }
+			
+			country_event = { id = uni_cw.17 days = 15 }
+			
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = support_ECP
+					}
+				}
+				country_event = { id = uni_cw.14 days = 2 }
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = support_KIP
+					}
+				}
+				country_event = { id = uni_cw.15 days = 4 }
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = support_FIN
+					}
+				}
+				country_event = { id = uni_cw.16 days = 6 }
+			}
+		}
+		
+		if = {
+			limit = {
+				owns_state = 255
+			}
+			255 = {
+				create_unit = {
+					division = "name = \"Konno-Strelkovaya Brigada\" division_template = \"Konno-Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+			}
+			else = {	
+				255 = {
+					create_unit = {
+						division = "name = \"Vanut Prikaati\" division_template = \"Vanut Prikaati\" start_experience_factor = 0.2 "
+						owner = VCH
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				owns_state = 1548
+			}
+			1548 = {
+				create_unit = {
+					division = "name = \"Bronestrelkovaya Brigada\" division_template = \"Bronestrelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+			}
+			else = {	
+				1548 = {
+					create_unit = {
+						division = "name = \"Panssarkivaari Prikaati\" division_template = \"Panssarkivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = VCH
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				owns_state = 1542
+			}
+			1542 = {
+				create_unit = {
+					division = "name = \"Kavalariyskaya Brigada\" division_template = \"Kavalariyskaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+			}
+			else = {
+				1542 = {
+					create_unit = {
+						division = "name = \"Ratsuvaki Prikaati\" division_template = \"Ratsuvaki Prikaati\" start_experience_factor = 0.2 "
+						owner = VCH
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				owns_state = 1543
+			}
+			1543 = {
+				create_unit = {
+					division = "name = \"Kavalariyskaya Brigada\" division_template = \"Kavalariyskaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+			}
+			else = {
+				1543 = {
+					create_unit = {
+						division = "name = \"Ratsuvaki Prikaati\" division_template = \"Ratsuvaki Prikaati\" start_experience_factor = 0.2 "
+						owner = VCH
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				1511 = {
+					check_variable = { UNI_support = 1 }
+				}
+			}
+			1511 = {
+				create_unit = {
+					division = "name = \"1ya Ezerskaya Brigada\" division_template = \"Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"2ya Ezerskaya Brigada\" division_template = \"Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+			}
+		}
+		if = {
+			limit = {
+				210 = {
+					check_variable = { UNI_support = 1 }
+				}
+			}
+			210 = {
+				create_unit = {
+					division = "name = \"3ya Ezerskaya Brigada\" division_template = \"Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"4ya Ezerskaya Brigada\" division_template = \"Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+			}
+		}
+		if = {
+			limit = {
+				208 = {
+					check_variable = { UNI_support = 1 }
+				}
+			}
+			208 = {
+				create_unit = {
+					division = "name = \"1ya Ingerskaya Brigada\" division_template = \"Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"2ya Ingerskaya Brigada\" division_template = \"Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+			}
+		}
+		if = {
+			limit = {
+				195 = {
+					check_variable = { UNI_support = 1 }
+				}
+			}
+			195 = {
+				create_unit = {
+					division = "name = \"3ya Ingerskaya Brigada\" division_template = \"Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"4ya Ingerskaya Brigada\" division_template = \"Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+			}
+		}
+		
+		#effect_tooltip = {
+		#	UNI_slav_rise_old_center_effect = yes
+		#	custom_effect_tooltip = UNI_slav_rise_old_center_effect
+		#}
+	}
+}
+
+# Старый центр - восстание финно-угров
+country_event = {
+	id = uni_cw.2
+	title = uni_cw.2.t
+	desc = uni_cw.2.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.2.a
+		
+		end_puppet = ECP
+		
+		set_country_flag = RUS_state
+		
+		every_owned_state = {
+			limit = {
+				OR = {
+					has_state_flag = VCH_state
+					has_state_flag = VEP_state
+					has_state_flag = TVE_state
+					has_state_flag = CNT_state
+					has_state_flag = MRD_state
+					has_state_flag = UDM_state
+					has_state_flag = FIN_state
+					has_state_flag = KIP_state
+					has_state_flag = ECP_state
+					check_variable = { UNI_support = 2 }
+				}
+				NOT = {
+					check_variable = { UNI_support = 1 }
+				}
+			}
+			remove_core_of = ROOT
+			add_core_of = VCH
+		}
+		
+		release = VCH
+		
+		VCH = {
+			set_cosmetic_tag = UGR_army
+			
+			set_country_flag = UGR_state
+		
+			load_oob = "UGR_civl_war"
+			
+			country_event = { id = uni_cw.22 days = 7 }
+			
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = support_ECP
+					}
+				}
+				country_event = { id = uni_cw.14 days = 2 }
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = support_KIP
+					}
+				}
+				country_event = { id = uni_cw.15 days = 4 }
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = support_FIN
+					}
+				}
+				country_event = { id = uni_cw.16 days = 6 }
+			}
+		}
+		
+		delete_unit_template_and_units = {
+			division_template = "Pekhotnaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Kolonialnaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Kavalariyskaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Konno-Strelkovaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Motostrelkovaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Bronestrelkovaya Divisiya"
+		}
+		load_oob = "UNI_RUS_civl_war"
+		if = {
+			limit = {
+				owns_state = 255
+			}
+			255 = {
+				create_unit = {
+					division = "name = \"Konno-Strelkovaya Brigada\" division_template = \"Konno-Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+			}
+			else = {	
+				255 = {
+					create_unit = {
+						division = "name = \"Vanut Prikaati\" division_template = \"Vanut Prikaati\" start_experience_factor = 0.2 "
+						owner = VCH
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				owns_state = 1548
+			}
+			1548 = {
+				create_unit = {
+					division = "name = \"Bronestrelkovaya Brigada\" division_template = \"Bronestrelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+			}
+			else = {	
+				1548 = {
+					create_unit = {
+						division = "name = \"Panssarkivaari Prikaati\" division_template = \"Panssarkivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = VCH
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				owns_state = 1542
+			}
+			1542 = {
+				create_unit = {
+					division = "name = \"Kavalariyskaya Brigada\" division_template = \"Kavalariyskaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+			}
+			else = {
+				1542 = {
+					create_unit = {
+						division = "name = \"Ratsuvaki Prikaati\" division_template = \"Ratsuvaki Prikaati\" start_experience_factor = 0.2 "
+						owner = VCH
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				owns_state = 1543
+			}
+			1543 = {
+				create_unit = {
+					division = "name = \"Kavalariyskaya Brigada\" division_template = \"Kavalariyskaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+			}
+			else = {
+				1543 = {
+					create_unit = {
+						division = "name = \"Ratsuvaki Prikaati\" division_template = \"Ratsuvaki Prikaati\" start_experience_factor = 0.2 "
+						owner = VCH
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				1511 = {
+					check_variable = { UNI_support = 3 }
+				}
+			}
+			1511 = {
+				create_unit = {
+					division = "name = \"1ya Ezerskaya Brigada\" division_template = \"Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"2ya Ezerskaya Brigada\" division_template = \"Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+			}
+		}
+		if = {
+			limit = {
+				210 = {
+					check_variable = { UNI_support = 3 }
+				}
+			}
+			210 = {
+				create_unit = {
+					division = "name = \"3ya Ezerskaya Brigada\" division_template = \"Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"4ya Ezerskaya Brigada\" division_template = \"Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+			}
+		}
+		if = {
+			limit = {
+				208 = {
+					check_variable = { UNI_support = 4 }
+				}
+			}
+			208 = {
+				create_unit = {
+					division = "name = \"1ya Ingerskaya Brigada\" division_template = \"Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"2ya Ingerskaya Brigada\" division_template = \"Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+			}
+		}
+		if = {
+			limit = {
+				195 = {
+					check_variable = { UNI_support = 4 }
+				}
+			}
+			195 = {
+				create_unit = {
+					division = "name = \"3ya Ingerskaya Brigada\" division_template = \"Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"4ya Ingerskaya Brigada\" division_template = \"Strelkovaya Brigada\" start_experience_factor = 0.2 "
+					owner = ROOT
+				}
+			}
+		}
+		
+		set_politics = {
+
+			parties = {
+				
+				libertatism = { popularity = 34 }
+				vemosism = { popularity = 13 }
+				#
+				sociarchism = { popularity = 12 }
+				eleftherism = { popularity = 26 }
+				#
+				passionism = { popularity = 0 }
+				viatirism = { popularity = 0 }
+				#
+				gentemism = { popularity = 7 }
+				neo_oligarchism = { popularity = 8 }
+				
+			}
+			ruling_party = vemosism
+			last_election = "1934.5.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		
+		country_event = { id = uni_cw.18 days = 15 }
+		
+		country_event = { id = uni_cw.21 days = 7 }
+		
+		#effect_tooltip = {
+		#	UNI_slav_rise_old_center_effect = yes
+		#	custom_effect_tooltip = UNI_slav_rise_old_center_effect
+		#}
+	}
+}
+
+# Новый центр - восстание славян
+country_event = {
+	id = uni_cw.3
+	title = uni_cw.3.t
+	desc = uni_cw.3.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.3.a
+		
+		end_puppet = ECP
+		
+		set_country_flag = UGR_state
+		
+		every_owned_state = {
+			limit = {
+				NOT = {
+					OR = {
+						has_state_flag = VCH_state
+						has_state_flag = VEP_state
+						has_state_flag = TVE_state
+						has_state_flag = ING_state
+						has_state_flag = CNT_state
+						has_state_flag = MRD_state
+						has_state_flag = UDM_state
+						has_state_flag = FIN_state
+						has_state_flag = KIP_state
+						has_state_flag = ECP_state
+					}
+				}
+			}
+			remove_core_of = ROOT
+			add_core_of = RUS
+		}
+		
+		release = RUS
+		
+		RUS = {
+		
+			set_country_flag = RUS_state
+		
+			set_cosmetic_tag = RUS_army
+			load_oob = "RUS_civl_war"
+			country_event = { id = uni_cw.21 days = 7 }
+		}
+		
+		set_politics = {
+		
+			parties = {
+				libertatism = { popularity = 16 }
+				vemosism = { popularity = 14 }
+				#
+				sociarchism = { popularity = 0 }
+				eleftherism = { popularity = 23 }
+				#
+				passionism = { popularity = 0 }
+				viatirism = { popularity = 10 }
+				#
+				gentemism = { popularity = 37 }
+				neo_oligarchism = { popularity = 0 }
+			}
+			
+			ruling_party = vemosism
+			last_election = "1934.5.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		country_event = { id = uni_cw.19 days = 15 }
+		
+		delete_unit_template_and_units = {
+			division_template = "Pekhotnaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Kolonialnaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Kavalariyskaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Konno-Strelkovaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Motostrelkovaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Bronestrelkovaya Divisiya"
+		}
+		load_oob = "UNI_UGR_civl_war"
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_ECP
+				}
+			}
+			country_event = { id = uni_cw.14 days = 2 }
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_KIP
+				}
+			}
+			country_event = { id = uni_cw.15 days = 4 }
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_FIN
+				}
+			}
+			country_event = { id = uni_cw.16 days = 6 }
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_ING
+				}
+			}
+			country_event = { id = uni_cw.8 days = 8 }
+			else = {
+				195 = {
+					create_unit = {
+						division = "name = \"I Ingram Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"II Ingram Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"III Ingram Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_CNT
+				}
+			}
+			country_event = { id = uni_cw.9 days = 10 }
+			else = {
+				214 = {
+					create_unit = {
+						division = "name = \"I Pohjoinen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"II Pohjoinen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"III Pohjoinen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_TVE
+				}
+			}
+			country_event = { id = uni_cw.10 days = 12 }
+			else = {
+				247 = {
+					create_unit = {
+						division = "name = \"I Tverkylen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"II Tverkylen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"III Tverkylen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"Tverkylen Vartija\" division_template = \"Ratsuvaki Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_UDM
+				}
+			}
+			country_event = { id = uni_cw.11 days = 14 }
+			else = {
+				400 = {
+					create_unit = {
+						division = "name = \"I Udmurtenen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"II Udmurtenen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"III Udmurtenen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"I Udmurtenen Vartija\" division_template = \"Ratsuvaki Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"II Udmurtenen Vartija\" division_template = \"Ratsuvaki Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_MRD
+				}
+			}
+			country_event = { id = uni_cw.12 days = 16 }
+			else = {
+				250 = {
+					create_unit = {
+						division = "name = \"I Mordovinen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"II Mordovinen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"III Mordovinen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"I Mordovinen Vartija\" division_template = \"Ratsuvaki Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"II Mordovinen Vartija\" division_template = \"Ratsuvaki Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_VEP
+				}
+			}
+			country_event = { id = uni_cw.13 days = 18 }
+			else = {
+				351 = {
+					create_unit = {
+						division = "name = \"I Vepsenen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"II Vepsenen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"III Vepsenen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"Vepsenen Vartija\" division_template = \"Ratsuvaki Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+				}
+			}
+		}
+		
+		country_event = { id = uni_cw.22 days = 7 }
+		#effect_tooltip = {
+		#	UNI_slav_rise_old_center_effect = yes
+		#	custom_effect_tooltip = UNI_slav_rise_old_center_effect
+		#}
+	}
+}
+
+# Новый центр - восстание финно-угров
+country_event = {
+	id = uni_cw.4
+	title = uni_cw.4.t
+	desc = uni_cw.4.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.4.a
+		
+		end_puppet = ECP
+		
+		set_country_flag = UGR_state
+		
+		every_owned_state = {
+			limit = {
+				NOT = {
+					OR = {
+						has_state_flag = VCH_state
+						has_state_flag = VEP_state
+						has_state_flag = TVE_state
+						has_state_flag = ING_state
+						has_state_flag = CNT_state
+						has_state_flag = MRD_state
+						has_state_flag = UDM_state
+						has_state_flag = FIN_state
+						has_state_flag = KIP_state
+						has_state_flag = ECP_state
+					}
+				}
+			}
+			remove_core_of = ROOT
+			add_core_of = RUS
+		}
+		
+		release = RUS
+		
+		RUS = {
+			
+			set_country_flag = RUS_state
+		
+			set_cosmetic_tag = UNI_civil_war
+			load_oob = "RUS_civl_war"
+			
+			set_politics = {
+				ruling_party = vemosism
+				last_election = "1934.5.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			country_event = { id = uni_cw.20 days = 15 }
+			country_event = { id = uni_cw.21 days = 7 }
+		}
+		
+		set_politics = {
+
+			parties = {
+				
+				libertatism = { popularity = 16 }
+				vemosism = { popularity = 14 }
+				#
+				sociarchism = { popularity = 0 }
+				eleftherism = { popularity = 23 }
+				#
+				passionism = { popularity = 0 }
+				viatirism = { popularity = 10 }
+				#
+				gentemism = { popularity = 37 }
+				neo_oligarchism = { popularity = 0 }
+				
+			}
+			ruling_party = gentemism
+			last_election = "1934.5.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		
+		set_cosmetic_tag = UGR_army
+		
+		delete_unit_template_and_units = {
+			division_template = "Pekhotnaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Kolonialnaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Kavalariyskaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Konno-Strelkovaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Motostrelkovaya Divisiya"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Bronestrelkovaya Divisiya"
+		}
+		load_oob = "UNI_UGR_civl_war"
+		
+		country_event = { id = uni_cw.22 days = 7 }
+		
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_ECP
+				}
+			}
+			country_event = { id = uni_cw.14 days = 2 }
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_KIP
+				}
+			}
+			country_event = { id = uni_cw.15 days = 4 }
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_FIN
+				}
+			}
+			country_event = { id = uni_cw.16 days = 6 }
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_ING
+				}
+			}
+			country_event = { id = uni_cw.8 days = 8 }
+			else = {
+				195 = {
+					create_unit = {
+						division = "name = \"I Ingram Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"II Ingram Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"III Ingram Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_CNT
+				}
+			}
+			country_event = { id = uni_cw.9 days = 10 }
+			else = {
+				214 = {
+					create_unit = {
+						division = "name = \"I Pohjoinen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"II Pohjoinen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"III Pohjoinen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_TVE
+				}
+			}
+			country_event = { id = uni_cw.10 days = 12 }
+			else = {
+				247 = {
+					create_unit = {
+						division = "name = \"I Tverkylen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"II Tverkylen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"III Tverkylen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"Tverkylen Vartija\" division_template = \"Ratsuvaki Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_UDM
+				}
+			}
+			country_event = { id = uni_cw.11 days = 14 }
+			else = {
+				400 = {
+					create_unit = {
+						division = "name = \"I Udmurtenen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"II Udmurtenen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"III Udmurtenen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"I Udmurtenen Vartija\" division_template = \"Ratsuvaki Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"II Udmurtenen Vartija\" division_template = \"Ratsuvaki Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_MRD
+				}
+			}
+			country_event = { id = uni_cw.12 days = 16 }
+			else = {
+				250 = {
+					create_unit = {
+						division = "name = \"I Mordovinen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"II Mordovinen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"III Mordovinen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"I Mordovinen Vartija\" division_template = \"Ratsuvaki Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"II Mordovinen Vartija\" division_template = \"Ratsuvaki Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = support_VEP
+				}
+			}
+			country_event = { id = uni_cw.13 days = 18 }
+			else = {
+				351 = {
+					create_unit = {
+						division = "name = \"I Vepsenen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"II Vepsenen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"III Vepsenen Prikaati\" division_template = \"Kivaari Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"Vepsenen Vartija\" division_template = \"Ratsuvaki Prikaati\" start_experience_factor = 0.2 "
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+}
+
+##### ОТДЕЛЕНИЯ ###########################################################################################
+
+# Старый центр - отделение Ингрии -------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.5
+	title = uni_cw.5.t
+	desc = uni_cw.5.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.5.a
+		every_owned_state = {
+			limit = {
+				check_variable = { UNI_support = 4 }
+			}
+			ROOT = {
+				remove_state_core = PREV
+			}
+			ING = { 
+				add_state_core = PREV
+				transfer_state = PREV
+			}
+		}
+	}
+}
+
+# Старый центр - отделение Эзерии -------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.6
+	title = uni_cw.6.t
+	desc = uni_cw.6.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.6.a
+		every_owned_state = {
+			limit = {
+				check_variable = { UNI_support = 3 }
+			}
+			ROOT = {
+				remove_state_core = PREV
+			}
+			EZE = { 
+				add_state_core = PREV
+				transfer_state = PREV
+			}
+		}
+	}
+}
+
+# Старый центр - отделение сарматов -----------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.7
+	title = uni_cw.7.t
+	picture = GFX_report_event_spain_civil_war_soldiers
+	desc = uni_cw.7.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.7.a
+		if = {
+			limit ={
+				SAR = {
+					exists = yes
+					is_puppet = no
+				}
+			}
+			every_owned_state = {
+				limit = {
+					check_variable = { UNI_support = 5 }
+				}
+				remove_core_of = ROOT
+				hidden_effect = {
+					SAR = {
+						country_event = { id = sar.1 days = 10 }
+					}
+				}
+			}
+		}
+		else = {
+			every_owned_state = {
+				limit = {
+					check_variable = { UNI_support = 5 }
+				}
+				remove_core_of = ROOT
+			}
+		}
+	}
+}
+
+# Новый центр - отделение Ингрии --------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.8
+	title = uni_cw.8.t
+	desc = uni_cw.8.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.8.a
+		every_owned_state = {
+			limit = {
+				has_state_flag = ING_state
+			}
+			ROOT = {
+				remove_state_core = PREV
+			}
+			ING = { 
+				add_state_core = PREV
+				transfer_state = PREV
+			}
+		}
+	}
+}
+
+# Новый центр - отделение КСТ -----------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.9
+	title = uni_cw.9.t
+	desc = uni_cw.9.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.9.a
+		every_owned_state = {
+			limit = {
+				has_state_flag = CNT_state
+			}
+			ROOT = {
+				remove_state_core = PREV
+			}
+			CNT = { 
+				add_state_core = PREV
+				transfer_state = PREV
+			}
+		}
+	}
+}
+
+# Новый центр - отделение Тверкилы -----------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.10
+	title = uni_cw.10.t
+	desc = uni_cw.10.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.10.a
+		every_owned_state = {
+			limit = {
+				has_state_flag = TVE_state
+			}
+			ROOT = {
+				remove_state_core = PREV
+			}
+			TVE = { 
+				add_state_core = PREV
+				transfer_state = PREV
+			}
+		}
+	}
+}
+
+# Новый центр - отделение Удмуртии -----------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.11
+	title = uni_cw.11.t
+	desc = uni_cw.11.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.11.a
+		every_owned_state = {
+			limit = {
+				has_state_flag = UDM_state
+			}
+			ROOT = {
+				remove_state_core = PREV
+			}
+			UDM = { 
+				add_state_core = PREV
+				transfer_state = PREV
+			}
+		}
+	}
+}
+
+# Новый центр - отделение Мордвы -----------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.12
+	title = uni_cw.12.t
+	desc = uni_cw.12.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.12.a
+		every_owned_state = {
+			limit = {
+				has_state_flag = MRD_state
+			}
+			ROOT = {
+				remove_state_core = PREV
+			}
+			MRD = { 
+				add_state_core = PREV
+				transfer_state = PREV
+			}
+		}
+	}
+}
+
+# Новый центр - отделение Вепсов -----------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.13
+	title = uni_cw.13.t
+	desc = uni_cw.13.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.13.a
+		every_owned_state = {
+			limit = {
+				has_state_flag = VEP_state
+			}
+			ROOT = {
+				remove_state_core = PREV
+			}
+			VEP = { 
+				add_state_core = PREV
+				transfer_state = PREV
+			}
+		}
+	}
+}
+
+# Новый центр - отделение Самуры -------------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.14
+	title = uni_cw.14.t
+	desc = uni_cw.14.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.14.a
+		if = {
+			limit ={
+				ECP = {
+					exists = yes
+					is_puppet = no
+				}
+			}
+			every_owned_state = {
+				limit = {
+					has_state_flag = ECP_state
+				}
+				remove_core_of = ROOT
+				ECP = {
+					add_state_core = PREV
+					transfer_state = PREV
+				}
+			}
+		}
+		else = {
+			every_owned_state = {
+				limit = {
+					has_state_flag = ECP_state
+				}
+				remove_core_of = ROOT
+				hidden_effect = {
+					clr_state_flag = ECP_state
+					set_state_flag = MRD_state
+				}
+			}
+		}
+	}
+}
+
+# Новый центр - отделение Озено -------------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.15
+	title = uni_cw.15.t
+	desc = uni_cw.15.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.15.a
+		if = {
+			limit ={
+				KIP = {
+					exists = yes
+					is_puppet = no
+				}
+			}
+			every_owned_state = {
+				limit = {
+					has_state_flag = KIP_state
+				}
+				remove_core_of = ROOT
+				KIP = {
+					add_state_core = PREV
+					transfer_state = PREV
+				}
+			}
+			if = {
+				limit = {
+					ECP = {
+						owns_state = 251
+						owns_state = 1556
+					}
+				}
+				ECP = {
+					country_event = { id = ecp.1 days = 15 }
+				}
+			}
+		}
+		else = {
+			every_owned_state = {
+				limit = {
+					has_state_flag = KIP_state
+				}
+				remove_core_of = ROOT
+				hidden_effect = {
+					clr_state_flag = KIP_state
+					set_state_flag = MRD_state
+				}
+			}
+		}
+	}
+}
+
+# Новый центр - отделение Онего -------------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.16
+	title = uni_cw.16.t
+	desc = uni_cw.16.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.16.a
+		if = {
+			limit ={
+				has_country_flag = support_CNT
+			}
+			every_owned_state = {
+				limit = {
+					has_state_flag = FIN_state
+				}
+				remove_core_of = ROOT
+			}
+			hidden_effect = {
+				FIN = {
+					country_event = { id = fin.1 days = 20 }
+				}
+			}
+		}
+		else = {
+			every_owned_state = {
+				limit = {
+					has_state_flag = FIN_state
+				}
+				remove_core_of = ROOT
+				hidden_effect = {
+					clr_state_flag = FIN_state
+					set_state_flag = CNT_state
+					FIN = {
+						country_event = { id = fin.1 days = 20 }
+					}
+				}
+			}
+		}
+	}
+}
+
+# Старый центр - переворот финно-угров -------------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.17
+	title = uni_cw.17.t
+	desc = uni_cw.17.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.17.a
+		set_politics = {
+			ruling_party = gentemism
+			last_election = "1934.5.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		declare_war_on = {
+			target = UNI
+			type = puppet_wargoal_focus
+		}
+		UNI = {
+			if = {
+				limit = {
+					any_owned_state = {
+						check_variable = { UNI_support = 4 }
+					}
+				}
+				country_event = { id = uni_cw.5 days = 5 }
+			}
+			if = {
+				limit = {
+					any_owned_state = {
+						check_variable = { UNI_support = 3 }
+					}
+				}
+				country_event = { id = uni_cw.6 days = 10 }
+			}
+			if = {
+				limit = {
+					any_owned_state = {
+						check_variable = { UNI_support = 5 }
+					}
+				}
+				country_event = { id = uni_cw.7 days = 15 }
+			}
+		}
+	}
+}
+
+# Старый центр - переворот славян -------------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.18
+	title = uni_cw.18.t
+	desc = uni_cw.18.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.18.a
+		
+		set_politics = {
+			ruling_party = libertatism
+			last_election = "1934.5.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		declare_war_on = {
+			target = VCH
+			type = puppet_wargoal_focus
+		}
+		
+		if = {
+			limit = {
+				any_owned_state = {
+					check_variable = { UNI_support = 4 }
+				}
+			}
+			country_event = { id = uni_cw.5 days = 5 }
+		}
+		if = {
+			limit = {
+				any_owned_state = {
+					check_variable = { UNI_support = 3 }
+				}
+			}
+			country_event = { id = uni_cw.6 days = 10 }
+		}
+		if = {
+			limit = {
+				any_owned_state = {
+					check_variable = { UNI_support = 5 }
+				}
+			}
+			country_event = { id = uni_cw.7 days = 15 }
+		}
+	}
+}
+
+# Новый центр - переворот финно-угров -------------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.19
+	title = uni_cw.19.t
+	desc = uni_cw.19.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.19.a
+		set_politics = {
+			ruling_party = gentemism
+			last_election = "1934.5.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		declare_war_on = {
+			target = RUS
+			type = puppet_wargoal_focus
+		}
+	}
+}
+
+# Новый центр - переворот славян -------------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.20
+	title = uni_cw.20.t
+	desc = uni_cw.20.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.17.a
+		set_politics = {
+			ruling_party = libertatism
+			last_election = "1934.5.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		declare_war_on = {
+			target = UNI
+			type = puppet_wargoal_focus
+		}
+	}
+}
+
+# Партизаны славян ----------------------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.21
+	title = uni_cw.21.t
+	desc = uni_cw.21.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.21.a
+		for_loop_effect  = {
+			start = 0
+			end = UNI.slav_partisans_division
+			add = 1
+			capital_scope = {
+				create_unit = {
+					division = "name = \"Partizanskaya Brigada\" division_template = \"Narodnaya Gvardiya\" start_experience_factor = 0.3 "
+					owner = ROOT
+				}
+			}
+		}
+		hidden_effect = {
+			country_event = { id = uni_cw.25 days = 5 }
+		}
+	}
+}
+
+# Партизаны финно-угров --------------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.22
+	title = uni_cw.22.t
+	desc = uni_cw.22.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.22.a
+		for_loop_effect  = {
+			start = 0
+			end = UNI.finn_partisans_division
+			add = 1
+			capital_scope = {
+				create_unit = {
+					division = "name = \"Partisaani Prikaati\" division_template = \"Vartia Prikaati\" start_experience_factor = 0.3 "
+					owner = ROOT
+				}
+			}
+		}
+		hidden_effect = {
+			country_event = { id = uni_cw.26 days = 5 }
+		}
+	}
+}
+
+# Славянские добровольцы --------------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.23
+	title = uni_cw.23.t
+	desc = uni_cw.23.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.23.a
+		add_manpower = var:slav_manpower
+	}
+}
+
+# Угорские добровольцы --------------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.24
+	title = uni_cw.24.t
+	desc = uni_cw.24.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.24.a
+		add_manpower = var:finn_manpower
+	}
+}
+
+# Славянское снаряжение --------------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.25
+	title = uni_cw.25.t
+	desc = uni_cw.25.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.25.a
+		add_manpower = var:slav_manpower
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = var:slav_weapon
+		}
+		add_equipment_to_stockpile = {
+			type = armor_weapons
+			amount = var:slav_armor
+		}
+	}
+}
+
+# Угорское снаряжение --------------------------------------------------------------------------------
+
+country_event = {
+	id = uni_cw.26
+	title = uni_cw.26.t
+	desc = uni_cw.26.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uni_cw.26.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = var:finn_weapon
+		}
+		add_equipment_to_stockpile = {
+			type = armor_weapons
+			amount = var:finn_armor
+		}
+	}
+}

@@ -1,6 +1,7 @@
 ﻿random_owned_state = { ROOT = { set_capital = PREV } } #Minsk
 
 set_cosmetic_tag = GER_emperor
+set_country_flag = GER_emperor
 
 oob = "BLR_1936"
 
@@ -47,8 +48,10 @@ add_to_faction = RAE
 add_to_faction = BUR
 add_to_faction = THU
 add_to_faction = MAR
-add_to_faction = SUE
 add_to_faction = ENG
+add_to_faction = SUE
+add_to_faction = RUG
+add_to_faction = SIL
 
 add_to_faction = JUT
 add_to_faction = GOT
@@ -95,6 +98,14 @@ set_autonomy = {
     target = SUE
     autonomy_state = german_duchy
 }
+set_autonomy = {
+    target = RUG
+    autonomy_state = german_duchy
+}
+set_autonomy = {
+    target = SIL
+    autonomy_state = german_duchy
+}
 
 set_autonomy = {
     target = JUT
@@ -130,23 +141,22 @@ set_autonomy = {
 #	low_economic_mobilisation 
 #}
 
+set_popularities = {
+	
+	libertatism = 12 
+	vemosism = 0 
+		#
+	sociarchism = 0 
+	eleftherism = 0 
+		#
+	passionism = 0 
+	viatirism = 23 
+		#
+	gentemism = 0 
+	neo_oligarchism = 65 
+	
+}
 set_politics = {
-
-	parties = {
-		
-		libertatism = { popularity = 12 }
-		vemosism = { popularity = 0 }
-		#
-		sociarchism = { popularity = 0 }
-		eleftherism = { popularity = 0 }
-		#
-		passionism = { popularity = 0 }
-		viatirism = { popularity = 23 }
-		#
-		gentemism = { popularity = 0 }
-		neo_oligarchism = { popularity = 65 }
-		
-	}
 	ruling_party = neo_oligarchism
 	last_election = "1934.5.1"
 	election_frequency = 48

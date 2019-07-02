@@ -10,11 +10,11 @@ state={
 		}
 		buildings = {
 			infrastructure = 5
-			arms_factory = 2
 			air_base = 1
 
 		}
 		add_core_of = UNI
+		set_state_flag = UNI_transportniye_sety_focus
 		victory_points = { 3236 5 }
 
 	}

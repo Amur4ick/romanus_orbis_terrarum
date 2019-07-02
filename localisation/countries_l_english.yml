@@ -1,0 +1,817 @@
+﻿l_english:
+ union_of_workers:0 "Союз Рабочей Солидарности"
+ SPQ_alliance:0 "Romanus Orbis Terrarum"
+ GER_alliance:0 "Imperial Pact"
+ rhine_congress:0 "Congress of Rhein"
+ ellada:0 "Hellenic Confederation"
+ medina_alliance:0 "Alliance of Medina's Treaty"
+
+ SPQ_libertatism:0 "Roman Republic"
+ SPQ_vemosism:0 "Roman Republic"
+ SPQ_eleftherism:0 "Roman Republic"
+ SPQ_sociarchism:0 "Roman Republic"
+ SPQ_gentemism:0 "Roman Republic"
+ SPQ_neo_oligarchism:0 "Roman Republic"
+ SPQ_passionism:0 "Roman Republic"
+ SPQ_viatirism:0 "Roman Republic"
+ 
+ IBE_libertatism:0 "Hiberia"
+ IBE_vemosism:0 "Hiberia"
+ IBE_eleftherism:0 "Hiberia"
+ IBE_sociarchism:0 "Hiberia"
+ IBE_gentemism:0 "Hiberia"
+ IBE_neo_oligarchism:0 "Hiberia"
+ IBE_passionism:0 "Hiberia"
+ IBE_viatirism:0 "Hiberia"
+ 
+ GAL_libertatism:0 "Gallia"
+ GAL_vemosism:0 "Gallia"
+ GAL_eleftherism:0 "Gallia"
+ GAL_sociarchism:0 "Gallia"
+ GAL_gentemism:0 "Gallia"
+ GAL_neo_oligarchism:0 "Gallia"
+ GAL_passionism:0 "Gallia"
+ GAL_viatirism:0 "Gallia"
+ 
+ BSQ_libertatism:0 "State of Basque"
+ BSQ_vemosism:0 "State of Basque"
+ BSQ_eleftherism:0 "State of Basque"
+ BSQ_sociarchism:0 "State of Basque"
+ BSQ_gentemism:0 "State of Basque"
+ BSQ_neo_oligarchism:0 "State of Basque"
+ BSQ_passionism:0 "State of Basque"
+ BSQ_viatirism:0 "State of Basque"
+ 
+ BRI_libertatism:0 "Britannia"
+ BRI_vemosism:0 "Britannia"
+ BRI_eleftherism:0 "Britannia"
+ BRI_sociarchism:0 "Britannia"
+ BRI_gentemism:0 "Britannia"
+ BRI_neo_oligarchism:0 "Britannia"
+ BRI_passionism:0 "Britannia"
+ BRI_viatirism:0 "Britannia"
+ 
+ DAL_libertatism:0 "Dal Riada"
+ DAL_vemosism:0 "Dal Riada"
+ DAL_eleftherism:0 "Dal Riada"
+ DAL_sociarchism:0 "Dal Riada"
+ DAL_gentemism:0 "Dal Riada"
+ DAL_neo_oligarchism:0 "Dal Riada"
+ DAL_passionism:0 "Dal Riada"
+ DAL_viatirism:0 "Dal Riada"
+ 
+ FRA_libertatism:0 "Duchy of Francia"
+ FRA_vemosism:0 "Duchy of Francia"
+ FRA_eleftherism:0 "Duchy of Francia"
+ FRA_sociarchism:0 "Duchy of Francia"
+ FRA_gentemism:0 "Duchy of Francia"
+ FRA_neo_oligarchism:0 "Duchy of Francia"
+ FRA_passionism:0 "Duchy of Francia"
+ FRA_viatirism:0 "Duchy of Francia"
+ 
+ FRI_libertatism:0 "Duchy of Frisia"
+ FRI_vemosism:0 "Duchy of Frisia"
+ FRI_eleftherism:0 "Duchy of Frisia"
+ FRI_sociarchism:0 "Duchy of Frisia"
+ FRI_gentemism:0 "Duchy of Frisia"
+ FRI_neo_oligarchism:0 "Duchy of Frisia"
+ FRI_passionism:0 "Duchy of Frisia"
+ FRI_viatirism:0 "Duchy of Frisia"
+ 
+ RAE_libertatism:0 "Duchy of Raetia"
+ RAE_vemosism:0 "Duchy of Raetia"
+ RAE_eleftherism:0 "Duchy of Raetia"
+ RAE_sociarchism:0 "Duchy of Raetia"
+ RAE_gentemism:0 "Duchy of Raetia"
+ RAE_neo_oligarchism:0 "Duchy of Raetia"
+ RAE_passionism:0 "Duchy of Raetia"
+ RAE_viatirism:0 "Duchy of Raetia"
+ 
+ BUR_libertatism:0 "Duchy of Burgundy"
+ BUR_vemosism:0 "Duchy of Burgundy"
+ BUR_eleftherism:0 "Duchy of Burgundy"
+ BUR_sociarchism:0 "Duchy of Burgundy"
+ BUR_gentemism:0 "Duchy of Burgundy"
+ BUR_neo_oligarchism:0 "Duchy of Burgundy"
+ BUR_passionism:0 "Duchy of Burgundy"
+ BUR_viatirism:0 "Duchy of Burgundy"
+ 
+ THU_libertatism:0 "Duchy of Thuringia"
+ THU_vemosism:0 "Duchy of Thuringia"
+ THU_eleftherism:0 "Duchy of Thuringia"
+ THU_sociarchism:0 "Duchy of Thuringia"
+ THU_gentemism:0 "Duchy of Thuringia"
+ THU_neo_oligarchism:0 "Duchy of Thuringia"
+ THU_passionism:0 "Duchy of Thuringia"
+ THU_viatirism:0 "Duchy of Thuringia"
+ 
+ AUS_libertatism:0 "Duchy of Austrasia"
+ AUS_vemosism:0 "Duchy of Austrasia"
+ AUS_eleftherism:0 "Duchy of Austrasia"
+ AUS_sociarchism:0 "Duchy of Austrasia"
+ AUS_gentemism:0 "Duchy of Austrasia"
+ AUS_neo_oligarchism:0 "Duchy of Austrasia"
+ AUS_passionism:0 "Duchy of Austrasia"
+ AUS_viatirism:0 "Duchy of Austrasia"
+ 
+ SUE_libertatism:0 "Duchy of Suebia"
+ SUE_vemosism:0 "Duchy of Suebia"
+ SUE_eleftherism:0 "Duchy of Suebia"
+ SUE_sociarchism:0 "Duchy of Suebia"
+ SUE_gentemism:0 "Duchy of Suebia"
+ SUE_neo_oligarchism:0 "Duchy of Suebia"
+ SUE_passionism:0 "Duchy of Suebia"
+ SUE_viatirism:0 "Duchy of Suebia"
+ 
+ LAN_libertatism:0 "Duchy of Langobardy"
+ LAN_vemosism:0 "Duchy of Langobardy"
+ LAN_eleftherism:0 "Duchy of Langobardy"
+ LAN_sociarchism:0 "Duchy of Langobardy"
+ LAN_gentemism:0 "Duchy of Langobardy"
+ LAN_neo_oligarchism:0 "Duchy of Langobardy"
+ LAN_passionism:0 "Duchy of Langobardy"
+ LAN_viatirism:0 "Duchy of Langobardy"
+ 
+ MAR_libertatism:0 "Duchy of Marcomannia"
+ MAR_vemosism:0 "Duchy of Marcomannia"
+ MAR_eleftherism:0 "Duchy of Marcomannia"
+ MAR_sociarchism:0 "Duchy of Marcomannia"
+ MAR_gentemism:0 "Duchy of Marcomannia"
+ MAR_neo_oligarchism:0 "Duchy of Marcomannia"
+ MAR_passionism:0 "Duchy of Marcomannia"
+ MAR_viatirism:0 "Duchy of Marcomannia"
+ 
+ SIL_libertatism:0 "Duchy of Silingy"
+ SIL_vemosism:0 "Duchy of Silingy"
+ SIL_eleftherism:0 "Duchy of Silingy"
+ SIL_sociarchism:0 "Duchy of Silingy"
+ SIL_gentemism:0 "Duchy of Silingy"
+ SIL_neo_oligarchism:0 "Duchy of Silingy"
+ SIL_passionism:0 "Duchy of Silingy"
+ SIL_viatirism:0 "Duchy of Silingy"
+ 
+ RUG_libertatism:0 "Duchy of Rugia"
+ RUG_vemosism:0 "Duchy of Rugia"
+ RUG_eleftherism:0 "Duchy of Rugia"
+ RUG_sociarchism:0 "Duchy of Rugia"
+ RUG_gentemism:0 "Duchy of Rugia"
+ RUG_neo_oligarchism:0 "Duchy of Rugia"
+ RUG_passionism:0 "Duchy of Rugia"
+ RUG_viatirism:0 "Duchy of Rugia"
+ 
+ PRU_libertatism:0 "Prussia"
+ PRU_vemosism:0 "Prussia"
+ PRU_eleftherism:0 "Prussia"
+ PRU_sociarchism:0 "Prussia"
+ PRU_gentemism:0 "Prussia"
+ PRU_neo_oligarchism:0 "Prussia"
+ PRU_passionism:0 "Prussia"
+ PRU_viatirism:0 "Prussia"
+ 
+ DUN_libertatism:0 "Danubean Federation"
+ DUN_vemosism:0 "Danubean Federation"
+ DUN_eleftherism:0 "Danubean Federation"
+ DUN_sociarchism:0 "Danubean Federation"
+ DUN_gentemism:0 "Danubean Federation"
+ DUN_neo_oligarchism:0 "Danubean Federation"
+ DUN_passionism:0 "Danubean Federation"
+ DUN_viatirism:0 "Danubean Federation"
+ 
+ VAN_libertatism:0 "Vandalian Republic"
+ VAN_vemosism:0 "Vandalian Republic"
+ VAN_eleftherism:0 "Vandalian Republic"
+ VAN_sociarchism:0 "Vandalian Republic"
+ VAN_gentemism:0 "Vandalian Republic"
+ VAN_neo_oligarchism:0 "Vandalian Republic"
+ VAN_passionism:0 "Vandalian Republic"
+ VAN_viatirism:0 "Vandalian Republic"
+ 
+ GLC_libertatism:0 "Republic of Galicy"
+ GLC_vemosism:0 "Republic of Galicy"
+ GLC_eleftherism:0 "Republic of Galicy"
+ GLC_sociarchism:0 "Republic of Galicy"
+ GLC_gentemism:0 "Republic of Galicy"
+ GLC_neo_oligarchism:0 "Republic of Galicy"
+ GLC_passionism:0 "Republic of Galicy"
+ GLC_viatirism:0 "Republic of Galicy"
+ 
+ ILL_libertatism:0 "Illirya"
+ ILL_vemosism:0 "Illirya"
+ ILL_eleftherism:0 "Illirya"
+ ILL_sociarchism:0 "Illirya"
+ ILL_gentemism:0 "Illirya"
+ ILL_neo_oligarchism:0 "Illirya"
+ ILL_passionism:0 "Illirya"
+ ILL_viatirism:0 "Illirya"
+ 
+ VIS_libertatism:0 "State of Visigoths"
+ VIS_vemosism:0 "State of Visigoths"
+ VIS_eleftherism:0 "State of Visigoths"
+ VIS_sociarchism:0 "State of Visigoths"
+ VIS_gentemism:0 "State of Visigoths"
+ VIS_neo_oligarchism:0 "State of Visigoths"
+ VIS_passionism:0 "State of Visigoths"
+ VIS_viatirism:0 "State of Visigoths"
+ 
+ OST_libertatism:0 "Ostrogothic Worker's Republic"
+ OST_vemosism:0 "Ostrogothic Worker's Republic"
+ OST_eleftherism:0 "Ostrogothic Worker's Republic"
+ OST_sociarchism:0 "Ostrogothic Worker's Republic"
+ OST_gentemism:0 "Ostrogothic Worker's Republic"
+ OST_neo_oligarchism:0 "Ostrogothic Worker's Republic"
+ OST_passionism:0 "Ostrogothic Worker's Republic"
+ OST_viatirism:0 "Ostrogothic Worker's Republic"
+ 
+ ROM_libertatism:0 "Romean Empire"
+ ROM_vemosism:0 "Romean Empire"
+ ROM_eleftherism:0 "Romean Empire"
+ ROM_sociarchism:0 "Romean Empire"
+ ROM_gentemism:0 "Romean Empire"
+ ROM_neo_oligarchism:0 "Romean Empire"
+ ROM_passionism:0 "Romean Empire"
+ ROM_viatirism:0 "Romean Empire"
+ 
+ LIT_libertatism:0 "Lithuania"
+ LIT_vemosism:0 "Lithuania"
+ LIT_eleftherism:0 "Lithuania"
+ LIT_sociarchism:0 "Lithuania"
+ LIT_gentemism:0 "Lithuania"
+ LIT_neo_oligarchism:0 "Lithuania"
+ LIT_passionism:0 "Lithuania"
+ LIT_viatirism:0 "Lithuania"
+ 
+ PLS_libertatism:0 "Polisie"
+ PLS_vemosism:0 "Polisie"
+ PLS_eleftherism:0 "Polisie"
+ PLS_sociarchism:0 "Polisie"
+ PLS_gentemism:0 "Polisie"
+ PLS_neo_oligarchism:0 "Polisie"
+ PLS_passionism:0 "Polisie"
+ PLS_viatirism:0 "Polisie"
+ 
+ KIE_libertatism:0 "Kievan Association"
+ KIE_vemosism:0 "Kievan Association"
+ KIE_eleftherism:0 "Kievan Association"
+ KIE_sociarchism:0 "Kievan Association"
+ KIE_gentemism:0 "Kievan Association"
+ KIE_neo_oligarchism:0 "Kievan Association"
+ KIE_passionism:0 "Kievan Association"
+ KIE_viatirism:0 "Kievan Association"
+ 
+ SAR_libertatism:0 "Sarmatia"
+ SAR_vemosism:0 "Sarmatia"
+ SAR_eleftherism:0 "Sarmatia"
+ SAR_sociarchism:0 "Sarmatia"
+ SAR_gentemism:0 "Sarmatia"
+ SAR_neo_oligarchism:0 "Sarmatia"
+ SAR_passionism:0 "Sarmatia"
+ SAR_viatirism:0 "Sarmatia"
+ 
+ FIN_libertatism:0 "Kingdom of Suomi"
+ FIN_vemosism:0 "Kingdom of Suomi"
+ FIN_eleftherism:0 "Kingdom of Suomi"
+ FIN_sociarchism:0 "Kingdom of Suomi"
+ FIN_gentemism:0 "Kingdom of Suomi"
+ FIN_neo_oligarchism:0 "Kingdom of Suomi"
+ FIN_passionism:0 "Kingdom of Suomi"
+ FIN_viatirism:0 "Kingdom of Suomi"
+ 
+ GOT_libertatism:0 "Konungdom of Götland"
+ GOT_vemosism:0 "Konungdom of Götland"
+ GOT_eleftherism:0 "Konungdom of Götland"
+ GOT_sociarchism:0 "Konungdom of Götland"
+ GOT_gentemism:0 "Konungdom of Götland"
+ GOT_neo_oligarchism:0 "Konungdom of Götland"
+ GOT_passionism:0 "Konungdom of Götland"
+ GOT_viatirism:0 "Konungdom of Götland"
+ 
+ NOR_libertatism:0 "Konungdom Noreg"
+ NOR_vemosism:0 "Konungdom Noreg"
+ NOR_eleftherism:0 "Konungdom Noreg"
+ NOR_sociarchism:0 "Konungdom Noreg"
+ NOR_gentemism:0 "Konungdom Noreg"
+ NOR_neo_oligarchism:0 "Konungdom Noreg"
+ NOR_passionism:0 "Konungdom Noreg"
+ NOR_viatirism:0 "Konungdom Noreg"
+ 
+ JUT_libertatism:0 "Konungdom Jutland"
+ JUT_vemosism:0 "Konungdom Jutland"
+ JUT_eleftherism:0 "Konungdom Jutland"
+ JUT_sociarchism:0 "Konungdom Jutland"
+ JUT_gentemism:0 "Konungdom Jutland"
+ JUT_neo_oligarchism:0 "Konungdom Jutland"
+ JUT_passionism:0 "Konungdom Jutland"
+ JUT_viatirism:0 "Konungdom Jutland"
+ 
+ ENG_libertatism:0 "Duchy of England"
+ ENG_vemosism:0 "Duchy of England"
+ ENG_eleftherism:0 "Duchy of England"
+ ENG_sociarchism:0 "Duchy of England"
+ ENG_gentemism:0 "Duchy of England"
+ ENG_neo_oligarchism:0 "Duchy of England"
+ ENG_passionism:0 "Duchy of England"
+ ENG_viatirism:0 "Duchy of England"
+ 
+ MAC_libertatism:0 "Mecedonia"
+ MAC_vemosism:0 "Mecedonia"
+ MAC_eleftherism:0 "Mecedonia"
+ MAC_sociarchism:0 "Mecedonia"
+ MAC_gentemism:0 "Mecedonia"
+ MAC_neo_oligarchism:0 "Mecedonia"
+ MAC_passionism:0 "Mecedonia"
+ MAC_viatirism:0 "Mecedonia"
+ 
+ ATH_libertatism:0 "Athens"
+ ATH_vemosism:0 "Athens"
+ ATH_eleftherism:0 "Athens"
+ ATH_sociarchism:0 "Athens"
+ ATH_gentemism:0 "Athens"
+ ATH_neo_oligarchism:0 "Athens"
+ ATH_passionism:0 "Athens"
+ ATH_viatirism:0 "Athens"
+ 
+ PAT_libertatism:0 "Patres"
+ PAT_vemosism:0 "Patres"
+ PAT_eleftherism:0 "Patres"
+ PAT_sociarchism:0 "Patres"
+ PAT_gentemism:0 "Patres"
+ PAT_neo_oligarchism:0 "Patres"
+ PAT_passionism:0 "Patres"
+ PAT_viatirism:0 "Patres"
+ 
+ KAL_libertatism:0 "Kalamata"
+ KAL_vemosism:0 "Kalamata"
+ KAL_eleftherism:0 "Kalamata"
+ KAL_sociarchism:0 "Kalamata"
+ KAL_gentemism:0 "Kalamata"
+ KAL_neo_oligarchism:0 "Kalamata"
+ KAL_passionism:0 "Kalamata"
+ KAL_viatirism:0 "Kalamata"
+ 
+ TRI_libertatism:0 "Tripolis"
+ TRI_vemosism:0 "Tripolis"
+ TRI_eleftherism:0 "Tripolis"
+ TRI_sociarchism:0 "Tripolis"
+ TRI_gentemism:0 "Tripolis"
+ TRI_neo_oligarchism:0 "Tripolis"
+ TRI_passionism:0 "Tripolis"
+ TRI_viatirism:0 "Tripolis"
+ 
+ LAR_libertatism:0 "Larisa"
+ LAR_vemosism:0 "Larisa"
+ LAR_eleftherism:0 "Larisa"
+ LAR_sociarchism:0 "Larisa"
+ LAR_gentemism:0 "Larisa"
+ LAR_neo_oligarchism:0 "Larisa"
+ LAR_passionism:0 "Larisa"
+ LAR_viatirism:0 "Larisa"
+ 
+ IAN_libertatism:0 "Ianina"
+ IAN_vemosism:0 "Ianina"
+ IAN_eleftherism:0 "Ianina"
+ IAN_sociarchism:0 "Ianina"
+ IAN_gentemism:0 "Ianina"
+ IAN_neo_oligarchism:0 "Ianina"
+ IAN_passionism:0 "Ianina"
+ IAN_viatirism:0 "Ianina"
+ 
+ AGR_libertatism:0 "Agrinion"
+ AGR_vemosism:0 "Agrinion"
+ AGR_eleftherism:0 "Agrinion"
+ AGR_sociarchism:0 "Agrinion"
+ AGR_gentemism:0 "Agrinion"
+ AGR_neo_oligarchism:0 "Agrinion"
+ AGR_passionism:0 "Agrinion"
+ AGR_viatirism:0 "Agrinion"
+ 
+ AVA_libertatism:0 "Avalona"
+ AVA_vemosism:0 "Avalona"
+ AVA_eleftherism:0 "Avalona"
+ AVA_sociarchism:0 "Avalona"
+ AVA_gentemism:0 "Avalona"
+ AVA_neo_oligarchism:0 "Avalona"
+ AVA_passionism:0 "Avalona"
+ AVA_viatirism:0 "Avalona"
+ 
+ KOZ_libertatism:0 "Kozani"
+ KOZ_vemosism:0 "Kozani"
+ KOZ_eleftherism:0 "Kozani"
+ KOZ_sociarchism:0 "Kozani"
+ KOZ_gentemism:0 "Kozani"
+ KOZ_neo_oligarchism:0 "Kozani"
+ KOZ_passionism:0 "Kozani"
+ KOZ_viatirism:0 "Kozani"
+ 
+ CRE_libertatism:0 "Crete"
+ CRE_vemosism:0 "Crete"
+ CRE_eleftherism:0 "Crete"
+ CRE_sociarchism:0 "Crete"
+ CRE_gentemism:0 "Crete"
+ CRE_neo_oligarchism:0 "Crete"
+ CRE_passionism:0 "Crete"
+ CRE_viatirism:0 "Crete"
+ 
+ RHO_libertatism:0 "Rhodes"
+ RHO_vemosism:0 "Rhodes"
+ RHO_eleftherism:0 "Rhodes"
+ RHO_sociarchism:0 "Rhodes"
+ RHO_gentemism:0 "Rhodes"
+ RHO_neo_oligarchism:0 "Rhodes"
+ RHO_passionism:0 "Rhodes"
+ RHO_viatirism:0 "Rhodes"
+ 
+ GLT_libertatism:0 "Galatia"
+ GLT_vemosism:0 "Galatia"
+ GLT_eleftherism:0 "Galatia"
+ GLT_sociarchism:0 "Galatia"
+ GLT_gentemism:0 "Galatia"
+ GLT_neo_oligarchism:0 "Galatia"
+ GLT_passionism:0 "Galatia"
+ GLT_viatirism:0 "Galatia"
+ 
+ ARM_libertatism:0 "Armenia"
+ ARM_vemosism:0 "Armenia"
+ ARM_eleftherism:0 "Armenia"
+ ARM_sociarchism:0 "Armenia"
+ ARM_gentemism:0 "Armenia"
+ ARM_neo_oligarchism:0 "Armenia"
+ ARM_passionism:0 "Armenia"
+ ARM_viatirism:0 "Armenia"
+ 
+ KAR_libertatism:0 "Kartalinia"
+ KAR_vemosism:0 "Kartalinia"
+ KAR_eleftherism:0 "Kartalinia"
+ KAR_sociarchism:0 "Kartalinia"
+ KAR_gentemism:0 "Kartalinia"
+ KAR_neo_oligarchism:0 "Kartalinia"
+ KAR_passionism:0 "Kartalinia"
+ KAR_viatirism:0 "Kartalinia"
+ 
+ ALB_libertatism:0 "Albania"
+ ALB_vemosism:0 "Albania"
+ ALB_eleftherism:0 "Albania"
+ ALB_sociarchism:0 "Albania"
+ ALB_gentemism:0 "Albania"
+ ALB_neo_oligarchism:0 "Albania"
+ ALB_passionism:0 "Albania"
+ ALB_viatirism:0 "Albania"
+ 
+ ALA_libertatism:0 "Alania"
+ ALA_vemosism:0 "Alania"
+ ALA_eleftherism:0 "Alania"
+ ALA_sociarchism:0 "Alania"
+ ALA_gentemism:0 "Alania"
+ ALA_neo_oligarchism:0 "Alania"
+ ALA_passionism:0 "Alania"
+ ALA_viatirism:0 "Alania"
+ 
+ 
+ 
+ ### Северная Африка, Ближний Восток и Средняя Азия
+ 
+ CAR_neo_oligarchism:0 "Republicof Karthage" #
+ 
+ EGY_neo_oligarchism:0 "Order of St. Mark" #
+ 
+ MEC_neo_oligarchism:0 "Mecca" #
+ 
+ HIM_neo_oligarchism:0 "Republic of Himyar" #
+ 
+ ASA_neo_oligarchism:0 "Asahrian Emirate" #
+ 
+ OMA_neo_oligarchism:0 "Oman"
+ 
+ JUD_neo_oligarchism:0 "Judea"
+ 
+ KUR_neo_oligarchism:0 "Kurdistan"
+ 
+ SYR_neo_oligarchism:0 "Syria"
+ 
+ BAG_neo_oligarchism:0 "Bagurmi"
+ 
+ BAS_neo_oligarchism:0 "Basra"
+ 
+ PER_neo_oligarchism:0 "Sate of Persia" #
+ 
+ KHO_neo_oligarchism:0 "Khaganate of Khoresm" #
+ 
+ KIP_neo_oligarchism:0 "Khaganate of Kipchaks" #
+ 
+ DUL_neo_oligarchism:0 "Republic of Dulu" #
+ 
+ TAJ_neo_oligarchism:0 "Tajikistan" #
+ 
+ 
+ 
+ ### Индия и Индокитай
+ 
+ SIN_neo_oligarchism:0 "Sind" #
+ 
+ KSH_neo_oligarchism:0 "Kashmir" #
+ 
+ RAJ_neo_oligarchism:0 "Rajasthan" #
+ 
+ DEL_neo_oligarchism:0 "Deli" #
+ 
+ BER_neo_oligarchism:0 "Berar" #
+ 
+ MAH_neo_oligarchism:0 "Maharashtra" #
+ 
+ VIJ_neo_oligarchism:0 "Vijayanagar" #
+ 
+ ORI_neo_oligarchism:0 "Orissa" #
+ 
+ BEN_neo_oligarchism:0 "Bengal" #
+ 
+ NEP_neo_oligarchism:0 "Nepal" #
+ 
+ BHU_neo_oligarchism:0 "Bhutan" #
+ 
+ MIA_neo_oligarchism:0 "Ava" #
+ 
+ CHM_neo_oligarchism:0 "Champa" #
+ 
+ DAI_neo_oligarchism:0 "Dai Viet" #
+ 
+ SIA_neo_oligarchism:0 "Empire of Siam" #
+ 
+ 
+ 
+ ### Китай
+ 
+ GND_neo_oligarchism:0 "Republic of Guangdong" #
+ 
+ SON_neo_oligarchism:0 "Empire of Song"
+ 
+ CHA_neo_oligarchism:0 "Changsha clique"
+ 
+ CHO_neo_oligarchism:0 "Chongqing clique"
+ 
+ SCH_neo_oligarchism:0 "Principality of Sichuan"
+ 
+ TIB_neo_oligarchism:0 "Tibet"
+ 
+ UIG_neo_oligarchism:0 "Khaganate of Uighurs"
+ 
+ GAN_neo_oligarchism:0 "Protectorate of Gansu"
+ 
+ JIN_neo_oligarchism:0 "Empire of Jin" #
+ 
+ MON_neo_oligarchism:0 "Mongolia"
+ 
+ MAN_neo_oligarchism:0 "Manchuria"
+ 
+ KOR_neo_oligarchism:0 "Choson Empire"
+ 
+ HUN_neo_oligarchism:0 "Republic of Hunnu"
+ 
+ BAL_neo_oligarchism:0 "Balhe"
+ 
+ SIB_neo_oligarchism:0 "Siberian Republic"
+ 
+ 
+ 
+ ### Япония
+ 
+ 
+ OTO_neo_oligarchism:0 "Otomo"
+ 
+ TES_neo_oligarchism:0 "Tesu"
+ 
+ TOS_neo_oligarchism:0 "Tosa"
+ 
+ TOK_neo_oligarchism:0 "Tokugawa"
+ 
+ ETG_neo_oligarchism:0 "Etigo"
+ 
+ AIZ_neo_oligarchism:0 "Aizu"
+ 
+ MUT_neo_oligarchism:0 "Mutsu"
+ 
+ EDZ_neo_oligarchism:0 "Edzo"
+ 
+ 
+ 
+ ### Африка
+ 
+ MLI_vemosism:0 "People's Republic of Mali"
+ 
+ FUL_vemosism:0 "Fulo" #
+ 
+ MOS_vemosism:0 "Mosi" #
+ 
+ SNG_vemosism:0 "Songai" #
+ 
+ BOR_vemosism:0 "Kanem-Bornu" #
+ 
+ DAR_vemosism:0 "Darfur" #
+ 
+ SEN_vemosism:0 "Republic of Sennar" #
+ 
+ ETH_vemosism:0 "Ethiopia" #
+ 
+ CNG_vemosism:0 "Kongo" #
+ 
+ LND_vemosism:0 "Lunda" #
+ 
+ LUB_vemosism:0 "Luba" #
+ 
+ BUG_vemosism:0 "Buganda" #
+ 
+ RWA_vemosism:0 "Rwanda" #
+ 
+ KRG_vemosism:0 "Karagwe" #
+ 
+ KZM_vemosism:0 "Kazembe" #
+ 
+ MLW_vemosism:0 "Malawi" #
+ 
+ ROZ_vemosism:0 "Rozwi" #
+ 
+ MAD_vemosism:0 "Imerina" #
+ 
+ 
+ 
+ ### Америка
+ 
+ FRL_vemosism:0 "Frelsisland"
+ 
+ MOH_vemosism:0 "Mohicans" #
+ 
+ IRO_vemosism:0 "Федерация Ирокезов" #
+ 
+ DLW_vemosism:0 "Делавары" #
+ 
+ PTW_vemosism:0 "Потаватоми" #
+ 
+ MIM_vemosism:0 "Майами" #
+ 
+ MEN_vemosism:0 "Меномини"
+ 
+ ILN_vemosism:0 "Иллинойс" #
+ 
+ SHA_vemosism:0 "Шауни" #
+ 
+ DAK_vemosism:0 "Дакота"
+ 
+ ARA_vemosism:0 "Арапахо" #
+ 
+ KIO_vemosism:0 "Кайова" #
+ 
+ APA_vemosism:0 "Апачи" #
+ 
+ SHO_vemosism:0 "Шошоны" #
+ 
+ CRI_vemosism:0 "Федерация Кри"
+ 
+ FLU_vemosism:0 "Федерация Флюминия"
+ 
+ PEL_vemosism:0 "Пелагийская Республика"
+ 
+ AZT_vemosism:0 "Ацтекская Империя"
+ 
+ NEL_vemosism:0 "Новая Эллада"
+ 
+ 
+ 
+ ### Колонии
+ 
+ AMA_vemosism:0 "Иберийск. Амахагия"
+ 
+ LIV_vemosism:0 "Иберийск. Ливор"
+ 
+ AUR_vemosism:0 "Аурумская Африка"
+ 
+ BNN_vemosism:0 "Галльск. Бенин"
+ 
+ ZAI_vemosism:0 "Силва Заир"
+ 
+ HEG_vemosism:0 "Хего Эускал"
+ 
+ SUD_vemosism:0 "Ланд Дес Суденс"
+ 
+ MER_vemosism:0 "Меридианская Африка"
+ 
+ BRG_vemosism:0 "Новая Бригантия"
+ 
+ ZAN_vemosism:0 "Персидск. Занзибар"
+ 
+ GUJ_vemosism:0 "Римск. Гуджарат"
+ 
+ SAH_vemosism:0 "Британск. Сахьярди"
+ 
+ GDV_vemosism:0 "Германск. Годавари"
+ 
+ IRA_vemosism:0 "Иберийск. Иравади"
+ 
+ LEM_vemosism:0 "Лем Малай"
+ 
+ MEK_vemosism:0 "Ромейск. Вьетнам"
+ 
+ HAI_vemosism:0 "Римск. Хайнянь"
+ 
+ WEN_vemosism:0 "Британск. Вэньчжоу"
+ 
+ 
+ 
+ ### Американские Колонии
+ 
+ NCA_vemosism:0 "Новая Каледония"
+ 
+ WLD_vemosism:0 "Вальдланд"
+ 
+ COI_vemosism:0 "Талам Куилле"
+ 
+ AUG_vemosism:0 "Терра Августиана"
+ 
+ SER_vemosism:0 "Сервиана"
+ 
+ NAR_vemosism:0 "Новая Арморика"
+ 
+ NIB_vemosism:0 "Новая Иберия"
+ 
+ OCC_vemosism:0 "Оциденская Испания"
+ 
+ INM_vemosism:0 "Интермарум"
+ 
+ DIT_vemosism:0 "Дитикия"
+ 
+ OCD_vemosism:0 "Окидения"
+ 
+ DNB_vemosism:0 "Доньбу Туди"
+ 
+ KSN_vemosism:0 "Кесу Наму"
+ 
+ UNA_vemosism:0 "Унанганская Земля"
+ 
+ BRO_vemosism:0 "Разбитый Берег"
+ 
+ INU_vemosism:0 "Инуитская Земля"
+ 
+ 
+ 
+ ### Южная Америка
+ 
+ NAQ_vemosism:0 "Новая Аквитания"
+ 
+ MAS_vemosism:0 "Сильвийская Мавретания"
+ 
+ TSA_vemosism:0 "Терра Сальтус"
+ 
+ INC_vemosism:0 "Империя Инков"
+ 
+ LUR_vemosism:0 "Лур Беррия"
+ 
+ MRC_vemosism:0 "Марциана"
+ 
+ TXC_vemosism:0 "Тиксимийское Содружество"
+ 
+ DEM_vemosism:0 "Деметрос"
+ 
+ GLO_vemosism:0 "Оциденская Галисия"
+ 
+ NOT_vemosism:0 "Нотиос"
+ 
+ OSC_vemosism:0 "Республика Осткостских Провинций"
+ 
+ PAR_vemosism:0 "Республика Парана"
+ 
+ LFN_vemosism:0 "Лига Вольных Народов"
+ 
+ MAP_vemosism:0 "Государство Мапучи" #
+ 
+ RMN_vemosism:0 "Королевство Романика"
+ 
+ ALE_vemosism:0 "Алексийская Респулика"
+ 
+ ANT_vemosism:0 "Антеос"
+ 
+ 
+ 
+ ### Океания
+ 
+ MAL_vemosism:0 "Карфагенск. Малакка"
+ 
+ SUN_vemosism:0 "Протекторат Сунда"
+ 
+ MAJ_vemosism:0 "Империя Маджапахит"
+ 
+ BRN_vemosism:0 "Бруней"
+ 
+ BRU_vemosism:0 "Берау"
+ 
+ MCS_vemosism:0 "Макассар"
+ 
+ MAG_vemosism:0 "Магинданао"
+ 
+ RYU_vemosism:0 "Королевство Рюкю"
+ 
+ GIM_vemosism:0 "Гимбу"
+ 
+ CHI_vemosism:0 "Чимбу"
+ 
+ ENA_vemosism:0 "Энга"
+ 
+ FOZ_vemosism:0 "Федерация Оз"
+ 
+ MAO_vemosism:0 "Объединение Маори"

@@ -1,20 +1,19 @@
-
 state={
 	id=225
 	name="STATE_225"
 
 	history={
-		owner = KIE
+		owner = UNI
 		buildings = {
 			infrastructure = 5
 
 		}
-		add_core_of = KIE
+		add_core_of = UNI
 
 	}
 
 	provinces={
-		288 522 3225 6254 6330 6565 9477 9542 9566 11553 
+		288 3225 6254 6330 9566 11553 
 	}
 	manpower=1338280
 	buildings_max_level_factor=1.000

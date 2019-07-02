@@ -1,0 +1,57 @@
+l_russian:
+ cabinet_of_ministers:0 "Кабинет министров"
+ main_laws:0 "Основные законы"
+ state_form:0 "Состояне государства"
+ 
+ head_of_government:0 "Глава правительства"
+ minister_security:0 "Министр внутренних дел"
+ minister_social:0 "Министр общественных дел"
+ minister_economy:0 "Министр экономики"
+ minister_diplomacy:0 "Министр внешней политики"
+ minister_army:0 "Министр обороны"
+ 
+ border_laws:0 "Законы миграции"
+ national_laws:0 "Национальная политика"
+ national_ideas:0 "Национальная идея"
+ 
+ country_level:0 "Мировой статус"
+ country_development:0 "Степень развития"
+ political_situation:0 "Политическая обстановка"
+ poverty_level:0 "Благосостояние граждан"
+ unemployment_level:0 "Степень безработицы"
+ literacy_level:0 "Степень грамотности"
+ 
+ poverty_1:0 "Высокое благосостояние"
+ poverty_2:0 "Нормальное благосостояние"
+ poverty_3:0 "Умеренная бедность"
+ poverty_4:0 "Бедность"
+ poverty_5:0 "Повальная бедность"
+ 
+ uneployment_1:0 "Отсутствие безработицы"
+ uneployment_2:0 "Низкая безработица"
+ uneployment_3:0 "Безработица"
+ uneployment_4:0 "Высокая безработица"
+ 
+ literacy_1:0 "Высокая грамотность"
+ literacy_2:0 "Нормальная грамотность"
+ literacy_3:0 "Низкая грамотность"
+ literacy_4:0 "Безграмотность"
+ literacy_5:0 "Повальная безграмотность"
+ 
+ stability_law:0 "Стабильность"
+ low_stability_law:0 "Низкая стабильность"
+ political_crisis_law:0 "Политический кризис"
+ civil_war_law:0 "Гражданская война"
+ 
+ modern_society:0 "Современное общество"
+ early_industrial_society:0 "Раннее индустриальное общество"
+ pre_industrial_society:0 "Доиндустриальное общество"
+ agrarian_society:0 "Аграрное общество"
+ tribal_society:0 "Племнной строй"
+ 
+ super_empire_state:0 "Сверхдержава"
+ empire_state:0 "Великая держава"
+ powerful_state:0 "Сильное государство"
+ normal_state:0 "Обычное государство"
+ week_state:0 "Слабое государство"
+ dependent_state:0 "Зависимое государство"

@@ -1,22 +1,21 @@
-
 state={
 	id=199
 	name="STATE_199"
 
 	history={
-		owner = OST
+		owner = GLC
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 3
 
 		}
-		add_core_of = OST
+		add_core_of = GLC
 
 	}
 
 	provinces={
-		462 577 3407 3430 3562 6429 
+		462 577 3407 3430 3562 6429 6455 
 	}
 	manpower=1424022
 	buildings_max_level_factor=1.000

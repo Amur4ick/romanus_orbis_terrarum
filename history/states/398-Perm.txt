@@ -2,21 +2,19 @@
 state={
 	id=398
 	name="STATE_398"
-	resources={
-		aluminium=6.000
-	}
 
 	history={
 		owner = UNI
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
+			infrastructure = 5
 
 		}
 		victory_points = {
 			7375 5 
 		}
 		add_core_of = UNI
+		
+		set_state_flag = UDM_state
 
 	}
 

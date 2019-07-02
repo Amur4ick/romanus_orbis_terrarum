@@ -1,13 +1,17 @@
 state={
 	id=914
 	name="STATE_914"
-	history = {
+
+	history={
 		owner = PLS
 		add_core_of = PLS
+
 	}
+
 	provinces={
-		535 3496 6579 9520 11503 
+		535 3496 6520 6579 9520 11503 
 	}
-	manpower=1000 state_category = town
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=town
 }

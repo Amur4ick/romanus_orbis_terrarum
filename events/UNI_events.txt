@@ -1,6 +1,8 @@
 ﻿
 add_namespace = uni
 
+##### План НЭП
+
 country_event = {
 	id = uni.1
 	title = uni.1.t
@@ -8,216 +10,267 @@ country_event = {
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
 	fire_only_once = yes
+	is_triggered_only = yes
 	
 	trigger = {
-		# has_global_flag = roman_crisis_started
-		NOT = { has_country_flag = UNI_roman_crisis }
-		original_tag = UNI
-		NOT = {
-			has_government = eleftherism
-			has_government = sociarchism
-		}
-		date > 1751.1.10 # for test
-		# date > 1751.6.1
+		#
 	}
 	
 	option = {
 		name = uni.1.a
-		hidden_effect = {
-			set_country_flag = UNI_roman_crisis
-			unlock_national_focus = UNI_rimskaya_volna
-			UNI = {	country_event = { id = uni.2 days = 10 } }
-		}
-		effect_tooltip = {
-			custom_effect_tooltip = UNI_event_roman_wave_tooltip
-		}
-		add_ideas = UNI_roman_crisis_1
 	}
 }
-
+### Вопрос грамотности
 country_event = {
 	id = uni.2
 	title = uni.2.t
 	desc = uni.2.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	fire_only_once = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
 	
 	option = {
 		name = uni.2.a
-		hidden_effect = {
-			UNI = { country_event = { id = uni.3 days = 10 } }
-		}
+		add_political_power = -75
 		effect_tooltip = {
-			custom_effect_tooltip = UNI_event_2_a_tooltip
+			custom_effect_tooltip = uni_2_a_effect
 		}
-		if = {
-			limit = {
-				has_idea = UNI_roman_crisis_1
-			}
-			swap_ideas = {
-				remove_idea = UNI_roman_crisis_1
-				add_idea = UNI_roman_crisis_2
-			}
+		hidden_effect = {
+			set_country_flag = e_literacy_nep
 		}
-		else_if = {
-			limit = {
-				has_idea = UNI_roman_crisis_2
-			}
-			swap_ideas = {
-				remove_idea = UNI_roman_crisis_2
-				add_idea = UNI_roman_crisis_3
-			}
-		}
-		add_political_power = -100
-		
 	}
 	option = {
 		name = uni.2.b
-		hidden_effect = {
-			UNI = { country_event = { id = uni.4 days = 10 } }
-		}
-		effect_tooltip = {
-			custom_effect_tooltip = UNI_event_2_b_tooltip
-		}
 		add_political_power = -50
+		effect_tooltip = {
+			custom_effect_tooltip = uni_2_b_effect
+		}
+		hidden_effect = {
+			set_country_flag = v_literacy_nep
+		}
+	}
+	option = {
+		name = uni.2.c
+		add_political_power = -25
+		effect_tooltip = {
+			custom_effect_tooltip = uni_2_c_effect
+		}
+		hidden_effect = {
+			set_country_flag = l_literacy_nep
+		}
 	}
 }
-
+### Вопрос крестьянства
 country_event = {
 	id = uni.3
 	title = uni.3.t
 	desc = uni.3.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	fire_only_once = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
 	
 	option = {
 		name = uni.3.a
-		hidden_effect = {
-			set_country_flag = UNI_national_crisis
-			unlock_national_focus = UNI_nationalniy_vopros
-			set_variable = { slav_s = 15 }
-			set_variable = { finn_s = 35 }
-			clamp_variable = {
-				var = slav_s
-				min = 0
-				max = 100
-			}
-			clamp_variable = {
-				var = finn_s
-				min = 0
-				max = 100
-			}
-			set_variable = { finn_weapon = 0 }
-			set_variable = { slav_weapon = 0 }
-			set_variable = { finn_manpower = 0 }
-			set_variable = { slav_manpower = 0 }
-			set_variable = { finn_armor = 0 }
-			set_variable = { slav_armor = 0 }
+		add_political_power = -50
+		effect_tooltip = {
+			custom_effect_tooltip = uni_3_a_effect
 		}
-		custom_effect_tooltip = UNI_event_3_4_tooltip
+		hidden_effect = {
+			set_country_flag = e_peasants_nep
+		}
+	}
+	option = {
+		name = uni.3.b
+		add_political_power = -50
+		effect_tooltip = {
+			custom_effect_tooltip = uni_3_b_effect
+		}
+		hidden_effect = {
+			set_country_flag = v_peasants_nep
+		}
+	}
+	option = {
+		name = uni.3.c
+		add_political_power = -50
+		effect_tooltip = {
+			custom_effect_tooltip = uni_3_c_effect
+		}
+		hidden_effect = {
+			set_country_flag = l_peasants_nep
+		}
 	}
 }
-
+### Вопрос казачества
 country_event = {
 	id = uni.4
 	title = uni.4.t
 	desc = uni.4.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	fire_only_once = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
 	
 	option = {
 		name = uni.4.a
-		hidden_effect = {
-			set_country_flag = UNI_national_crisis
-			unlock_national_focus = UNI_nationalniy_vopros
-			set_variable = { slav_s = 25 }
-			set_variable = { finn_s = 25 }
-			clamp_variable = {
-				var = slav_s
-				min = 0
-				max = 100
-			}
-			clamp_variable = {
-				var = finn_s
-				min = 0
-				max = 100
-			}
-			set_variable = { finn_weapon = 0 }
-			set_variable = { slav_weapon = 0 }
-			set_variable = { finn_manpower = 0 }
-			set_variable = { slav_manpower = 0 }
-			set_variable = { finn_armor = 0 }
-			set_variable = { slav_armor = 0 }
+		effect_tooltip = {
+			custom_effect_tooltip = uni_4_effect
 		}
-		custom_effect_tooltip = UNI_event_3_4_tooltip
+		hidden_effect = {
+			set_country_flag = UNI_сossacs_nep
+		}
 	}
 }
-
+### Вопрос безработицы
 country_event = {
 	id = uni.5
 	title = uni.5.t
 	desc = uni.5.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	fire_only_once = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
 	
 	option = {
 		name = uni.5.a
+		add_political_power = -25
 		effect_tooltip = {
-			hidden_effect = {
-				set_country_flag = UNI_green_front_support
-				country_event = { id = 9 days = 10 random = 6 }
-			}
-			custom_effect_tooltip = UNI_event_5_6_tooltip
+			custom_effect_tooltip = uni_5_a_effect
 		}
-		add_political_power = 100
+		hidden_effect = {
+			set_country_flag = e_unemployment_nep
+		}
+	}
+	option = {
+		name = uni.5.b
+		add_political_power = -50
+		effect_tooltip = {
+			custom_effect_tooltip = uni_5_b_effect
+		}
+		hidden_effect = {
+			set_country_flag = v_unemployment_nep
+		}
+	}
+	option = {
+		name = uni.5.c
+		add_political_power = -75
+		effect_tooltip = {
+			custom_effect_tooltip = uni_5_c_effect
+		}
+		hidden_effect = {
+			set_country_flag = l_unemployment_nep
+		}
 	}
 }
-
+### Вопрос субсидирования
 country_event = {
 	id = uni.6
 	title = uni.6.t
 	desc = uni.6.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	fire_only_once = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
 	
 	option = {
 		name = uni.6.a
+		add_political_power = -50
 		effect_tooltip = {
-			hidden_effect = {
-				set_country_flag = UNI_yellow_front_support
-				country_event = { id = 9 days = 10 random = 6 }
-			}
-			custom_effect_tooltip = UNI_event_5_6_tooltip
+			custom_effect_tooltip = uni_6_a_effect
 		}
-		add_political_power = 100
+		hidden_effect = {
+			set_country_flag = e_subsidies_nep
+		}
+	}
+	option = {
+		name = uni.6.b
+		add_political_power = -50
+		effect_tooltip = {
+			custom_effect_tooltip = uni_6_b_effect
+		}
+		hidden_effect = {
+			set_country_flag = v_subsidies_nep
+		}
+	}
+	option = {
+		name = uni.6.c
+		add_political_power = -50
+		effect_tooltip = {
+			custom_effect_tooltip = uni_6_c_effect
+		}
+		hidden_effect = {
+			set_country_flag = l_subsidies_nep
+		}
 	}
 }
-
+### Вопрос налогооблажения
 country_event = {
 	id = uni.7
 	title = uni.7.t
 	desc = uni.7.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	fire_only_once = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
 	
 	option = {
 		name = uni.7.a
-		add_to_variable = { finn_s = 10 }
+		add_political_power = 75
 		effect_tooltip = {
-			custom_effect_tooltip = UNI_finn_s_add_10_effect
+			custom_effect_tooltip = uni_6_a_effect
 		}
+		hidden_effect = {
+			set_country_flag = slav_nalog_nep
+		}
+	}
+	option = {
+		name = uni.7.b
+		add_political_power = 75
 		effect_tooltip = {
-			custom_effect_tooltip = UNI_event_7_tooltip
-		}	
-		hidden_effect = { set_country_flag = UNI_old_center }
+			custom_effect_tooltip = uni_6_b_effect
+		}
+		hidden_effect = {
+			set_country_flag = finn_nalog_nep
+		}
+	}
+	option = {
+		name = uni.7.c
+		add_political_power = 150
+		effect_tooltip = {
+			custom_effect_tooltip = uni_6_c_effect
+		}
+		hidden_effect = {
+			set_country_flag = slav_finn_nalog_nep
+		}
 	}
 }
+
+##### Утверждение плана НЭП
 
 country_event = {
 	id = uni.8
@@ -225,378 +278,1146 @@ country_event = {
 	desc = uni.8.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	fire_only_once = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
 	
 	option = {
 		name = uni.8.a
-		add_to_variable = { slav_s = 10 }
-		effect_tooltip = {
-			custom_effect_tooltip = UNI_slav_s_add_10_effect
+		hidden_effect = {
+			set_country_flag = UNI_nep_accepted
+			country_event = { id = uni.9 days = 10 }
+			country_event = { id = uni.10 days = 15 }
+			country_event = { id = uni.11 days = 20 }
+			country_event = { id = uni.12 days = 25 }
 		}
-		effect_tooltip = {
-			hidden_effect = { set_country_flag = UNI_new_center }
-			custom_effect_tooltip = UNI_event_8_tooltip
-		}
-		set_capital = 252
 	}
 }
-
-### Контрольный ивент
-
+### Эффекты вопроса грамотности
 country_event = {
 	id = uni.9
 	title = uni.9.t
-	desc = uni.9.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	desc = {                              
+		text = uni.9.d.e
+		trigger = { 
+			has_country_flag = e_literacy_nep
+		}
+	}
+	desc = {                              
+		text = uni.9.d.v
+		trigger = { 
+			has_country_flag = v_literacy_nep
+		}
+	}
+	desc = {                              
+		text = uni.9.d.l
+		trigger = { 
+			has_country_flag = l_literacy_nep
+		}
+	}
+		
+	fire_only_once = yes
 	is_triggered_only = yes
-	hidden = yes
 	
-	immediate = {
-		random_list = {
-			25 = { # протесты
-				random_list = {
-					50 = { country_event = { id = uni.10 days = 5 random = 6 } } # протесты финно-угров
-					50 = { country_event = { id = uni.11 days = 5 random = 6 } } # протесты славян
-				}
-			}
-			25 = { # притеснения
-				random_list = {
-					50 = { country_event = { id = uni.12 days = 5 random = 6 } } # притеснения финно-угров
-					50 = { country_event = { id = uni.13 days = 5 random = 6 } } # притеснения славян
-				}
-			}
-			15 = { # ополченцы
-				random_list = {
-					50 = { country_event = { id = uni.14 days = 5 random = 6 } } # финны-ополченцы
-					50 = { country_event = { id = uni.15 days = 5 random = 6 } } # славяне-ополченцы
-				}
-			}
-			15 = { # оружие
-				random_list = {
-					50 = { country_event = { id = uni.16 days = 5 random = 6 } } # кража для финно-угров
-					50 = { country_event = { id = uni.17 days = 5 random = 6 } } # кража для славян
-				}
-			}
-			10 = { country_event = { id = uni.18 days = 5 random = 6 } } # поломка фабрики
-			10 = { country_event = { id = uni.19 days = 5 random = 6 } } # поломка инфраструктуры
+	trigger = {
+		#
+	}
+	
+	option = {
+		name = uni.9.a
+		trigger = {
+			has_country_flag = e_literacy_nep
+		}
+		add_popularity = {
+			ideology = eleftherism
+			popularity = 0.05
+		}
+		swap_ideas = {
+			remove_idea = literacy_4
+			add_idea = literacy_3
+		}
+	}
+	option = {
+		name = uni.9.b
+		trigger = {
+			has_country_flag = v_literacy_nep
+		}
+		add_popularity = {
+			ideology = vemosism
+			popularity = 0.05
+		}
+		swap_ideas = {
+			remove_idea = literacy_4
+			add_idea = literacy_3_1
+		}
+	}
+	option = {
+		name = uni.9.c
+		trigger = {
+			has_country_flag = l_literacy_nep
+		}
+		add_popularity = {
+			ideology = libertatism
+			popularity = 0.05
+		}
+		swap_ideas = {
+			remove_idea = literacy_4
+			add_idea = literacy_3_2
 		}
 	}
 }
-
-# протесты финно-угров
+### Эффекты крестьянского вопроса
 country_event = {
 	id = uni.10
 	title = uni.10.t
-	desc = uni.10.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	desc = {                              
+		text = uni.10.d.e
+		trigger = { 
+			has_country_flag = e_literacy_nep
+		}
+	}
+	desc = {                              
+		text = uni.10.d.v
+		trigger = { 
+			has_country_flag = v_literacy_nep
+		}
+	}
+	desc = {                              
+		text = uni.10.d.l
+		trigger = { 
+			has_country_flag = l_literacy_nep
+		}
+	}
+		
+	fire_only_once = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
 	
 	option = {
 		name = uni.10.a
-		hidden_effect = {
-			country_event = { id = uni.9 days = 15 random = 5 }
+		trigger = {
+			has_country_flag = e_literacy_nep
 		}
-		add_to_variable = { finn_s = 5 }
-		custom_effect_tooltip = UNI_finn_s_add_5_effect
+		add_popularity = {
+			ideology = eleftherism
+			popularity = 0.05
+		}
+	}
+	option = {
+		name = uni.10.b
+		trigger = {
+			has_country_flag = v_literacy_nep
+		}
+		add_popularity = {
+			ideology = vemosism
+			popularity = 0.05
+		}
+		swap_ideas = {
+			remove_idea = poverty_5
+			add_idea = poverty_4_3
+		}
+	}
+	option = {
+		name = uni.10.c
+		trigger = {
+			has_country_flag = l_literacy_nep
+		}
+		add_popularity = {
+			ideology = libertatism
+			popularity = 0.05
+		}
+		swap_ideas = {
+			remove_idea = poverty_5
+			add_idea = poverty_4_2
+		}
 	}
 }
-
-# протесты славян
+### Эффекты вопроса безработицы
 country_event = {
 	id = uni.11
 	title = uni.11.t
-	desc = uni.11.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	desc = {                              
+		text = uni.11.d.e
+		trigger = { 
+			has_country_flag = e_literacy_nep
+		}
+	}
+	desc = {                              
+		text = uni.11.d.v
+		trigger = { 
+			has_country_flag = v_literacy_nep
+		}
+	}
+	desc = {                              
+		text = uni.11.d.l
+		trigger = { 
+			has_country_flag = l_literacy_nep
+		}
+	}
+		
+	fire_only_once = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
 	
 	option = {
 		name = uni.11.a
-		hidden_effect = {
-			country_event = { id = uni.9 days = 15 random = 5 }
+		trigger = {
+			has_country_flag = e_literacy_nep
 		}
-		add_to_variable = { slav_s = 5 }
-		custom_effect_tooltip = UNI_slav_s_add_5_effect
+		add_popularity = {
+			ideology = eleftherism
+			popularity = 0.05
+		}
+		swap_ideas = {
+			remove_idea = uneployment_3
+			add_idea = uneployment_2_2
+		}
+	}
+	option = {
+		name = uni.11.b
+		trigger = {
+			has_country_flag = v_literacy_nep
+		}
+		add_popularity = {
+			ideology = vemosism
+			popularity = 0.05
+		}
+		swap_ideas = {
+			remove_idea = uneployment_3
+			add_idea = uneployment_2_1
+		}
+	}
+	option = {
+		name = uni.11.c
+		trigger = {
+			has_country_flag = l_literacy_nep
+		}
+		add_popularity = {
+			ideology = libertatism
+			popularity = 0.05
+		}
+		swap_ideas = {
+			remove_idea = uneployment_3
+			add_idea = uneployment_2
+		}
 	}
 }
-
-# притеснения финно-угров
+### Эффекты вопроса сусидирования
 country_event = {
 	id = uni.12
 	title = uni.12.t
-	desc = uni.12.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	desc = {                              
+		text = uni.12.d.e
+		trigger = { 
+			has_country_flag = e_literacy_nep
+		}
+	}
+	desc = {                              
+		text = uni.12.d.v
+		trigger = { 
+			has_country_flag = v_literacy_nep
+		}
+	}
+	desc = {                              
+		text = uni.12.d.l
+		trigger = { 
+			has_country_flag = l_literacy_nep
+		}
+	}
+		
+	fire_only_once = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
 	
 	option = {
 		name = uni.12.a
-		hidden_effect = {
-			country_event = { id = uni.9 days = 15 random = 5 }
+		trigger = {
+			has_country_flag = e_literacy_nep
 		}
-		add_to_variable = { finn_s = 5 }
-		effect_tooltip = {
-			custom_effect_tooltip = UNI_finn_s_add_5_effect
+		add_popularity = {
+			ideology = eleftherism
+			popularity = 0.05
+		}
+		if = {
+			limit = {
+				has_idea = poverty_5
+			}
+			swap_ideas = {
+				remove_idea = poverty_5
+				add_idea = poverty_4_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = poverty_4_3
+			}
+			swap_ideas = {
+				remove_idea = poverty_4_3
+				add_idea = poverty_4_1
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = poverty_4_2
+			}
+			swap_ideas = {
+				remove_idea = poverty_4_2
+				add_idea = poverty_4
+			}
 		}
 	}
 	option = {
 		name = uni.12.b
-		hidden_effect = {
-			country_event = { id = uni.9 days = 15 random = 5 }
+		trigger = {
+			has_country_flag = v_literacy_nep
 		}
-		add_political_power = -25
-		add_to_variable = { finn_s = -5 }
-		effect_tooltip = {
-			custom_effect_tooltip = UNI_finn_s_remove_5_effect
+		add_popularity = {
+			ideology = vemosism
+			popularity = 0.05
+		}
+		if = {
+			limit = {
+				has_idea = poverty_5
+			}
+			swap_ideas = {
+				remove_idea = poverty_5
+				add_idea = poverty_4_3
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = poverty_4_3
+			}
+			swap_ideas = {
+				remove_idea = poverty_4_3
+				add_idea = poverty_4_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = poverty_4_2
+			}
+			swap_ideas = {
+				remove_idea = poverty_4_2
+				add_idea = poverty_4_1
+			}
+		}
+	}
+	option = {
+		name = uni.12.c
+		trigger = {
+			has_country_flag = l_literacy_nep
+		}
+		add_popularity = {
+			ideology = libertatism
+			popularity = 0.05
 		}
 	}
 }
 
-# притеснения славян
+##### ЭКСПЕРТЫ
+
+### Иностранные эксперты
 country_event = {
 	id = uni.13
 	title = uni.13.t
 	desc = uni.13.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	fire_only_once = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
 	
 	option = {
 		name = uni.13.a
-		hidden_effect = {
-			country_event = { id = uni.9 days = 15 random = 5 }
+		trigger = {
+			any_country = {
+				has_country_flag = SPQ_central_province
+				is_puppet = no
+				NOT = {
+					has_war_with = FROM
+				}
+			}
 		}
-		add_to_variable = { finn_s = 5 }
-		effect_tooltip = {
-			custom_effect_tooltip = UNI_slav_s_add_5_effect
+		random_country = {
+			limit = {
+				has_country_flag = SPQ_central_province
+			}
+			country_event = { id = uni.14 days = 5 }
 		}
 	}
 	option = {
 		name = uni.13.b
-		hidden_effect = {
-			country_event = { id = uni.9 days = 15 random = 5 }
+		trigger = {
+			any_country = {
+				has_country_flag = GER_emperor
+				is_puppet = no
+				NOT = {
+					has_war_with = FROM
+				}
+			}
 		}
-		add_political_power = -25
-		add_to_variable = { slav_s = -5 }
-		effect_tooltip = {
-			custom_effect_tooltip = UNI_slav_s_remove_5_effect
+		random_country = {
+			limit = {
+				has_country_flag = GER_emperor
+			}
+			country_event = { id = uni.14 days = 5 }
+		}
+	}
+	option = {
+		name = uni.13.c
+		trigger = {
+			ROM = {
+				exists = yes
+				is_puppet = no
+				NOT = {
+					has_war_with = FROM
+				}
+			}
+		}
+		ROM = {
+			country_event = { id = uni.14 days = 5 }
+		}
+	}
+	option = {
+		name = uni.13.e
+		trigger = {
+			GLC = {
+				exists = yes
+				is_puppet = no
+				OR = {
+					has_government = sociarchism
+					has_government = eleftherism
+				}
+				NOT = {
+					has_war_with = FROM
+				}
+			}
+		}
+		GLC = {
+			country_event = { id = uni.14 days = 5 }
 		}
 	}
 }
-
-# финны-ополченцы
 country_event = {
 	id = uni.14
 	title = uni.14.t
 	desc = uni.14.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	fire_only_once = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
 	
 	option = {
 		name = uni.14.a
-		if = {
-			limit = {
-				has_manpower > 9999
+		trigger = {
+			ROOT = {
+				has_country_flag = SPQ_central_province
 			}
-			add_manpower = -10000
 		}
-		else = {
-			add_stability = -0.05
+		add_political_power = 50
+		UNI = {
+			add_opinion_modifier = {
+				target = FROM
+				modifier = UNI_advisor_support
+			}
+			hidden_effect = {
+				set_country_flag = UNI_in_exp_SPQ
+			}
+			country_event = { id = uni.15 days = 5 }
 		}
-		hidden_effect = {
-			add_to_variable = { finn_manpower = 10000 }
-			country_event = { id = uni.9 days = 15 random = 5 }
+	}
+	option = {
+		name = uni.14.a
+		trigger = {
+			ROOT = {
+				has_country_flag = GER_emperor
+			}
+		}
+		add_political_power = 50
+		UNI = {
+			add_opinion_modifier = {
+				target = FROM
+				modifier = UNI_advisor_support
+			}
+			hidden_effect = {
+				set_country_flag = UNI_in_exp_GER
+			}
+			country_event = { id = uni.15 days = 5 }
+		}
+	}
+	option = {
+		name = uni.14.a
+		trigger = {
+			original_tag = ROM
+		}
+		add_political_power = 50
+		UNI = {
+			add_opinion_modifier = {
+				target = FROM
+				modifier = UNI_advisor_support
+			}
+			hidden_effect = {
+				set_country_flag = UNI_in_exp_ROM
+			}
+			country_event = { id = uni.15 days = 5 }
+		}
+	}
+	option = {
+		name = uni.14.a
+		trigger = {
+			original_tag = GLC
+		}
+		add_political_power = 50
+		UNI = {
+			add_opinion_modifier = {
+				target = FROM
+				modifier = UNI_advisor_support
+			}
+			hidden_effect = {
+				set_country_flag = UNI_in_exp_GLC
+			}
+			country_event = { id = uni.15 days = 5 }
 		}
 	}
 }
-
-# славяне-ополченцы
 country_event = {
 	id = uni.15
 	title = uni.15.t
 	desc = uni.15.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	fire_only_once = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
 	
 	option = {
 		name = uni.15.a
-		if = {
-			limit = {
-				has_manpower > 9999
-			}
-			add_manpower = -10000
+		trigger = {
+			has_country_flag = UNI_in_exp_SPQ
 		}
-		else = {
-			add_stability = -0.05
-		}
+		add_political_power = -50
 		hidden_effect = {
-			add_to_variable = { slav_manpower = 10000 }
-			country_event = { id = uni.9 days = 15 random = 5 }
+			set_country_flag = UNI_in_exp_founded
+		}
+		effect_tooltip = {
+			custom_effect_tooltip = uni_15_a_effect
 		}
 	}
+	option = {
+		name = uni.15.a
+		trigger = {
+			has_country_flag = UNI_in_exp_GER
+		}
+		add_political_power = -50
+		hidden_effect = {
+			set_country_flag = UNI_in_exp_founded
+		}
+		effect_tooltip = {
+			custom_effect_tooltip = uni_15_b_effect
+		}
+	}
+	option = {
+		name = uni.15.a
+		trigger = {
+			has_country_flag = UNI_in_exp_GLC
+		}
+		add_political_power = -50
+		hidden_effect = {
+			set_country_flag = UNI_in_exp_founded
+		}
+		effect_tooltip = {
+			custom_effect_tooltip = uni_15_c_effect
+		}
+	}
+	option = {
+		name = uni.15.a
+		trigger = {
+			has_country_flag = UNI_in_exp_ROM
+		}
+		add_political_power = -50
+		hidden_effect = {
+			set_country_flag = UNI_in_exp_founded
+		}
+		effect_tooltip = {
+			custom_effect_tooltip = uni_15_e_effect
+		}
+	}
+	
 }
 
-# кража для финно-угров
 country_event = {
 	id = uni.16
 	title = uni.16.t
 	desc = uni.16.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	fire_only_once = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
 	
 	option = {
 		name = uni.16.a
-		if = {
-			limit = {
-				has_equipment = {
-					infantry_equipment > 999
-				}
-			}
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = -1000
-			}
-		}
-		else = { add_stability = -0.025 }
-		if = {
-			limit = {
-				has_equipment = {
-					armor_weapons > 999
-				}
-			}
-			add_equipment_to_stockpile = {
-				type = armor_weapons
-				amount = -1000
-			}
-		}
-		else = { add_stability = -0.025 }
-		
+		add_political_power = -200
 		hidden_effect = {
-			add_to_variable = { finn_weapon = 1000 }
-			add_to_variable = { finn_armor = 1000 }
-			country_event = { id = uni.9 days = 15 random = 5 }
+			country_event = { id = uni.17 days = 25 }
 		}
 	}
+	option = {
+		name = uni.16.b
+		add_political_power = -100
+		hidden_effect = {
+			country_event = { id = uni.18 days = 25 }
+		}
+	}
+	option = {
+		name = uni.16.c
+		add_political_power = -50
+		hidden_effect = {
+			country_event = { id = uni.19 days = 25 }
+		}
+	}
+	
 }
-
-# кража для финно-угров
 country_event = {
 	id = uni.17
 	title = uni.17.t
 	desc = uni.17.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	fire_only_once = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
 	
 	option = {
 		name = uni.17.a
-		if = {
-			limit = {
-				has_equipment = {
-					infantry_equipment > 999
-				}
-			}
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = -1000
-			}
-		}
-		else = { add_stability -0.02 }
-		if = {
-			limit = {
-				has_equipment = {
-					armor_weapons > 999
-				}
-			}
-			add_equipment_to_stockpile = {
-				type = armor_weapons
-				amount = -1000
-			}
-		}
-		else = { add_stability -0.02 }
-		
 		hidden_effect = {
-			add_to_variable = { slav_weapon = 1000 }
-			add_to_variable = { slav_armor = 1000 }
-			country_event = { id = uni.9 days = 15 random = 5 }
+			set_country_flag = UNI_best_expert
 		}
+		custom_effect_tooltip = uni_17_effect
 	}
+	
 }
-
-# поломка фабрики
 country_event = {
 	id = uni.18
 	title = uni.18.t
 	desc = uni.18.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	fire_only_once = yes
 	is_triggered_only = yes
-	immediate = {
-		random_owned_state = {
-			limit = {
-				OR = {	
-					AND = {
-						industrial_complex > 0
-						has_state_flag = UNI_damage_factory_state
-					}
-				}
-			}
-			clr_state_flag = UNI_damage_factory_state
-			save_event_target_as = UNI_damaged_state_state
-		}
+	
+	trigger = {
+		#
 	}
+	
 	option = {
 		name = uni.18.a
-		event_target:UNI_damaged_state_state = {
-			random_list = {
-				40 = { damage_building = { type = industrial_complex damage = 0.5 } }
-				40 = { damage_building = { type = industrial_complex damage = 1 } }
-				20 = { damage_building = { type = industrial_complex damage = 2 } }
-			}
-		}
 		hidden_effect = {
-			country_event = { id = uni.9 days = 15 random = 5 }
+			set_country_flag = UNI_good_expert
 		}
+		custom_effect_tooltip = uni_18_effect
 	}
+	
 }
-
-# поломка фабрики
 country_event = {
 	id = uni.19
 	title = uni.19.t
 	desc = uni.19.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	fire_only_once = yes
 	is_triggered_only = yes
-	immediate = {
-		random_owned_state = {
+	
+	trigger = {
+		#
+	}
+	
+	option = {
+		name = uni.19.a
+		hidden_effect = {
+			set_country_flag = UNI_normal_expert
+		}
+		custom_effect_tooltip = uni_19_effect
+	}
+	
+}
+
+##### КАЗАЧЕСТВО
+
+### Конец интеграции
+country_event = {
+	id = uni.20
+	title = uni.20.t
+	desc = uni.20.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
+	
+	option = {
+		name = uni.20.a
+		hidden_effect = {
+			clr_country_flag = UNI_сossacs_nep
+		}
+		every_owned_state = {
 			limit = {
-				OR = {	
-					AND = {
-						infrastructure > 3
-						has_state_flag = UNI_damage_infrastructure_state
-					}
+				OR = {
+					has_state_flag = MRD_state
+					has_state_flag = KIP_state
+					has_state_flag = ECP_state
 				}
 			}
-			clr_state_flag = UNI_damage_infrastructure_state
-			save_event_target_as = UNI_damaged_state_state
+			set_demilitarized_zone = no
+			add_core_of = ROOT
+		}
+	}
+	
+}
+### Вопрос казачьего войска
+country_event = {
+	id = uni.21
+	title = uni.21.t
+	desc = uni.21.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
+	
+	option = {
+		name = uni.21.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 5000
+		}
+		add_equipment_to_stockpile = {
+			type = armor_weapons
+			amount = 5000
+		}
+		effect_tooltip = {
+			custom_effect_tooltip = uni_21_a_effect
+		}	
+		subtract_from_variable = { cossacs_l = 20 }
+		hidden_effect = {
+			country_event = { id = uni.22 days = 30 }
 		}
 	}
 	option = {
-		name = uni.19.a
-		event_target:UNI_damaged_state_state = {
-			random_list = {
-				40 = { damage_building = { type = infrastructure damage = 0.5 } }
-				40 = { damage_building = { type = infrastructure damage = 1 } }
-				20 = { damage_building = { type = infrastructure damage = 2 } }
-		}
+		name = uni.21.b
+		load_oob = "UNI_cossacs_divisions"
+		add_political_power = -25
+		effect_tooltip = {
+			custom_effect_tooltip = uni_21_b_effect
+		}	
+		subtract_from_variable = { cossacs_l = 10 }
 		hidden_effect = {
-			country_event = { id = uni.9 days = 15 random = 5 }
+			country_event = { id = uni.22 days = 30 }
 		}
+	}
+	option = {
+		name = uni.21.c
+		add_manpower = 100000
+		add_political_power = -50
+		hidden_effect = {
+			country_event = { id = uni.22 days = 30 }
+		}
+	}
+	
+}
+### Вопрос казачьих хозяйств
+country_event = {
+	id = uni.22
+	title = uni.22.t
+	desc = uni.22.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
+	
+	option = {
+		name = uni.22.a
+		add_popularity = {
+			ideology = eleftherism
+			popularity = 0.05
+		}
+		every_owned_state = {
+			limit = {
+				OR = {
+					has_state_flag = MRD_state
+					has_state_flag = ECP_state
+					has_state_flag = KIP_state
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+			
+		effect_tooltip = {
+			custom_effect_tooltip = uni_21_a_effect
+		}	
+		subtract_from_variable = { cossacs_l = 20 }
+		if = {
+			limit ={
+				check_variable = { cossacs_l < 11 }
+			}
+			hidden_effect = {
+				country_event = { id = uni.26 days = 20 }
+			}
+		}
+		else = {
+			hidden_effect = {
+				country_event = { id = uni.23 days = 30 }
+			}
+		}
+	}
+	option = {
+		name = uni.22.b
+		load_oob = "UNI_cossacs_divisions"
+		add_popularity = {
+			ideology = libertatism
+			popularity = 0.05
+		}
+		add_political_power = 50
+		effect_tooltip = {
+			custom_effect_tooltip = uni_21_b_effect
+		}	
+		subtract_from_variable = { cossacs_l = 10 }
+		if = {
+			limit ={
+				check_variable = { cossacs_l < 11 }
+			}
+			hidden_effect = {
+				country_event = { id = uni.26 days = 20 }
+			}
+		}
+		else = {
+			hidden_effect = {
+				country_event = { id = uni.23 days = 30 }
+			}
+		}
+	}
+	option = {
+		name = uni.22.c
+		hidden_effect = {
+			country_event = { id = uni.23 days = 30 }
+		}
+	}
+	
+}
+### Вопрос атаманов
+country_event = {
+	id = uni.23
+	title = uni.23.t
+	desc = uni.23.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
+	
+	option = {
+		name = uni.23.a
+		create_corps_commander = {
+			name = "Parush Dergunov"
+			id = 1101
+			picture = "gfx/leaders/MRD/MRD_parush_dergunov.dds"
+			traits = {  }
+			skill = 3
+
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		create_corps_commander = {
+			name = "Andyamo Uzharskiy"
+			id = 1102
+			picture = "gfx/leaders/MRD/MRD_andyamo_uzharskiy.dds"
+			traits = {  }
+			skill = 3
+
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+		effect_tooltip = {
+			custom_effect_tooltip = uni_21_a_effect
+		}	
+		subtract_from_variable = { cossacs_l = 20 }
+		if = {
+			limit ={
+				check_variable = { cossacs_l < 11 }
+			}
+			hidden_effect = {
+				country_event = { id = uni.26 days = 20 }
+			}
+		}
+		else = {
+			hidden_effect = {
+				country_event = { id = uni.24 days = 30 }
+			}
+		}
+	}
+	option = {
+		name = uni.23.b
+		hidden_effect = {
+			set_country_flag = UNI_cossacs_war_advisor
+		}
+		effect_tooltip = {
+			custom_effect_tooltip = uni_23_b_effect
+		}	
+		subtract_from_variable = { cossacs_l = 10 }
+		if = {
+			limit ={
+				check_variable = { cossacs_l < 11 }
+			}
+			hidden_effect = {
+				country_event = { id = uni.26 days = 20 }
+			}
+		}
+		else = {
+			hidden_effect = {
+				country_event = { id = uni.24 days = 30 }
+			}
+		}
+	}
+	option = {
+		name = uni.23.c
+		hidden_effect = {
+			country_event = { id = uni.24 days = 30 }
+		}
+	}
+}
+### Вопрос управления
+country_event = {
+	id = uni.24
+	title = uni.24.t
+	desc = uni.24.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
+	
+	option = {
+		name = uni.24.a
+		hidden_effect = {
+			set_country_flag = UNI_cossacs_pol_advisor
+		}
+		effect_tooltip = {
+			custom_effect_tooltip = uni_24_a_effect
+		}	
+		subtract_from_variable = { cossacs_l = 20 }
+		if = {
+			limit ={
+				check_variable = { cossacs_l < 11 }
+			}
+			hidden_effect = {
+				country_event = { id = uni.26 days = 20 }
+			}
+		}
+		else = {
+			hidden_effect = {
+				country_event = { id = uni.25 days = 30 }
+			}
+		}
+	}
+	option = {
+		name = uni.24.b
+		add_political_power = 50
+		effect_tooltip = {
+			custom_effect_tooltip = uni_21_b_effect
+		}	
+		subtract_from_variable = { cossacs_l = 10 }
+		if = {
+			limit ={
+				check_variable = { cossacs_l < 11 }
+			}
+			hidden_effect = {
+				country_event = { id = uni.26 days = 20 }
+			}
+		}
+		else = {
+			hidden_effect = {
+				country_event = { id = uni.25 days = 30 }
+			}
+		}
+	}
+	option = {
+		name = uni.24.c
+		hidden_effect = {
+			country_event = { id = uni.25 days = 30 }
+		}
+	}
+}
+### Вопрос капитала
+country_event = {
+	id = uni.25
+	title = uni.25.t
+	desc = uni.25.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
+	
+	option = {
+		name = uni.25.a
+		add_political_power = 100
+		effect_tooltip = {
+			custom_effect_tooltip = uni_21_a_effect
+		}	
+		subtract_from_variable = { cossacs_l = 20 }
+		if = {
+			limit ={
+				check_variable = { cossacs_l < 11 }
+			}
+			hidden_effect = {
+				country_event = { id = uni.26 days = 20 }
+			}
+		}
+		else = {
+			hidden_effect = {
+				country_event = { id = uni.25 days = 30 }
+			}
+		}
+	}
+	option = {
+		name = uni.24.b
+		add_political_power = 50
+		effect_tooltip = {
+			custom_effect_tooltip = uni_21_b_effect
+		}	
+		subtract_from_variable = { cossacs_l = 10 }
+		if = {
+			limit ={
+				check_variable = { cossacs_l < 11 }
+			}
+			hidden_effect = {
+				country_event = { id = uni.26 days = 20 }
+			}
+		}
+		else = {
+			hidden_effect = {
+				country_event = { id = uni.25 days = 30 }
+			}
+		}
+	}
+	option = {
+		name = uni.24.c
+		hidden_effect = {
+			country_event = { id = uni.26 days = 30 }
+		}
+	}
+}
+### Восстание казаков
+country_event = {
+	id = uni.26
+	title = uni.26.t
+	desc = uni.26.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		#
+	}
+	
+	option = {
+		name = uni.26.a
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						has_state_flag = MRD_state
+						has_state_flag = KIP_state
+						has_state_flag = ECP_state
+					}
+				}
+				add_core_of = MRD
+				set_demilitarized_zone = no
+			}
+		}
+		release = MRD
+		MRD = {
+			load_oob = "MRD_cossacs_rise"
+		}
+		declare_war_on = {
+			target = MRD
+			type = annex_everything
+		}
+		add_stability = -0.1
+		hidden_effect = {
+			if ={
+				limit = {
+					OR = {
+						has_country_flag = UNI_cossacs_pol_advisor
+						has_country_flag = UNI_cossacs_war_advisor
+					}
+				}
+				clr_country_flag = UNI_cossacs_pol_advisor
+				clr_country_flag = UNI_cossacs_war_advisor
+			}
+		}
+		remove_unit_leader = 1101
+		remove_unit_leader = 1102
 	}
 }

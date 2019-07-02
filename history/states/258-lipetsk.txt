@@ -1,4 +1,3 @@
-
 state={
 	id=258
 	name="STATE_258"
@@ -10,7 +9,9 @@ state={
 
 		}
 		add_core_of = UNI
-		victory_points = { 3199 5 }
+		victory_points = {
+			3199 5 
+		}
 
 	}
 

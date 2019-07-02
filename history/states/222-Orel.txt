@@ -15,6 +15,7 @@ state={
 
 		}
 		add_core_of = UNI
+		set_state_flag = UNI_transportniye_sety_focus
 
 	}
 

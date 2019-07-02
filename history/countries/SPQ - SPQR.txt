@@ -2,6 +2,8 @@
 
 set_cosmetic_tag = SPQ_central_province
 
+set_country_flag = SPQ_central_province
+
 oob = "SPQ"
 
 set_research_slots = 3
@@ -133,9 +135,20 @@ set_autonomy = {
     autonomy_state = roman_province
 }
 
-set_country_flag = sociarchism_banned
-set_country_flag = gentemism_banned
-
+set_popularities = {
+	
+	libertatism = 8 
+	vemosism = 7 
+		#
+	sociarchism = 5 
+	eleftherism = 10 
+		#
+	passionism = 60 
+	viatirism = 0 
+		#
+	gentemism = 10 
+	neo_oligarchism = 0 
+}
 set_politics = {
 
 	parties = {

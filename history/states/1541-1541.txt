@@ -5,6 +5,12 @@ state={
 		owner = UNI
 		add_core_of = UNI
 		victory_points = { 280 5 }
+		
+		set_state_flag = VCH_state
+		set_state_flag = UNI_transportniye_sety_focus
+		buildings = {
+			infrastructure = 5
+		}
 	}
 	provinces={
 		214 280 357 378 3268 3347 3370 6269 6358 9267 9311 11338 

@@ -1,0 +1,226 @@
+﻿####### Division Templates #######
+division_template = { 
+	name = "Kivaari Prikaati" 
+	division_names_group = UGR_INF_01 
+	
+	regiments = { 
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 } 
+		infantry = { x = 0 y = 2 } 
+		infantry = { x = 1 y = 0 } 
+		infantry = { x = 1 y = 1 } 
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 } 
+		infantry = { x = 2 y = 1 }  
+		infantry = { x = 2 y = 2 }   
+	} 
+	support = { 
+		support_brigade = { x = 0 y = 0 }
+	} 
+} 
+division_template = { 
+	name = "Vartia Prikaati" 
+	division_names_group = UGR_INF_01 
+	
+	regiments = { 
+		commando = { x = 0 y = 0 } 
+		commando = { x = 0 y = 1 } 
+		commando = { x = 0 y = 2 } 
+		commando = { x = 1 y = 0 } 
+		commando = { x = 1 y = 1 } 
+		commando = { x = 1 y = 2 }  
+	} 
+	support = { 
+		support_brigade = { x = 0 y = 0 }
+	} 
+	
+	priority = 2 
+} 
+
+division_template = { 
+	name = "Ratsuvaki Prikaati" 
+	division_names_group = RUS_CAV_01 
+
+	regiments = { 
+		cavalry = { x = 0 y = 0 } 
+		cavalry = { x = 0 y = 1 } 
+		cavalry = { x = 1 y = 0 } 
+		cavalry = { x = 1 y = 1 } 
+	} 
+} 
+
+division_template = { 
+	name = "Vanut Prikaati" 
+	division_names_group = UGR_CAV_01
+
+	regiments = { 
+		cavalry = { x = 0 y = 0 } 
+		cavalry = { x = 0 y = 1 } 
+		cavalry = { x = 0 y = 2 } 
+		tachanka = { x = 1 y = 0 } 
+		tachanka = { x = 1 y = 1 } 
+		tachanka = { x = 1 y = 2 } 
+	} 
+	
+	priority = 2
+} 
+
+division_template = { 
+	name = "Motokivaari Prikaati" 
+	division_names_group = UGR_MOT_01
+
+	regiments = { 
+		motorized = { x = 0 y = 0 } 
+		motorized = { x = 0 y = 1 } 
+		motorized = { x = 0 y = 2 } 
+		motorized = { x = 1 y = 0 } 
+		motorized = { x = 1 y = 1 } 
+		motorized = { x = 1 y = 2 } 
+	} 
+}
+
+division_template = { 
+	name = "Panssarkivaari Prikaati" 
+	division_names_group = UGR_MOT_01 
+	is_locked = yes
+
+	regiments = { 
+		motorized = { x = 0 y = 0 } 
+		motorized = { x = 0 y = 1 } 
+		motorized = { x = 0 y = 2 } 
+		bronevik = { x = 1 y = 0 } 
+		bronevik = { x = 1 y = 1 } 
+		bronevik = { x = 1 y = 2 } 
+	}  
+	
+	priority = 2 
+}  
+
+
+####### OOB #######
+units = { 
+	
+	### Алемпи Ууслинн
+	
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+		location = 11375 
+		division_template = "Kivaari Prikaati"
+		start_experience_factor = 0.2  
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		} 
+		location = 11375 
+		division_template = "Kivaari Prikaati"
+		start_experience_factor = 0.2  
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		} 
+		location = 11375 
+		division_template = "Kivaari Prikaati"
+		start_experience_factor = 0.2  
+	}
+	
+	### Вечкас
+	
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		} 
+		location = 280 
+		division_template = "Kivaari Prikaati"
+		start_experience_factor = 0.2  
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+		location = 280 
+		division_template = "Panssarkivaari Prikaati"
+		start_experience_factor = 0.2 
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+		location = 280 
+		division_template = "Ratsuvaki Prikaati"
+		start_experience_factor = 0.2  
+	}
+	
+	### Пуришо
+	
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		} 
+		location = 280 
+		division_template = "Kivaari Prikaati"
+		start_experience_factor = 0.2  
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+		location = 280 
+		division_template = "Vanut Prikaati"
+		start_experience_factor = 0.2  
+	}
+	
+	### Кежау
+	
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		} 
+		location = 121 
+		division_template = "Kivaari Prikaati"
+		start_experience_factor = 0.2  
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		} 
+		location = 121 
+		division_template = "Ratsuvaki Prikaati"
+		start_experience_factor = 0.2  
+	}
+	
+	### Мустава
+	
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		} 
+		location = 6380 
+		division_template = "Kivaari Prikaati"
+		start_experience_factor = 0.2  
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		} 
+		location = 6380 
+		division_template = "Kivaari Prikaati"
+		start_experience_factor = 0.2  
+	}
+	
+}

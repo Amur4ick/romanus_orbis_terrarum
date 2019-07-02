@@ -11,6 +11,8 @@ state={
 		}
 		add_core_of = UNI
 		victory_points = { 11314 5 }
+		
+		set_state_flag = VCH_state
 
 	}
 

@@ -3,7 +3,7 @@ ideas = {
 	country_development = { 
 		law = yes
 		
-		modern_state = {
+		modern_society = {
 		
 			available = {
 				always = no	
@@ -33,7 +33,7 @@ ideas = {
    			#}
 		}
 		
-		developing_state = {
+		early_industrial_society = {
 		
 			available = {
 				always = no	
@@ -59,7 +59,59 @@ ideas = {
    			#}
 		}
 		
-		undeveloped_state = {
+		pre_industrial_society = {
+		
+			available = {
+				always = no	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		agrarian_society = {
+		
+			available = {
+				always = no	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		tribal_society = {
 		
 			available = {
 				always = no	

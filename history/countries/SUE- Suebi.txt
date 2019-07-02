@@ -44,6 +44,20 @@ set_technology = {
 #	low_economic_mobilisation 
 #}
 
+set_popularities = {
+	
+	libertatism = 23 
+	vemosism = 0 
+		#
+	sociarchism = 24 
+	eleftherism = 0 
+		#
+	passionism = 53 
+	viatirism = 0 
+		#
+	gentemism = 0 
+	neo_oligarchism = 0 
+}
 set_politics = {
 
 	parties = {

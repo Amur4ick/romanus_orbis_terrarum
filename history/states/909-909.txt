@@ -2,8 +2,8 @@ state={
 	id=909
 	name="STATE_909"
 	history = {
-		owner = KIE
-		add_core_of = KIE
+		owner = UNI
+		add_core_of = UNI
 	}
 	provinces={
 		238 546 3542 3568 6589 9506 13220 

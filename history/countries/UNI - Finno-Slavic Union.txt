@@ -1,16 +1,17 @@
 ﻿set_capital = 243
 
-oob = "SPQ"
+oob = "UNI_1751"
 
 set_research_slots = 3
 
 # Starting tech
 set_technology = {
-	support_equipment_tribe = 1
-	support_equipment_medieval = 1
-	support_equipment_new_time_1 = 1
-	support_equipment_new_time_2 = 1
-	support_equipment_modern_1 = 1
+	work_tools_tech = 1
+	steel_tech = 1
+	powder_tech = 1
+	light_metals_tech = 1
+	
+	support_weapons_tech_1 = 1
 	
 	infantry_equipment_tribe = 1
 	infantry_equipment_medieval = 1
@@ -24,18 +25,17 @@ set_technology = {
 	armor_equipment_new_time_2 = 1
 	armor_equipment_modern_1 = 1
 	
-	cavalary_tribe = 1
-	cavalary_medieval = 1
-	cavalary_new_time_1 = 1
-	cavalary_new_time_2 = 1
-	cavalary_modern_1 = 1
-	
 	berserks_tech = 1
 	knight_tech = 1
 	guard_1_tech = 1
 	guard_2_tech = 1
 	commando_1_tech = 1
 	mountaineers_1_tech = 1
+	
+	internal_combustion_engine = 1
+	tachanka_tech = 1
+	motorized_tech_1 = 1
+	bronevik_tech_1 = 1
 
 	tech_recon = 1
 	tech_support = 1		
@@ -66,9 +66,16 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-#add_ideas = { 
-#	low_economic_mobilisation 
-#}
+add_ideas = { 
+	UNI_divided_republic
+	UNI_afterwar_reparations
+	UNI_east_front_shock
+	
+	limited_conscription
+	uneployment_3
+	literacy_4
+	poverty_5
+}
 set_autonomy = {
     target = ECP
     autonomy_state = autonomy_integrated_puppet
@@ -92,34 +99,110 @@ set_autonomy = {
 }
 
 set_politics = {
-
-	parties = {
-		
-		libertatism = { popularity = 10 }
-		vemosism = { popularity = 46 }
-		#
-		sociarchism = { popularity = 10 }
-		eleftherism = { popularity = 34 }
-		#
-		passionism = { popularity = 0 }
-		viatirism = { popularity = 0 }
-		#
-		gentemism = { popularity = 0 }
-		neo_oligarchism = { popularity = 0 }
-		
-	}
 	ruling_party = vemosism
-	last_election = "1934.5.1"
+	last_election = "1734.5.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
+}
+
+set_popularities = {
+	
+	libertatism = 13 
+	vemosism = 46
+	
+	sociarchism = 7 
+	eleftherism = 34 
+	
+	passionism = 0 
+	viatirism = 0 
+	
+	gentemism = 0 
+	neo_oligarchism = 0 
 }
 
 create_country_leader = {
     name = "Vladislav Volazhskiy"
     desc = ""
-    picture = "gfx/leaders/UNI/UNI_Vladislav.dds"
+    picture = "gfx/leaders/UNI/UNI_vladislav.dds"
     expire = "1965.1.1"
     ideology = vemosism_ideology
+    traits = {
+        #
+    }
+}
+
+#create_country_leader = {
+#    name = "United Temporary Government"
+#    desc = ""
+#    picture = "gfx/leaders/UNI/UNI_vasiliy_sotnikov.dds"
+#    expire = "1965.1.1"
+#    ideology = libertatism_ideology
+#    traits = {
+#        #
+#    }
+#}
+
+create_country_leader = {
+    name = "Vasiliy Sotnikov"
+    desc = ""
+    picture = "gfx/leaders/UNI/UNI_vasiliy_sotnikov.dds"
+    expire = "1965.1.1"
+    ideology = libertatism_ideology
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Rostislav Alekseyev"
+    desc = ""
+    picture = "gfx/leaders/UNI/UNI_vladislav.dds"
+    expire = "1965.1.1"
+    ideology = sociarchism_ideology
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Kauko Virtanen"
+    desc = ""
+    picture = "gfx/leaders/UNI/UNI_vladislav.dds"
+    expire = "1965.1.1"
+    ideology = eleftherism_ideology
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Risto Laine"
+    desc = ""
+    picture = "gfx/leaders/UNI/UNI_vladislav.dds"
+    expire = "1965.1.1"
+    ideology = passionism_ideology
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Viljo Ponatov"
+    desc = ""
+    picture = "gfx/leaders/UNI/UNI_vladislav.dds"
+    expire = "1965.1.1"
+    ideology = viatirism_ideology
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Kettu Voittonen"
+    desc = ""
+    picture = "gfx/leaders/UNI/UNI_vladislav.dds"
+    expire = "1965.1.1"
+    ideology = neo_oligarchism_ideology
     traits = {
         #
     }
@@ -129,9 +212,9 @@ set_variable = { vemosism_par = 200 }
 
 
 create_corps_commander = {
-	name = "Vasiliy Sotnikov"
+	name = "Arvo Karhu"
 	id = 1001
-	picture = "UNI_vasiliy_sotnikov.dds"
+	picture = "UNI_arvo_karhu.dds"
 	traits = { old_guard war_hero }
 	skill = 4
 
@@ -151,4 +234,16 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Ivars Kalnins"
+	id = 1003
+	picture = ""
+	traits = {  }
+	skill = 2
+
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
 }

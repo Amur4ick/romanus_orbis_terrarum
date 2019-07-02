@@ -1,0 +1,213 @@
+ideas = {
+
+	literacy_level = { 
+		law = yes
+		
+		literacy_1 = {
+		
+			available = {
+				always = yes	
+			}
+			
+			default = yes
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				research_speed_factor = 0.1
+				political_power_cost = 0.1
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		literacy_2 = {
+		
+			available = {
+				always = yes
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		literacy_3 = {
+		
+			available = {
+				always = yes
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.15
+				research_speed_factor = -0.15
+				political_power_gain = 0.15
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		literacy_3_1 = {
+		
+			available = {
+				always = no
+			}
+			visible = {
+				always = no	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.2
+				research_speed_factor = -0.2
+				political_power_gain = 0.2
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		literacy_3_2 = {
+		
+			available = {
+				always = no
+			}
+			visible = {
+				always = no	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.25
+				research_speed_factor = -0.25
+				political_power_gain = 0.25
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		literacy_4 = {
+		
+			available = {
+				always = yes
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.3
+				research_speed_factor = -0.3
+				political_power_gain = 0.3
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+		
+		literacy_5 = {
+		
+			available = {
+				always = yes	
+			}
+			
+			#cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.5
+				research_speed_factor = -0.5
+				political_power_gain = 0.5
+			
+			}
+			
+			cancel_if_invalid = no
+			
+			#ai_will_do = {
+   			#	factor = 2
+			#
+   			#	modifier = {
+			#		factor = 20
+			#		
+			#		is_major = yes
+			#	}
+   			#}
+		}
+	}
+}

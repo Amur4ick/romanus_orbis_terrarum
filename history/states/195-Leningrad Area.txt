@@ -9,9 +9,7 @@ state={
 			3151 5
 		}
 		buildings = {
-			infrastructure = 7
-			arms_factory = 6
-			industrial_complex = 1
+			infrastructure = 5
 			dockyard = 3
 			air_base = 10
 
@@ -19,6 +17,11 @@ state={
 		add_core_of = UNI
 		set_state_flag = UNI_damage_infrastructure_state 
 		set_state_flag = UNI_damage_factory_state
+		set_state_flag = UNI_transportniye_sety_focus
+		
+		set_state_flag = ING_state
+		
+		set_variable = { UNI_support = 4 }
 
 	}
 

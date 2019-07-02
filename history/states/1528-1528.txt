@@ -6,6 +6,11 @@ state={
 		add_core_of = UNI
 		victory_points = { 1295 5 }
 		victory_points = { 6121 5 }
+		
+		set_state_flag = CNT_state
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	provinces={
 		99 1295 3155 4298 4314 6121 7318 9225 11195 11203 12175 12558 12587 

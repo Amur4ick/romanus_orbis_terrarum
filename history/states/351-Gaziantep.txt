@@ -10,6 +10,8 @@ state={
 
 		}
 		add_core_of = UNI
+		
+		set_state_flag = VEP_state
 
 	}
 

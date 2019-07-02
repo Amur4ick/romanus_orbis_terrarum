@@ -11,3 +11,66 @@ UNI_national_crisis = {
 		has_country_flag = UNI_national_crisis
 	}
 }
+UNI_cossacs_decisions = {
+
+	icon = power_struggle
+	
+	priority = 99
+
+	allowed = {
+		original_tag = UNI
+	}
+	visible = {
+		has_country_flag = UNI_сossacs_nep
+		has_country_flag = UNI_nep_accepted
+	}
+}
+ROT_foreign_policy = {
+
+	icon = power_struggle
+	
+	priority = 50
+
+	allowed = {
+		always = yes
+	}
+	visible = {
+		always = yes
+	}
+}
+
+UNI_civil_war_decisions = {
+
+	icon = border_conflicts
+	
+	priority = 100
+
+	allowed = {
+		OR = {
+			original_tag = UNI
+			original_tag = RUS
+			original_tag = VCH
+		}
+	}
+	visible = {
+		has_country_flag = UNI_civil_war
+	}
+}
+
+UNI_no_army_decisions = {
+
+	icon = military_operation
+	
+	priority = 100
+
+	allowed = {
+		OR = {
+			original_tag = UNI
+			original_tag = RUS
+			original_tag = VCH
+		}
+	}
+	visible = {
+		has_country_flag = UNI_no_army
+	}
+}

@@ -9,16 +9,17 @@ state={
 	history={
 		owner = UNI
 		buildings = {
-			infrastructure = 8
-			arms_factory = 9
-			industrial_complex = 2
+			infrastructure = 5
 			air_base = 10
 
 		}
 		add_core_of = UNI
+		set_state_flag = UNI_transportniye_sety_focus
 		victory_points = { 6348 5 }
 		set_state_flag = UNI_damage_infrastructure_state 
 		set_state_flag = UNI_damage_factory_state
+		
+		set_variable = { UNI_support = 2 }
 
 	}
 

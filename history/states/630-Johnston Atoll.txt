@@ -8,7 +8,7 @@ state=
 	history={
 		owner = UNI
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 		}
 	}
 	

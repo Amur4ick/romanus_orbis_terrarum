@@ -63,23 +63,22 @@ set_autonomy = {
 #	low_economic_mobilisation 
 #}
 
+set_popularities = {
+	
+	libertatism = 23 
+	vemosism = 2 
+		#
+	sociarchism = 15 
+	eleftherism = 0 
+		#
+	passionism = 28 
+	viatirism = 23 
+		#
+	gentemism = 3 
+	neo_oligarchism = 0 
+	
+}
 set_politics = {
-
-	parties = {
-		
-		libertatism = { popularity = 29 }
-		vemosism = { popularity = 7 }
-		#
-		sociarchism = { popularity = 11 }
-		eleftherism = { popularity = 27 }
-		#
-		passionism = { popularity = 0 }
-		viatirism = { popularity = 28 }
-		#
-		gentemism = { popularity = 4 }
-		neo_oligarchism = { popularity = 0 }
-		
-	}
 	ruling_party = viatirism
 	last_election = "1934.5.1"
 	election_frequency = 48
@@ -87,11 +86,11 @@ set_politics = {
 }
 
 create_country_leader = {
-    name = "Guocon Gurmael"
+    name = "Guocon IV Gurmael"
     desc = ""
     picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
     expire = "1965.1.1"
-    ideology = viatirism_ideology
+    ideology = passionism_ideology
     traits = {
         #
     }

@@ -27,19 +27,23 @@ bookmarks = {
 				
 			}
 		}
-		"GAL"={
-			history = "GAL_GATHERING_STORM_DESC"
-			ideology = libertatism
+		"UNI"={
+			history = "UNI_GATHERING_STORM_DESC"
+			ideology = vemosism
 			ideas = {
-				
+				UNI_divided_republic
+				UNI_afterwar_reparations
+				UNI_east_front_shock
 			}
 			focuses = {
-				
+				UNI_plan_NEP
+				UNI_rashireniye_vnytrennyh_rinkov
+				UNI_novaya_torgovaya_politika
 			}
 		}
 		"GLC"={
 			history = "GLC_GATHERING_STORM_DESC"
-			ideology = sociarchism
+			ideology = eleftherism
 			ideas = {
 				
 			}
@@ -47,19 +51,9 @@ bookmarks = {
 				
 			}
 		}
-		"VAN"={
-			history = "VAN_GATHERING_STORM_DESC"
-			ideology = gentemism
-			ideas = {
-				
-			}	
-			focuses = {
-				
-			}		
-		}
-		"UNI"={
-			history = "UNI_GATHERING_STORM_DESC"
-			ideology = vemosism
+		"LAN"={
+			history = "LAN_GATHERING_STORM_DESC"
+			ideology = neo_oligarchism
 			ideas = {
 				
 			}	
@@ -67,9 +61,9 @@ bookmarks = {
 				
 			}			
 		}
-		"LAN"={
-			history = "LAN_GATHERING_STORM_DESC"
-			ideology = neo_oligarchism
+		"FLU"={
+			history = "FLU_GATHERING_STORM_DESC"
+			ideology = libertatism
 			ideas = {
 				
 			}
@@ -84,19 +78,94 @@ bookmarks = {
 
 
 		# minors from DLC ####
-		#"POL"={
-		#	minor = yes
-		#	history = "POL_GATHERING_STORM_DESC"
-		#	ideology = neutrality
-		#	ideas = {
-		#		
-		#	}
-		#	focuses = {
-		#		POL_the_baltic_alliance
-		#		POL_draw_closer_to_britain
-		#		POL_seek_accommodation_with_germany
-		#	}
-		#}
+		"GAL"={
+			minor = yes
+			history = "GAL_GATHERING_STORM_DESC"
+			ideology = libertatism
+			ideas = {
+				
+			}
+			focuses = {
+			
+			}
+		}
+		"BRI"={
+			minor = yes
+			history = "BRI_GATHERING_STORM_DESC"
+			ideology = viatirism
+			ideas = {
+				
+			}
+			focuses = {
+			
+			}
+		}
+		"DUN"={
+			minor = yes
+			history = "DUN_GATHERING_STORM_DESC"
+			ideology = passionism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"FIN"={
+			minor = yes
+			history = "FIN_GATHERING_STORM_DESC"
+			ideology = passionism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"PER"={
+			minor = yes
+			history = "PER_GATHERING_STORM_DESC"
+			ideology = passionism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"JIN"={
+			minor = yes
+			history = "JIN_GATHERING_STORM_DESC"
+			ideology = neo_oligarchism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"VIJ"={
+			minor = yes
+			history = "VIJ_GATHERING_STORM_DESC"
+			ideology = neo_oligarchism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"IRO"={
+			minor = yes
+			history = "IRO_GATHERING_STORM_DESC"
+			ideology = viatirism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

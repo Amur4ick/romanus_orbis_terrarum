@@ -10,10 +10,15 @@ state={
 	history={
 		owner = UNI
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 
 		}
 		add_core_of = UNI
+	
+		set_demilitarized_zone = yes
+		
+		set_variable = { UNI_support = 2 }
+		set_state_flag = KIP_state
 
 	}
 

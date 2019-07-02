@@ -1,13 +1,17 @@
 state={
 	id=922
 	name="STATE_922"
-	history = {
+
+	history={
 		owner = KIE
 		add_core_of = KIE
+
 	}
+
 	provinces={
-		463 501 3455 3520 6481 6605 9413 11462 
+		463 522 3520 6565 9477 9542 11462 
 	}
-	manpower=1000 state_category = town
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=town
 }

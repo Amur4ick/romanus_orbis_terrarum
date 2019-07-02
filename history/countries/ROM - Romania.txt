@@ -54,23 +54,22 @@ set_autonomy = {
 #	low_economic_mobilisation 
 #}
 
+set_popularities = {
+	
+	libertatism = 5 
+	vemosism = 15 
+		#
+	sociarchism = 0 
+	eleftherism = 14 
+		#
+	passionism = 0 
+	viatirism = 13 
+		#
+	gentemism = 0 
+	neo_oligarchism = 53 
+	
+}
 set_politics = {
-
-	parties = {
-		
-		libertatism = { popularity = 5 }
-		vemosism = { popularity = 15 }
-		#
-		sociarchism = { popularity = 0 }
-		eleftherism = { popularity = 14 }
-		#
-		passionism = { popularity = 0 }
-		viatirism = { popularity = 13 }
-		#
-		gentemism = { popularity = 0 }
-		neo_oligarchism = { popularity = 53 }
-		
-	}
 	ruling_party = neo_oligarchism
 	last_election = "1934.5.1"
 	election_frequency = 48

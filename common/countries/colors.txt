@@ -55,13 +55,13 @@ SIL = {
 	color = rgb { 170 155 60 }
 	color_ui = rgb { 170 155 60 }
 }
-POM = {
-	color = rgb { 170 95 75 }
-	color_ui = rgb { 170 95 75 }
+RUG = {
+	color = rgb { 105 65 50 }
+	color_ui = rgb { 105 65 50 }
 }
-POL = {
-	color = rgb { 170 40 5 }
-	color_ui = rgb { 170 40 5 }
+PRU = {
+	color = rgb { 50 125 175 }
+	color_ui = rgb { 50 125 175 }
 }
 NOR = {
 	color = rgb { 150 75 75 }
@@ -176,20 +176,20 @@ DUN = {
 	color_ui = rgb { 85 170 75 }
 }
 VAN = {
-	color = rgb { 160 145 85 }
-	color_ui = rgb { 160 145 85 }
+	color = rgb { 130 115 50 }
+	color_ui = rgb { 130 115 50 }
 }
 GLC = {
-	color = rgb { 215 150 160 }
-	color_ui = rgb { 215 150 160 }
+	color = rgb { 130 70 55 }
+	color_ui = rgb { 130 70 55 }
 }
 PLS = {
 	color = rgb { 240 205 90 }
 	color_ui = rgb { 240 205 90 }
 }
 KIE = {
-	color = rgb { 90 140 75 }
-	color_ui = rgb { 90 140 75 }
+	color = rgb { 0 90 185 }
+	color_ui = rgb { 0 90 185 }
 }
 LIT = {
 	color = rgb { 230 90 110 }
@@ -208,8 +208,8 @@ MAC = {
 	color_ui = rgb { 180 120 75 }
 }
 OST = {
-	color = rgb { 160 185 100 }
-	color_ui = rgb { 160 185 100 }
+	color = rgb { 170 150 85 }
+	color_ui = rgb { 170 150 85 }
 }
 SAR = {
 	color = rgb { 100 125 70 }
@@ -251,6 +251,46 @@ MAR = {
 	color = rgb { 55 165 155 }
 	color_ui = rgb { 55 165 155 }
 }
+
+
+
+VCH = {
+	color = rgb { 85 25 0 }
+	color_ui = rgb { 85 25 0 }
+}
+TVE = {
+	color = rgb { 15 90 125 }
+	color_ui = rgb { 15 90 125 }
+}
+MRD = {
+	color = rgb { 85 65 55 }
+	color_ui = rgb { 85 65 55 }
+}
+VEP = {
+	color = rgb { 125 145 80 }
+	color_ui = rgb { 125 145 80 }
+}
+UDM = {
+	color = rgb { 90 85 50 }
+	color_ui = rgb { 90 85 50 }
+}
+CNT = {
+	color = rgb { 170 160 130 }
+	color_ui = rgb { 170 160 130 }
+}
+ING = {
+	color = rgb { 125 110 55 }
+	color_ui = rgb { 125 110 55 }
+}
+EZE = {
+	color = rgb { 130 90 65 }
+	color_ui = rgb { 130 90 65 }
+}
+RUS = {
+	color = rgb { 160 105 35 }
+	color_ui = rgb { 160 105 35 }
+}
+
 
 
 #NRC = {

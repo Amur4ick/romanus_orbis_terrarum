@@ -50,23 +50,22 @@ set_autonomy = {
     autonomy_state = autonomy_colony
 }
 
+set_popularities = {
+	
+	libertatism = 2 
+	vemosism = 3 
+		#
+	sociarchism = 0 
+	eleftherism = 0 
+		#
+	passionism = 0 
+	viatirism = 6 
+		#
+	gentemism = 0 
+	neo_oligarchism = 89 
+	
+}
 set_politics = {
-
-	parties = {
-		
-		libertatism = { popularity = 2 }
-		vemosism = { popularity = 3 }
-		#
-		sociarchism = { popularity = 0 }
-		eleftherism = { popularity = 0 }
-		#
-		passionism = { popularity = 0 }
-		viatirism = { popularity = 6 }
-		#
-		gentemism = { popularity = 0 }
-		neo_oligarchism = { popularity = 89 }
-		
-	}
 	ruling_party = neo_oligarchism
 	last_election = "1934.5.1"
 	election_frequency = 48

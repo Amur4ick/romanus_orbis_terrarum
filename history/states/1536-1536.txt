@@ -3,8 +3,15 @@ state={
 	name="STATE_1536"
 	history={
 		owner = UNI
-		add_core_of = UNI
+		add_core_of = MRD
 		victory_points = { 9338 5 }
+	
+		set_demilitarized_zone = yes
+		
+		set_state_flag = MRD_state
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	provinces={
 		286 392 3269 3276 3334 6294 6302 6337 6357 9244 9307 9338 9354 11292 11373 

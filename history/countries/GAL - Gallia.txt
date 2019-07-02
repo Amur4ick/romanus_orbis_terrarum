@@ -54,7 +54,7 @@ set_autonomy = {
     autonomy_state = autonomy_colony
 }
 set_autonomy = {
-    target = NAQ
+    target = 
     autonomy_state = autonomy_colony
 }
 
@@ -62,23 +62,22 @@ set_autonomy = {
 #	low_economic_mobilisation 
 #}
 
+set_popularities = {
+	
+	libertatism = 72 
+	vemosism = 8 
+		#
+	sociarchism = 7 
+	eleftherism = 0 
+		#
+	passionism = 0 
+	viatirism = 3 
+		#
+	gentemism = 18 
+	neo_oligarchism = 0 
+	
+}
 set_politics = {
-
-	parties = {
-		
-		libertatism = { popularity = 72 }
-		vemosism = { popularity = 8 }
-		#
-		sociarchism = { popularity = 7 }
-		eleftherism = { popularity = 0 }
-		#
-		passionism = { popularity = 0 }
-		viatirism = { popularity = 3 }
-		#
-		gentemism = { popularity = 18 }
-		neo_oligarchism = { popularity = 0 }
-		
-	}
 	ruling_party = libertatism
 	last_election = "1934.5.1"
 	election_frequency = 48

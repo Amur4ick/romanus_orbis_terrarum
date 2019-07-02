@@ -6,6 +6,13 @@ state={
 		add_core_of = UNI
 		set_state_flag = UNI_damage_infrastructure_state 
 		set_state_flag = UNI_damage_factory_state
+		
+		set_state_flag = VCH_state
+		
+		set_variable = { UNI_support = 2 }
+		buildings = {
+			infrastructure = 5
+		}
 	}
 	provinces={
 		301 350 3290 6316 9235 9356 11217 11330 11362 

@@ -4,6 +4,11 @@ state={
 	history={
 		owner = UNI
 		add_core_of = UNI
+		
+		set_state_flag = VEP_state
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	provinces={
 		2 62 97 164 3056 3190 6215 9122 9168 9188 11099 11143 11166 

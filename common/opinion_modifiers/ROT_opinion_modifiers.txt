@@ -1,0 +1,8 @@
+opinion_modifiers = {
+
+	UNI_advisor_support = {
+		value = 25
+		months = 12
+	}
+
+}

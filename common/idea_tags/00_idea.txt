@@ -14,30 +14,6 @@ idea_categories = {
 		removal_cost = -1
 	}
 	
-	state_form = {
-		slot = government_form
-		slot = territory_form
-		slot = regime
-		slot = country_level
-		slot = country_development
-		slot = political_situation
-		
-		cost = 150
-		removal_cost = 0
-	}
-	
-	main_laws = {
-		slot = mobilization_laws
-		slot = border_laws
-		slot = censoure_laws
-		slot = party_system
-		slot = religion_laws
-		slot = national_laws
-		
-		cost = 150
-		removal_cost = 0
-	}
-	
 	cabinet_of_ministers = {
 		slot = head_of_government
 		slot = minister_security
@@ -45,6 +21,30 @@ idea_categories = {
 		slot = minister_economy
 		slot = minister_diplomacy
 		slot = minister_army
+		
+		cost = 100
+		removal_cost = 0
+	}
+	
+	main_laws = {
+		slot = mobilization_laws
+		slot = economy
+		slot = trade_laws
+		slot = border_laws
+		slot = national_laws
+		slot = national_ideas
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	state_form = {
+		slot = country_level
+		slot = country_development
+		slot = political_situation
+		slot = poverty_level
+		slot = unemployment_level
+		slot = literacy_level
 		
 		cost = 150
 		removal_cost = 0
@@ -70,15 +70,6 @@ idea_categories = {
 		slot = high_command
 		slot = high_command
 		slot = high_command
-		
-		cost = 150
-		removal_cost = 0
-	}
-	
-	debug = {
-		slot = economy
-		slot = trade_laws
-		slot = political_advisor
 		
 		cost = 150
 		removal_cost = 0

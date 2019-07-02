@@ -5,6 +5,15 @@ state={
 		owner = UNI
 		add_core_of = UNI
 		victory_points = { 11460 5 }
+	
+		set_demilitarized_zone = yes
+		
+		set_state_flag = KIP_state
+		
+		set_variable = { UNI_support = 2 }
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	provinces={
 		499 3490 3551 6479 6601 9432 9447 9577 11395 11421 11460 11523 

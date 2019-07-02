@@ -3,7 +3,7 @@ ideas = {
 	political_situation = { 
 		law = yes
 		
-		stability = {
+		stability_law = {
 		
 			available = {
 				always = no	
@@ -33,7 +33,7 @@ ideas = {
    			#}
 		}
 		
-		low_stability = {
+		low_stability_law = {
 		
 			available = {
 				always = no	
@@ -59,33 +59,7 @@ ideas = {
    			#}
 		}
 		
-		political_crisis = {
-		
-			available = {
-				always = no	
-			}
-			
-			#cost = 150
-			removal_cost = -1
-			
-			modifier = {
-			
-			}
-			
-			cancel_if_invalid = no
-			
-			#ai_will_do = {
-   			#	factor = 2
-			#
-   			#	modifier = {
-			#		factor = 20
-			#		
-			#		is_major = yes
-			#	}
-   			#}
-		}
-		
-		revolution = {
+		political_crisis_law = {
 		
 			available = {
 				always = no	

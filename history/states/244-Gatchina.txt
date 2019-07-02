@@ -13,6 +13,10 @@ state={
 		victory_points = { 70 5 }
 		set_state_flag = UNI_damage_infrastructure_state 
 		set_state_flag = UNI_damage_factory_state
+		
+		set_state_flag = ING_state
+		
+		set_variable = { UNI_support = 4 }
 
 	}
 
